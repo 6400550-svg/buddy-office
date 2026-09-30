@@ -15,5 +15,8 @@ jobs:
         run: swift --version
       - name: Build
         run: swift build
+      # 这两个测试依赖本机环境，在共享的 CI 机器上不稳定，本地 scripts/dev.sh test 里照常运行：
+      #   snapshotCallbacksAreLimitedTo20Hz…  时序 / 负载敏感（CI 机器慢，循环次数不够）
+      #   theOfficeWindowIsAnOrdinaryTitled…  需要真实的图形会话（窗口 frameAutosaveName）
       - name: Test
-        run: swift test
+        run: swift test --skip snapshotCallbacksAreLimitedTo20HzEvenUnderAStreamOfChanges --skip theOfficeWindowIsAnOrdinaryTitledResizableWindowThatRendersItsFirstFrameBeforeItIsShown
