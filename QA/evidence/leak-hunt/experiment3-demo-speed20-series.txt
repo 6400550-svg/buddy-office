@@ -1,0 +1,14 @@
+1min B 27 MB rasterData=112 KB
+1min C 29 MB rasterData=1072 KB
+2min B 26 MB rasterData=400 KB
+2min C 29 MB rasterData=1168 KB
+3min B 26 MB rasterData=400 KB
+3min C 29 MB rasterData=1200 KB
+4min B 26 MB rasterData=400 KB
+4min C 30 MB rasterData=1200 KB
+5min B 26 MB rasterData=400 KB
+5min C 29 MB rasterData=1296 KB
+6min B 26 MB rasterData=400 KB
+6min C 30 MB rasterData=1296 KB
+7min B 26 MB rasterData=400 KB
+7min C 30 MB rasterData=1296 KB

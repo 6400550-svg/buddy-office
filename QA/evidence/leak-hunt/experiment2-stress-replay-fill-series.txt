@@ -1,0 +1,25 @@
+1min 25 MB rasterData=272 KB 0 B 8
+2min 27 MB rasterData=1008 KB 0 B 31
+3min 27 MB rasterData=1232 KB 0 B 38
+4min 28 MB rasterData=2000 KB 0 B 62
+5min 29 MB rasterData=2288 KB 0 B 71
+6min 31 MB rasterData=2928 KB 0 B 91
+7min 29 MB rasterData=3056 KB 0 B 95
+8min 31 MB rasterData=3376 KB 0 B 105
+9min 32 MB rasterData=3568 KB 0 B 111
+10min 31 MB rasterData=3984 KB 0 B 124
+11min 33 MB rasterData=4368 KB 0 B 136
+12min 33 MB rasterData=4496 KB 0 B 140
+13min 34 MB rasterData=4880 KB 0 B 152
+14min 35 MB rasterData=5264 KB 0 B 164
+15min 35 MB rasterData=5424 KB 0 B 169
+16min 35 MB rasterData=5712 KB 0 B 178
+17min 35 MB rasterData=5904 KB 0 B 184
+18min 34 MB rasterData=6096 KB 0 B 190
+19min 35 MB rasterData=6352 KB 0 B 198
+20min 36 MB rasterData=6640 KB 0 B 207
+21min 36 MB rasterData=6864 KB 0 B 214
+22min 37 MB rasterData=7024 KB 0 B 219
+23min 37 MB rasterData=7120 KB 0 B 222
+24min 38 MB rasterData=7248 KB 0 B 226
+DONE

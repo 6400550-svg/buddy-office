@@ -1,0 +1,43 @@
+[0/1] Planning build
+Building for debugging...
+[0/9] Write sources
+[1/9] Write swift-version--1AB21518FC5DEDBE.txt
+[3/11] Compiling BuddyCore OpenAudit.swift
+[4/11] Emitting module BuddyCore
+[4/15] Write Objects.LinkFileList
+[7/15] Linking buddydump
+[8/15] Applying buddydump
+[9/15] Linking buddyctl
+[10/15] Applying buddyctl
+[11/15] Linking BuddyOffice
+[12/15] Applying BuddyOffice
+[14/16] Emitting module BuddyOfficeTests
+[14/16] Write Objects.LinkFileList
+[15/16] Linking BuddyOfficePackageTests
+Build complete! (3.98s)
+◇ Test run started.
+↳ Testing Library Version: 1902
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Suite FileAccessTests started.
+◇ Test "open 审计：每一类路径归到该归的类别；名字不合规的、类别之外的、密钥文件 / socket 都算「不该出现」" started.
+✔ Test "open 审计：每一类路径归到该归的类别；名字不合规的、类别之外的、密钥文件 / socket 都算「不该出现」" passed after 0.001 seconds.
+◇ Test "open 审计：报告抓得到密钥文件 / socket 的路径，汇总文字里不出现文件名，装上之前保险的拒绝次数不算" started.
+✔ Test "open 审计：报告抓得到密钥文件 / socket 的路径，汇总文字里不出现文件名，装上之前保险的拒绝次数不算" passed after 0.001 seconds.
+◇ Test "open 审计：保险在观察期间拒绝过一次 = 有代码尝试打开不该打开的文件 → 不 ok；之前的拒绝不算" started.
+✔ Test "open 审计：保险在观察期间拒绝过一次 = 有代码尝试打开不该打开的文件 → 不 ok；之前的拒绝不算" passed after 0.002 seconds.
+◇ Test "open 审计：在一棵放了诱饵的假 home 上跑一遍数据层（和 App 同一条链路）：只打开了 <pid>.json，一个诱饵都没碰，保险一次都没拒绝" started.
+✔ Test "open 审计：在一棵放了诱饵的假 home 上跑一遍数据层（和 App 同一条链路）：只打开了 <pid>.json，一个诱饵都没碰，保险一次都没拒绝" passed after 0.003 seconds.
+◇ Test "open 审计：别的线程同时在打开别处的文件（并行跑的其它测试）时，限定了范围的审计不受影响，不设范围的会被记进来" started.
+✘ Test "open 审计：别的线程同时在打开别处的文件（并行跑的其它测试）时，限定了范围的审计不受影响，不设范围的会被记进来" recorded an issue at OpenAuditTests.swift:114:9: Expectation failed: (scoped.ok && !scoped.rows.contains { $0.name == "其他位置的文件" } → false) && (scoped.rows.contains { $0.name.hasPrefix("登记表") } → <not evaluated>)
+↳ 限定范围：open 审计（数据层只读地跑了一段真实数据；只列类别和个数，不列文件名）：
+    其他位置的文件：1 个文件，共 9765 次
+    登记表 sessions/<pid>.json：1 个文件，共 3 次
+    合计 9768 次 open；保险拒绝过的尝试 0 次；不该出现的路径 1 个
+    ✗ /var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/buddy-audit-noise-28EE46D6-1C19-40D3-A62F-3740BE84C125/noise.jsonl
+    结论：✗ 有问题，见上面
+✘ Test "open 审计：别的线程同时在打开别处的文件（并行跑的其它测试）时，限定了范围的审计不受影响，不设范围的会被记进来" failed after 0.612 seconds with 1 issue.
+↳ /// SAN-02：`FileIO.openObserver` 是进程全局的，并行跑的别的测试（读自己的临时目录）的 open 也会被观察到。
+↳ /// 这条测试让另一个线程在审计期间不停地打开别处的文件：有范围时审计不受影响；不设范围时那些 open 会被记成「其他位置的文件」。
+✘ Suite FileAccessTests failed after 0.619 seconds with 1 issue.
+↳ /// 会读文件的测试放进一个串行的套件里：它们要用全局的 FileIO.openObserver。
+✘ Test run with 5 tests in 1 suite failed after 0.619 seconds with 1 issue.

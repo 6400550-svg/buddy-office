@@ -1,0 +1,11 @@
+--- /private/tmp/claude-501/-Users-USER-Desktop/20c4bcc8-f611-4701-b1d3-f910aaa5248d/scratchpad/resize-exp/PixelView.B.swift	2026-09-29 07:00:38
++++ /private/tmp/claude-501/-Users-USER-Desktop/20c4bcc8-f611-4701-b1d3-f910aaa5248d/scratchpad/resize-exp/PixelView.A.swift	2026-09-29 07:00:38
+@@ -148,7 +148,7 @@
+     /// surface 的宽高向上取整到 64 的倍数（「桶」）：拖窗口边缘时视口每一步都不一样，原来每一步都新建 3 块 IOSurface，
+     /// 而 CoreAnimation 会长期保留用过的 surface（复查实测：可见窗口里随机尺寸 300 次，物理占用 57 → 261 MB 不回落；R2-016）；
+     /// 现在只在跨桶时才重建，用 `contentsRect` 裁出视口那一块。
+-    static func bucket(_ n: Int) -> Int { max(64, (n + 63) / 64 * 64) }
++    static func bucket(_ n: Int) -> Int { n }
+ 
+     /// 下一块可以写的 IOSurface（尺寸变了就重建）；三块都还在被合成器用着时返回 nil，这一帧退回 CGImage 路径。
+     private func nextSurface(w: Int, h: Int) -> IOSurface? {

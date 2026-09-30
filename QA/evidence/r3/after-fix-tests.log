@@ -1,0 +1,531 @@
+Building for debugging...
+[0/27] /private/tmp/claude-501/-Users-USER-Desktop/20c4bcc8-f611-4701-b1d3-f910aaa5248d/scratchpad/fix-tree/.build-f/arm64-apple-macosx/debug/BuddyOfficePackageTests.derived/runner.swift
+[1/27] Write sources
+[9/27] Write buddyctl-entitlement.plist
+[11/27] Write buddydump-entitlement.plist
+[12/27] Write sources
+[13/27] Write BuddyOffice-entitlement.plist
+[14/27] Write sources
+[15/27] Write swift-version--1AB21518FC5DEDBE.txt
+[17/66] Emitting module BuddyCore
+[18/71] Compiling BuddyCore ActivityResolver.swift
+[19/71] Compiling BuddyCore BuddyState.swift
+[20/73] Compiling BuddyCore FileIO.swift
+[21/73] Compiling BuddyCore Hashing.swift
+[22/73] Compiling BuddyCore Info.swift
+[23/73] Compiling BuddyCore SafeJSON.swift
+[24/73] Compiling BuddyCore TimeUtil.swift
+[25/73] Compiling BuddyCore HelperAttributor.swift
+[26/73] Compiling BuddyCore IdentityResolver.swift
+[27/73] Compiling BuddyCore ToolTracker.swift
+[28/73] Compiling BuddyCore DesktopMetaReader.swift
+[29/73] Compiling BuddyCore SessionEngine.swift
+[30/73] Compiling BuddyCore SessionSignals.swift
+[31/73] Emitting module PixelKit
+[32/73] Compiling BuddyCore SessionStore.swift
+[33/73] Compiling BuddyCore ToolCatalog.swift
+[38/73] Compiling PixelKit Sprite.swift
+[39/73] Compiling PixelKit TextRenderer.swift
+[42/100] Compiling BuddyArt Limbs.swift
+[43/100] Compiling BuddyArt Outfits.swift
+[44/100] Compiling BuddyArt ShadeKit.swift
+[45/100] Compiling BuddyArt Torso.swift
+[46/100] Compiling BuddyArt CharacterArt.swift
+[48/100] Compiling BuddyArt Faces.swift
+[49/100] Compiling BuddyArt Hair.swift
+[50/100] Compiling BuddyArt HairStyles.swift
+[51/100] Compiling BuddyArt Heads.swift
+[52/100] Compiling BuddyArt AppIconArt.swift
+[53/100] Compiling BuddyArt Bubbles.swift
+[54/100] Compiling BuddyArt ChromeArt.swift
+[55/100] Compiling BuddyArt MenuBarIcon.swift
+[56/100] Compiling BuddyArt Light.swift
+[57/105] Compiling BuddyArt Helpers.swift
+[62/105] Compiling BuddyArt DeskProps.swift
+[63/105] Compiling BuddyArt PoseProps.swift
+[64/105] Compiling BuddyArt PropArt.swift
+[65/105] Compiling BuddyArt PropLegend.swift
+[66/105] Compiling BuddyArt SeatGeometry.swift
+[67/105] Compiling BuddyArt ArtCommands.swift
+[68/105] Compiling BuddyArt Accessories.swift
+[69/105] Compiling BuddyArt Appearance.swift
+[70/105] Compiling BuddyArt Blink.swift
+[71/105] Compiling BuddyArt BuddyRig.swift
+[72/105] Compiling BuddyArt Chair.swift
+[79/105] Emitting module BuddyArt
+[80/105] Compiling BuddyArt MasterPalette.swift
+[81/105] Compiling BuddyArt RoomArt.swift
+[82/105] Compiling BuddyArt SheetRenderer.swift
+[83/105] Compiling BuddyArt CellPreview.swift
+[84/105] Compiling BuddyArt Desk.swift
+[95/159] Emitting module buddydump
+[96/159] Compiling buddydump main.swift
+[96/159] Write Objects.LinkFileList
+[97/159] Linking buddydump
+[98/159] Applying buddydump
+[100/159] Emitting module BuddyStage
+[101/163] Compiling BuddyCoreTests SourceAuditCoreTests.swift
+[102/163] Compiling BuddyCoreTests FuzzPersistenceTests.swift
+[103/163] Compiling BuddyCoreTests FuzzReadersTests.swift
+[104/163] Compiling BuddyCoreTests FuzzRegressionTests.swift
+[105/163] Emitting module BuddyCoreTests
+[106/168] Compiling BuddyCoreTests RegistryTests.swift
+[107/168] Compiling BuddyCoreTests ReviewRegressionTests.swift
+[108/168] Compiling BuddyCoreTests RobustnessTests.swift
+[109/168] Compiling BuddyCoreTests SmokeTests.swift
+[110/168] Compiling BuddyCoreTests HookLogTests.swift
+[111/168] Compiling BuddyCoreTests IdentityTests.swift
+[112/168] Compiling BuddyCoreTests JSONLTailerTests.swift
+[113/168] Compiling BuddyCoreTests ModelTests.swift
+[114/168] Compiling BuddyCoreTests OpenAuditTests.swift
+[115/168] Compiling BuddyCoreTests ActivityResolverTests.swift
+[116/168] Compiling BuddyCoreTests EngineBasicTests.swift
+[117/168] Compiling BuddyCoreTests EnginePresenceTests.swift
+[118/168] Compiling BuddyCoreTests EngineScenarioTests.swift
+[119/168] Compiling BuddyCoreTests FuzzWatcherTests.swift
+[120/168] Compiling BuddyCoreTests HelperAttributionTests.swift
+[125/168] Compiling BuddyStage TextAuditRunner.swift
+[126/168] Compiling BuddyStage ToastCard.swift
+[127/168] Compiling BuddyStage VisualDirector.swift
+[128/168] Compiling BuddyStage Walkers.swift
+[129/168] Compiling BuddyCoreTests StoreTests.swift
+[130/168] Compiling BuddyCoreTests Support.swift
+[131/168] Compiling BuddyCoreTests TokenLedgerTests.swift
+[132/168] Compiling BuddyCoreTests ToolTrackerTests.swift
+[133/168] Compiling BuddyCoreTests TranscriptTests.swift
+[134/168] Compiling BuddyCoreTests FuzzEngineTests.swift
+[135/168] Compiling BuddyCoreTests FuzzParserTests.swift
+[138/211] Emitting module buddyctl
+[139/211] Compiling BuddyOffice SelfTests.swift
+[140/211] Compiling BuddyOffice Settings.swift
+[141/211] Compiling BuddyOffice SettingsView.swift
+[142/211] Compiling BuddyOffice SoundSynth.swift
+[143/211] Compiling BuddyOffice StatusItemController.swift
+[144/211] Compiling BuddyOffice StripPanelController.swift
+[145/211] Compiling BuddyStageTests SpecTraceStageTests.swift
+[146/211] Compiling BuddyStageTests SpecTraceUITests.swift
+[147/211] Compiling BuddyOffice PixelView.swift
+[148/211] Compiling BuddyOffice Providers.swift
+[149/211] Compiling BuddyOffice RealProvider.swift
+[150/211] Compiling BuddyOffice ScreenPicker.swift
+[151/211] Compiling buddyctl main.swift
+[151/211] Write Objects.LinkFileList
+[152/211] Linking buddyctl
+[153/211] Applying buddyctl
+[155/211] Emitting module BuddyStageTests
+[156/213] Compiling BuddyStageTests TextCacheBoundTests.swift
+[157/213] Compiling BuddyStageTests WalkersAndOffDutyTests.swift
+[158/213] Compiling BuddyStageTests AppLayerFixTests.swift
+[159/213] Compiling BuddyStageTests ExtremeValuesTests.swift
+[160/213] Compiling BuddyStageTests HitTestingTests.swift
+[161/213] Compiling BuddyOffice SystemHelpers.swift
+[162/213] Compiling BuddyCoreTests StateRuleChainTests.swift
+[163/213] Compiling BuddyCoreTests StateRuleInvariantTests.swift
+[164/213] Compiling BuddyCoreTests StateRuleProcessTests.swift
+[165/213] Compiling BuddyCoreTests StateRuleTests.swift
+[166/213] Compiling BuddyStageTests MonitorTests.swift
+[167/213] Compiling BuddyStageTests PerformerMappingTests.swift
+[168/213] Compiling BuddyStageTests PerformerTimingTests.swift
+[175/213] Compiling BuddyStageTests SpriteAndPaletteTests.swift
+[176/213] Compiling BuddyStageTests TextAuditTests.swift
+[177/213] Compiling BuddyStageTests PlateCopyTests.swift
+[178/213] Compiling BuddyStageTests RenderingTests.swift
+[179/213] Compiling BuddyStageTests ReviewRegressionStageTests.swift
+[180/213] Compiling BuddyStageTests ScreenContentTests.swift
+[193/218] Emitting module BuddyOffice
+[209/218] Compiling BuddyOffice TankPanelController.swift
+[210/218] Compiling BuddyOffice TickPacer.swift
+[211/218] Compiling BuddyOffice TitleBarButtons.swift
+[212/218] Compiling BuddyOffice ToastController.swift
+[213/218] Compiling BuddyOffice main.swift
+[213/218] Write Objects.LinkFileList
+[214/218] Linking BuddyOffice
+[215/218] Applying BuddyOffice
+[217/245] Compiling BuddyOfficeTests DebugLogTests.swift
+[218/245] Compiling BuddyOfficeTests DesktopMetaFileIOTests.swift
+[219/245] Compiling BuddyOfficeTests DesktopMetaGate.swift
+[220/245] Compiling BuddyOfficeTests EngineConfigTests.swift
+[221/245] Compiling BuddyOfficeTests Fakes.swift
+[222/250] Compiling BuddyOfficeTests SeatSanitizerTests.swift
+[223/250] Compiling BuddyOfficeTests SettingsTests.swift
+[224/250] Compiling BuddyOfficeTests SmokeTests.swift
+[225/250] Compiling BuddyOfficeTests SourceAudit.swift
+[226/250] Compiling BuddyOfficeTests SourceAuditTests.swift
+[227/250] Compiling BuddyOfficeTests Fixtures.swift
+[228/250] Compiling BuddyOfficeTests HousekeepingTests.swift
+[229/250] Compiling BuddyOfficeTests JumpTests.swift
+[230/250] Compiling BuddyOfficeTests NotificationAuthTests.swift
+[231/250] Compiling BuddyOfficeTests PanelAnimationTests.swift
+[232/250] Emitting module BuddyOfficeTests
+[233/250] Compiling BuddyOfficeTests PanelShowTests.swift
+[234/250] Compiling BuddyOfficeTests PixelViewDragTests.swift
+[235/250] Compiling BuddyOfficeTests PixelViewTests.swift
+[236/250] Compiling BuddyOfficeTests ReviewRegressionAppTests.swift
+[237/250] Compiling BuddyOfficeTests ScreenPickerTests.swift
+[238/250] Compiling BuddyOfficeTests AlertCoordinatorTests.swift
+[239/250] Compiling BuddyOfficeTests AlertFallbackTests.swift
+[240/250] Compiling BuddyOfficeTests AppModelTests.swift
+[241/250] Compiling BuddyOfficeTests ApplyPlanTests.swift
+[242/250] Compiling BuddyOfficeTests AutoQuitTests.swift
+[243/250] Compiling BuddyOfficeTests CachesTests.swift
+[244/250] Compiling BuddyOfficeTests SpecTraceAppTests.swift
+[245/250] Compiling BuddyOfficeTests SpecTraceUITests.swift
+[246/250] Compiling BuddyOfficeTests StripPlacementTests.swift
+[247/250] Compiling BuddyOfficeTests TickPacerTests.swift
+[248/250] Compiling BuddyOfficeTests ToastTextTests.swift
+[249/252] Emitting module BuddyOfficePackageTests
+[250/252] Compiling BuddyOfficePackageTests runner.swift
+[250/252] Write Objects.LinkFileList
+[251/252] Linking BuddyOfficePackageTests
+Build complete! (94.34s)
+◇ Test run started.
+↳ Testing Library Version: 1902
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Suite ReviewRegressionStageTests started.
+◇ Suite ReviewRegressionAppTests started.
+◇ Suite AlertFallbackTests started.
+◇ Suite AlertCoordinatorTests started.
+◇ Suite StateRuleTests started.
+◇ Suite FuzzFileIOTests started.
+◇ Suite NotificationAuthTests started.
+◇ Suite FileAccessTests started.
+◇ Suite EngineConfigTests started.
+◇ Suite DesktopMetaFileIOTests started.
+◇ Test "R1b-02 桌牌 1.0 秒最短停留不能被文件名 / 命令 / 搜索词里的数字绕过（part1.txt → part2.txt 也是换了动作）" started.
+◇ Test "SAN-01 withDraws 返回的是一份稳定的拷贝：别的线程一直在画像素字时，反复收集并逐条读像素，不崩、不读到释放过的内存；自己画的那一条一条不少" started.
+◇ Test "R1b-02 计时器数字仍然不受最短停留约束：「运行中 npm test · 0:09」→「0:10」…每秒都立刻换" started.
+◇ Test "R1b-04 工具节奏驱动的气泡也有 0.8 秒最短停留：Grep / Read 每 0.3 秒交替时，放大镜气泡不能跟着一闪一闪" started.
+◇ Test "R3b-02 隐私模式端到端泄漏扫描：18 种工具 × 忙 / 等批准，桌牌 / 状态行 / 悬停卡片 / 下班工位的所有文字里都不出现会话标题、项目路径、工具详情、server 名" started.
+◇ Test "R1b-02 数字掩码只抹「计数器位置」：· 后面的计时、重试中 a/m、×N、派了 N 个帮手、打盹 N 分钟；文件名里的数字保留" started.
+◇ Test "R1b-06 只有零宽 / 控制 / 方向字符的标题也算空标题：显示占位文字，不画空桌牌" started.
+◇ Test "R1b-05 打开隐私模式：桌牌动作文字当场就隐藏，不等 1.0 秒最短停留（刚换过字也一样）" started.
+◇ Test "R1b-04 等待类气泡（钥匙 / 问号 / 计划）不受最短停留限制：立刻出现，批准之后立刻消失；新来的人第一帧就有气泡" started.
+◇ Test severalWaitersAreCountedAndMergedInTheFallbackToo() started.
+◇ Test "R1b-03 隐私模式：MCP server 名和未知工具名也不能出现在桌牌动作 / 状态行里（任务书 6.3：隐私模式下隐藏全部细节）" started.
+◇ Test "R2-015 工具详情为空（hook 行被截断走降级解析时会出现）：桌牌文案不能是「在读 」「在找 ""」「运行 」这种带尾随空格 / 空引号的半截话" started.
+◇ Test whenAuthorizedTheSystemNotificationIsUsedInsteadOfTheToast() started.
+◇ Test menuBarIconKindAndDockBadgeLabels() started.
+◇ Test theDockDoesNotBounceWhileTheAppIsAlreadyInFront() started.
+◇ Test "R1b-01 错开推迟期间活动变回已套用的同一种类：推迟记录作废，不能套用推迟开始时存下的过期快照" started.
+◇ Test aHiddenBuddyDisturbsNobodyButStillCountsAsALiveSession() started.
+◇ Test hiddenBuddiesAreMutedNoAlertNoBadgeNoBounce() started.
+◇ Test testsRunOnTheMainThread() started.
+◇ Test demoModeNeverAddsToTheRealTally() started.
+◇ Test mergedFinishedAndMixedNotificationsUseTheirOwnWords() started.
+◇ Test sameBuddySameKindIsThrottledForTwentySeconds() started.
+◇ Test notYetAskedOrNotAnAppBundleAlsoFallsBack(status:available:) started.
+◇ Test bookkeepingDoesNotGrowWithEverySessionEverSeen() started.
+◇ Test aDesktopSessionWaitsEightSecondsForTheTurnSummary() started.
+◇ Test whenSystemNotificationsAreDeniedTheFallbackAlertsReallyAppear() started.
+◇ Test errorAlertsAreOffByDefaultAndThrottledWhenOn() started.
+◇ Test desktopSessionsAreSkippedWhenIncludeDesktopIsOff() started.
+◇ Test titlesAreAlwaysDisplayable() started.
+◇ Test privacyModeHidesTheTitleAndTheCommand() started.
+◇ Test desktopSessionYouAreLookingAtNeverAlertsForThatWholeWait() started.
+◇ Test settingsSwitchesTurnTheKindsOff() started.
+◇ Test questionPlanAndOtherWaitsHaveTheirOwnWording() started.
+◇ Test differentKindsAndDifferentBuddiesAreNotThrottledAgainstEachOther() started.
+◇ Test alertsTwoSecondsOrMoreApartStayApart() started.
+◇ Test changingTheKindOfWaitRestartsTheDebounce() started.
+◇ Test aPendingFinishedAlertIsDroppedIfTheNextTurnAlreadyStarted() started.
+◇ Test finishedAlertNeedsAnUninterruptedTurnOfAtLeast30Seconds() started.
+◇ Test terminalSessionWaitsEightSecondsThenChecksAgainWhetherYouAreStillLooking() started.
+◇ Test hidingABuddyWhoIsAlreadyAlertingClearsTheAlert() started.
+◇ Test threeBuddiesMergeIntoThree() started.
+◇ Test everyNormallyFinishedTurnIsCountedForTheWhiteboardEvenWhenNoAlertIsSent() started.
+◇ Test theMergedNotificationIsClearedWhenNobodyIsWaitingAnymore() started.
+◇ Test aTerminalFinishedAlertAlsoWaitsEightSecondsWhenYouAreLooking() started.
+◇ Test alertsWithinTwoSecondsOfEachOtherMergeIntoOne() started.
+◇ Test waitingBranchNeverSkipsThePerSnapshotBookkeeping() started.
+◇ Test approvalAlertWaitsExactlyOneAndAHalfSecondThenFiresOnce() started.
+◇ Test waitingKeysAreImmediateButTheDockBounceUsesTheSameDebounce() started.
+◇ Test "R2-002 提示卡出现：orderFront 的那一刻面板已经在屏幕外的起点，不能先出现在终点位置再跳走；新提示卡到来时已有的不被拽回终点" started.
+◇ Test aHiddenBuddysFinishedTurnsStillCountForTheWhiteboardButNeverAlert() started.
+◇ Test "R2-008 用 --data-root 起的开发副本：应用层读桌面元数据的根目录也跟着换成假 home（不再读真实的桌面会话元数据）" started.
+◇ Test theSameBuddyAlertingTwiceIsNotAMerge() started.
+◇ Test "R2-001 真实的小鱼缸控制器：运行中把缩放从 2 改成 1，下一拍图像层就是新大小（不是等画布下一次变化）" started.
+◇ Test aWaitBlipShorterThanTheDebounceNeverAlertsAndClearsItsNotification() started.
+◇ Test "R2-016 拖窗口边缘（视口宽度一步一步变）：IOSurface 只在跨 64 像素的桶时才重建，不是每一步都新建一组" started.
+◇ Test "R2-017 办公室窗口（普通 NSWindow）也关掉 AppKit 的窗口出现 / 消失动画：快速 show / hide 时动画线程不会一路涨（B-010 的同类）" started.
+◇ Test "R2-014 系统时钟被往回拨（手动改时间 / NTP 校正）：节流记录里「来自未来」的时间当作已过期，新的一段等待照常提醒" started.
+◇ Test "R2-001 PixelView：画布没变、只有缩放变了（局部重绘的场景知道「没变」）时，图像层也要跟着新缩放变大小" started.
+◇ Test "R3c-01 合并卡只带「还在等」的人：A 在 C 到之前已经处理掉了，最后一张合并卡就是「2 位同事在等你」（B、C）" started.
+◇ Test "R2-004 「等你」提醒被 20 秒节流挡住之后：这段等待没有提醒过，节流窗口一过、还在等就补发一条（不再重复）" started.
+◇ Test "R2-003 两个会话先后「做完了要你处理」（blocked）：合并出来的「N 位同事有事找你」要留着，不能在同一次判定里被撤掉" started.
+◇ Test "R3c-01 三个人的等待提醒先后到（相邻两条 < 2 秒、首尾 ≥ 2 秒）：最后一张合并卡写「3 位同事在等你」，A 不能被落下" started.
+◇ Test "R3c-02 系统通知授权在运行期间被关掉：发出系统通知后再读一次真实状态，已经被拒了就补一张兜底提示卡；仍然授权的不补" started.
+◇ Test "R2-016 分桶的 surface 渲染出来和「按缩放放大的画布」逐像素一致：contentsRect 裁得正好，不偏一个像素、边上没有混色" started.
+◇ Test "R2-006 隐私模式：「数据源诊断」文字和「测试深链」回执里不显示会话标题（共享屏幕时打开设置页不会露标题）" started.
+◇ Test "R2-007 测试宿主进程的 --test-bundle-path 不算开发开关：测试里 DebugTools.enabled 必须是 false（不然被测代码里加一行 DebugTools.log 就会往用户真实的日志文件里写）" started.
+◇ Test theFirstActiveOpenOfTheOfficeAsksExactlyOnce() started.
+◇ Test theDecisionFunction() started.
+◇ Test notAnAppBundleNeverTouchesTheNotificationCenter() started.
+◇ Test aBackgroundLaunchDoesNotAskUntilTheAppIsInFront() started.
+◇ Test "R2-016 用桶（比视口大）的 surface 时，显示出来的部分正好是视口：contentsRect 是 视口 / surface，图层尺寸 = 视口 × 缩放，左上角的像素就是画布的像素" started.
+◇ Test alreadyAnsweredNeverAsksAgain(status:) started.
+◇ Test theAskedFlagSurvivesARestartButTheSettingsButtonStillWorks() started.
+◇ Test "C-024 多个线程同时原子写同一个文件：读到的永远是某一次完整的内容，不会是两次写的混合（临时文件名不能共用）" started.
+◇ Test "readAll / open 遇到特殊文件：目录 / 设备 / 空文件 / 恰好等于上限 / 超过上限 / 负数上限 / 读的时候被截断：不崩溃、不卡死，结果合理" started.
+◇ Test "writeAtomically 的边界：嵌套目录 / 父路径是文件 / 目标是目录 / 名字太长 / Unicode 和换行 / 只读目录 / 空数据：返回值正确、不留临时文件" started.
+◇ Test "FileIO 是 BuddyCore 里读文件的唯一入口：源码里除了 FileIO.swift（读）和 Tools/FakeTree.swift（造假数据的写）之外，没有任何别的 open / fopen / FileHandle / Data(contentsOf:) 之类" started.
+◇ Test "j2 终端会话的 key 是 "t:" + 第一次见到的 sessionId：/clear、进程退出后在新进程里 --resume 新的 sessionId，还是同一个人" started.
+◇ Test "e2 被打断（hook 正常，busy→idle 没有 Stop）：不能先报「做完了」，0.4 秒后判为被打断，登记表 idle 起 3 秒内消退" started.
+◇ Test "e5 一轮结束的证据（Stop / 打断标记 / 都没有）以任何顺序、在 0.4 秒宽限期内的任何时刻到达：结论都对，而且中途绝不先显示错误的结论" started.
+◇ Test "b8 兜底（引擎）：空闲期间归到小助手名下的记录，开着超过 30 分钟被丢掉；29 分钟时还在" started.
+◇ Test "m1 登记表还是 idle 但有更新的 UserPromptSubmit：暂时当 busy，最多 3 秒（2.9 秒还是 busy，3.1 秒回 idle），只开始一轮" started.
+◇ Test "b1 悬空的调用：Stop 事件关掉主线程全部打开调用" started.
+◇ Test "b9 悬空的调用：SessionEnd 也是轮次边界（任务书清单之外，引擎当边界用）" started.
+◇ Test "j3 桌面会话在新进程里 resume、登记表里没有 hostSessionId：靠桌面元数据的 cliSessionId / priorCliSessionIds 认出是谁" started.
+◇ Test "i6 引擎：PID 被复用（登记文件还在、pid 也还活着，但启动时间差 3 秒）算离场，同样先防抖 3 秒" started.
+◇ Test "f3 桌面本轮总结：completed 不亮 blocked；blocked 落盘得晚（7 秒后，做完了已消退）也亮，只发一次事件，保持到下一轮" started.
+◇ Test "R1a-01 不变量：会话在 busy / quiet / 等待 / 做完 / 打盹……任何时刻，nextWake 都不在过去" started.
+◇ Test "i3 同一个身份（同一个人）在 8 秒收回之前带着新进程回来：坐回原来的工位，发一次「进场」" started.
+◇ Test "d5 打断之后的 "No response requested."（合成，但不是 API 错误）不算出错，还是被打断" started.
+◇ Test "d2 出错：只有「最后一条 assistant 是合成的 API 错误消息」（isApiErrorMessage）" started.
+◇ Test realProviderPassesTheSettingsToTheEngine() started.
+◇ Test "b5 悬空的调用：会话记录里的 stop_hook_summary 关掉在它之前开始的调用，比它新的调用不受影响" started.
+◇ Test settingsMapToEngineOptions() started.
+◇ Test theDataRootArgumentReachesTheEngine() started.
+◇ Test "i2 桌面会话 + 元数据还在 + 没归档：离场后是下班工位（不会 8 秒后收回）；归档了就是普通离场" started.
+◇ Test "d3 不算出错：重试没到上限（5/10）且之后又有正常的 assistant 输出，Stop 之后是「做完了」" started.
+◇ Test realProviderClampsWhatItReadsFromDefaults() started.
+◇ Test "b2 悬空的调用：UserPromptSubmit 关掉主线程全部打开调用" started.
+◇ Test outOfRangeValuesAreClampedAndSleepAlwaysComesAfterDoze() started.
+◇ Test "n2 只打开文件名匹配 ^\d+\.json$ 的文件：.key、.bak、非数字名、多段名一个都不碰（连 stat 也不做）" started.
+◇ Test "j1 桌面会话在同一个进程里 /clear：key、工位、盐不变，旧会话的东西不带过来，token = 新旧两份会话记录之和" started.
+◇ Test "b7 兜底：登记表 idle 而调用已开超过 30 分钟才强制关（恰好 30 分钟不关，多 1 毫秒关）" started.
+◇ Test "a3 Post 的 detail 谁也对不上时，退回按工具名关「最早」的那个，之后没有可关的就忽略" started.
+◇ Test "e4 登记表先翻 idle、Stop 在 0.4 秒宽限期内到：是「做完了」，不是被打断" started.
+◇ Test "d6 出错优先于做完了：重试到上限（之后没有新行）又有 Stop 证据时，是出错，不是先闪一下做完了" started.
+◇ Test readsLastFocusedThroughFileIOAndSkipsUnreadableEntries() started.
+◇ Test "g1 空闲 10 分钟打盹、45 分钟睡着（默认值；从这一轮结束那一刻起算）" started.
+◇ Test "n1 登记表写到一半（原地重写）：保留上一份好记录，每 50 ms 重试，读满 5 次后不再读，会话不离场；写完整了立刻更新" started.
+◇ Test "o1 整理上下文：真实时序里 compact_boundary 是压缩「结束」时才写的——hook 已经说压缩结束之后，不能再靠它显示整理上下文，压缩完的第一个工具要马上显示" started.
+◇ Test "C-007 符号链接指向 .key 文件：FileIO 拒绝打开（保险不能被绕过）" started.
+◇ Test "i1 登记文件消失：先防抖 3 秒（2.95 秒时仍在场，3.05 秒离场，事件只发一次），非下班工位确认离场后 8 秒收回" started.
+◇ Test "b6 没有 PostToolUseFailure / 权限被拒：悬空的调用被下一批（>0.25 秒）取代，晚到的 Post 忽略" started.
+◇ Test "f2 未读标记恰好三个清除条件：跳转（markSeen）/ 桌面 lastFocusedAt 严格晚于本轮结束 / 下一轮开始；早于或等于都不清" started.
+◇ Test "l1 等批准：没有打开的主线程调用时，工具从 Notification 文本里的 `use <T>` 解析" started.
+◇ Test "b4 悬空的调用：登记表变成 idle 关掉主线程全部打开调用" started.
+◇ Test "l2 提问：input needed / dialog open → 提问；ExitPlanMode 开着 → 计划待审（两种等待文字都一样）" started.
+◇ Test "R1a-01 busy 又 quiet 的会话：nextWake 要么没有、要么在现在之后（不能让 SessionStore 5 ms 一次空转）" started.
+◇ Test "m2 登记表还是 busy 但有更新的 Stop：暂时当 idle；随后又来一条更新的提示（排队的下一轮）就又是 busy" started.
+◇ Test "d1 出错：只有「重试到上限」（10/10，之后没有新行），没有合成消息，也是出错，并保持不闪" started.
+◇ Test "e3 没有 hook 的会话：busy→idle 没有打断标记也没法判断，0.4 秒后当作做完了（不是被打断）" started.
+◇ Test "k1 前台 Task（不只是 Agent）开着：比它晚 0.15 秒以上的事件归小助手，0.149 秒的同批并行调用还是主线程的" started.
+◇ Test "f1 做完了：从 Stop 那一刻起显示 5 秒（4.9 秒还在，5.1 秒消退），未读一直保留" started.
+◇ Test "h2 quiet 恰好是「10 分钟没有增长」：9 分 59 秒不是、10 分 01 秒是；hook 或会话记录任何一个有新内容都会立刻清掉" started.
+◇ Test "e1 被打断（会话记录里的 [Request interrupted by user）：从登记表 idle 那一刻起显示 3 秒（2.9 秒还在，3.1 秒消退）" started.
+◇ Test "a1 同一毫秒的三个并行 Read：同一批，Post 按 名字+detail 优先、先进先出配对" started.
+◇ Test "b3 悬空的调用：SessionStart（/clear、resume 之类）关掉主线程全部打开调用" started.
+◇ Test "c2 api_error 之后出现新的 user 行（或 assistant 行）就不再显示重试" started.
+◇ Test "k2 SubagentStop 只当「总结已生成」的提示：让下一次 poll 马上重读桌面元数据，不改变工具和阶段" started.
+◇ Test "R1a-03 hook 掉线判据恰好是「会话记录比 hook 的最后一个事件领先超过 15 秒」：14.9 秒还算在工作，15.1 秒算掉线" started.
+◇ Test case passing 2 arguments status → UNAuthorizationStatus(rawValue: 0), available → true to notYetAskedOrNotAnAppBundleAlsoFallsBack(status:available:) started.
+◇ Test case passing 2 arguments status → UNAuthorizationStatus(rawValue: 2), available → false to notYetAskedOrNotAnAppBundleAlsoFallsBack(status:available:) started.
+◇ Test "i4 PID 被复用：procStart 和进程实际启动时间相差恰好 2 秒还算同一个进程，超过 2 秒（哪怕 1 毫秒）就是别的进程" started.
+◇ Test "d4 不算出错：重试到了上限，但之后又有 assistant 输出（api_error 不是最后一条）" started.
+◇ Test "o2 hook 说「压缩结束」的口径：PostCompact / SessionStart(compact) 不早于 compact_boundary 前 5 秒才算；更早的是上一次压缩的，没有 hook 就照旧用会话记录" started.
+◇ Test "a2 批次间隔恰好 0.25 秒：不算新批；再多 1 毫秒的 0.251 秒才算，并把旧批次悬空的调用关掉" started.
+◇ Test "c1 api_error：显示 第 3 次 / 共 10 次，到 retryInMs(2.5 秒) + 15 秒后没有新行就不再显示" started.
+◇ Test "h1 busy 连续 2 小时（一次推进 2 小时 + 反复心跳）：还在场、还是 busy、还是那个工具，只是 quiet" started.
+◇ Test "R3a P2-2 桌面元数据的 lastActivityAt 在 30 天以后：只当作「刚刚」，下班工位照常在 12 小时后到期，不会永远占着座位" started.
+◇ Test "k3 有后台小助手活跃、事件对不上任何 tool_use：扣住 0.4 秒（0.39 秒还扣着，0.41 秒归主线程）" started.
+◇ Test "l3 其他等待：goal proposal / worker request 等，附原始文本；批准之后回到 busy 发「不再等你」" started.
+◇ Test "i5 引擎：kill 成功但 sysctl 读不到启动时间（startTime = nil）当作活着，而且一直活着" started.
+◇ Test "R3a P2-2 桌面元数据的 lastFocusedAt 在 30 天以后：未读照样亮（和「一小时前」一样），不能让「未读」永远不亮" started.
+◇ Test case passing 1 argument status → UNAuthorizationStatus(rawValue: 1) to alreadyAnsweredNeverAsksAgain(status:) started.
+◇ Test case passing 1 argument status → UNAuthorizationStatus(rawValue: 2) to alreadyAnsweredNeverAsksAgain(status:) started.
+◇ Test case passing 1 argument status → UNAuthorizationStatus(rawValue: 3) to alreadyAnsweredNeverAsksAgain(status:) started.
+✔ Test "R1b-02 数字掩码只抹「计数器位置」：· 后面的计时、重试中 a/m、×N、派了 N 个帮手、打盹 N 分钟；文件名里的数字保留" passed after 0.276 seconds.
+✔ Test "R1b-06 只有零宽 / 控制 / 方向字符的标题也算空标题：显示占位文字，不画空桌牌" passed after 0.292 seconds.
+✔ Test "R1b-04 工具节奏驱动的气泡也有 0.8 秒最短停留：Grep / Read 每 0.3 秒交替时，放大镜气泡不能跟着一闪一闪" passed after 0.292 seconds.
+✔ Test "R1b-02 计时器数字仍然不受最短停留约束：「运行中 npm test · 0:09」→「0:10」…每秒都立刻换" passed after 0.292 seconds.
+✔ Test "R2-015 工具详情为空（hook 行被截断走降级解析时会出现）：桌牌文案不能是「在读 」「在找 ""」「运行 」这种带尾随空格 / 空引号的半截话" passed after 0.336 seconds.
+✔ Test "R1b-05 打开隐私模式：桌牌动作文字当场就隐藏，不等 1.0 秒最短停留（刚换过字也一样）" passed after 0.337 seconds.
+✔ Test "R1b-03 隐私模式：MCP server 名和未知工具名也不能出现在桌牌动作 / 状态行里（任务书 6.3：隐私模式下隐藏全部细节）" passed after 0.388 seconds.
+✔ Test "R1b-04 等待类气泡（钥匙 / 问号 / 计划）不受最短停留限制：立刻出现，批准之后立刻消失；新来的人第一帧就有气泡" passed after 0.397 seconds.
+✔ Test "R1b-02 桌牌 1.0 秒最短停留不能被文件名 / 命令 / 搜索词里的数字绕过（part1.txt → part2.txt 也是换了动作）" passed after 0.420 seconds.
+✔ Test "R1b-01 错开推迟期间活动变回已套用的同一种类：推迟记录作废，不能套用推迟开始时存下的过期快照" passed after 0.429 seconds.
+✔ Test hiddenBuddiesAreMutedNoAlertNoBadgeNoBounce() passed after 0.429 seconds.
+✔ Test mergedFinishedAndMixedNotificationsUseTheirOwnWords() passed after 0.439 seconds.
+✔ Test desktopSessionsAreSkippedWhenIncludeDesktopIsOff() passed after 0.439 seconds.
+✔ Test sameBuddySameKindIsThrottledForTwentySeconds() passed after 0.439 seconds.
+✔ Test errorAlertsAreOffByDefaultAndThrottledWhenOn() passed after 0.440 seconds.
+✔ Test titlesAreAlwaysDisplayable() passed after 0.446 seconds.
+✔ Test privacyModeHidesTheTitleAndTheCommand() passed after 0.449 seconds.
+✔ Test desktopSessionYouAreLookingAtNeverAlertsForThatWholeWait() passed after 0.459 seconds.
+✔ Test questionPlanAndOtherWaitsHaveTheirOwnWording() passed after 0.469 seconds.
+✔ Test differentKindsAndDifferentBuddiesAreNotThrottledAgainstEachOther() passed after 0.469 seconds.
+✔ Test changingTheKindOfWaitRestartsTheDebounce() passed after 0.477 seconds.
+✔ Test settingsSwitchesTurnTheKindsOff() passed after 0.477 seconds.
+✔ Test aPendingFinishedAlertIsDroppedIfTheNextTurnAlreadyStarted() passed after 0.486 seconds.
+✔ Test aDesktopSessionWaitsEightSecondsForTheTurnSummary() passed after 0.499 seconds.
+◇ Test case passing 1 argument future → false to "R3a P2-2 桌面元数据的 lastFocusedAt 在 30 天以后：未读照样亮（和「一小时前」一样），不能让「未读」永远不亮" started.
+◇ Test case passing 1 argument future → true to "R3a P2-2 桌面元数据的 lastFocusedAt 在 30 天以后：未读照样亮（和「一小时前」一样），不能让「未读」永远不亮" started.
+✔ Test alertsTwoSecondsOrMoreApartStayApart() passed after 0.512 seconds.
+✔ Test hidingABuddyWhoIsAlreadyAlertingClearsTheAlert() passed after 0.512 seconds.
+✔ Test terminalSessionWaitsEightSecondsThenChecksAgainWhetherYouAreStillLooking() passed after 0.512 seconds.
+✔ Test everyNormallyFinishedTurnIsCountedForTheWhiteboardEvenWhenNoAlertIsSent() passed after 0.513 seconds.
+✔ Test theMergedNotificationIsClearedWhenNobodyIsWaitingAnymore() passed after 0.513 seconds.
+✔ Test aTerminalFinishedAlertAlsoWaitsEightSecondsWhenYouAreLooking() passed after 0.513 seconds.
+✔ Test finishedAlertNeedsAnUninterruptedTurnOfAtLeast30Seconds() passed after 0.514 seconds.
+✔ Test alertsWithinTwoSecondsOfEachOtherMergeIntoOne() passed after 0.514 seconds.
+✔ Test waitingBranchNeverSkipsThePerSnapshotBookkeeping() passed after 0.514 seconds.
+✔ Test aHiddenBuddysFinishedTurnsStillCountForTheWhiteboardButNeverAlert() passed after 0.514 seconds.
+✔ Test approvalAlertWaitsExactlyOneAndAHalfSecondThenFiresOnce() passed after 0.514 seconds.
+✔ Test threeBuddiesMergeIntoThree() passed after 0.515 seconds.
+✔ Test theSameBuddyAlertingTwiceIsNotAMerge() passed after 0.515 seconds.
+✔ Test waitingKeysAreImmediateButTheDockBounceUsesTheSameDebounce() passed after 0.516 seconds.
+✔ Test aWaitBlipShorterThanTheDebounceNeverAlertsAndClearsItsNotification() passed after 0.516 seconds.
+✔ Test "writeAtomically 的边界：嵌套目录 / 父路径是文件 / 目标是目录 / 名字太长 / Unicode 和换行 / 只读目录 / 空数据：返回值正确、不留临时文件" passed after 0.516 seconds.
+✔ Test "SAN-01 withDraws 返回的是一份稳定的拷贝：别的线程一直在画像素字时，反复收集并逐条读像素，不崩、不读到释放过的内存；自己画的那一条一条不少" passed after 0.517 seconds.
+✔ Test "j2 终端会话的 key 是 "t:" + 第一次见到的 sessionId：/clear、进程退出后在新进程里 --resume 新的 sessionId，还是同一个人" passed after 0.517 seconds.
+✔ Test "e2 被打断（hook 正常，busy→idle 没有 Stop）：不能先报「做完了」，0.4 秒后判为被打断，登记表 idle 起 3 秒内消退" passed after 0.517 seconds.
+✔ Test "e5 一轮结束的证据（Stop / 打断标记 / 都没有）以任何顺序、在 0.4 秒宽限期内的任何时刻到达：结论都对，而且中途绝不先显示错误的结论" passed after 0.517 seconds.
+✔ Test "m1 登记表还是 idle 但有更新的 UserPromptSubmit：暂时当 busy，最多 3 秒（2.9 秒还是 busy，3.1 秒回 idle），只开始一轮" passed after 0.517 seconds.
+✔ Test "b8 兜底（引擎）：空闲期间归到小助手名下的记录，开着超过 30 分钟被丢掉；29 分钟时还在" passed after 0.518 seconds.
+✔ Test "b1 悬空的调用：Stop 事件关掉主线程全部打开调用" passed after 0.518 seconds.
+✔ Test "j3 桌面会话在新进程里 resume、登记表里没有 hostSessionId：靠桌面元数据的 cliSessionId / priorCliSessionIds 认出是谁" passed after 0.518 seconds.
+✔ Test "f3 桌面本轮总结：completed 不亮 blocked；blocked 落盘得晚（7 秒后，做完了已消退）也亮，只发一次事件，保持到下一轮" passed after 0.518 seconds.
+✔ Test "i6 引擎：PID 被复用（登记文件还在、pid 也还活着，但启动时间差 3 秒）算离场，同样先防抖 3 秒" passed after 0.519 seconds.
+✔ Test "R1a-01 不变量：会话在 busy / quiet / 等待 / 做完 / 打盹……任何时刻，nextWake 都不在过去" passed after 0.519 seconds.
+✔ Test bookkeepingDoesNotGrowWithEverySessionEverSeen() passed after 0.520 seconds.
+✔ Test "i3 同一个身份（同一个人）在 8 秒收回之前带着新进程回来：坐回原来的工位，发一次「进场」" passed after 0.519 seconds.
+✔ Test "d5 打断之后的 "No response requested."（合成，但不是 API 错误）不算出错，还是被打断" passed after 0.519 seconds.
+✔ Test "d2 出错：只有「最后一条 assistant 是合成的 API 错误消息」（isApiErrorMessage）" passed after 0.519 seconds.
+✔ Test realProviderPassesTheSettingsToTheEngine() passed after 0.520 seconds.
+✔ Test settingsMapToEngineOptions() passed after 0.520 seconds.
+✔ Test theDataRootArgumentReachesTheEngine() passed after 0.520 seconds.
+✔ Test "b5 悬空的调用：会话记录里的 stop_hook_summary 关掉在它之前开始的调用，比它新的调用不受影响" passed after 0.520 seconds.
+✔ Test "i2 桌面会话 + 元数据还在 + 没归档：离场后是下班工位（不会 8 秒后收回）；归档了就是普通离场" passed after 0.520 seconds.
+✔ Test "d3 不算出错：重试没到上限（5/10）且之后又有正常的 assistant 输出，Stop 之后是「做完了」" passed after 0.520 seconds.
+✔ Test realProviderClampsWhatItReadsFromDefaults() passed after 0.520 seconds.
+✔ Test outOfRangeValuesAreClampedAndSleepAlwaysComesAfterDoze() passed after 0.520 seconds.
+✔ Test "n2 只打开文件名匹配 ^\d+\.json$ 的文件：.key、.bak、非数字名、多段名一个都不碰（连 stat 也不做）" passed after 0.520 seconds.
+✔ Test "b2 悬空的调用：UserPromptSubmit 关掉主线程全部打开调用" passed after 0.521 seconds.
+✔ Test "b7 兜底：登记表 idle 而调用已开超过 30 分钟才强制关（恰好 30 分钟不关，多 1 毫秒关）" passed after 0.518 seconds.
+✔ Test "a3 Post 的 detail 谁也对不上时，退回按工具名关「最早」的那个，之后没有可关的就忽略" passed after 0.518 seconds.
+✔ Test "e4 登记表先翻 idle、Stop 在 0.4 秒宽限期内到：是「做完了」，不是被打断" passed after 0.519 seconds.
+✔ Test "d6 出错优先于做完了：重试到上限（之后没有新行）又有 Stop 证据时，是出错，不是先闪一下做完了" passed after 0.519 seconds.
+✔ Test "j1 桌面会话在同一个进程里 /clear：key、工位、盐不变，旧会话的东西不带过来，token = 新旧两份会话记录之和" passed after 0.519 seconds.
+✔ Test readsLastFocusedThroughFileIOAndSkipsUnreadableEntries() passed after 0.519 seconds.
+✔ Test "n1 登记表写到一半（原地重写）：保留上一份好记录，每 50 ms 重试，读满 5 次后不再读，会话不离场；写完整了立刻更新" passed after 0.519 seconds.
+✔ Test "g1 空闲 10 分钟打盹、45 分钟睡着（默认值；从这一轮结束那一刻起算）" passed after 0.519 seconds.
+✔ Test "C-007 符号链接指向 .key 文件：FileIO 拒绝打开（保险不能被绕过）" passed after 0.520 seconds.
+✔ Test "i1 登记文件消失：先防抖 3 秒（2.95 秒时仍在场，3.05 秒离场，事件只发一次），非下班工位确认离场后 8 秒收回" passed after 0.520 seconds.
+✔ Test "o1 整理上下文：真实时序里 compact_boundary 是压缩「结束」时才写的——hook 已经说压缩结束之后，不能再靠它显示整理上下文，压缩完的第一个工具要马上显示" passed after 0.520 seconds.
+✔ Test "b6 没有 PostToolUseFailure / 权限被拒：悬空的调用被下一批（>0.25 秒）取代，晚到的 Post 忽略" passed after 0.520 seconds.
+✔ Test "f2 未读标记恰好三个清除条件：跳转（markSeen）/ 桌面 lastFocusedAt 严格晚于本轮结束 / 下一轮开始；早于或等于都不清" passed after 0.520 seconds.
+✔ Test "l1 等批准：没有打开的主线程调用时，工具从 Notification 文本里的 `use <T>` 解析" passed after 0.520 seconds.
+✔ Test "b4 悬空的调用：登记表变成 idle 关掉主线程全部打开调用" passed after 0.521 seconds.
+✔ Test "R1a-01 busy 又 quiet 的会话：nextWake 要么没有、要么在现在之后（不能让 SessionStore 5 ms 一次空转）" passed after 0.521 seconds.
+✔ Test "m2 登记表还是 busy 但有更新的 Stop：暂时当 idle；随后又来一条更新的提示（排队的下一轮）就又是 busy" passed after 0.521 seconds.
+✔ Test "d1 出错：只有「重试到上限」（10/10，之后没有新行），没有合成消息，也是出错，并保持不闪" passed after 0.521 seconds.
+✔ Test "e3 没有 hook 的会话：busy→idle 没有打断标记也没法判断，0.4 秒后当作做完了（不是被打断）" passed after 0.521 seconds.
+✔ Test "l2 提问：input needed / dialog open → 提问；ExitPlanMode 开着 → 计划待审（两种等待文字都一样）" passed after 0.522 seconds.
+✔ Test "k1 前台 Task（不只是 Agent）开着：比它晚 0.15 秒以上的事件归小助手，0.149 秒的同批并行调用还是主线程的" passed after 0.522 seconds.
+✔ Test "f1 做完了：从 Stop 那一刻起显示 5 秒（4.9 秒还在，5.1 秒消退），未读一直保留" passed after 0.520 seconds.
+✔ Test "h2 quiet 恰好是「10 分钟没有增长」：9 分 59 秒不是、10 分 01 秒是；hook 或会话记录任何一个有新内容都会立刻清掉" passed after 0.520 seconds.
+✔ Test "b9 悬空的调用：SessionEnd 也是轮次边界（任务书清单之外，引擎当边界用）" passed after 0.527 seconds.
+✔ Test "FileIO 是 BuddyCore 里读文件的唯一入口：源码里除了 FileIO.swift（读）和 Tools/FakeTree.swift（造假数据的写）之外，没有任何别的 open / fopen / FileHandle / Data(contentsOf:) 之类" passed after 0.527 seconds.
+✔ Test "b3 悬空的调用：SessionStart（/clear、resume 之类）关掉主线程全部打开调用" passed after 0.491 seconds.
+✔ Test "e1 被打断（会话记录里的 [Request interrupted by user）：从登记表 idle 那一刻起显示 3 秒（2.9 秒还在，3.1 秒消退）" passed after 0.492 seconds.
+✔ Test "c2 api_error 之后出现新的 user 行（或 assistant 行）就不再显示重试" passed after 0.492 seconds.
+✔ Test "a1 同一毫秒的三个并行 Read：同一批，Post 按 名字+detail 优先、先进先出配对" passed after 0.492 seconds.
+✔ Test "d4 不算出错：重试到了上限，但之后又有 assistant 输出（api_error 不是最后一条）" passed after 0.492 seconds.
+✔ Test "o2 hook 说「压缩结束」的口径：PostCompact / SessionStart(compact) 不早于 compact_boundary 前 5 秒才算；更早的是上一次压缩的，没有 hook 就照旧用会话记录" passed after 0.492 seconds.
+✔ Test "i4 PID 被复用：procStart 和进程实际启动时间相差恰好 2 秒还算同一个进程，超过 2 秒（哪怕 1 毫秒）就是别的进程" passed after 0.492 seconds.
+✔ Test "c1 api_error：显示 第 3 次 / 共 10 次，到 retryInMs(2.5 秒) + 15 秒后没有新行就不再显示" passed after 0.493 seconds.
+✔ Test "a2 批次间隔恰好 0.25 秒：不算新批；再多 1 毫秒的 0.251 秒才算，并把旧批次悬空的调用关掉" passed after 0.493 seconds.
+✔ Test "R3a P2-2 桌面元数据的 lastActivityAt 在 30 天以后：只当作「刚刚」，下班工位照常在 12 小时后到期，不会永远占着座位" passed after 0.493 seconds.
+✔ Test "k3 有后台小助手活跃、事件对不上任何 tool_use：扣住 0.4 秒（0.39 秒还扣着，0.41 秒归主线程）" passed after 0.493 seconds.
+✔ Test "h1 busy 连续 2 小时（一次推进 2 小时 + 反复心跳）：还在场、还是 busy、还是那个工具，只是 quiet" passed after 0.494 seconds.
+✔ Test "k2 SubagentStop 只当「总结已生成」的提示：让下一次 poll 马上重读桌面元数据，不改变工具和阶段" passed after 0.494 seconds.
+✔ Test "readAll / open 遇到特殊文件：目录 / 设备 / 空文件 / 恰好等于上限 / 超过上限 / 负数上限 / 读的时候被截断：不崩溃、不卡死，结果合理" passed after 0.531 seconds.
+✔ Test "R3a P2-2 桌面元数据的 lastFocusedAt 在 30 天以后：未读照样亮（和「一小时前」一样），不能让「未读」永远不亮" with 2 test cases passed after 0.494 seconds.
+✔ Test "R1a-03 hook 掉线判据恰好是「会话记录比 hook 的最后一个事件领先超过 15 秒」：14.9 秒还算在工作，15.1 秒算掉线" passed after 0.495 seconds.
+✔ Suite AlertCoordinatorTests passed after 0.533 seconds.
+◇ Test theOfficeLayerReadsFilesOnlyThroughFileIO() started.
+◇ Test "C-007 .KEY / .Sock / CC-SOCKS 的大小写变体、路径里的 NUL、../ 都被保险认出来" started.
+✔ Test "l3 其他等待：goal proposal / worker request 等，附原始文本；批准之后回到 busy 发「不再等你」" passed after 0.495 seconds.
+✔ Suite EngineConfigTests passed after 0.534 seconds.
+✔ Test "i5 引擎：kill 成功但 sysctl 读不到启动时间（startTime = nil）当作活着，而且一直活着" passed after 0.496 seconds.
+✔ Suite StateRuleTests passed after 0.535 seconds.
+✔ Test "C-007 .KEY / .Sock / CC-SOCKS 的大小写变体、路径里的 NUL、../ 都被保险认出来" passed after 0.002 seconds.
+◇ Test "C-014 token 账本：没有 buddy 在用的文件不再被扫描（不再 stat / open），也不会无限累积" started.
+✔ Test theOfficeLayerReadsFilesOnlyThroughFileIO() passed after 0.098 seconds.
+◇ Test aMissingOrUnreadableDirectoryIsJustEmpty() started.
+✔ Test aMissingOrUnreadableDirectoryIsJustEmpty() passed after 0.001 seconds.
+✔ Suite DesktopMetaFileIOTests passed after 0.632 seconds.
+✔ Test "R3b-02 隐私模式端到端泄漏扫描：18 种工具 × 忙 / 等批准，桌牌 / 状态行 / 悬停卡片 / 下班工位的所有文字里都不出现会话标题、项目路径、工具详情、server 名" passed after 0.651 seconds.
+✔ Suite ReviewRegressionStageTests passed after 0.652 seconds.
+✔ Test "C-024 多个线程同时原子写同一个文件：读到的永远是某一次完整的内容，不会是两次写的混合（临时文件名不能共用）" passed after 0.677 seconds.
+✔ Suite FuzzFileIOTests passed after 0.678 seconds.
+✔ Test severalWaitersAreCountedAndMergedInTheFallbackToo() passed after 0.849 seconds.
+✔ Test menuBarIconKindAndDockBadgeLabels() passed after 0.849 seconds.
+✔ Test theDockDoesNotBounceWhileTheAppIsAlreadyInFront() passed after 0.849 seconds.
+✔ Test whenAuthorizedTheSystemNotificationIsUsedInsteadOfTheToast() passed after 0.849 seconds.
+✔ Test demoModeNeverAddsToTheRealTally() passed after 0.849 seconds.
+✔ Test aHiddenBuddyDisturbsNobodyButStillCountsAsALiveSession() passed after 0.849 seconds.
+✔ Test notYetAskedOrNotAnAppBundleAlsoFallsBack(status:available:) with 2 test cases passed after 0.849 seconds.
+✔ Test "R2-008 用 --data-root 起的开发副本：应用层读桌面元数据的根目录也跟着换成假 home（不再读真实的桌面会话元数据）" passed after 0.849 seconds.
+✔ Test "R2-002 提示卡出现：orderFront 的那一刻面板已经在屏幕外的起点，不能先出现在终点位置再跳走；新提示卡到来时已有的不被拽回终点" passed after 0.849 seconds.
+✔ Test "R2-001 真实的小鱼缸控制器：运行中把缩放从 2 改成 1，下一拍图像层就是新大小（不是等画布下一次变化）" passed after 0.849 seconds.
+✔ Test whenSystemNotificationsAreDeniedTheFallbackAlertsReallyAppear() passed after 0.849 seconds.
+✔ Test "R2-004 「等你」提醒被 20 秒节流挡住之后：这段等待没有提醒过，节流窗口一过、还在等就补发一条（不再重复）" passed after 0.849 seconds.
+✔ Test "R2-016 拖窗口边缘（视口宽度一步一步变）：IOSurface 只在跨 64 像素的桶时才重建，不是每一步都新建一组" passed after 0.849 seconds.
+✔ Test "R3c-01 合并卡只带「还在等」的人：A 在 C 到之前已经处理掉了，最后一张合并卡就是「2 位同事在等你」（B、C）" passed after 0.849 seconds.
+✔ Test "R2-016 分桶的 surface 渲染出来和「按缩放放大的画布」逐像素一致：contentsRect 裁得正好，不偏一个像素、边上没有混色" passed after 0.849 seconds.
+✔ Test "R2-007 测试宿主进程的 --test-bundle-path 不算开发开关：测试里 DebugTools.enabled 必须是 false（不然被测代码里加一行 DebugTools.log 就会往用户真实的日志文件里写）" passed after 0.849 seconds.
+✔ Test "R3c-01 三个人的等待提醒先后到（相邻两条 < 2 秒、首尾 ≥ 2 秒）：最后一张合并卡写「3 位同事在等你」，A 不能被落下" passed after 0.849 seconds.
+✔ Test "R2-001 PixelView：画布没变、只有缩放变了（局部重绘的场景知道「没变」）时，图像层也要跟着新缩放变大小" passed after 0.849 seconds.
+✔ Test "R3c-02 系统通知授权在运行期间被关掉：发出系统通知后再读一次真实状态，已经被拒了就补一张兜底提示卡；仍然授权的不补" passed after 0.849 seconds.
+✔ Test "R2-006 隐私模式：「数据源诊断」文字和「测试深链」回执里不显示会话标题（共享屏幕时打开设置页不会露标题）" passed after 0.849 seconds.
+✔ Test "R2-017 办公室窗口（普通 NSWindow）也关掉 AppKit 的窗口出现 / 消失动画：快速 show / hide 时动画线程不会一路涨（B-010 的同类）" passed after 0.849 seconds.
+✔ Test aBackgroundLaunchDoesNotAskUntilTheAppIsInFront() passed after 0.849 seconds.
+✔ Test theFirstActiveOpenOfTheOfficeAsksExactlyOnce() passed after 0.849 seconds.
+✔ Test theAskedFlagSurvivesARestartButTheSettingsButtonStillWorks() passed after 0.849 seconds.
+✔ Test "R2-016 用桶（比视口大）的 surface 时，显示出来的部分正好是视口：contentsRect 是 视口 / surface，图层尺寸 = 视口 × 缩放，左上角的像素就是画布的像素" passed after 0.849 seconds.
+✔ Test theDecisionFunction() passed after 0.849 seconds.
+✔ Test "R2-014 系统时钟被往回拨（手动改时间 / NTP 校正）：节流记录里「来自未来」的时间当作已过期，新的一段等待照常提醒" passed after 0.849 seconds.
+✔ Test alreadyAnsweredNeverAsksAgain(status:) with 3 test cases passed after 0.849 seconds.
+✔ Test testsRunOnTheMainThread() passed after 0.849 seconds.
+✔ Test "R2-003 两个会话先后「做完了要你处理」（blocked）：合并出来的「N 位同事有事找你」要留着，不能在同一次判定里被撤掉" passed after 0.849 seconds.
+✔ Test notAnAppBundleNeverTouchesTheNotificationCenter() passed after 0.849 seconds.
+✔ Suite AlertFallbackTests passed after 0.850 seconds.
+✔ Suite ReviewRegressionAppTests passed after 0.850 seconds.
+✔ Suite NotificationAuthTests passed after 0.850 seconds.
+✔ Test "C-014 token 账本：没有 buddy 在用的文件不再被扫描（不再 stat / open），也不会无限累积" passed after 2.278 seconds.
+◇ Test "C-021 子代理的 .meta.json 一直不存在时，不会每次 poll 都去 open 它" started.
+✔ Test "C-021 子代理的 .meta.json 一直不存在时，不会每次 poll 都去 open 它" passed after 0.003 seconds.
+◇ Test "isForbidden 和独立判断在随机路径上逐个对照（大小写、NUL、cc-socks 目录、.、..、空段、Unicode）" started.
+✔ Test "isForbidden 和独立判断在随机路径上逐个对照（大小写、NUL、cc-socks 目录、.、..、空段、Unicode）" passed after 0.193 seconds.
+◇ Test "各种变体路径（大小写 / ./ / // / .. / 结尾斜杠 / 符号链接链 / 目录符号链接 / 绕过 cc-socks）都打不开假的 .key / .sock；观察口里一个都没有" started.
+✔ Test "各种变体路径（大小写 / ./ / // / .. / 结尾斜杠 / 符号链接链 / 目录符号链接 / 绕过 cc-socks）都打不开假的 .key / .sock；观察口里一个都没有" passed after 0.003 seconds.
+◇ Test "登记表目录里一堆诱饵（假 .key / 名字差一点点的 / 目录 / FIFO / 指向 .key 的符号链接）：只读合法的 <pid>.json，绝不打开 .key，记录不含任何诱饵的内容" started.
+✔ Test "登记表目录里一堆诱饵（假 .key / 名字差一点点的 / 目录 / FIFO / 指向 .key 的符号链接）：只读合法的 <pid>.json，绝不打开 .key，记录不含任何诱饵的内容" passed after 0.004 seconds.
+◇ Test "R3a P2-1 登记表诱饵测试不受并行套件的 open 影响：另一个线程一直在打开别处的 jsonl 文件时，它仍然通过" started.
+✔ Test "R3a P2-1 登记表诱饵测试不受并行套件的 open 影响：另一个线程一直在打开别处的 jsonl 文件时，它仍然通过" passed after 0.005 seconds.
+◇ Test "句柄泄漏：把所有读取器（FileIO / JSONLTailer / 登记表 / 桌面元数据 / 子代理 / 账本 / FileWatcher）在各种文件（正常 / 目录 / FIFO / .key / 符号链接 / 不存在 / 被删）上反复跑几千次，文件描述符个数不涨" started.
+✔ Test "句柄泄漏：把所有读取器（FileIO / JSONLTailer / 登记表 / 桌面元数据 / 子代理 / 账本 / FileWatcher）在各种文件（正常 / 目录 / FIFO / .key / 符号链接 / 不存在 / 被删）上反复跑几千次，文件描述符个数不涨" passed after 0.880 seconds.
+◇ Test "open 审计：每一类路径归到该归的类别；名字不合规的、类别之外的、密钥文件 / socket 都算「不该出现」" started.
+✔ Test "open 审计：每一类路径归到该归的类别；名字不合规的、类别之外的、密钥文件 / socket 都算「不该出现」" passed after 0.001 seconds.
+◇ Test "open 审计：报告抓得到密钥文件 / socket 的路径，汇总文字里不出现文件名，装上之前保险的拒绝次数不算" started.
+✔ Test "open 审计：报告抓得到密钥文件 / socket 的路径，汇总文字里不出现文件名，装上之前保险的拒绝次数不算" passed after 0.001 seconds.
+◇ Test "open 审计：保险在观察期间拒绝过一次 = 有代码尝试打开不该打开的文件 → 不 ok；之前的拒绝不算" started.
+✔ Test "open 审计：保险在观察期间拒绝过一次 = 有代码尝试打开不该打开的文件 → 不 ok；之前的拒绝不算" passed after 0.002 seconds.
+◇ Test "open 审计：在一棵放了诱饵的假 home 上跑一遍数据层（和 App 同一条链路）：只打开了 <pid>.json，一个诱饵都没碰，保险一次都没拒绝" started.
+✔ Test "open 审计：在一棵放了诱饵的假 home 上跑一遍数据层（和 App 同一条链路）：只打开了 <pid>.json，一个诱饵都没碰，保险一次都没拒绝" passed after 0.006 seconds.
+◇ Test "open 审计：别的线程同时在打开别处的文件（并行跑的其它测试）时，限定了范围的审计不受影响，不设范围的会被记进来" started.
+✔ Test "open 审计：别的线程同时在打开别处的文件（并行跑的其它测试）时，限定了范围的审计不受影响，不设范围的会被记进来" passed after 0.617 seconds.
+◇ Test keyFilesAreNeverOpened() started.
+✔ Test keyFilesAreNeverOpened() passed after 0.003 seconds.
+◇ Test safetyNetRefusesKeyAndSocketPaths() started.
+✔ Test safetyNetRefusesKeyAndSocketPaths() passed after 0.001 seconds.
+◇ Test codexHookFilesInTheSameDirectoryAreNeverTouched() started.
+✔ Test codexHookFilesInTheSameDirectoryAreNeverTouched() passed after 0.002 seconds.
+◇ Test engineNeverWritesUnderClaudeDir() started.
+✔ Test engineNeverWritesUnderClaudeDir() passed after 0.006 seconds.
+✔ Suite FileAccessTests passed after 4.545 seconds.
+✔ Test run with 160 tests in 10 suites passed after 4.545 seconds.

@@ -1,0 +1,9 @@
+before asan #1 rc=1 errors=0
+before asan #2 rc=1 errors=0
+before asan #3 rc=1 errors=0
+before tsan rc=1 reports=5
+after asan #1 rc=0 errors=0
+after asan #2 rc=0 errors=0
+after asan #3 rc=0 errors=0
+after tsan rc=1 reports=1
+DONE

@@ -1,0 +1,2008 @@
+[0/1] Planning build
+◇ Test run started.
+↳ Testing Library Version: 1902
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Suite DebugLogTests started.
+◇ Suite DesktopMetaFileIOTests started.
+◇ Suite AutoQuitTests started.
+◇ Suite TickPacerTests started.
+◇ Suite PixelViewDragTests started.
+◇ Suite SourceAuditTests started.
+◇ Suite AlertCoordinatorTests started.
+◇ Suite ToastTextTests started.
+◇ Suite HelperAttributionEngineTests started.
+◇ Suite HousekeepingTests started.
+◇ Suite ActivityResolverTests started.
+◇ Suite JumpTests started.
+◇ Suite AlertFallbackTests started.
+◇ Suite AppModelTests started.
+◇ Suite PanelAnimationTests started.
+◇ Suite TranscriptTests started.
+◇ Suite NotificationAuthTests started.
+◇ Suite SpecTraceChromeTests started.
+◇ Suite StateRuleChainTests started.
+◇ Suite SpecTraceJumpAndLifecycleTests started.
+◇ Suite StoreTests started.
+◇ Suite BuddyOfficeSmokeTests started.
+◇ Suite StateRuleProcessTests started.
+◇ Suite SpecTraceCoreTests started.
+◇ Suite SpecTraceSettingsTests started.
+◇ Suite SpecTraceAppTests started.
+◇ Suite HookDropoutTests started.
+◇ Suite CachesTests started.
+◇ Suite EnginePresenceTests started.
+◇ Suite HookLogTests started.
+◇ Suite ScreenPickerTests started.
+◇ Suite TokenLedgerTests started.
+◇ Suite ProcessProbeTests started.
+◇ Suite SpecTracePanelTests started.
+◇ Suite StateRuleTests started.
+◇ Suite SeatSanitizerTests started.
+◇ Suite FuzzParserTests started.
+◇ Suite SpecTraceSourcePinTests started.
+◇ Suite HelperAttributorTests started.
+◇ Suite ReviewRegressionAppTests started.
+◇ Suite RegistryScannerTests started.
+◇ Suite ApplyPlanTests started.
+◇ Suite PanelShowTests started.
+◇ Suite SourceAuditCoreTests started.
+◇ Suite SpecTraceAlertTests started.
+◇ Suite JSONLTailerTests started.
+◇ Suite PixelViewTests started.
+◇ Suite FuzzReadersTests started.
+◇ Suite StripPlacementTests started.
+◇ Suite ToolTrackerTests started.
+◇ Suite FuzzFileIOTests started.
+◇ Suite FuzzTailerTests started.
+◇ Suite SettingsTests started.
+◇ Suite RobustnessTests started.
+◇ Suite EngineConfigTests started.
+◇ Suite FileAccessTests started.
+◇ Suite FuzzPersistenceTests started.
+◇ Suite SpecTraceThresholdTests started.
+◇ Suite FuzzEngineTests started.
+◇ Suite WalkersAndOffDutyTests started.
+◇ Suite PerformerMappingTests started.
+◇ Suite FileWatcherTests started.
+◇ Suite SpriteAndPaletteTests started.
+◇ Suite ReplayTests started.
+◇ Suite SpecTraceMotionTests started.
+◇ Suite EngineScenarioTests started.
+◇ Suite HitTestingTests started.
+◇ Suite FuzzRegressionTests started.
+◇ Suite StateRuleInvariantTests started.
+◇ Suite IdentityTests started.
+◇ Suite SpecTracePoseTests started.
+◇ Suite FuzzWatcherTests started.
+◇ Suite TextCacheBoundTests started.
+◇ Suite SpecTraceExtraStageTests started.
+◇ Suite TextAuditMatrixTests started.
+◇ Suite MonitorTests started.
+◇ Suite TextAuditDetectorTests started.
+◇ Suite SpecTraceStageTests started.
+◇ Suite SpecTraceScreenTests started.
+◇ Suite SpecTraceSceneTests started.
+◇ Suite PlateCopyTests started.
+◇ Suite SpecTracePlateTests started.
+◇ Suite RenderingTests started.
+◇ Suite PerformerTimingTests started.
+◇ Suite ExtremeValuesTests started.
+◇ Suite ReviewRegressionStageTests started.
+◇ Suite EngineBasicTests started.
+◇ Suite TextAuditRegressionTests started.
+◇ Suite ScreenContentTests started.
+◇ Suite ModelContractTests started.
+◇ Suite AppLayerFixTests started.
+◇ Test versionIsSet() started.
+◇ Test theNSLogAuditCatchesTheOldSpellings() started.
+◇ Test theLogIsRotatedInsteadOfGrowingForever() started.
+◇ Test aHighRateMouseCannotDriveTheTicksAboveThirtyFps() started.
+◇ Test onlyDevelopmentFlagsTurnLoggingOn() started.
+◇ Test aHeavyTickNeverSchedulesTheNextOneBackToBack() started.
+◇ Test noNSLogUsesAnInterpolatedFormatString() started.
+◇ Test linesAreAppendedToAPrivateFileInAPrivateDirectory() started.
+◇ Test noDebugLogCallInterpolatesASessionTitle() started.
+◇ Test sessionTitlesNeverGoIntoTheLog() started.
+◇ Test failuresNeverCrash() started.
+◇ Test onlyASingleClickOnTheBackgroundStartsAWindowDrag() started.
+◇ Test mouseDownRoutesBackgroundDragsAndBuddyClicksTheRightWay() started.
+◇ Test aSymlinkAtTheLogPathIsNeverFollowed() started.
+◇ Test noPathsUnderTheClaudeDirectoryOrSecretFiles() started.
+◇ Test noSubprocessesAndNoThirdPartyImports() started.
+◇ Test wakingStillPullsALateTickForwardImmediately() started.
+◇ Test theAuditsCatchTheirTargetsAndIgnoreLookAlikes() started.
+◇ Test aDesktopSessionWaitsEightSecondsForTheTurnSummary() started.
+◇ Test theMergedNotificationIsClearedWhenNobodyIsWaitingAnymore() started.
+◇ Test desktopSessionYouAreLookingAtNeverAlertsForThatWholeWait() started.
+◇ Test everyFixedAlertTextFits() started.
+◇ Test settingsSwitchesTurnTheKindsOff() started.
+◇ Test hidingABuddyWhoIsAlreadyAlertingClearsTheAlert() started.
+◇ Test shorteningOrderIsCommandThenToolThenGeneric() started.
+◇ Test alertsWithinTwoSecondsOfEachOtherMergeIntoOne() started.
+◇ Test theOldDeepLinkNoticeWasTruncatedAndTheNewOneFits() started.
+◇ Test noForceTryNoForceCastAndFatalErrorOnlyInRequiredInits() started.
+◇ Test desktopSessionsAreSkippedWhenIncludeDesktopIsOff() started.
+◇ Test onlyNotificationServiceTouchesTheUserNotificationCenter() started.
+◇ Test alertsTwoSecondsOrMoreApartStayApart() started.
+◇ Test approvalBodiesFitNoMatterHowLongTheToolOrTheCommandIs() started.
+◇ Test waitingKeysAreImmediateButTheDockBounceUsesTheSameDebounce() started.
+◇ Test aWaitBlipShorterThanTheDebounceNeverAlertsAndClearsItsNotification() started.
+◇ Test sameBuddySameKindIsThrottledForTwentySeconds() started.
+◇ Test terminalSessionWaitsEightSecondsThenChecksAgainWhetherYouAreStillLooking() started.
+◇ Test bookkeepingDoesNotGrowWithEverySessionEverSeen() started.
+◇ Test titlesAreAlwaysDisplayable() started.
+◇ Test aTerminalFinishedAlertAlsoWaitsEightSecondsWhenYouAreLooking() started.
+◇ Test approvalWordingThatAlreadyFitsIsUnchanged() started.
+◇ Test noNetworkAndNoCredentialAPIs() started.
+◇ Test questionPlanAndOtherWaitsHaveTheirOwnWording() started.
+◇ Test finishedAlertNeedsAnUninterruptedTurnOfAtLeast30Seconds() started.
+◇ Test waitingBranchNeverSkipsThePerSnapshotBookkeeping() started.
+◇ Test aPendingFinishedAlertIsDroppedIfTheNextTurnAlreadyStarted() started.
+◇ Test hiddenBuddiesAreMutedNoAlertNoBadgeNoBounce() started.
+◇ Test errorAlertsAreOffByDefaultAndThrottledWhenOn() started.
+◇ Test theSameBuddyAlertingTwiceIsNotAMerge() started.
+◇ Test everyNormallyFinishedTurnIsCountedForTheWhiteboardEvenWhenNoAlertIsSent() started.
+◇ Test approvalAlertWaitsExactlyOneAndAHalfSecondThenFiresOnce() started.
+◇ Test mergedFinishedAndMixedNotificationsUseTheirOwnWords() started.
+◇ Test workflowSubagentsInNestedDirectoriesAreDiscovered() started.
+◇ Test changingTheKindOfWaitRestartsTheDebounce() started.
+◇ Test helperStopsBeingActiveAfter90SecondsWithoutWrites() started.
+◇ Test unmatchedEventIsHeldFor400msThenAttributedToTheMainThread() started.
+◇ Test busyMainWithBackgroundHelperUsesTranscriptsToTellThemApart() started.
+◇ Test helperIsDoneWhenLastAssistantIsEndTurnWithNoOpenTool() started.
+◇ Test idleMainSessionsBackgroundHelperEventsGoToTheHelper() started.
+◇ Test foregroundAgentHelpersDoNotStealTheMainThreadActivity() started.
+◇ Test heldEventIsReleasedAsSoonAsTheTranscriptMatches() started.
+◇ Test tallyKeysOlderThanThirtyDaysAreStale() started.
+◇ Test theLoginSwitchFallsBackToOffWhenEnablingFailed() started.
+◇ Test aPendingApprovalIsNotReportedAsEnabled() started.
+◇ Test fastWorkFinishesBeforeWeReturn() started.
+◇ Test privacyModeHidesTheTitleAndTheCommand() started.
+◇ Test pruningRemovesOnlyOurStaleTallyKeys() started.
+◇ Test threeBuddiesMergeIntoThree() started.
+◇ Test approvalToolComesFromTheNotificationWhenNothingIsOpen() started.
+◇ Test aHiddenBuddysFinishedTurnsStillCountForTheWhiteboardButNeverAlert() started.
+◇ Test differentKindsAndDifferentBuddiesAreNotThrottledAgainstEachOther() started.
+◇ Test interruptedLasts3SecondsThenIdle() started.
+◇ Test aSessionBusyForAnHourIsStillBusy() started.
+◇ Test waitingIsNeverOverriddenByHooks() started.
+◇ Test unknownWaitingTextIsClassifiedByKeywords() started.
+◇ Test busyShowsTheNewestOpenToolWithParallelCount() started.
+◇ Test retryingWithinRetryInMsPlus15Seconds() started.
+◇ Test compactingWhenPreCompactHasNoPostCompact() started.
+◇ Test idleThenDozingThenSleepingAtTheThresholds() started.
+◇ Test sandboxRequestIsApproval() started.
+◇ Test finishedLasts5SecondsThenIdle() started.
+◇ Test aStuckStopCannotHoldTheMainThreadForLongerThanTheTimeout() started.
+◇ Test notificationNamesTheToolAmongParallelOnes() started.
+◇ Test busyWithoutToolsIsThinking() started.
+◇ Test inputNeededAndDialogOpenAreQuestions() started.
+◇ Test compactingExpiresIfPostCompactNeverArrives() started.
+◇ Test nextChangeTellsWhenTimeWillChangeTheResult() started.
+◇ Test unknownIdleSinceIsPlainIdle() started.
+◇ Test permissionPromptIsApprovalWithTheNewestOpenTool() started.
+◇ Test askUserQuestionNotificationSaysPermissionButItIsAQuestion() started.
+◇ Test missingWaitingForFallsBackToNotificationText() started.
+◇ Test retryingBeatsOpenTools() started.
+◇ Test registryIdleButNewerPromptIsTemporarilyBusyForAtMost3Seconds() started.
+◇ Test missingRegistryStatusFallsBackToHooks() started.
+◇ Test diagnosticsTextListsEverythingTheSettingsPageShows() started.
+◇ Test erroredStaysUntilDozing() started.
+◇ Test afterSeatsAndSessionsChangeAClickStillResolvesToWhoSitsThereNow() started.
+◇ Test terminalAndVSCodeTargets() started.
+◇ Test nonPermissionWaitsFromTerminalSessions() started.
+◇ Test deepLinkRules() started.
+◇ Test notificationClicksRouteCorrectly() started.
+◇ Test toolNameParsingFromNotification() started.
+◇ Test exitPlanModeWhileWaitingIsPlanReview() started.
+◇ Test deepLinkVerdictAfterTwoAndAHalfSeconds() started.
+◇ Test plateStripPixelsCarryNoObjectIDSoClickingThePlateDoesNothing() started.
+◇ Test registryBusyButNewerStopIsTemporarilyIdle() started.
+◇ Test aKeyThatIsNoLongerPresentResolvesToNothing() started.
+◇ Test compactingFromTranscriptBoundary() started.
+◇ Test theTerminalScriptHasATimeoutAndOnlyAcceptsRealTTYNames() started.
+◇ Test everySeatMapsToItsOwnSessionAndItsOwnTarget() started.
+◇ Test aHiddenBuddyDisturbsNobodyButStillCountsAsALiveSession() started.
+◇ Test whenAuthorizedTheSystemNotificationIsUsedInsteadOfTheToast() started.
+◇ Test testsRunOnTheMainThread() started.
+◇ Test notYetAskedOrNotAnAppBundleAlsoFallsBack(status:available:) started.
+◇ Test danglingSeatsNeverJump() started.
+◇ Test whenSystemNotificationsAreDeniedTheFallbackAlertsReallyAppear() started.
+◇ Test clicksOnDanglingSeatsAndInDemoModeNeverJumpForReal() started.
+◇ Test theUserManualDoesNotClaimThatThePlateIsClickable() started.
+◇ Test incomingDataIsSanitizedSortedAndDerived() started.
+◇ Test theDockDoesNotBounceWhileTheAppIsAlreadyInFront() started.
+◇ Test theAutoQuitLiveSessionCheckCountsHiddenBuddies() started.
+◇ Test severalWaitersAreCountedAndMergedInTheFallbackToo() started.
+◇ Test switchingTheDataSourceResetsTheFirstDataFlagAndStopsTheOldOne() started.
+◇ Test noWindowOtherThanTheFloatingPanelsIsRepeatedlyReframed() started.
+◇ Test bootstrapReadsOnlyTheTailWindowOfABigFile() started.
+◇ Test abortedMidStreamAssistantIsAnInterrupt() started.
+◇ Test rewrittenFileDropsStaleFacts() started.
+◇ Test stopHookSummaryEndTurnAndTurnDuration() started.
+◇ Test everyFloatingPanelHasWindowAnimationsTurnedOff() started.
+◇ Test apiErrorIsRecordedWithRetryInfo() started.
+◇ Test menuBarIconKindAndDockBadgeLabels() started.
+◇ Test demoModeNeverAddsToTheRealTally() started.
+◇ Test metaUserLinesAreSkipped() started.
+◇ Test sidechainLinesBelongToOthersInTheMainFile() started.
+◇ Test toolUseIsOpenUntilItsResultArrives() started.
+◇ Test userInterruptTextIsDetectedInBothShapes() started.
+◇ Test locatorFindsTheFileByGlobbingProjectDirectories() started.
+◇ Test notAnAppBundleNeverTouchesTheNotificationCenter() started.
+◇ Test theAskedFlagSurvivesARestartButTheSettingsButtonStillWorks() started.
+◇ Test promptsAreRecordedButNeverTheirText() started.
+◇ Test alreadyAnsweredNeverAsksAgain(status:) started.
+◇ Test syntheticApiErrorAssistantIsRecognized() started.
+◇ Test aBackgroundLaunchDoesNotAskUntilTheAppIsInFront() started.
+◇ Test theFirstActiveOpenOfTheOfficeAsksExactlyOnce() started.
+◇ Test badJsonLinesAreCountedButDoNotBreakAnything() started.
+◇ Test theStatusMenuHasBuddyRowsThenTheFiveTogglesThenDemoSettingsAndQuit() started.
+◇ Test theThreeTitleBarButtonsClickOnlyWhenReleasedInsideAndShrinkingSwapsTheOfficeForTheTank() started.
+◇ Test theProcessHelpersReadTheProcessTableAndTheHostLookupSkipsBackgroundApps() started.
+◇ Test theDiagnosticsPageShowsEverythingTheSpecListsIncludingTheLastHookEventTime() started.
+◇ Test menuBarIconsAreEighteenPointTemplatesExceptTheColouredWaitingOne() started.
+◇ Test theTerminalScriptFollowsTheSpecifiedSteps() started.
+◇ Test titleBarButtonArtIsTwelveByTwelveWithFourStatesAndTenByTenIcons() started.
+◇ Test theJumpServiceKeepsTheSpecifiedMechanisms() started.
+◇ Test titlesAndModelAndContext() started.
+◇ Test fsEventsModeWorksWhenTheSystemAllowsIt() started.
+◇ Test aHeartbeatArrivesAtLeastOncePerSecondWhenNothingChanges() started.
+◇ Test theBuildScriptAndTheManualSayWhatTheSpecRequires() started.
+◇ Test autoQuitListensForApplicationTermination() started.
+◇ Test timeDrivenChangesHappenOnTimeNotOnTheNextHeartbeat() started.
+◇ Test loginItemUsesTheServiceManagementFirstThenTheSpecifiedLaunchAgentAndOnlyFromTheSwitch() started.
+◇ Test theDecisionFunction() started.
+◇ Test markSeenAndRerollAreSafeFromAnyThread() started.
+◇ Test pollingStoreDeliversSnapshotsAndEventsOnTheCallbackQueue() started.
+◇ Test stopIsIdempotentAndSilencesCallbacks() started.
+◇ Test snapshotCallbacksAreLimitedTo20HzEvenUnderAStreamOfChanges() started.
+◇ Test "chain1 结构：DumpCommand 只造 SessionStore、自己不读任何数据源；App 的 RealProvider 也只造 SessionStore；buddyctl / buddydump 只转发 runDumpCommand" started.
+◇ Test readsLastFocusedThroughFileIOAndSkipsUnreadableEntries() started.
+◇ Test "4.4-06 元数据里没有表示「运行中」的字段：就算文件里多出这样的键，也不能把 idle 的会话变成 busy" started.
+◇ Test "5.4-20 busy 的判断顺序是 压缩 → 重试 → 工具 → 思考：同时满足时前面的赢" started.
+◇ Test "4.2-17 桌面 App 里的会话也触发这些 hook：桌面会话和终端会话喂同一串 hook，动作时间线完全一样" started.
+◇ Test "5.5-13 App 启动时 lastActivityAt 在 3 小时以内的桌面会话才成为下班工位（2:59:59 进、3:00:01 不进）" started.
+◇ Test "4.2-04 任务书列出的 10 个 hook 事件都认得；没见过的事件名被忽略" started.
+◇ Test "5.3-10 归属判错只影响主 buddy，到下一个轮次边界就纠正；小助手自己的动作始终取自它自己的会话记录" started.
+◇ Test "4.1-13 pidDomain / nameSource / nameSince / updatedAt / peerProtocol / peerFeatures 存在时照常解析；messagingSocketPath 不留下" started.
+◇ Test "4.0-02 旧笔记 DATA-SOURCES.md 只是参考：代码里没有任何地方读它，也不依赖 ~/.claude/monitor 下的脚本" started.
+◇ Test everySettingOfTheSpecExistsWithItsDefaultAndHasAControlInTheSettingsPage() started.
+◇ Test "4.3-02 目录名以 - 开头也照常找到会话记录（不经过 shell 通配）" started.
+◇ Test "4.6-05/06 写文件的地方是一份短名单：只有身份和账本两处用 FileIO.writeAtomically，路径都在 Application Support/BuddyOffice 下" started.
+◇ Test testTargetCanImportTheExecutableModule() started.
+◇ Test "4.3-41 退出时也写一次：SessionStore.stop() 把还在 30 秒节流窗口里的增量落盘" started.
+◇ Test "r1 sysctl 读到的启动时间就是进程真的启动的时候；procStart（整秒）与它相差 < 2 秒算同一个进程，别的时间算被复用；进程退出后 kill(pid,0) 是 ESRCH = 死" started.
+◇ Test theSettingsWindowHostsTheSwiftUIForm() started.
+◇ Test "4.3-40 账本文件最多 30 秒写一次（虚拟时钟：10 秒、29.9 秒都不写，30.1 秒才写）" started.
+◇ Test "5.3-02 规则 1 的「没有临时 busy」：登记表 idle 但刚提交了提示（临时 busy）时，后台小助手的事件不能直接归小助手" started.
+◇ Test "4.3-42 第一次扫大文件放到后台低优先级：默认扫描队列跑在 .background（从最低优先级提交，测到的是队列自己的 QoS）" started.
+◇ Test "5.5-15 下班工位超过 4 个时先移走最久没活动的（运行中依次离场 6 个：留下的是最后走的 4 个）" started.
+◇ Test "4.4-03/04/05 桌面会话元数据：任务书列出的字段全部读出来；blocked = status_category 是 blocked 且 postTurnSummaryFor 等于 lastAssistantUuid" started.
+◇ Test "4.3-18 cost-state 是进程退出时才写的记账行：不参与任何判断、不计入 token" started.
+◇ Test "4.1-28 延迟的实测值（waiting 约 49 ms、idle 约 8 ms）套进状态机：时间线对，中间不闪错误的状态" started.
+◇ Test everyNotifySettingReachesTheAlertConfig() started.
+◇ Test "4.3-17 turn_duration（终端会话才有）：会话记录里有它时，「本轮用时」以它为准" started.
+◇ Test "4.2 extra：Notification / PreCompact / SessionStart / SessionEnd / PostToolUse 的 extra 原样保留；UserPromptSubmit 的 extra（用户输入）一律丢掉" started.
+◇ Test "4.6-04/05/06 只读：完整跑一遍引擎（含持久化和 token 账本），假 home 里 ~/.claude、桌面 App 的数据、用量表、Claude.app 一个字节都没变，只有自己的 Application Support/BuddyOffice 里有文件" started.
+◇ Test shrinkingTheDormantLimitKeepsTheMostRecentlyActiveSeats() started.
+◇ Test "4.3-04 流式读取的默认参数是每次最多 1 MiB、单行上限 4 MiB；跨 1 MiB 块边界的行完整交付" started.
+◇ Test "4.2 detail：按工具取不同的参数；MultiEdit / NotebookEdit / TodoWrite 的 detail 永远是空" started.
+◇ Test aBusyHookSessionWithAQuietTranscriptStaysOnHooks() started.
+◇ Test theHoverCardIsRebuiltOnlyWhenItsContentCanHaveChanged() started.
+◇ Test ifCcmonIsUninstalledMidSessionToolsFallBackToTheTranscript() started.
+◇ Test mostRecentHostIsTheLargestLastFocusedAndTiesAreDeterministic() started.
+◇ Test identitiesAndAppearanceSurviveARestart() started.
+◇ Test aMissingHostIsNeverMostRecentlyFocused() started.
+◇ Test "5.7 工具归类：任务书表里的每个工具名都落在对应类别（含被 hook 截断的名字），mcp 类带 server 名" started.
+◇ Test twoRegistryFilesForTheSameSessionMakeOneBuddy() started.
+◇ Test "4.6-12 不联网、没有第三方依赖：Package.swift 里没有任何 .package 依赖，所有源码只 import 系统框架和自己的四个库" started.
+◇ Test departureIsDebouncedBy3SecondsAndComingBackCancelsIt() started.
+◇ Test desktopTokensMergeThePriorCliSessionsAndSubagents() started.
+◇ Test theMetadataCacheReadsOncePerSecondNotOncePerCall() started.
+◇ Test focusingTheSessionInTheDesktopAppClearsUnread() started.
+◇ Test aTerminalSessionOnlyCountsItsCurrentSessionId() started.
+◇ Test hookActiveMeansAnEventNoOlderThanStartedAtMinus5Seconds() started.
+◇ Test aLiveSessionIsNotAlsoADormantSeat() started.
+◇ Test aSummaryForAnOlderAssistantMessageIsNotBlocked() started.
+◇ Test aDesktopSessionWithMetadataGoesToADormantSeatAndComesBackToTheSameSeat() started.
+◇ Test titlePrecedenceChain() started.
+◇ Test entrypointsMapToOrigins() started.
+◇ Test truncatedUnicodeEscapeFallsBackToRegexFields() started.
+◇ Test terminalClearKeepsTheBuddyButSwitchesToTheNewSessionFiles() started.
+◇ Test aSeatHeldByADormantBuddyIsNotGivenToNewcomers() started.
+◇ Test userPromptIsDroppedAtParseTime() started.
+◇ Test unknownProbeStateMeansAlive() started.
+◇ Test unsafeSessionIdsNeverBecomePaths() started.
+◇ Test nonInteractiveSessionsNeverBecomeGhostColleagues() started.
+◇ Test notificationTextIsKept() started.
+◇ Test "4.3-43 一次只扫一个文件：所有扫描都在同一条串行后台队列上、pass() 里按顺序逐个 scan，没有任何并发原语" started.
+◇ Test diagnosticsReportSourcesAndPerSessionHookState() started.
+◇ Test customTitleJsonInTheSessionDirectoryIsUsed() started.
+◇ Test garbageLinesAreSkippedWithoutFailingTheWholeFile() started.
+◇ Test dormantSeatsAtLaunchComeFromRecentlyActiveDesktopSessions() started.
+◇ Test normalLine() started.
+◇ Test askUserQuestionDetailIsNeverKept() started.
+◇ Test aFreedSeatIsReusedByTheNextNewcomer() started.
+◇ Test unwritableDataDirectoryDoesNotCrashAndIsReportedInDiagnostics() started.
+◇ Test sessionsPresentAtLaunchSitDownDirectlyAndLaterOnesWalkIn() started.
+◇ Test departedSessionsCompeteForTheFourDormantSeats() started.
+◇ Test dormantSeatsExpireAfter12HoursOrWhenArchivedOrDeleted() started.
+◇ Test truncatedMcpToolNameKeepsPrefixAndMatchesByPrefix() started.
+◇ Test "4.3-36 token 预过滤：先在字节里找 "usage" 和 "assistant"，命中了才解码——转义拼写的键连解码都轮不到" started.
+◇ Test toolDetailKeyFollowsTheHookRules() started.
+◇ Test aMissingSessionsDirectoryIsNotACrash() started.
+◇ Test snapshotCarriesTheDescriptiveFields() started.
+◇ Test titleFallsBackToSessionIdPrefixWhenNothingElseExists() started.
+◇ Test aSessionWithoutMetadataOrWithAnArchivedOneJustLeaves() started.
+◇ Test pidReuseIsTreatedAsTheOldProcessBeingGone() started.
+◇ Test terminalResumeInANewProcessGivesTheSameBuddyBack() started.
+◇ Test snapshotsAreSortedBySeat() started.
+◇ Test seatsAreCompactedAtStartup() started.
+◇ Test settingsPageOptionsAlwaysContainTheCurrentValue() started.
+◇ Test mainAndUnknownValuesUseThePrimaryScreen() started.
+◇ Test aChosenScreenIsFoundByIDThenByNameAndFallsBackToThePrimaryWhenUnplugged() started.
+◇ Test cacheCreationSplitFollowsTheMeterRule() started.
+◇ Test blockedComesFromTheDesktopSummaryAndLastsUntilTheNextTurn() started.
+◇ Test groupsWithPriorSessionsAreRescannedInsteadOfUsingTheLedger() started.
+◇ Test truncatedFileIsRescannedFromTheStart() started.
+◇ Test aBlockedSummaryAlreadyThereAtLaunchShowsBlocked() started.
+◇ Test missingFilesCountAsScannedZeroNotForeverScanning() started.
+◇ Test aBigFileIsScannedFast() started.
+◇ Test persistenceFailureDegradesToMemoryOnly() started.
+◇ Test sameMessageIdIsCountedOnceWithTheMaximumOfEachField() started.
+◇ Test syntheticAndIncompleteLinesAreIgnored() started.
+◇ Test partialLineIsCountedOnlyOnceItIsComplete() started.
+◇ Test sumsInputOutputCacheWriteAndCacheRead() started.
+◇ Test systemProbeSeesThisProcess() started.
+◇ Test aScreenParametersChangeRepositionsTheStrip() started.
+◇ Test theTankIsDraggedByItsBackgroundThroughThePixelViewNotAppKitsBackgroundDrag() started.
+◇ Test classification() started.
+◇ Test settingsDriveTheTankAndTheStripAndTheStripHasTheSpecifiedSize() started.
+◇ Test theStripInterceptsBuddyPixelsWithAOnePixelHaloAndLetsEverythingElseThrough() started.
+◇ Test theOfficeWindowIsAnOrdinaryTitledResizableWindowThatRendersItsFirstFrameBeforeItIsShown() started.
+◇ Test "f3 桌面本轮总结：completed 不亮 blocked；blocked 落盘得晚（7 秒后，做完了已消退）也亮，只发一次事件，保持到下一轮" started.
+◇ Test "d6 出错优先于做完了：重试到上限（之后没有新行）又有 Stop 证据时，是出错，不是先闪一下做完了" started.
+◇ Test thePanelsAreBorderlessNonActivatingFloatingAndTheStripIsTransparent() started.
+◇ Test doubleClickingTheTanksBackgroundGoesBackAndClickingABuddyJumps() started.
+◇ Test closingTheOfficeWindowOnlyHidesItAndRemembersThatItIsClosed() started.
+◇ Test "R1a-01 不变量：会话在 busy / quiet / 等待 / 做完 / 打盹……任何时刻，nextWake 都不在过去" started.
+◇ Test theOfficeHoverCardAppearsOnlyAfterTheMouseHasRestedFor250ms() started.
+◇ Test "m2 登记表还是 busy 但有更新的 Stop：暂时当 idle；随后又来一条更新的提示（排队的下一轮）就又是 busy" started.
+◇ Test aDeadPidWithALeftoverRegistryFileIsGone() started.
+◇ Test labelsAndZoomSettingsReachTheOfficeRendering() started.
+◇ Test "g1 空闲 10 分钟打盹、45 分钟睡着（默认值；从这一轮结束那一刻起算）" started.
+◇ Test "e4 登记表先翻 idle、Stop 在 0.4 秒宽限期内到：是「做完了」，不是被打断" started.
+◇ Test "n2 只打开文件名匹配 ^\d+\.json$ 的文件：.key、.bak、非数字名、多段名一个都不碰（连 stat 也不做）" started.
+◇ Test ledgerFileRestoresProgressAndDedupesAcrossTheBoundary() started.
+◇ Test "e2 被打断（hook 正常，busy→idle 没有 Stop）：不能先报「做完了」，0.4 秒后判为被打断，登记表 idle 起 3 秒内消退" started.
+◇ Test "i5 引擎：kill 成功但 sysctl 读不到启动时间（startTime = nil）当作活着，而且一直活着" started.
+◇ Test dedupeAlsoWorksAcrossPollsAndFiles() started.
+◇ Test "f2 未读标记恰好三个清除条件：跳转（markSeen）/ 桌面 lastFocusedAt 严格晚于本轮结束 / 下一轮开始；早于或等于都不清" started.
+◇ Test "b9 悬空的调用：SessionEnd 也是轮次边界（任务书清单之外，引擎当边界用）" started.
+◇ Test "h2 quiet 恰好是「10 分钟没有增长」：9 分 59 秒不是、10 分 01 秒是；hook 或会话记录任何一个有新内容都会立刻清掉" started.
+◇ Test "d4 不算出错：重试到了上限，但之后又有 assistant 输出（api_error 不是最后一条）" started.
+◇ Test "i3 同一个身份（同一个人）在 8 秒收回之前带着新进程回来：坐回原来的工位，发一次「进场」" started.
+◇ Test "d1 出错：只有「重试到上限」（10/10，之后没有新行），没有合成消息，也是出错，并保持不闪" started.
+◇ Test "i6 引擎：PID 被复用（登记文件还在、pid 也还活着，但启动时间差 3 秒）算离场，同样先防抖 3 秒" started.
+◇ Test mouseFollowsTheScreenTheMouseIsOn() started.
+◇ Test "i1 登记文件消失：先防抖 3 秒（2.95 秒时仍在场，3.05 秒离场，事件只发一次），非下班工位确认离场后 8 秒收回" started.
+◇ Test "R1a-03 hook 掉线判据恰好是「会话记录比 hook 的最后一个事件领先超过 15 秒」：14.9 秒还算在工作，15.1 秒算掉线" started.
+◇ Test subagentTranscriptsAreAddedToTheBuddysTotal() started.
+◇ Test "o1 整理上下文：真实时序里 compact_boundary 是压缩「结束」时才写的——hook 已经说压缩结束之后，不能再靠它显示整理上下文，压缩完的第一个工具要马上显示" started.
+◇ Test "d2 出错：只有「最后一条 assistant 是合成的 API 错误消息」（isApiErrorMessage）" started.
+◇ Test "R3a P2-2 桌面元数据的 lastActivityAt 在 30 天以后：只当作「刚刚」，下班工位照常在 12 小时后到期，不会永远占着座位" started.
+◇ Test "e3 没有 hook 的会话：busy→idle 没有打断标记也没法判断，0.4 秒后当作做完了（不是被打断）" started.
+◇ Test "j3 桌面会话在新进程里 resume、登记表里没有 hostSessionId：靠桌面元数据的 cliSessionId / priorCliSessionIds 认出是谁" started.
+◇ Test "b1 悬空的调用：Stop 事件关掉主线程全部打开调用" started.
+◇ Test aNormalListIsReturnedUntouchedAndOrderIsKept() started.
+◇ Test "e1 被打断（会话记录里的 [Request interrupted by user）：从登记表 idle 那一刻起显示 3 秒（2.9 秒还在，3.1 秒消退）" started.
+◇ Test "e5 一轮结束的证据（Stop / 打断标记 / 都没有）以任何顺序、在 0.4 秒宽限期内的任何时刻到达：结论都对，而且中途绝不先显示错误的结论" started.
+◇ Test whenThereAreNoFreeSeatsLeftNothingCrashes() started.
+◇ Test "b8 兜底（引擎）：空闲期间归到小助手名下的记录，开着超过 30 分钟被丢掉；29 分钟时还在" started.
+◇ Test "b7 兜底：登记表 idle 而调用已开超过 30 分钟才强制关（恰好 30 分钟不关，多 1 毫秒关）" started.
+◇ Test "b4 悬空的调用：登记表变成 idle 关掉主线程全部打开调用" started.
+◇ Test "l1 等批准：没有打开的主线程调用时，工具从 Notification 文本里的 `use <T>` 解析" started.
+◇ Test wildSeatNumbersBecomeTheSmallestFreeSeats() started.
+◇ Test "n1 登记表写到一半（原地重写）：保留上一份好记录，每 50 ms 重试，读满 5 次后不再读，会话不离场；写完整了立刻更新" started.
+◇ Test "k2 SubagentStop 只当「总结已生成」的提示：让下一次 poll 马上重读桌面元数据，不改变工具和阶段" started.
+◇ Test "R1a-01 busy 又 quiet 的会话：nextWake 要么没有、要么在现在之后（不能让 SessionStore 5 ms 一次空转）" started.
+◇ Test "m1 登记表还是 idle 但有更新的 UserPromptSubmit：暂时当 busy，最多 3 秒（2.9 秒还是 busy，3.1 秒回 idle），只开始一轮" started.
+◇ Test "c2 api_error 之后出现新的 user 行（或 assistant 行）就不再显示重试" started.
+◇ Test "l3 其他等待：goal proposal / worker request 等，附原始文本；批准之后回到 busy 发「不再等你」" started.
+◇ Test "a3 Post 的 detail 谁也对不上时，退回按工具名关「最早」的那个，之后没有可关的就忽略" started.
+◇ Test "d5 打断之后的 "No response requested."（合成，但不是 API 错误）不算出错，还是被打断" started.
+◇ Test "b3 悬空的调用：SessionStart（/clear、resume 之类）关掉主线程全部打开调用" started.
+◇ Test "l2 提问：input needed / dialog open → 提问；ExitPlanMode 开着 → 计划待审（两种等待文字都一样）" started.
+◇ Test "i4 PID 被复用：procStart 和进程实际启动时间相差恰好 2 秒还算同一个进程，超过 2 秒（哪怕 1 毫秒）就是别的进程" started.
+◇ Test "b6 没有 PostToolUseFailure / 权限被拒：悬空的调用被下一批（>0.25 秒）取代，晚到的 Post 忽略" started.
+◇ Test "a1 同一毫秒的三个并行 Read：同一批，Post 按 名字+detail 优先、先进先出配对" started.
+◇ Test "f1 做完了：从 Stop 那一刻起显示 5 秒（4.9 秒还在，5.1 秒消退），未读一直保留" started.
+◇ Test "k3 有后台小助手活跃、事件对不上任何 tool_use：扣住 0.4 秒（0.39 秒还扣着，0.41 秒归主线程）" started.
+◇ Test "k1 前台 Task（不只是 Agent）开着：比它晚 0.15 秒以上的事件归小助手，0.149 秒的同批并行调用还是主线程的" started.
+◇ Test "c1 api_error：显示 第 3 次 / 共 10 次，到 retryInMs(2.5 秒) + 15 秒后没有新行就不再显示" started.
+◇ Test "R3a P2-2 桌面元数据的 lastFocusedAt 在 30 天以后：未读照样亮（和「一小时前」一样），不能让「未读」永远不亮" started.
+◇ Test "h1 busy 连续 2 小时（一次推进 2 小时 + 反复心跳）：还在场、还是 busy、还是那个工具，只是 quiet" started.
+◇ Test "i2 桌面会话 + 元数据还在 + 没归档：离场后是下班工位（不会 8 秒后收回）；归档了就是普通离场" started.
+◇ Test "j1 桌面会话在同一个进程里 /clear：key、工位、盐不变，旧会话的东西不带过来，token = 新旧两份会话记录之和" started.
+◇ Test "登记表：随机字节（各种长度）、样本上的单字节 / 多字节变异：不崩溃；能产出记录时字段合法" started.
+◇ Test "d3 不算出错：重试没到上限（5/10）且之后又有正常的 assistant 输出，Stop 之后是「做完了」" started.
+◇ Test "j2 终端会话的 key 是 "t:" + 第一次见到的 sessionId：/clear、进程退出后在新进程里 --resume 新的 sessionId，还是同一个人" started.
+◇ Test "TimeUtil.parseISO：截断 / 变异 / 随机字节：不崩溃，结果要么 nil 要么在合理范围；格式化再解析是恒等的" started.
+◇ Test "ToolCatalog / ToolDetail：随机字符串（含 …、emoji、RTL、超长）不崩溃；截断的名字和完整的名字归到同一类；detail 前缀匹配是对称的" started.
+◇ Test "桌面元数据：每个字节位置截断都是“写了一半”(nil)；随机字节 / 类型错误 / 巨大数字不崩溃，和独立判断一致" started.
+◇ Test "SystemProcessProbe / classify：各种 pid（0 / 负数 / Int32.max / 自己 / launchd）和各种时间：不崩溃，pid ≤ 0 一律当死进程，绝不给别人发信号" started.
+◇ Test "b5 悬空的调用：会话记录里的 stop_hook_summary 关掉在它之前开始的调用，比它新的调用不受影响" started.
+◇ Test "登记表 JSON 层面：字段类型错误 / null / 重复键 / 超长键 / 巨大数字 / 空对象 / 顶层不是对象，和独立判断一致" started.
+◇ Test "b2 悬空的调用：UserPromptSubmit 关掉主线程全部打开调用" started.
+◇ Test "会话记录行在每一个字节位置截断：全部当作“不是完整的 JSON”（nil），只有完整的才解析出事实" started.
+◇ Test invalidUTF8IsCleanedNotFatal() started.
+◇ Test "会话记录行：随机字节 / 样本变异 / 非法 UTF-8 / JSON 层面（类型错误、巨大数字、重复键、深嵌套）：不崩溃，usage 在范围内" started.
+◇ Test "a2 批次间隔恰好 0.25 秒：不算新批；再多 1 毫秒的 0.251 秒才算，并把旧批次悬空的调用关掉" started.
+◇ Test "TranscriptReader：把一堆真实行 + 垃圾行分成随机长度的追加，得到的事实和一次读完完全相同" started.
+◇ Test "登记表在每一个字节位置截断：都当作“写了一半”（nil，保留上一份好的记录），只有完整的才产出记录" started.
+◇ Test dockReopenCloseAndHotkeyBehaviourIsWiredAsSpecified() started.
+◇ Test noAccessibilityPermissionAPIsAreUsed() started.
+◇ Test "ToolTracker + HelperAttributor：随机事件序列（乱序 / 同一毫秒 / 名字被截断 / 时间倒流）：不崩溃，open 有上界，配对后关掉的调用不再出现" started.
+◇ Test theStripPollingRatesAndDistancesStayAsSpecified() started.
+◇ Test "Paths.isSafeID / isRegistryFileName / hookLogPath：和按字节写的独立判断逐个对照（Unicode 数字、换行、NUL、超长、组合字符）" started.
+◇ Test theContextMenuOffersJumpRerollHideAndOpenOfficeInThatOrder() started.
+◇ Test theDesktopLookingRuleUsesTheFrontmostClaudeAndTheMostRecentlyFocusedSession() started.
+◇ Test hoverCardsAppearAfter250msOnAllThreeSurfaces() started.
+◇ Test theTitleBarButtonsAreWiredToTheThreeActions() started.
+◇ Test "隐私：用户输入、助手文字、工具结果、thinking 的内容永远不会出现在解析出来的事实里" started.
+◇ Test noBackgroundHelperMeansMain() started.
+◇ Test "o2 hook 说「压缩结束」的口径：PostCompact / SessionStart(compact) 不早于 compact_boundary 前 5 秒才算；更早的是上一次压缩的，没有 hook 就照旧用会话记录" started.
+◇ Test eachToolUseIsClaimedOnlyOnce() started.
+◇ Test rule2ForegroundAgentOpenAndEventLaterThan150ms() started.
+◇ Test toolUsesFarInThePastDoNotMatch() started.
+◇ Test rule1MainIdleMeansBackgroundHelper() started.
+◇ Test truncatedHookDetailMatchesByPrefix() started.
+◇ Test rule3MatchesHelperTranscriptAndIsAttributedToTheHelper() started.
+◇ Test missingFieldsAreOptionalButPidAndSessionIdAreRequired() started.
+◇ Test rule3AmbiguousMatchGoesToMain() started.
+◇ Test "TimeUtil.parseProcStart / date(fromJSONMillis:)：各种畸形输入不崩溃；格式化再解析是恒等的；JSON 数字的各种形态" started.
+◇ Test rule3HoldEndsEarlyWhenTheTranscriptCatchesUp() started.
+◇ Test "R3c-01 三个人的等待提醒先后到（相邻两条 < 2 秒、首尾 ≥ 2 秒）：最后一张合并卡写「3 位同事在等你」，A 不能被落下" started.
+◇ Test "R3c-02 系统通知授权在运行期间被关掉：发出系统通知后再读一次真实状态，已经被拒了就补一张兜底提示卡；仍然授权的不补" started.
+◇ Test procStartParsingHandlesPaddingSpaces() started.
+◇ Test unreadableDirectoryKeepsPreviousRecords() started.
+◇ Test "R2-004 「等你」提醒被 20 秒节流挡住之后：这段等待没有提醒过，节流窗口一过、还在等就补发一条（不再重复）" started.
+◇ Test "R4a-01 应用层读桌面元数据：某个会话的 lastFocusedAt 在 30 天以后（桌面 App 的时钟被拨快过）→ 丢掉它，「最近聚焦的」仍是真正在看的那个" started.
+◇ Test "R2-006 隐私模式：「数据源诊断」文字和「测试深链」回执里不显示会话标题（共享屏幕时打开设置页不会露标题）" started.
+◇ Test "R2-001 真实的小鱼缸控制器：运行中把缩放从 2 改成 1，下一拍图像层就是新大小（不是等画布下一次变化）" started.
+◇ Test rule3NoMatchHoldsFor400msThenGoesToMain() started.
+◇ Test "R2-016 拖窗口边缘（视口宽度一步一步变）：IOSurface 只在跨 64 像素的桶时才重建，不是每一步都新建一组" started.
+◇ Test parsesEveryField() started.
+◇ Test "R2-008 用 --data-root 起的开发副本：应用层读桌面元数据的根目录也跟着换成假 home（不再读真实的桌面会话元数据）" started.
+◇ Test emptyFileDuringTruncateIsTreatedAsHalfWritten() started.
+◇ Test "ActivityResolver：随机信号（时间乱序 / 未来 / 极端 / NaN、疯狂的配置）：不崩溃；阶段和动作一致；nextChange 一定在未来" started.
+◇ Test "R5a-01 出错提醒也过两道闸：桌面会话在「桌面 App 里的会话也提醒」关着时不提醒；你正在看那个会话时不提醒；都不挡时照常提醒" started.
+◇ Test "R2-014 系统时钟被往回拨（手动改时间 / NTP 校正）：节流记录里「来自未来」的时间当作已过期，新的一段等待照常提醒" started.
+◇ Test removedFilesAreReported() started.
+◇ Test isoTimestampParsing() started.
+◇ Test "R2-002 提示卡出现：orderFront 的那一刻面板已经在屏幕外的起点，不能先出现在终点位置再跳走；新提示卡到来时已有的不被拽回终点" started.
+◇ Test "R2-003 两个会话先后「做完了要你处理」（blocked）：合并出来的「N 位同事有事找你」要留着，不能在同一次判定里被撤掉" started.
+◇ Test onlyInteractiveSessionsAreShown() started.
+◇ Test halfWrittenFileKeepsTheLastGoodRecordAndRetriesEvery50ms() started.
+◇ Test "R2-016 分桶的 surface 渲染出来和「按缩放放大的画布」逐像素一致：contentsRect 裁得正好，不偏一个像素、边上没有混色" started.
+◇ Test "R2-017 办公室窗口（普通 NSWindow）也关掉 AppKit 的窗口出现 / 消失动画：快速 show / hide 时动画线程不会一路涨（B-010 的同类）" started.
+◇ Test "R2-007 测试宿主进程的 --test-bundle-path 不算开发开关：测试里 DebugTools.enabled 必须是 false（不然被测代码里加一行 DebugTools.log 就会往用户真实的日志文件里写）" started.
+◇ Test "R3c-01 合并卡只带「还在等」的人：A 在 C 到之前已经处理掉了，最后一张合并卡就是「2 位同事在等你」（B、C）" started.
+◇ Test noPresentSessionsMeansNothingIsLive() started.
+◇ Test autoQuitNeverQuitsAnotherApp() started.
+◇ Test hiddenBuddiesStillCountAsLiveSessions() started.
+◇ Test theSwitchIsHonouredBothWhenClaudeQuitsAndWhenTheTimerFires() started.
+◇ Test fileNamePattern() started.
+◇ Test liveSessionsIncludingHiddenOnesKeepUsAlive() started.
+◇ Test theTestEntryPointCountsDownTheGivenSeconds() started.
+◇ Test claudeComingBackCancelsTheCountdownAndANewQuitReplacesTheOld() started.
+◇ Test claudeQuitsAndNobodyIsLeftSoWeQuitAfterSixtySeconds() started.
+◇ Test onlyClaudeQuittingStartsTheCountdown() started.
+◇ Test "R2-001 PixelView：画布没变、只有缩放变了（局部重绘的场景知道「没变」）时，图像层也要跟着新缩放变大小" started.
+◇ Test theFirstApplyDoesEverything() started.
+◇ Test aForcedDockIconIsWrittenBackSoTheSettingsPageDoesNotSayOff() started.
+◇ Test aMinimizedOfficeWindowIsNotBroughtBackByAnUnrelatedSettingsWrite() started.
+◇ Test "R2-016 用桶（比视口大）的 surface 时，显示出来的部分正好是视口：contentsRect 是 视口 / surface，图层尺寸 = 视口 × 缩放，左上角的像素就是画布的像素" started.
+◇ Test atLeastOneEntryIsAlwaysKept() started.
+◇ Test nothingChangedMeansNothingToDo() started.
+◇ Test aLoneEmptyPetStripIsNotAnEntryPoint() started.
+◇ Test unknownFieldsAndUnknownStatusAreTolerated() started.
+◇ Test aPanelThatIsAlreadyOnScreenIsNotOrderedFrontAgain() started.
+◇ Test aHiddenAppDoesNotGetItsOfficeWindowPoppedBackEither() started.
+◇ Test aHiddenPanelIsRenderedOnlyWhenItsFirstFrameIsRequested() started.
+◇ Test onlyTheChangedEntriesAreTouched() started.
+◇ Test theAuditCatchesItsTargetsAndIgnoresLookAlikes() started.
+◇ Test theSoundModeFromTheSettingsReachesThePlayerAndEachKindHasItsOwnSound() started.
+◇ Test theSystemNotificationGateIsTheAppBundleAndAClickCarriesTheKey() started.
+◇ Test fileReadsGoThroughFileIOWithAShortReviewedAllowlist() started.
+◇ Test notificationMaintenanceAndFallbackConstantsStayAsTheSpecSays() started.
+◇ Test exactlyAtTheLimitIsKept() started.
+◇ Test seekToTailWhenStartIsExactlyALineStartKeepsThatLine() started.
+◇ Test oversizeLineIsDroppedAndTheNextLineSurvives() started.
+◇ Test rotationToNewInodeRestartsFromZero() started.
+◇ Test turningTheOfficeOffHidesIt() started.
+◇ Test noCodeMentionsKeyOrSocketFileNamesExceptTheGuardAndPathConstants() started.
+◇ Test noNetworkNoCredentialsNoSubprocesses() started.
+◇ Test halfLineIsHeldUntilCompleted() started.
+◇ Test truncationRestartsFromZero() started.
+◇ Test seekToTailAlignsToLineStart() started.
+◇ Test crlfAndEmptyLines() started.
+◇ Test oversizeLineSplitAcrossPollsIsSkippedUntilNewline() started.
+◇ Test resumeFromCommittedOffset() started.
+◇ Test multiByteCharactersAcrossChunks() started.
+◇ Test pixelViewAndTitleBarButtonsNeverLetAppKitStartAWindowDrag() started.
+◇ Test linesStraddlingChunkBoundaries() started.
+◇ Test theSoundsAreSynthesisedAsEightBitMonoWavDataWithoutAnyFile() started.
+◇ Test "桌面元数据目录里各种脏东西（目录 / FIFO / 符号链接 / 垃圾 JSON / 超过 4 MiB / 名字古怪 / 文件在读的时候被删）：refresh 不崩溃、不卡死、结果只含合法条目，重复刷新没有抖动" started.
+◇ Test "登记表被原地反复重写（先写一半再写完整 / 写垃圾 / 清空 / 换成非 interactive / 删除再重建）：扫描器总是收敛到“最后一份好的内容”，从不丢会话、不产出垃圾" started.
+◇ Test aPanelThatIsNotOnScreenGetsItsFirstFrameBeforeItAppears() started.
+◇ Test anyChangeOfThePlacementInputsTriggersARepositionAndNothingElseDoes() started.
+◇ Test rightLeftCenterAndUnknownAlignments() started.
+◇ Test aBoundaryOlderThanAnOpenCallDoesNotCloseIt() started.
+◇ Test helperOwnedRecordsExpireRegardless() started.
+◇ Test identicalParallelCallsCloseFirstInFirstOut() started.
+◇ Test callsWithin250msOfThePreviousPreStayInTheSameBatch() started.
+◇ Test newBatchClosesOlderOpenCallsAsSuperseded() started.
+◇ Test resetClearsEverything() started.
+◇ Test turnBoundariesCloseAllMainCalls() started.
+◇ Test postFallsBackToToolNameThenIgnores() started.
+◇ Test truncatedToolNamesMatchByPrefix() started.
+◇ Test permissionDeniedDanglingIsClosedByTheNextBatch() started.
+◇ Test parallelCallsInTheSameMillisecondShareABatch() started.
+◇ Test "C-024 多个线程同时原子写同一个文件：读到的永远是某一次完整的内容，不会是两次写的混合（临时文件名不能共用）" started.
+◇ Test staleCallsAreForceClosedOnlyWhenTheRegistryIsIdle() started.
+◇ Test "FileIO 是 BuddyCore 里读文件的唯一入口：源码里除了 FileIO.swift（读）和 Tools/FakeTree.swift（造假数据的写）之外，没有任何别的 open / fopen / FileHandle / Data(contentsOf:) 之类" started.
+◇ Test postWithoutPreIsIgnored() started.
+◇ Test "HookLogReader：一次读完 / 分很多次追加，事件序列相同；计数自洽；坏行被跳过而不是让整个文件失败" started.
+◇ Test turningTheOfficeOnShowsItEvenIfItIsMinimized() started.
+◇ Test missingFileThenAppears() started.
+◇ Test "从 committedOffset 恢复：新读取器接着读，得到剩下的完整行（半行会被重新读）" started.
+◇ Test "文件分成随机长度的很多次追加：每一步都只交付完整的行，最终结果和一次读完完全相同" started.
+◇ Test "readAll / open 遇到特殊文件：目录 / 设备 / 空文件 / 恰好等于上限 / 超过上限 / 负数上限 / 读的时候被截断：不崩溃、不卡死，结果合理" started.
+◇ Test "子代理目录里各种脏东西（垃圾 meta / 垃圾记录 / 目录 / FIFO / 符号链接 / 名字古怪 / 文件在读的时候增长和被删）：poll 不崩溃、不卡死，只报告目录里真有的文件" started.
+◇ Test "超长行的边界：1.5 MB 保留、恰好 4 MiB 保留、4 MiB + 1 丢掉、16 MiB 丢掉；后面的行都能读到" started.
+◇ Test "随机内容 × 极小的块 / 极小的行上限：逐行和独立实现的标准答案一致" started.
+◇ Test addTallyDoesNotOverflow() started.
+◇ Test "writeAtomically 的边界：嵌套目录 / 父路径是文件 / 目标是目录 / 名字太长 / Unicode 和换行 / 只读目录 / 空数据：返回值正确、不留临时文件" started.
+◇ Test "seekToTail：从任意窗口开始，只交付完整的行，起点落在行中间就跳过那半行" started.
+◇ Test entrypointMapsToOrigin() started.
+◇ Test "hook 行在每一个字节位置截断（含多字节字符中间、\uXXXX 转义中间）：不崩溃，结果要么是 nil 要么和原事件前缀一致" started.
+◇ Test "文件被截短、删除、换成新 inode、再追加：每次都从头读、只交付完整的行，不会读到旧内容的残片" started.
+◇ Test "非法 UTF-8（孤立续字节 / 截断的多字节 / 0xFF / 过长编码 / 代理对）放在行首、行中、每个字段里、行尾：不崩溃、不放行坏 ts" started.
+◇ Test "随机字节（0 / 1 / 2 / 7 / 64 / 4096 / 1 MiB）当 hook 行：不崩溃、不死循环，放行的一定满足不变量" started.
+◇ Test numbersWrittenBehindOurBackAreClampedIntoTheirValidRange() started.
+◇ Test "hook 行的 JSON 层面：类型错误 / null / 重复键 / 超长键 / 深层嵌套 / 空对象空数组 / 巨大数字：不崩溃，结果满足不变量" started.
+◇ Test "任务书第 4 节的已知坑（Codex 文件 / AskUserQuestion 的 detail / tool 名被截断 / 用户输入）：变异用例" started.
+◇ Test tallyReadFromTheFileIsClamped() started.
+◇ Test deriveNeverTrapsWhateverTheDormantMaxIs() started.
+◇ Test dayKeysStayGregorianInAnyLocale() started.
+◇ Test aTailerSurvivesTheFileBeingRewrittenUnderneathIt() started.
+◇ Test randomGarbageInEveryDataSourceNeverCrashesTheEngine() started.
+◇ Test "半行 / 只有换行 / 很多空行 / CRLF / 结尾没有换行" started.
+◇ Test aRegistryFileThatIsADirectoryOrHasWeirdTypesIsIgnored() started.
+◇ Test realProviderPassesTheSettingsToTheEngine() started.
+◇ Test realProviderClampsWhatItReadsFromDefaults() started.
+◇ Test settingsMapToEngineOptions() started.
+◇ Test "随机字节：长度 0 / 1 / 2 / 7 / 64 / 4096 / 1 MiB，和标准答案一致，不崩溃" started.
+◇ Test "identities.json 在每一个字节位置被截断：不崩溃、不变量成立、之后照常写盘" started.
+◇ Test theDataRootArgumentReachesTheEngine() started.
+◇ Test outOfRangeValuesAreClampedAndSleepAlwaysComesAfterDoze() started.
+◇ Test "ledger.json 在每一个字节位置被截断：安全回退到从头扫描，统计值 == 真实值；之后写盘的账本合法" started.
+◇ Test aHugeGarbageLineDoesNotStallTheHookReader() started.
+◇ Test "引擎：identities.json / ledger.json 都是垃圾时照常启动、照常工作，并且退出时把两份文件写成合法的（覆盖掉垃圾）" started.
+◇ Test "identities.json 被随机破坏 / 结构化破坏（version、identities、每个字段缺失或类型错误 / 天文数字）：不崩溃、不变量成立、之后照常写盘" started.
+◇ Test pathsWithSpecialCharactersWork() started.
+◇ Test "ledger.json 是 1 MiB 的随机垃圾 / 是一个目录 / 不可读：不崩溃，账本降级为只在内存里；文件是目录时写不了也不崩溃" started.
+◇ Test statesSwitchExactlyOnTheSpecifiedSeconds() started.
+◇ Test "token 账本：一个 buddy 的多个会话记录（当前 + prior）加子代理文件，同一条消息出现在不同文件里时按 message.id 全局去重（每个字段取最大值），和独立实现相等；再启动一次（不使用断点）结果不变" started.
+◇ Test "ledger.json 被随机破坏（翻转 / 替换 / 删除 / 重复 / 插入字节）：不崩溃；统计值非负、不溢出；之后追加新行只增不减；写盘的账本合法" started.
+◇ Test aFinishedTurnWaitsThenStretchesThenLeansThroughTheWholePipeline() started.
+◇ Test "token 账本：随机的真实行 / 重复行 / 合成行 / 缺字段行 / 垃圾行 / 半行，分多次追加，统计值和独立实现逐项相等；重启后从账本断点继续也一样" started.
+◇ Test "引擎：登记表目录里一次冒出几百个会话（含重复 sessionId / 同一个 host / 一半进程已死）再全部消失：不崩溃、不卡死，快照数和缓存有上界" started.
+◇ Test "整个引擎：每个数据源都灌极端值 / 类型错误 / 深嵌套 / 超长行 / 乱序 + 未来的时间 / 被删被换的文件 / 进程反复死活，随时间大幅跳跃：不崩溃、不卡死、快照满足不变量，之后恢复正常" started.
+◇ Test "SessionStore 的公开 API 被多个线程同时乱用（markSeen / rerollAppearance / diagnostics / currentSnapshots / debugRows / pollNow / poke），同时数据在变：不死锁、不崩溃；停掉之后再调用也安全，还能重新启动" started.
+◇ Test walkingInTakesAboutTwoAndAHalfSecondsAndFarSeatsAreSpeedCapped() started.
+◇ Test leavingStandsWavesWalksOutAndTheDoorClosesBehindThem() started.
+◇ Test "C-007 符号链接指向 .key 文件：FileIO 拒绝打开（保险不能被绕过）" started.
+◇ Test "ledger.json 结构化破坏：version / files / 每个字段缺失或换成错误类型 / 天文数字 / 负数：不崩溃；断点无效时统计值 == 真实值" started.
+◇ Test anOffDutyDeskIsDimSilentAndUnclickableAndTheCoatHangsByTheDoor() started.
+◇ Test aBlockedIdleSessionShowsTheStickyNote() started.
+◇ Test finishingATurnWaits0_4SecondsBeforeStretching() started.
+◇ Test everyRowOfTheStateToAnimationTable() started.
+◇ Test delegatingToForegroundHelpersPointsAtThemAndBackgroundOnesLeavesYouTyping() started.
+◇ Test reportsFileChangesUnderTheWatchedRoots() started.
+◇ Test hairColorsAreFarApart() started.
+◇ Test spritesAreNotEmptyAndAnchorsInside() started.
+◇ Test everyHairOutfitAndHeadHasAllFiveFacings() started.
+◇ Test spriteBooksHaveNoErrors() started.
+◇ Test everyToolCategoryHasAPoseAndAScreen() started.
+◇ Test directIndexedPaletteEntriesFitInOneByte() started.
+◇ Test everyBuddyBreathesOnePixelEveryFourSeconds() started.
+◇ Test fullReplayPassesWithPolling() started.
+◇ Test springOutputHasAPlusMinusPointSixHysteresisAndSlowSpringsSnap() started.
+◇ Test aWatcherWithNoExistingRootFailsToStart() started.
+◇ Test aSessionThatArrivesAfterLaunchWalksInAndSitsDownWhileOnesPresentAtLaunchAreAlreadySeated() started.
+◇ Test blinksEveryFiveToEightSecondsInThreeFramesOfAtLeast240msAndOnlyTouchTheEyes() started.
+◇ Test theTurnIsSixSpecifiedStepsWithTheChairFollowingAndThenTheHandRises() started.
+◇ Test springsStartFromRestWithZetaThreeQuartersAndOvershootSlightly() started.
+◇ Test aNormalTurnProducesTheExpectedActivitiesAndEvents() started.
+◇ Test dayNightSwitchTakesTwentyMinutesAndEveryPixelFlipsExactlyOnce() started.
+◇ Test aDanglingToolFromAnInterruptedTurnDoesNotLeakIntoTheNextOne() started.
+◇ Test aSessionBusyForAnHourNeverDies() started.
+◇ Test waitingAtStartupIsReportedImmediately() started.
+◇ Test outlineIsDarkerThanFillByAtLeastPointOneFive() started.
+◇ Test startingTheNextTurnClearsUnread() started.
+◇ Test compactionThroughHooks() started.
+◇ Test erroredTurnStaysErroredUntilItStartsDozing() started.
+◇ Test promptEventThatArrivesBeforeTheRegistryFlipsCountsAsBusyOnce() started.
+◇ Test aWaitingSessionStaysWaitingNoMatterHowLong() started.
+◇ Test aPromptThatNeverBecomesBusyExpiresAfter3Seconds() started.
+◇ Test aNormalStopAfterAnEarlierInterruptIsNotInterrupted() started.
+◇ Test attachingToAnIdleSessionThatJustFinishedShowsFinishedForTheRemainingTime() started.
+◇ Test bubblesPopInInThreeIntegerSizesAndEveryIconIsSevenBySeven() started.
+◇ Test hitIdsRoundTripAndAreClampedForCrazySeatNumbers() started.
+◇ Test everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+◇ Test attentionKindChangesWhileStillWaitingEmitAFreshEvent() started.
+◇ Test emptyAndOffDutySeatsAreNotClickable() started.
+◇ Test attachingToALongIdleSessionShowsTheRightSleepState() started.
+◇ Test interruptDetectedFromTheTranscriptWithoutAnyHook() started.
+◇ Test attachingMidTurnEstimatesTheTurnStartFromHooks() started.
+◇ Test withoutHooksToolsComeFromDanglingToolUsesInTheTranscript() started.
+◇ Test aTurnWithoutAStopEventWhileHooksWorkIsInferredAsInterrupted() started.
+◇ Test dozeAndSleepThresholdsAreConfigurable() started.
+◇ Test nextWakeIsScheduledForTimeDrivenChanges() started.
+◇ Test "C-012 嵌套 470–512 层的 JSON 不会把 512 KB 栈的工作线程压爆（JSONSerialization 递归解析）" started.
+◇ Test "C-030 FileIO.readAll 的负数上限、文件时间的纳秒乘法、DumpFormatter.clock 的 Int(秒数) 换算：极端值不 trap" started.
+◇ Test "C-027 Paths(home:) 遇到几十万个结尾斜杠不会 O(n²) 卡住；结果和原来的语义一致" started.
+◇ Test "C-013 TranscriptReader.bootstrap 遇到非正的窗口大小不会死循环" started.
+◇ Test "C-025 会话记录里 turn_duration / api_error 的数字（用时、重试次数）是天文数字或负数时被当作没有，不会流到快照里让界面的 Int(秒数) 换算 trap" started.
+◇ Test "C-006 事件时间戳在未来时，归属扣留最多 0.4 秒，不会把整个 hook 队列永远卡住" started.
+◇ Test "C-002 Date → 毫秒的换算是饱和的（不 trap）" started.
+◇ Test "C-010 桌面元数据里 priorCliSessionIds 有上万项时有上界、不卡死" started.
+◇ Test "C-019 文件事件按目录边界分流：sessions-old 之类同前缀的兄弟目录不算；空的会话 id 不匹配一切" started.
+◇ Test "C-005 ledger.json 里的计数是天文数字或负数时，恢复后不溢出、不为负" started.
+◇ Test "z2 更脏的随机回放：会话记录 / 小助手 / 桌面元数据 / 压缩 / 通知 / markSeen 混在一起，每一步快照都满足不变量" started.
+◇ Test "C-004 会话记录里 usage 的数字是天文数字时，解析 / 累计 / 账本都不溢出" started.
+◇ Test "z1 参考模型对拍：随机事件流里，阶段、主线程打开的调用（个数和顺序）、忙碌 / 等待时的动作每一步都和任务书规则一致" started.
+◇ Test "C-028 在 onChange 回调里（也就是在扫描队列上）调用 TokenLedger.flush() 不会对自己所在的队列 sync 而死锁 / 崩溃" started.
+◇ Test "C-009 identities.json 里别名 / 工位 / 条目数量离谱时，载入后有上界、不卡死" started.
+◇ Test "C-018 会话记录里 AskUserQuestion 的 input 不管带什么字段，detail 都是空串（不能当问题显示）" started.
+◇ Test waitingVariantsThroughTheEngine() started.
+◇ Test "C-003 归属判断遇到离谱的事件时间也不崩溃（Int(…) 换算）" started.
+◇ Test "C-002 identities.json 里的天文数字不会让 App 每次启动都崩溃（崩溃循环）" started.
+◇ Test abortedMidStreamAlsoCountsAsAnInterrupt() started.
+◇ Test "C-011 hook 事件狂刷（Pre 永远没有 Post）时，ToolTracker 的 open 有上界" started.
+◇ Test "C-029 hook 文件一下子有几十万行（App 被挂起很久 / 文件被换成大文件）：一次 poll 只交出最新的一批事件，不把所有事件堆在内存里" started.
+◇ Test "C-015 读过一条很长的行之后，半行缓冲不会一直占着几 MB 内存" started.
+◇ Test "C-017 登记表 pid 不是整数（布尔 / 小数 / 超出 Int32 / 0 / 负数）时当作不可用，而不是被强转成别的 pid；文件名的 pid 为准" started.
+◇ Test "C-020 两个文件声称同一个 hostSessionId 时，桌面元数据读取器不会每次刷新都报告“变了”（抖动）" started.
+◇ Test "C-014 引擎里按会话累积的缓存在会话来来去去之后有上界（transcriptPathCache / transcriptMissAt）" started.
+◇ Test "C-026 hook 里一条时间戳在一年以后的 Stop、会话记录里一条一年以后的行，不会让登记表明明是 busy 的会话永远被当成 idle，也不会毒化“取最大时间”的事实" started.
+◇ Test "C-023 外部 JSON 里几 MB 长的字符串字段（标题 / 路径 / id / 工具名 / detail……）被截断到上限，不会原样留在内存 / 快照 / identities.json 里" started.
+◇ Test unwritableIdentityFileDegradesToMemoryOnly() started.
+◇ Test corruptIdentityFileIsIgnored() started.
+◇ Test aliasListIsBounded() started.
+◇ Test pidReuseWithADifferentStartTimeIsANewBuddy() started.
+◇ Test terminalResumeInANewProcessKeepsTheSameBuddyViaSessionAlias() started.
+◇ Test rerollGivesANewSaltEachTime() started.
+◇ Test identitiesAreForgottenAfterSevenDays() started.
+◇ Test typingBeatsAreFourFramesOf133msAndWriteIsTwiceAsFast() started.
+◇ Test aSessionKnownOnlyToDesktopMetadataBecomesADesktopIdentity() started.
+◇ Test hostAliasWinsEvenWhenPidAndSessionIdChange() started.
+◇ Test sippingAndLookingAroundHappenAtTheSpecifiedIntervals() started.
+◇ Test terminalKeyIsTPrefixPlusFirstSeenSessionId() started.
+◇ Test askPosesRaiseAHandOrHoldAClipboard() started.
+◇ Test seatsAreTheSmallestFreeNumberAndReturningBuddiesGetTheirOwnSeatBack() started.
+◇ Test tappingScratchingWritingAndWavingFrequencies() started.
+◇ Test noPoseSwingsFasterThanFourHertz() started.
+◇ Test withoutProcStartNoProcessAliasIsUsed() started.
+◇ Test persistenceRoundTripKeepsAliasesSeatAndSalt() started.
+◇ Test bodiesLeanAndHandsGoWhereTheTableSays() started.
+◇ Test terminalClearKeepsTheSameBuddyBecauseItIsTheSameProcess() started.
+◇ Test idleDozeSleepErrorInterruptedAndStretchPoses() started.
+◇ Test desktopKeyIsDPrefixPlusHostSessionId() started.
+◇ Test desktopPriorCliSessionIdsMapBackViaMetadataWhenHostIsMissing() started.
+◇ Test "审查确认：FileWatcher 停掉并释放的时候队列里还排着 FSEvents 的回调块，回调不会去碰已经释放的对象（配合 MallocScribble 跑过）" started.
+◇ Test "文字图片缓存有上限（600 张，先进先出）：不停地渲染新的文字，最早的被淘汰、最近的还在缓存里；装满时按桌牌大小的文字算总共约 20 MB" started.
+◇ Test everyDeskHasAMugAndTheSipReachesForIt() started.
+◇ Test "C-003 hook 行里离谱的 ts（天文数字 / 无穷 / 0 / 负数 / 布尔）在解析时就被拒绝" started.
+◇ Test onlyTheThinkingAndSleepingBubblesAnimateAndTheStickyNoteStandsStill() started.
+◇ Test theCursorBreathesThroughThreeLevelsAtHalfAHertzAndNeverBlinksOnAndOff() started.
+◇ Test quickMatrixHasZeroViolationsAndReallyCoversTheScenes() started.
+◇ Test noFrameIsBlackAndTheMonitorNeverFadesToPureBlack() started.
+◇ Test theMonitorFadesOutOver300msInsteadOfCuttingToBlack() started.
+◇ Test theThinkingBubbleDotsBobSlowlyAndOutOfPhase() started.
+◇ Test class8MissingGlyphsAndOverflowingContainersAreCaught() started.
+◇ Test monitorsOfSessionsPresentAtLaunchBootLeftToRightAt100msIntervals() started.
+◇ Test "C-001 procStart 的年份 / 时分秒是天文数字时不崩溃（登记表 procStart 字段）" started.
+◇ Test theWaitingLightCyclesThroughThreeAdjacentLevelsAt0_8Hz() started.
+◇ Test class8PixelDigitsPaintedOverByLaterDrawingAreCaught() started.
+◇ Test anEmptySeatNeverFades() started.
+◇ Test "C-008 <pid>.json 是命名管道（FIFO）时不会把读取线程永远卡在 open() 上" started.
+◇ Test aCleanFrameReportsNothing() started.
+◇ Test class2TextOutsideItsContainerOrTheWindowIsCaught() started.
+◇ Test retainedRenderingStaysIdenticalWhileTheMonitorFadesOut() started.
+◇ Test class4TheHoverCardMustNotCoverItsOwnFaceButMayCoverANeighbours() started.
+◇ Test class7TextNotOnWholeDevicePixelsIsCaught() started.
+◇ Test class1OverlappingTextIsCaught() started.
+◇ Test class4LabelsThatCoverAFaceScreenBubbleOrCardAreCaught() started.
+◇ Test class3LongTextWithoutAnEllipsisIsCaught() started.
+◇ Test class8PixelDigitsThatTouchAreCaught() started.
+◇ Test floorDivisionMapsNegativeDevicePixelsToTheRightCanvasRow() started.
+◇ Test class6LowContrastAgainstTheRealCanvasIsCaught() started.
+◇ Test class5FontsBelowNinePointsAreCaught() started.
+◇ Test "5.6-13 等待类状态到来时立即插入：屏幕、桌牌、气泡在同一帧就换成等待内容（不等最短停留），身体 0.4 秒后转身" started.
+◇ Test posesOfTheDashRowsCarryNoPropsAndTheSupervisorPointsThenFolds() started.
+◇ Test "5.5-05 离场：起身 0.3 秒（椅子拉出来）→ 把椅子推好 → 挥手 0.7 秒 → 走出门 → 门在身后关上 0.16 秒；整个过程之后走路系统清空" started.
+◇ Test "5.5-07 下班工位：显示器关着、待机灯灭、没有人 / 气泡 / 道具，桌牌变暗，椅子推进去，点不到" started.
+◇ Test "5.6-05 连着批准好几次：两次等待之间只隔 0.6 秒，不来回转（一直面向你，只转一次身），最后一次结束 1.5 秒之后才转回去" started.
+◇ Test "5.6-18/19/20 做完一轮：先等 0.4 秒（继续保持忙姿势），再伸 1.2 秒懒腰，再 3/4 侧身靠着；未读旗一直保留" started.
+◇ Test "5.6-06/07/08 最短停留正好是 姿势 1.5 s / 屏幕 0.8 s / 桌牌动作文字 1.0 s：目标一变、停留一满就换，不早也不晚（差不超过一帧）" started.
+◇ Test "5.6-23 错开最多 0.6 秒：10 个人同一帧变化，第 1…7 个依次晚 90 ms，第 8、9、10 个都是 0.6 秒（封顶）" started.
+◇ Test stateScreens() started.
+◇ Test "5.5-21 进场走到工位约 2.5 秒：路线 70–175 像素的座位走路时间正好 2.5 秒；更近的按 28 像素/秒、更远的按 70 像素/秒封顶（DESIGN.md 第 13 节记录）" started.
+◇ Test documentScrollsOnePixelPerStepAndItsColourFollowsTheExtension() started.
+◇ Test "5.6-13 （SP-06）某个 buddy 正在「错开」的等待期里，等待类状态也要立即插入（≤ 250 ms），并且中间不能闪出一帧过期的旧动作" started.
+◇ Test "5.6-09 停留期间只记下最新的目标、跳过中间态：Read → Grep → Read 一直是「在读」；Read → Grep → Edit 直接到 Edit，屏幕 / 姿势 / 桌牌都没显示过 Grep" started.
+◇ Test "4.4-08 桌面本轮总结的英文 status_detail 只在悬停卡片里显示（隐私模式也不显示）；桌牌 / 状态候选 / 办公室里所有文字都没有它" started.
+◇ Test dialogScreensHaveTheirButtonsOptionsAndOutline() started.
+◇ Test "5.6-10 同一类工具之间切换：姿势不变，只换屏幕内容（Grep → Glob：结果列表 → 文件树；Read swift → Read md：文档颜色；Edit → MultiEdit：什么都不变）" started.
+◇ Test mcpBrowserPointerMovesAndTheClickRingOnlyDarkensThePalette() started.
+◇ Test browserLoadsPageBlocksOneByOneAndSearchTypesTheQuery() started.
+◇ Test "5.6-14/15/16/17 长时间状态：Bash / WebFetch / WebSearch 超过 8 秒、Monitor、思考超过 20 秒都换成对应的姿势（边界两侧各测一次）" started.
+◇ Test helperListChecklistManualAndIconGrid() started.
+◇ Test "5.6-19 疑点 Q-07：上一个姿势刚换过（1.5 秒最短停留还没满）时一轮结束，懒腰也不会被跳过或截短" started.
+◇ Test compactSqueezesRowsIntoOneBlockAndRetryShowsARotatingArrowAndDigits() started.
+◇ Test editTypesCharactersAndWriteAddsRowsFromTheTop() started.
+◇ Test resultsHighlightEasesAndTheTreeUnfolds() started.
+◇ Test terminalHasAGreenPromptAndTheLongBarFollowsOneMinusExpMinusTOverTau() started.
+◇ Test privacyModeNeverLeaksDetails() started.
+◇ Test activeAndAbsentLightsStayPut() started.
+◇ Test emojiInTheTextDoesNotChangeTheLineHeight() started.
+◇ Test activityTextForEveryState() started.
+◇ Test textMeasurementIsCachedAndConsistent() started.
+◇ Test fileNamesClipsAndDurations() started.
+◇ Test shortCommandKeepsTheFirstWordsAndDropsCdPrefixesAndOptions() started.
+◇ Test everyRowOfTheTableShowsItsPlateText() started.
+◇ Test class2HoverCardThatIsNotWhollyInsideTheWindowIsCaught() started.
+◇ Test clipRestrictsEveryDrawingPrimitive() started.
+◇ Test retryingThenBackToThinkingWhenTheRetryWindowPasses() started.
+◇ Test walkersAreNeverDrawnOutsideTheDoorwayWhileInsideIt() started.
+◇ Test screenNeverChangesFasterThanEvery0_8Seconds() started.
+◇ Test retainedRenderingMatchesAtOtherWindowSizes() started.
+◇ Test seatsStayPutWhenTheSnapshotOrderChanges() started.
+◇ Test tankAndStripShowAnOverflowBadgeBeyondEightPeople() started.
+◇ Test poseNeverChangesFasterThanEvery1_5Seconds() started.
+◇ Test aWaitingBlipShorterThan0_4SecondsDoesNotTurnTheBuddy() started.
+◇ Test enteringWalkerAppearsOnlyAfterTheDoorStartedOpening() started.
+◇ Test waitingTurnsAroundAfter0_4SecondsAndTurnsBackAfter1_5() started.
+◇ Test simultaneousBuddiesDoNotWearTheSameOutfit() started.
+◇ Test retainedRenderingMatchesFullRedrawWithNobodyAtAll(scene:) started.
+◇ Test plateActionTextNeverChangesFasterThanEverySecond() started.
+◇ Test emptyOfficeAndTankShowTheNobodyIsInSign() started.
+◇ Test personPixelsCarryTheirSeatIDAndTheWallCarriesNone() started.
+◇ Test simultaneousChangesAreStaggeredBy90msEach() started.
+◇ Test goldenFrameHashesAreStable() started.
+◇ Test layoutDeskCountAndColumnHysteresis() started.
+◇ Test contentHashDistinguishesSingleBitChangesAndIgnoresNothing() started.
+◇ Test copyRegionAndClearRegionTouchOnlyTheirRectangle() started.
+◇ Test tankAndStripHaveNoFlicker(scene:) started.
+◇ Test officeHasNoFlickerAtEveryZoom(zoom:) started.
+◇ Test staticScreenClassificationMatchesWhatIsActuallyDrawn() started.
+◇ Test renderingIsDeterministic() started.
+◇ Test seatSignatureChangesExactlyWhenPixelsCanChange() started.
+◇ Test retainedRenderingMatchesFullRedrawPixelForPixel(scene:) started.
+◇ Test stripKeepsSeatedBuddiesStillWhenSomeoneNewArrives() started.
+◇ Test aSnapshotWithCorruptTimesNeverCrashesTheStage() started.
+◇ Test statusCandidatesGoFromDetailedToShort() started.
+◇ Test "R1b-06 只有零宽 / 控制 / 方向字符的标题也算空标题：显示占位文字，不画空桌牌" started.
+◇ Test "SAN-01 withDraws 返回的是一份稳定的拷贝：别的线程一直在画像素字时，反复收集并逐条读像素，不崩、不读到释放过的内存；自己画的那一条一条不少" started.
+◇ Test "R1b-04 等待类气泡（钥匙 / 问号 / 计划）不受最短停留限制：立刻出现，批准之后立刻消失；新来的人第一帧就有气泡" started.
+◇ Test "R3b-02 隐私模式端到端泄漏扫描：18 种工具 × 忙 / 等批准，桌牌 / 状态行 / 悬停卡片 / 下班工位的所有文字里都不出现会话标题、项目路径、工具详情、server 名" started.
+◇ Test retainedRenderingMatchesFullRedrawWithMoreThanEightPeople(scene:) started.
+◇ Test "R1b-01 错开推迟期间活动变回已套用的同一种类：推迟记录作废，不能套用推迟开始时存下的过期快照" started.
+◇ Test "R1b-04 工具节奏驱动的气泡也有 0.8 秒最短停留：Grep / Read 每 0.3 秒交替时，放大镜气泡不能跟着一闪一闪" started.
+◇ Test "R1b-05 打开隐私模式：桌牌动作文字当场就隐藏，不等 1.0 秒最短停留（刚换过字也一样）" started.
+◇ Test "R1b-02 桌牌 1.0 秒最短停留不能被文件名 / 命令 / 搜索词里的数字绕过（part1.txt → part2.txt 也是换了动作）" started.
+◇ Test theStandbyLightBreathesThroughThreeLevelsSlowly() started.
+◇ Test "R2-015 工具详情为空（hook 行被截断走降级解析时会出现）：桌牌文案不能是「在读 」「在找 ""」「运行 」这种带尾随空格 / 空引号的半截话" started.
+◇ Test arrivalThenBusyThenTool() started.
+◇ Test emptyOfficeSignIsReadableAndDrawnOnTopOfTheDesks(zoom:) started.
+◇ Test "R1b-03 隐私模式：MCP server 名和未知工具名也不能出现在桌牌动作 / 状态行里（任务书 6.3：隐私模式下隐藏全部细节）" started.
+◇ Test twoLinePlateTextStaysInsideThePlate(zoom:) started.
+◇ Test sleepingBuddysTwoZsDoNotTouch() started.
+◇ Test "R1b-02 计时器数字仍然不受最短停留约束：「运行中 npm test · 0:09」→「0:10」…每秒都立刻换" started.
+◇ Test hoverCardAlwaysAppearsInsideTheWindowWithoutCoveringItsOwner(win:zoom:) started.
+◇ Test emojiInkStaysInsideTheCJKInkRange(size:) started.
+◇ Test blankTitlesGetAPlaceholderOnPlatesAndCards() started.
+◇ Test zoomIsClampedSoAtLeastOneWholeSeatFits() started.
+◇ Test plateTextUnderTheHoverCardIsHidden() started.
+◇ Test plateTextMeetsContrastAtAnyTimeOfDay(clock:zoom:) started.
+◇ Test emojiTitlesNeverLeaveTheirPlateOrCard(zoom:) started.
+◇ Test "R1b-02 数字掩码只抹「计数器位置」：· 后面的计时、重试中 a/m、×N、派了 N 个帮手、打盹 N 分钟；文件名里的数字保留" started.
+◇ Test durationFormattersNeverTrapAndCapAtAboutThirtyYears() started.
+◇ Test officeHasNoFlickerAtNightAndDuringLightTransition() started.
+◇ Test idleMinutesWithACorruptIdleSince() started.
+◇ Test case passing 2 arguments status → UNAuthorizationStatus(rawValue: 0), available → true to notYetAskedOrNotAnAppBundleAlsoFallsBack(status:available:) started.
+◇ Test case passing 2 arguments status → UNAuthorizationStatus(rawValue: 2), available → false to notYetAskedOrNotAnAppBundleAlsoFallsBack(status:available:) started.
+◇ Test aMcpServersInitialIsALetterTheFontCanDraw() started.
+◇ Test theSmallPixelFontDrawsEveryLatinCapital() started.
+◇ Test rhythmStepsAreEvenAndNeverSkip() started.
+◇ Test theMcpAppScreenNeverFallsBackToThePlaceholderGlyph() started.
+◇ Test theLongBashProgressBarIsAboveTheRowsTheHeadHides() started.
+◇ Test documentAndLogScrollingStepsAreWholeFramesAt15fps() started.
+◇ Test aLongBashBarGrowsButNeverFillsUp() started.
+◇ Test case passing 1 argument status → UNAuthorizationStatus(rawValue: 1) to alreadyAnsweredNeverAsksAgain(status:) started.
+◇ Test case passing 1 argument status → UNAuthorizationStatus(rawValue: 2) to alreadyAnsweredNeverAsksAgain(status:) started.
+◇ Test case passing 1 argument status → UNAuthorizationStatus(rawValue: 3) to alreadyAnsweredNeverAsksAgain(status:) started.
+◇ Test seedIsDeterministic() started.
+◇ Test sittingDownAndStandingUpAreThreeFramesOfAHundredMilliseconds() started.
+◇ Test mcpServerFromTruncatedName() started.
+◇ Test theMonitorBootsInSixteenDitherLevelsOverThreeHundredMilliseconds() started.
+◇ Test activityPhase() started.
+◇ Test helpersSlideInAtMostThreeShownAndTheRestAreCountedAndBackgroundOnesStayBeside() started.
+◇ Test theUnreadFlagIsPlantedOnTheMonitorOnlyWhileUnread() started.
+◇ Test toolCatalogClassifies() started.
+◇ Test theHoverCardIsPaintedIntoTheOfficeScene() started.
+◇ Test tankAndStripGeometryMatchTheSpec() started.
+◇ Test seatsTurnTowardsTheAisleAndAMirroredPersonIsTheFlippedImage() started.
+◇ Test flickerScanWithATinyOrInsaneFrameRateTerminates() started.
+◇ Test rerollOnlyTouchesTheChosenBuddy() started.
+◇ Test appearanceCacheIsBoundedByWhoIsHereNotByWhoWasEverSeen() started.
+◇ Test aMockSourceWithNonsenseSpeedStaysSane() started.
+◇ Test rerollWaitsForTheNewSaltAndThenEveryPlaceAgrees() started.
+◇ Test theStaticScreenCacheIsBounded() started.
+◇ Test layoutSurvivesTheLargestSeatNumbers() started.
+◇ Test departedSessionsAreForgottenByTheScene(animate:) started.
+◇ Test aSessionThatComesBackWalksInAgainInsteadOfSittingDownAtOnce() started.
+◇ Test writeBGRAWithAPartlyOutsideCropWritesOnlyTheOverlap() started.
+◇ Test aPerformerSurvivesInsaneToolTimestamps() started.
+◇ Test officeSceneRendersWithWildSeatNumbers() started.
+◇ Test rerollingInTheDemoBumpsTheSaltOfThatBuddyOnly() started.
+◇ Test demoModesWithNonsenseParametersDoNotCrashOrExplode() started.
+◇ Test hitIDsNeverOverflowAndStayInTheOfficeRange() started.
+◇ Test safeIntNeverTraps() started.
+◇ Test whiteboardTallyNeverTrapsAndNegativeCountsAsZero() started.
+◇ Test writeBGRAWithACropOutsideTheCanvasWritesNothing() started.
+◇ Test layoutCapsTheDeskCountWhateverTheSeatNumberIs() started.
+◇ Test case passing 1 argument future → false to "R3a P2-2 桌面元数据的 lastFocusedAt 在 30 天以后：未读照样亮（和「一小时前」一样），不能让「未读」永远不亮" started.
+◇ Test case passing 1 argument future → true to "R3a P2-2 桌面元数据的 lastFocusedAt 在 30 天以后：未读照样亮（和「一小时前」一样），不能让「未读」永远不亮" started.
+FSEvents 模式延迟：p50 12 ms, max 18 ms
+回放开始（根目录 /var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/buddy-replay-test-AF912F4E-A2C7-45D7-B34E-AF68B30841A7）
+  文件监听: 纯轮询（每 50 ms）
+  ✓ 启动时办公室是空的         
+  ✓ 进场：新会话走进办公室（登记表 idle）     93 ms
+  ✓ 思考：一轮开始（登记表 busy + UserPromptSubmit）     24 ms
+  ✓ 读：Read app.swift     41 ms
+◇ Test case passing 2 arguments count → 1, viewportW → 168 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+◇ Test case passing 2 arguments count → 1, viewportW → 224 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+◇ Test case passing 2 arguments count → 1, viewportW → 336 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+  ✓ 读完：回到思考     39 ms
+◇ Test case passing 2 arguments count → 1, viewportW → 448 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+  ✓ 并行搜索：Grep + Glob 同一毫秒（×2）     39 ms
+◇ Test case passing 2 arguments count → 4, viewportW → 168 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+  ✓ 搜索完：回到思考     44 ms
+◇ Test case passing 2 arguments count → 4, viewportW → 224 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+◇ Test case passing 2 arguments count → 4, viewportW → 336 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+  ✓ 改代码：Edit     35 ms
+✔ Test versionIsSet() passed after 12.744 seconds.
+◇ Test case passing 2 arguments count → 4, viewportW → 448 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+◇ Test case passing 2 arguments count → 6, viewportW → 168 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+  ✓ 改完：回到思考     40 ms
+◇ Test case passing 2 arguments count → 6, viewportW → 224 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+◇ Test case passing 2 arguments count → 6, viewportW → 336 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+  ✓ 长 Bash 开始     30 ms
+  ✓ 长 Bash 跑了 61 分钟：依然是 busy + Bash（不因时间判死）         
+◇ Test case passing 2 arguments count → 6, viewportW → 448 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+◇ Test case passing 2 arguments count → 12, viewportW → 168 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+  ✓ 长 Bash 结束     39 ms
+◇ Test case passing 2 arguments count → 12, viewportW → 224 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+◇ Test case passing 2 arguments count → 12, viewportW → 336 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+  ✓ 等批准：Bash git push（permission prompt）     45 ms
+◇ Test case passing 2 arguments count → 12, viewportW → 448 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+◇ Test case passing 2 arguments count → 20, viewportW → 168 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+  ✓ 批准了：回到 busy，不再等你     42 ms
+◇ Test case passing 2 arguments count → 20, viewportW → 224 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+◇ Test case passing 2 arguments count → 20, viewportW → 336 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+  ✓ 提问：AskUserQuestion（detail 是选项描述，不能当问题）     39 ms
+◇ Test case passing 2 arguments count → 20, viewportW → 448 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+  ✓ 回答了：回到 busy     45 ms
+◇ Test case passing 1 argument seed → 1 to "z2 更脏的随机回放：会话记录 / 小助手 / 桌面元数据 / 压缩 / 通知 / markSeen 混在一起，每一步快照都满足不变量" started.
+◇ Test case passing 1 argument seed → 2 to "z2 更脏的随机回放：会话记录 / 小助手 / 桌面元数据 / 压缩 / 通知 / markSeen 混在一起，每一步快照都满足不变量" started.
+  ✓ 计划待审：ExitPlanMode     40 ms
+◇ Test case passing 1 argument seed → 3 to "z2 更脏的随机回放：会话记录 / 小助手 / 桌面元数据 / 压缩 / 通知 / markSeen 混在一起，每一步快照都满足不变量" started.
+◇ Test case passing 1 argument seed → 4 to "z2 更脏的随机回放：会话记录 / 小助手 / 桌面元数据 / 压缩 / 通知 / markSeen 混在一起，每一步快照都满足不变量" started.
+◇ Test case passing 1 argument seed → 5 to "z2 更脏的随机回放：会话记录 / 小助手 / 桌面元数据 / 压缩 / 通知 / markSeen 混在一起，每一步快照都满足不变量" started.
+  ✓ 计划批准了：回到 busy     35 ms
+◇ Test case passing 1 argument seed → 6 to "z2 更脏的随机回放：会话记录 / 小助手 / 桌面元数据 / 压缩 / 通知 / markSeen 混在一起，每一步快照都满足不变量" started.
+◇ Test case passing 1 argument seed → 7 to "z2 更脏的随机回放：会话记录 / 小助手 / 桌面元数据 / 压缩 / 通知 / markSeen 混在一起，每一步快照都满足不变量" started.
+  ✓ 派 3 个前台子代理：主线程 Agent ×3     44 ms
+◇ Test case passing 1 argument seed → 8 to "z2 更脏的随机回放：会话记录 / 小助手 / 桌面元数据 / 压缩 / 通知 / markSeen 混在一起，每一步快照都满足不变量" started.
+◇ Test case passing 1 argument seed → 9 to "z2 更脏的随机回放：会话记录 / 小助手 / 桌面元数据 / 压缩 / 通知 / markSeen 混在一起，每一步快照都满足不变量" started.
+  ✓ 前台小助手干活：它们的工具调用不算主线程的     41 ms
+◇ Test case passing 1 argument seed → 10 to "z2 更脏的随机回放：会话记录 / 小助手 / 桌面元数据 / 压缩 / 通知 / markSeen 混在一起，每一步快照都满足不变量" started.
+◇ Test case passing 1 argument seed → 11 to "z2 更脏的随机回放：会话记录 / 小助手 / 桌面元数据 / 压缩 / 通知 / markSeen 混在一起，每一步快照都满足不变量" started.
+  ✓ 前台小助手做完、Agent 返回：回到思考     21 ms
+◇ Test case passing 1 argument seed → 1 to "z1 参考模型对拍：随机事件流里，阶段、主线程打开的调用（个数和顺序）、忙碌 / 等待时的动作每一步都和任务书规则一致" started.
+◇ Test case passing 1 argument seed → 12 to "z2 更脏的随机回放：会话记录 / 小助手 / 桌面元数据 / 压缩 / 通知 / markSeen 混在一起，每一步快照都满足不变量" started.
+◇ Test case passing 1 argument seed → 2 to "z1 参考模型对拍：随机事件流里，阶段、主线程打开的调用（个数和顺序）、忙碌 / 等待时的动作每一步都和任务书规则一致" started.
+  ✓ 后台子代理：Agent 立刻返回，主线程继续读文件，小助手在自己跑 Bash     44 ms
+◇ Test case passing 1 argument seed → 13 to "z2 更脏的随机回放：会话记录 / 小助手 / 桌面元数据 / 压缩 / 通知 / markSeen 混在一起，每一步快照都满足不变量" started.
+◇ Test case passing 1 argument seed → 3 to "z1 参考模型对拍：随机事件流里，阶段、主线程打开的调用（个数和顺序）、忙碌 / 等待时的动作每一步都和任务书规则一致" started.
+◇ Test case passing 1 argument seed → 14 to "z2 更脏的随机回放：会话记录 / 小助手 / 桌面元数据 / 压缩 / 通知 / markSeen 混在一起，每一步快照都满足不变量" started.
+  ✓ 主线程读完     28 ms
+◇ Test case passing 1 argument seed → 4 to "z1 参考模型对拍：随机事件流里，阶段、主线程打开的调用（个数和顺序）、忙碌 / 等待时的动作每一步都和任务书规则一致" started.
+◇ Test case passing 1 argument seed → 15 to "z2 更脏的随机回放：会话记录 / 小助手 / 桌面元数据 / 压缩 / 通知 / markSeen 混在一起，每一步快照都满足不变量" started.
+◇ Test case passing 1 argument seed → 5 to "z1 参考模型对拍：随机事件流里，阶段、主线程打开的调用（个数和顺序）、忙碌 / 等待时的动作每一步都和任务书规则一致" started.
+  ✓ 压缩：PreCompact → 整理上下文     36 ms
+◇ Test case passing 1 argument seed → 16 to "z2 更脏的随机回放：会话记录 / 小助手 / 桌面元数据 / 压缩 / 通知 / markSeen 混在一起，每一步快照都满足不变量" started.
+◇ Test case passing 1 argument seed → 6 to "z1 参考模型对拍：随机事件流里，阶段、主线程打开的调用（个数和顺序）、忙碌 / 等待时的动作每一步都和任务书规则一致" started.
+◇ Test case passing 1 argument seed → 7 to "z1 参考模型对拍：随机事件流里，阶段、主线程打开的调用（个数和顺序）、忙碌 / 等待时的动作每一步都和任务书规则一致" started.
+  ✓ 压缩完：PostCompact → 回到思考     42 ms
+◇ Test case passing 1 argument seed → 8 to "z1 参考模型对拍：随机事件流里，阶段、主线程打开的调用（个数和顺序）、忙碌 / 等待时的动作每一步都和任务书规则一致" started.
+  ✓ API 重试：第 2 次 / 共 10 次     57 ms
+◇ Test case passing 1 argument seed → 9 to "z1 参考模型对拍：随机事件流里，阶段、主线程打开的调用（个数和顺序）、忙碌 / 等待时的动作每一步都和任务书规则一致" started.
+◇ Test case passing 1 argument seed → 10 to "z1 参考模型对拍：随机事件流里，阶段、主线程打开的调用（个数和顺序）、忙碌 / 等待时的动作每一步都和任务书规则一致" started.
+  ✓ 重试窗口（retryInMs + 15 秒）过后没有新行：不再显示重试         
+◇ Test case passing 1 argument seed → 11 to "z1 参考模型对拍：随机事件流里，阶段、主线程打开的调用（个数和顺序）、忙碌 / 等待时的动作每一步都和任务书规则一致" started.
+◇ Test case passing 1 argument seed → 12 to "z1 参考模型对拍：随机事件流里，阶段、主线程打开的调用（个数和顺序）、忙碌 / 等待时的动作每一步都和任务书规则一致" started.
+  ✓ 出错：重试到上限 + 合成的 API 错误，登记表 idle     42 ms
+◇ Test case passing 1 argument seed → 13 to "z1 参考模型对拍：随机事件流里，阶段、主线程打开的调用（个数和顺序）、忙碌 / 等待时的动作每一步都和任务书规则一致" started.
+◇ Test case passing 1 argument seed → 14 to "z1 参考模型对拍：随机事件流里，阶段、主线程打开的调用（个数和顺序）、忙碌 / 等待时的动作每一步都和任务书规则一致" started.
+◇ Test case passing 1 argument seed → 15 to "z1 参考模型对拍：随机事件流里，阶段、主线程打开的调用（个数和顺序）、忙碌 / 等待时的动作每一步都和任务书规则一致" started.
+◇ Test case passing 1 argument seed → 16 to "z1 参考模型对拍：随机事件流里，阶段、主线程打开的调用（个数和顺序）、忙碌 / 等待时的动作每一步都和任务书规则一致" started.
+  ✓ 被打断：新一轮开始     83 ms
+  ✓ 被打断：用户按了停止（没有 Stop 事件）     40 ms
+  ✓ 3 秒后：被打断的状态消退，回到空闲         
+  ✓ 做完：新一轮开始     86 ms
+  ✓ 做完：Stop + 登记表 idle → 做完了（未读）     46 ms
+  ✓ 做完：桌面的本轮总结是 blocked（需要你处理）     83 ms
+  ✓ 6 秒后：做完了消退成空闲，但 blocked / 未读保持         
+  ✓ 空闲超过 10 分钟：打盹         
+  ✓ 空闲超过 45 分钟：睡着         
+  ✓ 进程被回收：登记文件消失，先防抖 3 秒（还在场）         
+  ✓ 防抖 3 秒后：离场，下班工位（桌面会话、元数据还在）         
+  ✓ 同一个身份回来：新进程带着同一个 hostSessionId     89 ms
+  ✓ 终端会话（无 hostSessionId）进场：key 是 t:<sessionId>     88 ms
+  ✓ 终端会话进程结束：离场后不是下班工位         
+  ✓ 8 秒后收回工位         
+  诊断：文件监听: 纯轮询（每 50 ms） | 登记表: 正常（1 个文件） | hook: 部分会话没有事件（0/1） | 会话记录: 有 1 个会话没找到文件 | 桌面元数据: 正常（1 个） | token 统计: 正常
+
+步骤 43 个，通过 43，失败 0
+写文件 → 快照回调延迟（全部步骤）：p50 42 ms  p95 89 ms  max 93 ms
+登记表变化 → 快照回调延迟（15 步）：p50 45 ms  p95 93 ms  max 93 ms
+✓ 回放通过
+假数据留在：/var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/buddy-replay-test-AF912F4E-A2C7-45D7-B34E-AF68B30841A7
+◇ Test case passing 1 argument scene → "office" to retainedRenderingMatchesFullRedrawWithNobodyAtAll(scene:) started.
+◇ Test case passing 1 argument scene → "tank" to retainedRenderingMatchesFullRedrawWithNobodyAtAll(scene:) started.
+◇ Test case passing 1 argument scene → "strip" to retainedRenderingMatchesFullRedrawWithNobodyAtAll(scene:) started.
+◇ Test case passing 1 argument scene → "tank" to tankAndStripHaveNoFlicker(scene:) started.
+◇ Test case passing 1 argument scene → "strip" to tankAndStripHaveNoFlicker(scene:) started.
+◇ Test case passing 1 argument zoom → 1 to officeHasNoFlickerAtEveryZoom(zoom:) started.
+◇ Test case passing 1 argument zoom → 2 to officeHasNoFlickerAtEveryZoom(zoom:) started.
+◇ Test case passing 1 argument zoom → 3 to officeHasNoFlickerAtEveryZoom(zoom:) started.
+◇ Test case passing 1 argument scene → "office" to retainedRenderingMatchesFullRedrawPixelForPixel(scene:) started.
+◇ Test case passing 1 argument scene → "tank" to retainedRenderingMatchesFullRedrawPixelForPixel(scene:) started.
+◇ Test case passing 1 argument scene → "strip" to retainedRenderingMatchesFullRedrawPixelForPixel(scene:) started.
+◇ Test case passing 1 argument scene → "office" to retainedRenderingMatchesFullRedrawWithMoreThanEightPeople(scene:) started.
+◇ Test case passing 1 argument scene → "tank" to retainedRenderingMatchesFullRedrawWithMoreThanEightPeople(scene:) started.
+◇ Test case passing 1 argument scene → "strip" to retainedRenderingMatchesFullRedrawWithMoreThanEightPeople(scene:) started.
+◇ Test case passing 1 argument zoom → 1 to emptyOfficeSignIsReadableAndDrawnOnTopOfTheDesks(zoom:) started.
+◇ Test case passing 1 argument zoom → 2 to emptyOfficeSignIsReadableAndDrawnOnTopOfTheDesks(zoom:) started.
+◇ Test case passing 1 argument zoom → 3 to emptyOfficeSignIsReadableAndDrawnOnTopOfTheDesks(zoom:) started.
+◇ Test case passing 1 argument zoom → 4 to emptyOfficeSignIsReadableAndDrawnOnTopOfTheDesks(zoom:) started.
+◇ Test case passing 1 argument zoom → 5 to emptyOfficeSignIsReadableAndDrawnOnTopOfTheDesks(zoom:) started.
+◇ Test case passing 1 argument zoom → 3 to twoLinePlateTextStaysInsideThePlate(zoom:) started.
+◇ Test case passing 1 argument zoom → 4 to twoLinePlateTextStaysInsideThePlate(zoom:) started.
+◇ Test case passing 1 argument zoom → 5 to twoLinePlateTextStaysInsideThePlate(zoom:) started.
+◇ Test case passing 2 arguments win → Window(name: "默认", wPt: 672, hPt: 678), zoom → 2 to hoverCardAlwaysAppearsInsideTheWindowWithoutCoveringItsOwner(win:zoom:) started.
+◇ Test case passing 2 arguments win → Window(name: "默认", wPt: 672, hPt: 678), zoom → 3 to hoverCardAlwaysAppearsInsideTheWindowWithoutCoveringItsOwner(win:zoom:) started.
+◇ Test case passing 2 arguments win → Window(name: "默认", wPt: 672, hPt: 678), zoom → 4 to hoverCardAlwaysAppearsInsideTheWindowWithoutCoveringItsOwner(win:zoom:) started.
+◇ Test case passing 2 arguments win → Window(name: "最小", wPt: 200, hPt: 220), zoom → 2 to hoverCardAlwaysAppearsInsideTheWindowWithoutCoveringItsOwner(win:zoom:) started.
+◇ Test case passing 2 arguments win → Window(name: "最小", wPt: 200, hPt: 220), zoom → 3 to hoverCardAlwaysAppearsInsideTheWindowWithoutCoveringItsOwner(win:zoom:) started.
+◇ Test case passing 1 argument size → 10 to emojiInkStaysInsideTheCJKInkRange(size:) started.
+◇ Test case passing 2 arguments win → Window(name: "最小", wPt: 200, hPt: 220), zoom → 4 to hoverCardAlwaysAppearsInsideTheWindowWithoutCoveringItsOwner(win:zoom:) started.
+◇ Test case passing 1 argument size → 11 to emojiInkStaysInsideTheCJKInkRange(size:) started.
+◇ Test case passing 1 argument size → 12 to emojiInkStaysInsideTheCJKInkRange(size:) started.
+◇ Test case passing 2 arguments win → Window(name: "很窄", wPt: 260, hPt: 700), zoom → 2 to hoverCardAlwaysAppearsInsideTheWindowWithoutCoveringItsOwner(win:zoom:) started.
+◇ Test case passing 1 argument size → 13 to emojiInkStaysInsideTheCJKInkRange(size:) started.
+◇ Test case passing 2 arguments win → Window(name: "很窄", wPt: 260, hPt: 700), zoom → 3 to hoverCardAlwaysAppearsInsideTheWindowWithoutCoveringItsOwner(win:zoom:) started.
+◇ Test case passing 2 arguments win → Window(name: "很窄", wPt: 260, hPt: 700), zoom → 4 to hoverCardAlwaysAppearsInsideTheWindowWithoutCoveringItsOwner(win:zoom:) started.
+◇ Test case passing 2 arguments win → Window(name: "矮宽", wPt: 900, hPt: 260), zoom → 2 to hoverCardAlwaysAppearsInsideTheWindowWithoutCoveringItsOwner(win:zoom:) started.
+◇ Test case passing 2 arguments win → Window(name: "矮宽", wPt: 900, hPt: 260), zoom → 3 to hoverCardAlwaysAppearsInsideTheWindowWithoutCoveringItsOwner(win:zoom:) started.
+◇ Test case passing 2 arguments win → Window(name: "矮宽", wPt: 900, hPt: 260), zoom → 4 to hoverCardAlwaysAppearsInsideTheWindowWithoutCoveringItsOwner(win:zoom:) started.
+◇ Test case passing 2 arguments clock → "12:00", zoom → 2 to plateTextMeetsContrastAtAnyTimeOfDay(clock:zoom:) started.
+◇ Test case passing 2 arguments clock → "12:00", zoom → 3 to plateTextMeetsContrastAtAnyTimeOfDay(clock:zoom:) started.
+◇ Test case passing 2 arguments clock → "12:00", zoom → 4 to plateTextMeetsContrastAtAnyTimeOfDay(clock:zoom:) started.
+◇ Test case passing 2 arguments clock → "12:00", zoom → 5 to plateTextMeetsContrastAtAnyTimeOfDay(clock:zoom:) started.
+◇ Test case passing 2 arguments clock → "23:00", zoom → 2 to plateTextMeetsContrastAtAnyTimeOfDay(clock:zoom:) started.
+◇ Test case passing 2 arguments clock → "23:00", zoom → 3 to plateTextMeetsContrastAtAnyTimeOfDay(clock:zoom:) started.
+◇ Test case passing 2 arguments clock → "23:00", zoom → 4 to plateTextMeetsContrastAtAnyTimeOfDay(clock:zoom:) started.
+◇ Test case passing 2 arguments clock → "23:00", zoom → 5 to plateTextMeetsContrastAtAnyTimeOfDay(clock:zoom:) started.
+◇ Test case passing 2 arguments clock → "05:30", zoom → 2 to plateTextMeetsContrastAtAnyTimeOfDay(clock:zoom:) started.
+◇ Test case passing 2 arguments clock → "05:30", zoom → 3 to plateTextMeetsContrastAtAnyTimeOfDay(clock:zoom:) started.
+◇ Test case passing 2 arguments clock → "05:30", zoom → 4 to plateTextMeetsContrastAtAnyTimeOfDay(clock:zoom:) started.
+◇ Test case passing 2 arguments clock → "05:30", zoom → 5 to plateTextMeetsContrastAtAnyTimeOfDay(clock:zoom:) started.
+◇ Test case passing 1 argument zoom → 2 to emojiTitlesNeverLeaveTheirPlateOrCard(zoom:) started.
+◇ Test case passing 1 argument zoom → 3 to emojiTitlesNeverLeaveTheirPlateOrCard(zoom:) started.
+◇ Test case passing 1 argument zoom → 4 to emojiTitlesNeverLeaveTheirPlateOrCard(zoom:) started.
+◇ Test case passing 1 argument zoom → 5 to emojiTitlesNeverLeaveTheirPlateOrCard(zoom:) started.
+✔ Test onlyDevelopmentFlagsTurnLoggingOn() passed after 40.352 seconds.
+✔ Test aHeavyTickNeverSchedulesTheNextOneBackToBack() passed after 40.371 seconds.
+✔ Test aHighRateMouseCannotDriveTheTicksAboveThirtyFps() passed after 40.390 seconds.
+✔ Test sessionTitlesNeverGoIntoTheLog() passed after 40.413 seconds.
+✔ Test theNSLogAuditCatchesTheOldSpellings() passed after 40.514 seconds.
+✔ Test aSymlinkAtTheLogPathIsNeverFollowed() passed after 40.532 seconds.
+✔ Test linesAreAppendedToAPrivateFileInAPrivateDirectory() passed after 40.554 seconds.
+✔ Test theAuditsCatchTheirTargetsAndIgnoreLookAlikes() passed after 40.573 seconds.
+✔ Test wakingStillPullsALateTickForwardImmediately() passed after 40.594 seconds.
+✔ Test aDesktopSessionWaitsEightSecondsForTheTurnSummary() passed after 40.622 seconds.
+✔ Test noDebugLogCallInterpolatesASessionTitle() passed after 40.646 seconds.
+✔ Test settingsSwitchesTurnTheKindsOff() passed after 40.668 seconds.
+✔ Test noNSLogUsesAnInterpolatedFormatString() passed after 40.694 seconds.
+✔ Test theLogIsRotatedInsteadOfGrowingForever() passed after 40.721 seconds.
+✔ Test alertsWithinTwoSecondsOfEachOtherMergeIntoOne() passed after 40.740 seconds.
+✔ Test shorteningOrderIsCommandThenToolThenGeneric() passed after 40.760 seconds.
+✔ Test desktopSessionYouAreLookingAtNeverAlertsForThatWholeWait() passed after 40.787 seconds.
+✔ Test hidingABuddyWhoIsAlreadyAlertingClearsTheAlert() passed after 40.809 seconds.
+✔ Test theMergedNotificationIsClearedWhenNobodyIsWaitingAnymore() passed after 40.833 seconds.
+✔ Test desktopSessionsAreSkippedWhenIncludeDesktopIsOff() passed after 40.855 seconds.
+✔ Test alertsTwoSecondsOrMoreApartStayApart() passed after 40.878 seconds.
+✔ Test theOldDeepLinkNoticeWasTruncatedAndTheNewOneFits() passed after 40.903 seconds.
+✔ Test everyFixedAlertTextFits() passed after 40.926 seconds.
+✔ Test waitingKeysAreImmediateButTheDockBounceUsesTheSameDebounce() passed after 40.944 seconds.
+✔ Test sameBuddySameKindIsThrottledForTwentySeconds() passed after 40.969 seconds.
+✔ Test aWaitBlipShorterThanTheDebounceNeverAlertsAndClearsItsNotification() passed after 40.996 seconds.
+✔ Test terminalSessionWaitsEightSecondsThenChecksAgainWhetherYouAreStillLooking() passed after 41.016 seconds.
+✔ Test onlyNotificationServiceTouchesTheUserNotificationCenter() passed after 41.039 seconds.
+✔ Test approvalBodiesFitNoMatterHowLongTheToolOrTheCommandIs() passed after 41.064 seconds.
+✔ Test failuresNeverCrash() passed after 41.085 seconds.
+✔ Test titlesAreAlwaysDisplayable() passed after 41.103 seconds.
+✔ Test approvalWordingThatAlreadyFitsIsUnchanged() passed after 41.130 seconds.
+✔ Test aTerminalFinishedAlertAlsoWaitsEightSecondsWhenYouAreLooking() passed after 41.157 seconds.
+✔ Test questionPlanAndOtherWaitsHaveTheirOwnWording() passed after 41.179 seconds.
+✔ Test finishedAlertNeedsAnUninterruptedTurnOfAtLeast30Seconds() passed after 41.204 seconds.
+✔ Test aPendingFinishedAlertIsDroppedIfTheNextTurnAlreadyStarted() passed after 41.228 seconds.
+✔ Test waitingBranchNeverSkipsThePerSnapshotBookkeeping() passed after 41.250 seconds.
+✔ Test hiddenBuddiesAreMutedNoAlertNoBadgeNoBounce() passed after 41.277 seconds.
+✔ Test errorAlertsAreOffByDefaultAndThrottledWhenOn() passed after 41.304 seconds.
+✔ Test theSameBuddyAlertingTwiceIsNotAMerge() passed after 41.331 seconds.
+✔ Test approvalAlertWaitsExactlyOneAndAHalfSecondThenFiresOnce() passed after 41.357 seconds.
+✔ Test everyNormallyFinishedTurnIsCountedForTheWhiteboardEvenWhenNoAlertIsSent() passed after 41.380 seconds.
+✔ Test workflowSubagentsInNestedDirectoriesAreDiscovered() passed after 41.409 seconds.
+✔ Test mergedFinishedAndMixedNotificationsUseTheirOwnWords() passed after 41.438 seconds.
+✔ Test changingTheKindOfWaitRestartsTheDebounce() passed after 41.469 seconds.
+✔ Test helperStopsBeingActiveAfter90SecondsWithoutWrites() passed after 41.501 seconds.
+✔ Test noForceTryNoForceCastAndFatalErrorOnlyInRequiredInits() passed after 41.530 seconds.
+✔ Test unmatchedEventIsHeldFor400msThenAttributedToTheMainThread() passed after 41.555 seconds.
+✔ Test helperIsDoneWhenLastAssistantIsEndTurnWithNoOpenTool() passed after 41.590 seconds.
+✔ Test busyMainWithBackgroundHelperUsesTranscriptsToTellThemApart() passed after 41.614 seconds.
+✔ Test foregroundAgentHelpersDoNotStealTheMainThreadActivity() passed after 41.635 seconds.
+✔ Test idleMainSessionsBackgroundHelperEventsGoToTheHelper() passed after 41.657 seconds.
+✔ Test heldEventIsReleasedAsSoonAsTheTranscriptMatches() passed after 41.681 seconds.
+✔ Test theLoginSwitchFallsBackToOffWhenEnablingFailed() passed after 41.710 seconds.
+✔ Test aPendingApprovalIsNotReportedAsEnabled() passed after 41.738 seconds.
+✔ Test fastWorkFinishesBeforeWeReturn() passed after 41.760 seconds.
+✔ Test tallyKeysOlderThanThirtyDaysAreStale() passed after 41.783 seconds.
+✔ Test privacyModeHidesTheTitleAndTheCommand() passed after 41.825 seconds.
+✔ Test threeBuddiesMergeIntoThree() passed after 41.846 seconds.
+✔ Test approvalToolComesFromTheNotificationWhenNothingIsOpen() passed after 41.873 seconds.
+✔ Test differentKindsAndDifferentBuddiesAreNotThrottledAgainstEachOther() passed after 41.895 seconds.
+✔ Test interruptedLasts3SecondsThenIdle() passed after 41.917 seconds.
+✔ Test aHiddenBuddysFinishedTurnsStillCountForTheWhiteboardButNeverAlert() passed after 41.943 seconds.
+✔ Test aSessionBusyForAnHourIsStillBusy() passed after 41.966 seconds.
+✔ Test waitingIsNeverOverriddenByHooks() passed after 41.997 seconds.
+✔ Test unknownWaitingTextIsClassifiedByKeywords() passed after 42.019 seconds.
+✔ Test retryingWithinRetryInMsPlus15Seconds() passed after 42.047 seconds.
+✔ Test busyShowsTheNewestOpenToolWithParallelCount() passed after 42.075 seconds.
+✔ Test compactingWhenPreCompactHasNoPostCompact() passed after 42.098 seconds.
+✔ Test idleThenDozingThenSleepingAtTheThresholds() passed after 42.129 seconds.
+✔ Test sandboxRequestIsApproval() passed after 42.154 seconds.
+✔ Test finishedLasts5SecondsThenIdle() passed after 42.186 seconds.
+✔ Test pruningRemovesOnlyOurStaleTallyKeys() passed after 42.202 seconds.
+✔ Test busyWithoutToolsIsThinking() passed after 42.226 seconds.
+✔ Test notificationNamesTheToolAmongParallelOnes() passed after 42.254 seconds.
+✔ Test inputNeededAndDialogOpenAreQuestions() passed after 42.276 seconds.
+✔ Test compactingExpiresIfPostCompactNeverArrives() passed after 42.295 seconds.
+✔ Test nextChangeTellsWhenTimeWillChangeTheResult() passed after 42.317 seconds.
+✔ Test permissionPromptIsApprovalWithTheNewestOpenTool() passed after 42.336 seconds.
+✔ Test askUserQuestionNotificationSaysPermissionButItIsAQuestion() passed after 42.354 seconds.
+✔ Test unknownIdleSinceIsPlainIdle() passed after 42.383 seconds.
+✔ Test registryIdleButNewerPromptIsTemporarilyBusyForAtMost3Seconds() passed after 42.405 seconds.
+✔ Test retryingBeatsOpenTools() passed after 42.428 seconds.
+✔ Test missingWaitingForFallsBackToNotificationText() passed after 42.455 seconds.
+✔ Test missingRegistryStatusFallsBackToHooks() passed after 42.474 seconds.
+✔ Test diagnosticsTextListsEverythingTheSettingsPageShows() passed after 42.493 seconds.
+✔ Test erroredStaysUntilDozing() passed after 42.516 seconds.
+✔ Test afterSeatsAndSessionsChangeAClickStillResolvesToWhoSitsThereNow() passed after 42.540 seconds.
+✔ Test nonPermissionWaitsFromTerminalSessions() passed after 42.559 seconds.
+✔ Test deepLinkRules() passed after 42.578 seconds.
+✔ Test notificationClicksRouteCorrectly() passed after 42.598 seconds.
+✔ Test toolNameParsingFromNotification() passed after 42.615 seconds.
+✔ Test exitPlanModeWhileWaitingIsPlanReview() passed after 42.634 seconds.
+✔ Test deepLinkVerdictAfterTwoAndAHalfSeconds() passed after 42.659 seconds.
+✔ Test terminalAndVSCodeTargets() passed after 42.683 seconds.
+✔ Test plateStripPixelsCarryNoObjectIDSoClickingThePlateDoesNothing() passed after 42.703 seconds.
+✔ Test aKeyThatIsNoLongerPresentResolvesToNothing() passed after 42.732 seconds.
+✔ Test registryBusyButNewerStopIsTemporarilyIdle() passed after 42.762 seconds.
+✔ Test compactingFromTranscriptBoundary() passed after 42.788 seconds.
+✔ Test theTerminalScriptHasATimeoutAndOnlyAcceptsRealTTYNames() passed after 42.811 seconds.
+✔ Test everySeatMapsToItsOwnSessionAndItsOwnTarget() passed after 42.832 seconds.
+✔ Test danglingSeatsNeverJump() passed after 42.856 seconds.
+✔ Test theUserManualDoesNotClaimThatThePlateIsClickable() passed after 42.884 seconds.
+✔ Test bootstrapReadsOnlyTheTailWindowOfABigFile() passed after 42.909 seconds.
+✔ Test abortedMidStreamAssistantIsAnInterrupt() passed after 42.929 seconds.
+✔ Test rewrittenFileDropsStaleFacts() passed after 42.947 seconds.
+✔ Test stopHookSummaryEndTurnAndTurnDuration() passed after 42.969 seconds.
+✔ Test apiErrorIsRecordedWithRetryInfo() passed after 43.076 seconds.
+✔ Test metaUserLinesAreSkipped() passed after 43.131 seconds.
+✔ Test sidechainLinesBelongToOthersInTheMainFile() passed after 43.175 seconds.
+✔ Test toolUseIsOpenUntilItsResultArrives() passed after 43.221 seconds.
+✔ Test userInterruptTextIsDetectedInBothShapes() passed after 43.243 seconds.
+✔ Test locatorFindsTheFileByGlobbingProjectDirectories() passed after 43.264 seconds.
+✔ Test promptsAreRecordedButNeverTheirText() passed after 43.292 seconds.
+✔ Test syntheticApiErrorAssistantIsRecognized() passed after 43.313 seconds.
+✔ Test badJsonLinesAreCountedButDoNotBreakAnything() passed after 43.335 seconds.
+✔ Test titlesAndModelAndContext() passed after 43.365 seconds.
+✔ Test noPathsUnderTheClaudeDirectoryOrSecretFiles() passed after 43.397 seconds.
+✔ Test bookkeepingDoesNotGrowWithEverySessionEverSeen() passed after 43.418 seconds.
+✔ Test noNetworkAndNoCredentialAPIs() passed after 43.441 seconds.
+✔ Test noSubprocessesAndNoThirdPartyImports() passed after 43.464 seconds.
+✔ Test aStuckStopCannotHoldTheMainThreadForLongerThanTheTimeout() passed after 43.489 seconds.
+✔ Test markSeenAndRerollAreSafeFromAnyThread() passed after 43.516 seconds.
+✔ Test pollingStoreDeliversSnapshotsAndEventsOnTheCallbackQueue() passed after 43.536 seconds.
+✔ Test readsLastFocusedThroughFileIOAndSkipsUnreadableEntries() passed after 43.559 seconds.
+✔ Test "chain1 结构：DumpCommand 只造 SessionStore、自己不读任何数据源；App 的 RealProvider 也只造 SessionStore；buddyctl / buddydump 只转发 runDumpCommand" passed after 43.591 seconds.
+✔ Test "4.4-06 元数据里没有表示「运行中」的字段：就算文件里多出这样的键，也不能把 idle 的会话变成 busy" passed after 43.621 seconds.
+✔ Test "5.4-20 busy 的判断顺序是 压缩 → 重试 → 工具 → 思考：同时满足时前面的赢" passed after 43.656 seconds.
+✔ Test "4.2-17 桌面 App 里的会话也触发这些 hook：桌面会话和终端会话喂同一串 hook，动作时间线完全一样" passed after 43.686 seconds.
+✔ Test "5.5-13 App 启动时 lastActivityAt 在 3 小时以内的桌面会话才成为下班工位（2:59:59 进、3:00:01 不进）" passed after 43.712 seconds.
+✔ Test "4.2-04 任务书列出的 10 个 hook 事件都认得；没见过的事件名被忽略" passed after 43.730 seconds.
+✔ Test "5.3-10 归属判错只影响主 buddy，到下一个轮次边界就纠正；小助手自己的动作始终取自它自己的会话记录" passed after 43.769 seconds.
+✔ Test "4.0-02 旧笔记 DATA-SOURCES.md 只是参考：代码里没有任何地方读它，也不依赖 ~/.claude/monitor 下的脚本" passed after 43.796 seconds.
+✔ Test everySettingOfTheSpecExistsWithItsDefaultAndHasAControlInTheSettingsPage() passed after 43.823 seconds.
+✔ Test "4.3-02 目录名以 - 开头也照常找到会话记录（不经过 shell 通配）" passed after 43.845 seconds.
+✔ Test "4.6-05/06 写文件的地方是一份短名单：只有身份和账本两处用 FileIO.writeAtomically，路径都在 Application Support/BuddyOffice 下" passed after 43.871 seconds.
+✔ Test "4.1-13 pidDomain / nameSource / nameSince / updatedAt / peerProtocol / peerFeatures 存在时照常解析；messagingSocketPath 不留下" passed after 43.916 seconds.
+✔ Test testTargetCanImportTheExecutableModule() passed after 43.988 seconds.
+✔ Test stopIsIdempotentAndSilencesCallbacks() passed after 44.099 seconds.
+✔ Test "r1 sysctl 读到的启动时间就是进程真的启动的时候；procStart（整秒）与它相差 < 2 秒算同一个进程，别的时间算被复用；进程退出后 kill(pid,0) 是 ESRCH = 死" passed after 44.157 seconds.
+✔ Test "4.3-40 账本文件最多 30 秒写一次（虚拟时钟：10 秒、29.9 秒都不写，30.1 秒才写）" passed after 44.261 seconds.
+✔ Test "5.3-02 规则 1 的「没有临时 busy」：登记表 idle 但刚提交了提示（临时 busy）时，后台小助手的事件不能直接归小助手" passed after 44.285 seconds.
+✔ Test "4.3-41 退出时也写一次：SessionStore.stop() 把还在 30 秒节流窗口里的增量落盘" passed after 44.306 seconds.
+✔ Test "5.5-15 下班工位超过 4 个时先移走最久没活动的（运行中依次离场 6 个：留下的是最后走的 4 个）" passed after 44.331 seconds.
+✔ Test "4.3-18 cost-state 是进程退出时才写的记账行：不参与任何判断、不计入 token" passed after 44.351 seconds.
+✔ Test "4.4-03/04/05 桌面会话元数据：任务书列出的字段全部读出来；blocked = status_category 是 blocked 且 postTurnSummaryFor 等于 lastAssistantUuid" passed after 44.376 seconds.
+✔ Test "4.1-28 延迟的实测值（waiting 约 49 ms、idle 约 8 ms）套进状态机：时间线对，中间不闪错误的状态" passed after 44.395 seconds.
+✔ Test everyNotifySettingReachesTheAlertConfig() passed after 44.419 seconds.
+✔ Test "4.3-17 turn_duration（终端会话才有）：会话记录里有它时，「本轮用时」以它为准" passed after 44.439 seconds.
+✔ Test "4.6-04/05/06 只读：完整跑一遍引擎（含持久化和 token 账本），假 home 里 ~/.claude、桌面 App 的数据、用量表、Claude.app 一个字节都没变，只有自己的 Application Support/BuddyOffice 里有文件" passed after 44.469 seconds.
+✔ Test shrinkingTheDormantLimitKeepsTheMostRecentlyActiveSeats() passed after 44.494 seconds.
+✔ Test "4.2 extra：Notification / PreCompact / SessionStart / SessionEnd / PostToolUse 的 extra 原样保留；UserPromptSubmit 的 extra（用户输入）一律丢掉" passed after 44.527 seconds.
+✔ Test "4.3-04 流式读取的默认参数是每次最多 1 MiB、单行上限 4 MiB；跨 1 MiB 块边界的行完整交付" passed after 44.555 seconds.
+✔ Test "4.2 detail：按工具取不同的参数；MultiEdit / NotebookEdit / TodoWrite 的 detail 永远是空" passed after 44.575 seconds.
+✔ Test aBusyHookSessionWithAQuietTranscriptStaysOnHooks() passed after 44.605 seconds.
+✔ Test theHoverCardIsRebuiltOnlyWhenItsContentCanHaveChanged() passed after 44.642 seconds.
+✔ Test ifCcmonIsUninstalledMidSessionToolsFallBackToTheTranscript() passed after 44.664 seconds.
+✔ Test mostRecentHostIsTheLargestLastFocusedAndTiesAreDeterministic() passed after 44.689 seconds.
+✔ Test identitiesAndAppearanceSurviveARestart() passed after 44.714 seconds.
+✔ Test aMissingHostIsNeverMostRecentlyFocused() passed after 44.733 seconds.
+✔ Test "5.7 工具归类：任务书表里的每个工具名都落在对应类别（含被 hook 截断的名字），mcp 类带 server 名" passed after 44.758 seconds.
+✔ Test twoRegistryFilesForTheSameSessionMakeOneBuddy() passed after 44.780 seconds.
+✔ Test "4.6-12 不联网、没有第三方依赖：Package.swift 里没有任何 .package 依赖，所有源码只 import 系统框架和自己的四个库" passed after 44.804 seconds.
+✔ Test departureIsDebouncedBy3SecondsAndComingBackCancelsIt() passed after 44.833 seconds.
+✔ Test desktopTokensMergeThePriorCliSessionsAndSubagents() passed after 44.860 seconds.
+✔ Test theMetadataCacheReadsOncePerSecondNotOncePerCall() passed after 44.881 seconds.
+✔ Test focusingTheSessionInTheDesktopAppClearsUnread() passed after 44.905 seconds.
+✔ Test aTerminalSessionOnlyCountsItsCurrentSessionId() passed after 44.925 seconds.
+✔ Test hookActiveMeansAnEventNoOlderThanStartedAtMinus5Seconds() passed after 44.945 seconds.
+✔ Test aLiveSessionIsNotAlsoADormantSeat() passed after 44.975 seconds.
+✔ Test aSummaryForAnOlderAssistantMessageIsNotBlocked() passed after 45.004 seconds.
+✔ Test titlePrecedenceChain() passed after 45.023 seconds.
+✔ Test entrypointsMapToOrigins() passed after 45.041 seconds.
+✔ Test truncatedUnicodeEscapeFallsBackToRegexFields() passed after 45.063 seconds.
+✔ Test aDesktopSessionWithMetadataGoesToADormantSeatAndComesBackToTheSameSeat() passed after 45.087 seconds.
+✔ Test aSeatHeldByADormantBuddyIsNotGivenToNewcomers() passed after 45.112 seconds.
+✔ Test snapshotCallbacksAreLimitedTo20HzEvenUnderAStreamOfChanges() passed after 45.140 seconds.
+✔ Test userPromptIsDroppedAtParseTime() passed after 45.166 seconds.
+✔ Test terminalClearKeepsTheBuddyButSwitchesToTheNewSessionFiles() passed after 45.190 seconds.
+✔ Test unsafeSessionIdsNeverBecomePaths() passed after 45.214 seconds.
+✔ Test notificationTextIsKept() passed after 45.246 seconds.
+✔ Test nonInteractiveSessionsNeverBecomeGhostColleagues() passed after 45.267 seconds.
+✔ Test diagnosticsReportSourcesAndPerSessionHookState() passed after 45.290 seconds.
+✔ Test unknownProbeStateMeansAlive() passed after 45.313 seconds.
+✔ Test garbageLinesAreSkippedWithoutFailingTheWholeFile() passed after 45.342 seconds.
+✔ Test "4.3-43 一次只扫一个文件：所有扫描都在同一条串行后台队列上、pass() 里按顺序逐个 scan，没有任何并发原语" passed after 45.370 seconds.
+✔ Test customTitleJsonInTheSessionDirectoryIsUsed() passed after 45.407 seconds.
+✔ Test normalLine() passed after 45.438 seconds.
+✔ Test askUserQuestionDetailIsNeverKept() passed after 45.473 seconds.
+✔ Test dormantSeatsAtLaunchComeFromRecentlyActiveDesktopSessions() passed after 45.497 seconds.
+✔ Test aFreedSeatIsReusedByTheNextNewcomer() passed after 45.522 seconds.
+✔ Test sessionsPresentAtLaunchSitDownDirectlyAndLaterOnesWalkIn() passed after 45.548 seconds.
+✔ Test unwritableDataDirectoryDoesNotCrashAndIsReportedInDiagnostics() passed after 45.577 seconds.
+✔ Test departedSessionsCompeteForTheFourDormantSeats() passed after 45.600 seconds.
+✔ Test truncatedMcpToolNameKeepsPrefixAndMatchesByPrefix() passed after 45.625 seconds.
+✔ Test dormantSeatsExpireAfter12HoursOrWhenArchivedOrDeleted() passed after 45.654 seconds.
+✔ Test aMissingSessionsDirectoryIsNotACrash() passed after 45.689 seconds.
+✔ Test toolDetailKeyFollowsTheHookRules() passed after 45.714 seconds.
+✔ Test snapshotCarriesTheDescriptiveFields() passed after 45.736 seconds.
+✔ Test titleFallsBackToSessionIdPrefixWhenNothingElseExists() passed after 45.762 seconds.
+✔ Test "4.3-36 token 预过滤：先在字节里找 "usage" 和 "assistant"，命中了才解码——转义拼写的键连解码都轮不到" passed after 45.819 seconds.
+✔ Test snapshotsAreSortedBySeat() passed after 45.842 seconds.
+✔ Test pidReuseIsTreatedAsTheOldProcessBeingGone() passed after 45.865 seconds.
+✔ Test terminalResumeInANewProcessGivesTheSameBuddyBack() passed after 45.889 seconds.
+✔ Test settingsPageOptionsAlwaysContainTheCurrentValue() passed after 45.910 seconds.
+✔ Test mainAndUnknownValuesUseThePrimaryScreen() passed after 45.964 seconds.
+✔ Test aChosenScreenIsFoundByIDThenByNameAndFallsBackToThePrimaryWhenUnplugged() passed after 46.041 seconds.
+✔ Test seatsAreCompactedAtStartup() passed after 46.149 seconds.
+◇ Test case passing 1 argument animate → true to departedSessionsAreForgottenByTheScene(animate:) started.
+✔ Test aSessionWithoutMetadataOrWithAnArchivedOneJustLeaves() passed after 46.197 seconds.
+◇ Test case passing 1 argument animate → false to departedSessionsAreForgottenByTheScene(animate:) started.
+✔ Test blockedComesFromTheDesktopSummaryAndLastsUntilTheNextTurn() passed after 46.496 seconds.
+✔ Test cacheCreationSplitFollowsTheMeterRule() passed after 46.608 seconds.
+✔ Test groupsWithPriorSessionsAreRescannedInsteadOfUsingTheLedger() passed after 46.630 seconds.
+✔ Test truncatedFileIsRescannedFromTheStart() passed after 46.650 seconds.
+✔ Test aBlockedSummaryAlreadyThereAtLaunchShowsBlocked() passed after 46.674 seconds.
+✔ Test missingFilesCountAsScannedZeroNotForeverScanning() passed after 46.716 seconds.
+✔ Test persistenceFailureDegradesToMemoryOnly() passed after 46.741 seconds.
+✔ Test syntheticAndIncompleteLinesAreIgnored() passed after 46.764 seconds.
+✔ Test sameMessageIdIsCountedOnceWithTheMaximumOfEachField() passed after 46.789 seconds.
+✔ Test partialLineIsCountedOnlyOnceItIsComplete() passed after 46.811 seconds.
+✔ Test sumsInputOutputCacheWriteAndCacheRead() passed after 46.837 seconds.
+✔ Test systemProbeSeesThisProcess() passed after 46.857 seconds.
+✔ Test classification() passed after 46.879 seconds.
+✔ Test "f3 桌面本轮总结：completed 不亮 blocked；blocked 落盘得晚（7 秒后，做完了已消退）也亮，只发一次事件，保持到下一轮" passed after 46.899 seconds.
+✔ Test "d6 出错优先于做完了：重试到上限（之后没有新行）又有 Stop 证据时，是出错，不是先闪一下做完了" passed after 46.918 seconds.
+✔ Test "R1a-01 不变量：会话在 busy / quiet / 等待 / 做完 / 打盹……任何时刻，nextWake 都不在过去" passed after 46.940 seconds.
+✔ Test "m2 登记表还是 busy 但有更新的 Stop：暂时当 idle；随后又来一条更新的提示（排队的下一轮）就又是 busy" passed after 46.963 seconds.
+✔ Test aDeadPidWithALeftoverRegistryFileIsGone() passed after 46.988 seconds.
+✔ Test "g1 空闲 10 分钟打盹、45 分钟睡着（默认值；从这一轮结束那一刻起算）" passed after 47.010 seconds.
+✔ Test "e4 登记表先翻 idle、Stop 在 0.4 秒宽限期内到：是「做完了」，不是被打断" passed after 47.033 seconds.
+✔ Test "n2 只打开文件名匹配 ^\d+\.json$ 的文件：.key、.bak、非数字名、多段名一个都不碰（连 stat 也不做）" passed after 47.059 seconds.
+✔ Test ledgerFileRestoresProgressAndDedupesAcrossTheBoundary() passed after 47.081 seconds.
+✔ Test "e2 被打断（hook 正常，busy→idle 没有 Stop）：不能先报「做完了」，0.4 秒后判为被打断，登记表 idle 起 3 秒内消退" passed after 47.099 seconds.
+✔ Test "i5 引擎：kill 成功但 sysctl 读不到启动时间（startTime = nil）当作活着，而且一直活着" passed after 47.119 seconds.
+✔ Test "f2 未读标记恰好三个清除条件：跳转（markSeen）/ 桌面 lastFocusedAt 严格晚于本轮结束 / 下一轮开始；早于或等于都不清" passed after 47.140 seconds.
+✔ Test aBigFileIsScannedFast() passed after 47.164 seconds.
+✔ Test "b9 悬空的调用：SessionEnd 也是轮次边界（任务书清单之外，引擎当边界用）" passed after 47.187 seconds.
+✔ Test "d4 不算出错：重试到了上限，但之后又有 assistant 输出（api_error 不是最后一条）" passed after 47.215 seconds.
+✔ Test dedupeAlsoWorksAcrossPollsAndFiles() passed after 47.241 seconds.
+✔ Test "h2 quiet 恰好是「10 分钟没有增长」：9 分 59 秒不是、10 分 01 秒是；hook 或会话记录任何一个有新内容都会立刻清掉" passed after 47.258 seconds.
+✔ Test "i3 同一个身份（同一个人）在 8 秒收回之前带着新进程回来：坐回原来的工位，发一次「进场」" passed after 47.277 seconds.
+✔ Test mouseFollowsTheScreenTheMouseIsOn() passed after 47.299 seconds.
+✔ Test "i6 引擎：PID 被复用（登记文件还在、pid 也还活着，但启动时间差 3 秒）算离场，同样先防抖 3 秒" passed after 47.318 seconds.
+✔ Test "i1 登记文件消失：先防抖 3 秒（2.95 秒时仍在场，3.05 秒离场，事件只发一次），非下班工位确认离场后 8 秒收回" passed after 47.340 seconds.
+✔ Test "d1 出错：只有「重试到上限」（10/10，之后没有新行），没有合成消息，也是出错，并保持不闪" passed after 47.366 seconds.
+✔ Test subagentTranscriptsAreAddedToTheBuddysTotal() passed after 47.400 seconds.
+✔ Test "o1 整理上下文：真实时序里 compact_boundary 是压缩「结束」时才写的——hook 已经说压缩结束之后，不能再靠它显示整理上下文，压缩完的第一个工具要马上显示" passed after 47.441 seconds.
+✔ Test "R1a-03 hook 掉线判据恰好是「会话记录比 hook 的最后一个事件领先超过 15 秒」：14.9 秒还算在工作，15.1 秒算掉线" passed after 47.466 seconds.
+✔ Test "d2 出错：只有「最后一条 assistant 是合成的 API 错误消息」（isApiErrorMessage）" passed after 47.499 seconds.
+✔ Test "e3 没有 hook 的会话：busy→idle 没有打断标记也没法判断，0.4 秒后当作做完了（不是被打断）" passed after 47.529 seconds.
+✔ Test "R3a P2-2 桌面元数据的 lastActivityAt 在 30 天以后：只当作「刚刚」，下班工位照常在 12 小时后到期，不会永远占着座位" passed after 47.560 seconds.
+✔ Test "b1 悬空的调用：Stop 事件关掉主线程全部打开调用" passed after 47.583 seconds.
+✔ Test aNormalListIsReturnedUntouchedAndOrderIsKept() passed after 47.605 seconds.
+✔ Test "j3 桌面会话在新进程里 resume、登记表里没有 hostSessionId：靠桌面元数据的 cliSessionId / priorCliSessionIds 认出是谁" passed after 47.636 seconds.
+✔ Test whenThereAreNoFreeSeatsLeftNothingCrashes() passed after 47.656 seconds.
+✔ Test "e1 被打断（会话记录里的 [Request interrupted by user）：从登记表 idle 那一刻起显示 3 秒（2.9 秒还在，3.1 秒消退）" passed after 47.677 seconds.
+✔ Test "b7 兜底：登记表 idle 而调用已开超过 30 分钟才强制关（恰好 30 分钟不关，多 1 毫秒关）" passed after 47.702 seconds.
+✔ Test "b4 悬空的调用：登记表变成 idle 关掉主线程全部打开调用" passed after 47.728 seconds.
+✔ Test "b8 兜底（引擎）：空闲期间归到小助手名下的记录，开着超过 30 分钟被丢掉；29 分钟时还在" passed after 47.751 seconds.
+✔ Test wildSeatNumbersBecomeTheSmallestFreeSeats() passed after 47.770 seconds.
+✔ Test "l1 等批准：没有打开的主线程调用时，工具从 Notification 文本里的 `use <T>` 解析" passed after 47.794 seconds.
+✔ Test "n1 登记表写到一半（原地重写）：保留上一份好记录，每 50 ms 重试，读满 5 次后不再读，会话不离场；写完整了立刻更新" passed after 47.824 seconds.
+✔ Test "k2 SubagentStop 只当「总结已生成」的提示：让下一次 poll 马上重读桌面元数据，不改变工具和阶段" passed after 47.847 seconds.
+✔ Test "m1 登记表还是 idle 但有更新的 UserPromptSubmit：暂时当 busy，最多 3 秒（2.9 秒还是 busy，3.1 秒回 idle），只开始一轮" passed after 47.872 seconds.
+✔ Test "R1a-01 busy 又 quiet 的会话：nextWake 要么没有、要么在现在之后（不能让 SessionStore 5 ms 一次空转）" passed after 47.891 seconds.
+✔ Test "e5 一轮结束的证据（Stop / 打断标记 / 都没有）以任何顺序、在 0.4 秒宽限期内的任何时刻到达：结论都对，而且中途绝不先显示错误的结论" passed after 47.923 seconds.
+✔ Test "c2 api_error 之后出现新的 user 行（或 assistant 行）就不再显示重试" passed after 47.950 seconds.
+✔ Test "a3 Post 的 detail 谁也对不上时，退回按工具名关「最早」的那个，之后没有可关的就忽略" passed after 47.975 seconds.
+✔ Test "d5 打断之后的 "No response requested."（合成，但不是 API 错误）不算出错，还是被打断" passed after 47.998 seconds.
+✔ Test "l3 其他等待：goal proposal / worker request 等，附原始文本；批准之后回到 busy 发「不再等你」" passed after 48.025 seconds.
+✔ Test "b3 悬空的调用：SessionStart（/clear、resume 之类）关掉主线程全部打开调用" passed after 48.049 seconds.
+✔ Test "i4 PID 被复用：procStart 和进程实际启动时间相差恰好 2 秒还算同一个进程，超过 2 秒（哪怕 1 毫秒）就是别的进程" passed after 48.075 seconds.
+✔ Test "b6 没有 PostToolUseFailure / 权限被拒：悬空的调用被下一批（>0.25 秒）取代，晚到的 Post 忽略" passed after 48.100 seconds.
+✔ Test "a1 同一毫秒的三个并行 Read：同一批，Post 按 名字+detail 优先、先进先出配对" passed after 48.125 seconds.
+✔ Test "f1 做完了：从 Stop 那一刻起显示 5 秒（4.9 秒还在，5.1 秒消退），未读一直保留" passed after 48.156 seconds.
+✔ Test "l2 提问：input needed / dialog open → 提问；ExitPlanMode 开着 → 计划待审（两种等待文字都一样）" passed after 48.188 seconds.
+✔ Test "k1 前台 Task（不只是 Agent）开着：比它晚 0.15 秒以上的事件归小助手，0.149 秒的同批并行调用还是主线程的" passed after 48.216 seconds.
+✔ Test "k3 有后台小助手活跃、事件对不上任何 tool_use：扣住 0.4 秒（0.39 秒还扣着，0.41 秒归主线程）" passed after 48.242 seconds.
+✔ Test "c1 api_error：显示 第 3 次 / 共 10 次，到 retryInMs(2.5 秒) + 15 秒后没有新行就不再显示" passed after 48.274 seconds.
+✔ Test "R3a P2-2 桌面元数据的 lastFocusedAt 在 30 天以后：未读照样亮（和「一小时前」一样），不能让「未读」永远不亮" with 2 test cases passed after 48.302 seconds.
+✔ Test "i2 桌面会话 + 元数据还在 + 没归档：离场后是下班工位（不会 8 秒后收回）；归档了就是普通离场" passed after 48.324 seconds.
+✔ Test "h1 busy 连续 2 小时（一次推进 2 小时 + 反复心跳）：还在场、还是 busy、还是那个工具，只是 quiet" passed after 48.354 seconds.
+✔ Test "j1 桌面会话在同一个进程里 /clear：key、工位、盐不变，旧会话的东西不带过来，token = 新旧两份会话记录之和" passed after 48.385 seconds.
+✔ Test "j2 终端会话的 key 是 "t:" + 第一次见到的 sessionId：/clear、进程退出后在新进程里 --resume 新的 sessionId，还是同一个人" passed after 48.420 seconds.
+✔ Test "d3 不算出错：重试没到上限（5/10）且之后又有正常的 assistant 输出，Stop 之后是「做完了」" passed after 48.453 seconds.
+✔ Test "TimeUtil.parseISO：截断 / 变异 / 随机字节：不崩溃，结果要么 nil 要么在合理范围；格式化再解析是恒等的" passed after 48.480 seconds.
+✔ Test "ToolCatalog / ToolDetail：随机字符串（含 …、emoji、RTL、超长）不崩溃；截断的名字和完整的名字归到同一类；detail 前缀匹配是对称的" passed after 48.506 seconds.
+✔ Test aHeartbeatArrivesAtLeastOncePerSecondWhenNothingChanges() passed after 48.544 seconds.
+✔ Test "SystemProcessProbe / classify：各种 pid（0 / 负数 / Int32.max / 自己 / launchd）和各种时间：不崩溃，pid ≤ 0 一律当死进程，绝不给别人发信号" passed after 48.571 seconds.
+✔ Test "b5 悬空的调用：会话记录里的 stop_hook_summary 关掉在它之前开始的调用，比它新的调用不受影响" passed after 48.602 seconds.
+✔ Test "登记表：随机字节（各种长度）、样本上的单字节 / 多字节变异：不崩溃；能产出记录时字段合法" passed after 48.628 seconds.
+✔ Test "b2 悬空的调用：UserPromptSubmit 关掉主线程全部打开调用" passed after 48.652 seconds.
+✔ Test "会话记录行在每一个字节位置截断：全部当作“不是完整的 JSON”（nil），只有完整的才解析出事实" passed after 48.675 seconds.
+✔ Test invalidUTF8IsCleanedNotFatal() passed after 48.703 seconds.
+✔ Test timeDrivenChangesHappenOnTimeNotOnTheNextHeartbeat() passed after 48.730 seconds.
+✔ Test "a2 批次间隔恰好 0.25 秒：不算新批；再多 1 毫秒的 0.251 秒才算，并把旧批次悬空的调用关掉" passed after 48.750 seconds.
+✔ Test "桌面元数据：每个字节位置截断都是“写了一半”(nil)；随机字节 / 类型错误 / 巨大数字不崩溃，和独立判断一致" passed after 48.780 seconds.
+✔ Test "登记表在每一个字节位置截断：都当作“写了一半”（nil，保留上一份好的记录），只有完整的才产出记录" passed after 48.804 seconds.
+✔ Test dockReopenCloseAndHotkeyBehaviourIsWiredAsSpecified() passed after 48.839 seconds.
+✔ Test noAccessibilityPermissionAPIsAreUsed() passed after 48.865 seconds.
+✔ Test "ToolTracker + HelperAttributor：随机事件序列（乱序 / 同一毫秒 / 名字被截断 / 时间倒流）：不崩溃，open 有上界，配对后关掉的调用不再出现" passed after 48.887 seconds.
+✔ Test theStripPollingRatesAndDistancesStayAsSpecified() passed after 48.912 seconds.
+✔ Test fsEventsModeWorksWhenTheSystemAllowsIt() passed after 48.943 seconds.
+✔ Test theDesktopLookingRuleUsesTheFrontmostClaudeAndTheMostRecentlyFocusedSession() passed after 48.965 seconds.
+✔ Test "Paths.isSafeID / isRegistryFileName / hookLogPath：和按字节写的独立判断逐个对照（Unicode 数字、换行、NUL、超长、组合字符）" passed after 48.995 seconds.
+✔ Test theContextMenuOffersJumpRerollHideAndOpenOfficeInThatOrder() passed after 49.024 seconds.
+✔ Test hoverCardsAppearAfter250msOnAllThreeSurfaces() passed after 49.054 seconds.
+✔ Test "TranscriptReader：把一堆真实行 + 垃圾行分成随机长度的追加，得到的事实和一次读完完全相同" passed after 49.086 seconds.
+✔ Test "隐私：用户输入、助手文字、工具结果、thinking 的内容永远不会出现在解析出来的事实里" passed after 49.111 seconds.
+✔ Test noBackgroundHelperMeansMain() passed after 49.133 seconds.
+✔ Test theTitleBarButtonsAreWiredToTheThreeActions() passed after 49.155 seconds.
+✔ Test toolUsesFarInThePastDoNotMatch() passed after 49.180 seconds.
+✔ Test "o2 hook 说「压缩结束」的口径：PostCompact / SessionStart(compact) 不早于 compact_boundary 前 5 秒才算；更早的是上一次压缩的，没有 hook 就照旧用会话记录" passed after 49.204 seconds.
+✔ Test eachToolUseIsClaimedOnlyOnce() passed after 49.228 seconds.
+✔ Test rule2ForegroundAgentOpenAndEventLaterThan150ms() passed after 49.257 seconds.
+✔ Test rule3MatchesHelperTranscriptAndIsAttributedToTheHelper() passed after 49.287 seconds.
+✔ Test rule1MainIdleMeansBackgroundHelper() passed after 49.320 seconds.
+✔ Test truncatedHookDetailMatchesByPrefix() passed after 49.347 seconds.
+✔ Test missingFieldsAreOptionalButPidAndSessionIdAreRequired() passed after 49.379 seconds.
+✔ Test rule3AmbiguousMatchGoesToMain() passed after 49.419 seconds.
+✔ Test procStartParsingHandlesPaddingSpaces() passed after 49.478 seconds.
+✔ Test rule3HoldEndsEarlyWhenTheTranscriptCatchesUp() passed after 49.517 seconds.
+✔ Test parsesEveryField() passed after 49.562 seconds.
+✔ Test unreadableDirectoryKeepsPreviousRecords() passed after 49.592 seconds.
+✔ Test rule3NoMatchHoldsFor400msThenGoesToMain() passed after 49.629 seconds.
+✔ Test emptyFileDuringTruncateIsTreatedAsHalfWritten() passed after 49.672 seconds.
+✔ Test removedFilesAreReported() passed after 49.707 seconds.
+✔ Test isoTimestampParsing() passed after 49.738 seconds.
+✔ Test halfWrittenFileKeepsTheLastGoodRecordAndRetriesEvery50ms() passed after 49.781 seconds.
+✔ Test onlyInteractiveSessionsAreShown() passed after 49.821 seconds.
+✔ Test autoQuitNeverQuitsAnotherApp() passed after 49.852 seconds.
+✔ Test noPresentSessionsMeansNothingIsLive() passed after 49.887 seconds.
+✔ Test hiddenBuddiesStillCountAsLiveSessions() passed after 49.926 seconds.
+✔ Test theSwitchIsHonouredBothWhenClaudeQuitsAndWhenTheTimerFires() passed after 49.955 seconds.
+✔ Test fileNamePattern() passed after 49.984 seconds.
+✔ Test theTestEntryPointCountsDownTheGivenSeconds() passed after 50.053 seconds.
+✔ Test claudeComingBackCancelsTheCountdownAndANewQuitReplacesTheOld() passed after 50.100 seconds.
+✔ Test claudeQuitsAndNobodyIsLeftSoWeQuitAfterSixtySeconds() passed after 50.128 seconds.
+✔ Test liveSessionsIncludingHiddenOnesKeepUsAlive() passed after 50.159 seconds.
+✔ Test onlyClaudeQuittingStartsTheCountdown() passed after 50.192 seconds.
+✔ Test theFirstApplyDoesEverything() passed after 50.222 seconds.
+✔ Test aForcedDockIconIsWrittenBackSoTheSettingsPageDoesNotSayOff() passed after 50.248 seconds.
+✔ Test aMinimizedOfficeWindowIsNotBroughtBackByAnUnrelatedSettingsWrite() passed after 50.274 seconds.
+✔ Test atLeastOneEntryIsAlwaysKept() passed after 50.302 seconds.
+✔ Test aLoneEmptyPetStripIsNotAnEntryPoint() passed after 50.334 seconds.
+✔ Test nothingChangedMeansNothingToDo() passed after 50.366 seconds.
+✔ Test aPanelThatIsAlreadyOnScreenIsNotOrderedFrontAgain() passed after 50.396 seconds.
+✔ Test unknownFieldsAndUnknownStatusAreTolerated() passed after 50.427 seconds.
+✔ Test aHiddenPanelIsRenderedOnlyWhenItsFirstFrameIsRequested() passed after 50.458 seconds.
+✔ Test aHiddenAppDoesNotGetItsOfficeWindowPoppedBackEither() passed after 50.488 seconds.
+✔ Test theAuditCatchesItsTargetsAndIgnoresLookAlikes() passed after 50.514 seconds.
+✔ Test onlyTheChangedEntriesAreTouched() passed after 50.540 seconds.
+✔ Test "会话记录行：随机字节 / 样本变异 / 非法 UTF-8 / JSON 层面（类型错误、巨大数字、重复键、深嵌套）：不崩溃，usage 在范围内" passed after 50.565 seconds.
+✔ Test "TimeUtil.parseProcStart / date(fromJSONMillis:)：各种畸形输入不崩溃；格式化再解析是恒等的；JSON 数字的各种形态" passed after 50.594 seconds.
+✔ Test seekToTailWhenStartIsExactlyALineStartKeepsThatLine() passed after 50.620 seconds.
+✔ Test rotationToNewInodeRestartsFromZero() passed after 50.643 seconds.
+✔ Test "ActivityResolver：随机信号（时间乱序 / 未来 / 极端 / NaN、疯狂的配置）：不崩溃；阶段和动作一致；nextChange 一定在未来" passed after 50.674 seconds.
+✔ Test exactlyAtTheLimitIsKept() passed after 50.711 seconds.
+✔ Test oversizeLineIsDroppedAndTheNextLineSurvives() passed after 50.741 seconds.
+✔ Test halfLineIsHeldUntilCompleted() passed after 50.773 seconds.
+✔ Test turningTheOfficeOffHidesIt() passed after 50.798 seconds.
+✔ Test truncationRestartsFromZero() passed after 50.822 seconds.
+✔ Test seekToTailAlignsToLineStart() passed after 50.847 seconds.
+✔ Test crlfAndEmptyLines() passed after 50.877 seconds.
+✔ Test "登记表 JSON 层面：字段类型错误 / null / 重复键 / 超长键 / 巨大数字 / 空对象 / 顶层不是对象，和独立判断一致" passed after 50.901 seconds.
+✔ Test multiByteCharactersAcrossChunks() passed after 50.921 seconds.
+✔ Test resumeFromCommittedOffset() passed after 50.947 seconds.
+✔ Test linesStraddlingChunkBoundaries() passed after 50.977 seconds.
+✔ Test oversizeLineSplitAcrossPollsIsSkippedUntilNewline() passed after 51.003 seconds.
+✔ Test "登记表被原地反复重写（先写一半再写完整 / 写垃圾 / 清空 / 换成非 interactive / 删除再重建）：扫描器总是收敛到“最后一份好的内容”，从不丢会话、不产出垃圾" passed after 51.037 seconds.
+✔ Test anyChangeOfThePlacementInputsTriggersARepositionAndNothingElseDoes() passed after 51.064 seconds.
+✔ Test aPanelThatIsNotOnScreenGetsItsFirstFrameBeforeItAppears() passed after 51.088 seconds.
+✔ Test rightLeftCenterAndUnknownAlignments() passed after 51.114 seconds.
+✔ Test aBoundaryOlderThanAnOpenCallDoesNotCloseIt() passed after 51.143 seconds.
+✔ Test helperOwnedRecordsExpireRegardless() passed after 51.170 seconds.
+✔ Test identicalParallelCallsCloseFirstInFirstOut() passed after 51.193 seconds.
+✔ Test callsWithin250msOfThePreviousPreStayInTheSameBatch() passed after 51.225 seconds.
+✔ Test newBatchClosesOlderOpenCallsAsSuperseded() passed after 51.248 seconds.
+✔ Test turnBoundariesCloseAllMainCalls() passed after 51.272 seconds.
+✔ Test resetClearsEverything() passed after 51.295 seconds.
+✔ Test postFallsBackToToolNameThenIgnores() passed after 51.323 seconds.
+✔ Test truncatedToolNamesMatchByPrefix() passed after 51.354 seconds.
+✔ Test permissionDeniedDanglingIsClosedByTheNextBatch() passed after 51.386 seconds.
+✔ Test parallelCallsInTheSameMillisecondShareABatch() passed after 51.418 seconds.
+✔ Test noCodeMentionsKeyOrSocketFileNamesExceptTheGuardAndPathConstants() passed after 51.451 seconds.
+✔ Test staleCallsAreForceClosedOnlyWhenTheRegistryIsIdle() passed after 51.478 seconds.
+✔ Test "桌面元数据目录里各种脏东西（目录 / FIFO / 符号链接 / 垃圾 JSON / 超过 4 MiB / 名字古怪 / 文件在读的时候被删）：refresh 不崩溃、不卡死、结果只含合法条目，重复刷新没有抖动" passed after 51.504 seconds.
+✔ Test postWithoutPreIsIgnored() passed after 51.528 seconds.
+✔ Test "FileIO 是 BuddyCore 里读文件的唯一入口：源码里除了 FileIO.swift（读）和 Tools/FakeTree.swift（造假数据的写）之外，没有任何别的 open / fopen / FileHandle / Data(contentsOf:) 之类" passed after 51.549 seconds.
+✔ Test missingFileThenAppears() passed after 51.570 seconds.
+✔ Test "从 committedOffset 恢复：新读取器接着读，得到剩下的完整行（半行会被重新读）" passed after 51.594 seconds.
+✔ Test turningTheOfficeOnShowsItEvenIfItIsMinimized() passed after 51.617 seconds.
+✔ Test "readAll / open 遇到特殊文件：目录 / 设备 / 空文件 / 恰好等于上限 / 超过上限 / 负数上限 / 读的时候被截断：不崩溃、不卡死，结果合理" passed after 51.638 seconds.
+✔ Test "HookLogReader：一次读完 / 分很多次追加，事件序列相同；计数自洽；坏行被跳过而不是让整个文件失败" passed after 51.667 seconds.
+✔ Test "文件分成随机长度的很多次追加：每一步都只交付完整的行，最终结果和一次读完完全相同" passed after 51.694 seconds.
+✔ Test "子代理目录里各种脏东西（垃圾 meta / 垃圾记录 / 目录 / FIFO / 符号链接 / 名字古怪 / 文件在读的时候增长和被删）：poll 不崩溃、不卡死，只报告目录里真有的文件" passed after 51.721 seconds.
+✔ Test "随机内容 × 极小的块 / 极小的行上限：逐行和独立实现的标准答案一致" passed after 51.748 seconds.
+✔ Test "超长行的边界：1.5 MB 保留、恰好 4 MiB 保留、4 MiB + 1 丢掉、16 MiB 丢掉；后面的行都能读到" passed after 51.776 seconds.
+✔ Test addTallyDoesNotOverflow() passed after 51.801 seconds.
+✔ Test entrypointMapsToOrigin() passed after 51.830 seconds.
+✔ Test "hook 行在每一个字节位置截断（含多字节字符中间、\uXXXX 转义中间）：不崩溃，结果要么是 nil 要么和原事件前缀一致" passed after 51.863 seconds.
+✔ Test "writeAtomically 的边界：嵌套目录 / 父路径是文件 / 目标是目录 / 名字太长 / Unicode 和换行 / 只读目录 / 空数据：返回值正确、不留临时文件" passed after 51.898 seconds.
+✔ Test "非法 UTF-8（孤立续字节 / 截断的多字节 / 0xFF / 过长编码 / 代理对）放在行首、行中、每个字段里、行尾：不崩溃、不放行坏 ts" passed after 51.927 seconds.
+✔ Test "seekToTail：从任意窗口开始，只交付完整的行，起点落在行中间就跳过那半行" passed after 51.955 seconds.
+✔ Test numbersWrittenBehindOurBackAreClampedIntoTheirValidRange() passed after 51.983 seconds.
+✔ Test "hook 行的 JSON 层面：类型错误 / null / 重复键 / 超长键 / 深层嵌套 / 空对象空数组 / 巨大数字：不崩溃，结果满足不变量" passed after 52.010 seconds.
+✔ Test "文件被截短、删除、换成新 inode、再追加：每次都从头读、只交付完整的行，不会读到旧内容的残片" passed after 52.036 seconds.
+✔ Test "任务书第 4 节的已知坑（Codex 文件 / AskUserQuestion 的 detail / tool 名被截断 / 用户输入）：变异用例" passed after 52.065 seconds.
+✔ Test tallyReadFromTheFileIsClamped() passed after 52.095 seconds.
+✔ Test dayKeysStayGregorianInAnyLocale() passed after 52.125 seconds.
+✔ Test deriveNeverTrapsWhateverTheDormantMaxIs() passed after 52.149 seconds.
+✔ Test fileReadsGoThroughFileIOWithAShortReviewedAllowlist() passed after 52.186 seconds.
+✔ Test "半行 / 只有换行 / 很多空行 / CRLF / 结尾没有换行" passed after 52.205 seconds.
+✔ Test randomGarbageInEveryDataSourceNeverCrashesTheEngine() passed after 52.231 seconds.
+✔ Test aRegistryFileThatIsADirectoryOrHasWeirdTypesIsIgnored() passed after 52.258 seconds.
+✔ Test realProviderPassesTheSettingsToTheEngine() passed after 52.296 seconds.
+✔ Test realProviderClampsWhatItReadsFromDefaults() passed after 52.320 seconds.
+✔ Test settingsMapToEngineOptions() passed after 52.360 seconds.
+✔ Test aTailerSurvivesTheFileBeingRewrittenUnderneathIt() passed after 52.390 seconds.
+✔ Test "随机字节（0 / 1 / 2 / 7 / 64 / 4096 / 1 MiB）当 hook 行：不崩溃、不死循环，放行的一定满足不变量" passed after 52.419 seconds.
+✔ Test "identities.json 在每一个字节位置被截断：不崩溃、不变量成立、之后照常写盘" passed after 52.446 seconds.
+✔ Test theDataRootArgumentReachesTheEngine() passed after 52.473 seconds.
+✔ Test "引擎：identities.json / ledger.json 都是垃圾时照常启动、照常工作，并且退出时把两份文件写成合法的（覆盖掉垃圾）" passed after 52.505 seconds.
+✔ Test outOfRangeValuesAreClampedAndSleepAlwaysComesAfterDoze() passed after 52.534 seconds.
+✔ Test noNetworkNoCredentialsNoSubprocesses() passed after 52.557 seconds.
+✔ Test aHugeGarbageLineDoesNotStallTheHookReader() passed after 52.586 seconds.
+✔ Test pathsWithSpecialCharactersWork() passed after 52.625 seconds.
+✔ Test statesSwitchExactlyOnTheSpecifiedSeconds() passed after 52.648 seconds.
+✔ Test "随机字节：长度 0 / 1 / 2 / 7 / 64 / 4096 / 1 MiB，和标准答案一致，不崩溃" passed after 52.680 seconds.
+✔ Test "identities.json 被随机破坏 / 结构化破坏（version、identities、每个字段缺失或类型错误 / 天文数字）：不崩溃、不变量成立、之后照常写盘" passed after 52.710 seconds.
+✔ Test "ledger.json 是 1 MiB 的随机垃圾 / 是一个目录 / 不可读：不崩溃，账本降级为只在内存里；文件是目录时写不了也不崩溃" passed after 52.740 seconds.
+✔ Test aFinishedTurnWaitsThenStretchesThenLeansThroughTheWholePipeline() passed after 52.775 seconds.
+✔ Test "token 账本：一个 buddy 的多个会话记录（当前 + prior）加子代理文件，同一条消息出现在不同文件里时按 message.id 全局去重（每个字段取最大值），和独立实现相等；再启动一次（不使用断点）结果不变" passed after 52.797 seconds.
+✔ Test "引擎：登记表目录里一次冒出几百个会话（含重复 sessionId / 同一个 host / 一半进程已死）再全部消失：不崩溃、不卡死，快照数和缓存有上界" passed after 52.829 seconds.
+✔ Test "ledger.json 在每一个字节位置被截断：安全回退到从头扫描，统计值 == 真实值；之后写盘的账本合法" passed after 52.858 seconds.
+✔ Test walkingInTakesAboutTwoAndAHalfSecondsAndFarSeatsAreSpeedCapped() passed after 52.885 seconds.
+✔ Test "C-007 符号链接指向 .key 文件：FileIO 拒绝打开（保险不能被绕过）" passed after 52.909 seconds.
+✔ Test "整个引擎：每个数据源都灌极端值 / 类型错误 / 深嵌套 / 超长行 / 乱序 + 未来的时间 / 被删被换的文件 / 进程反复死活，随时间大幅跳跃：不崩溃、不卡死、快照满足不变量，之后恢复正常" passed after 52.945 seconds.
+✔ Test leavingStandsWavesWalksOutAndTheDoorClosesBehindThem() passed after 52.979 seconds.
+✔ Test "ledger.json 被随机破坏（翻转 / 替换 / 删除 / 重复 / 插入字节）：不崩溃；统计值非负、不溢出；之后追加新行只增不减；写盘的账本合法" passed after 53.009 seconds.
+✔ Test anOffDutyDeskIsDimSilentAndUnclickableAndTheCoatHangsByTheDoor() passed after 53.046 seconds.
+✔ Test aBlockedIdleSessionShowsTheStickyNote() passed after 53.071 seconds.
+✔ Test everyRowOfTheStateToAnimationTable() passed after 53.104 seconds.
+✔ Test delegatingToForegroundHelpersPointsAtThemAndBackgroundOnesLeavesYouTyping() passed after 53.143 seconds.
+✔ Test finishingATurnWaits0_4SecondsBeforeStretching() passed after 53.169 seconds.
+✔ Test "token 账本：随机的真实行 / 重复行 / 合成行 / 缺字段行 / 垃圾行 / 半行，分多次追加，统计值和独立实现逐项相等；重启后从账本断点继续也一样" passed after 53.202 seconds.
+✔ Test hairColorsAreFarApart() passed after 53.242 seconds.
+✔ Test spritesAreNotEmptyAndAnchorsInside() passed after 53.273 seconds.
+✔ Test spriteBooksHaveNoErrors() passed after 53.306 seconds.
+✔ Test everyToolCategoryHasAPoseAndAScreen() passed after 53.339 seconds.
+✔ Test everyHairOutfitAndHeadHasAllFiveFacings() passed after 53.375 seconds.
+✔ Test directIndexedPaletteEntriesFitInOneByte() passed after 53.410 seconds.
+✔ Test springOutputHasAPlusMinusPointSixHysteresisAndSlowSpringsSnap() passed after 53.432 seconds.
+✔ Test reportsFileChangesUnderTheWatchedRoots() passed after 53.466 seconds.
+✔ Test aWatcherWithNoExistingRootFailsToStart() passed after 53.490 seconds.
+✔ Test everyBuddyBreathesOnePixelEveryFourSeconds() passed after 53.516 seconds.
+✔ Test aSessionThatArrivesAfterLaunchWalksInAndSitsDownWhileOnesPresentAtLaunchAreAlreadySeated() passed after 53.556 seconds.
+✔ Test blinksEveryFiveToEightSecondsInThreeFramesOfAtLeast240msAndOnlyTouchTheEyes() passed after 53.587 seconds.
+✔ Test theTurnIsSixSpecifiedStepsWithTheChairFollowingAndThenTheHandRises() passed after 53.619 seconds.
+✔ Test springsStartFromRestWithZetaThreeQuartersAndOvershootSlightly() passed after 53.657 seconds.
+✔ Test dayNightSwitchTakesTwentyMinutesAndEveryPixelFlipsExactlyOnce() passed after 53.687 seconds.
+✔ Test aNormalTurnProducesTheExpectedActivitiesAndEvents() passed after 53.719 seconds.
+✔ Test aDanglingToolFromAnInterruptedTurnDoesNotLeakIntoTheNextOne() passed after 53.751 seconds.
+✔ Test aSessionBusyForAnHourNeverDies() passed after 53.785 seconds.
+✔ Test waitingAtStartupIsReportedImmediately() passed after 53.818 seconds.
+✔ Test outlineIsDarkerThanFillByAtLeastPointOneFive() passed after 53.845 seconds.
+✔ Test startingTheNextTurnClearsUnread() passed after 53.887 seconds.
+✔ Test erroredTurnStaysErroredUntilItStartsDozing() passed after 53.911 seconds.
+✔ Test compactionThroughHooks() passed after 53.947 seconds.
+✔ Test promptEventThatArrivesBeforeTheRegistryFlipsCountsAsBusyOnce() passed after 53.979 seconds.
+✔ Test aWaitingSessionStaysWaitingNoMatterHowLong() passed after 54.010 seconds.
+✔ Test aNormalStopAfterAnEarlierInterruptIsNotInterrupted() passed after 54.041 seconds.
+✔ Test attachingToAnIdleSessionThatJustFinishedShowsFinishedForTheRemainingTime() passed after 54.082 seconds.
+✔ Test bubblesPopInInThreeIntegerSizesAndEveryIconIsSevenBySeven() passed after 54.105 seconds.
+✔ Test hitIdsRoundTripAndAreClampedForCrazySeatNumbers() passed after 54.133 seconds.
+✔ Test aPromptThatNeverBecomesBusyExpiresAfter3Seconds() passed after 54.163 seconds.
+✔ Test attentionKindChangesWhileStillWaitingEmitAFreshEvent() passed after 54.196 seconds.
+✔ Test "SessionStore 的公开 API 被多个线程同时乱用（markSeen / rerollAppearance / diagnostics / currentSnapshots / debugRows / pollNow / poke），同时数据在变：不死锁、不崩溃；停掉之后再调用也安全，还能重新启动" passed after 54.223 seconds.
+✔ Test emptyAndOffDutySeatsAreNotClickable() passed after 54.251 seconds.
+✔ Test everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) with 20 test cases passed after 54.278 seconds.
+✔ Test attachingToALongIdleSessionShowsTheRightSleepState() passed after 54.317 seconds.
+✔ Test attachingMidTurnEstimatesTheTurnStartFromHooks() passed after 54.352 seconds.
+✔ Test interruptDetectedFromTheTranscriptWithoutAnyHook() passed after 54.393 seconds.
+✔ Test "ledger.json 结构化破坏：version / files / 每个字段缺失或换成错误类型 / 天文数字 / 负数：不崩溃；断点无效时统计值 == 真实值" passed after 54.416 seconds.
+✔ Test aTurnWithoutAStopEventWhileHooksWorkIsInferredAsInterrupted() passed after 54.454 seconds.
+✔ Test dozeAndSleepThresholdsAreConfigurable() passed after 54.496 seconds.
+✔ Test nextWakeIsScheduledForTimeDrivenChanges() passed after 54.527 seconds.
+✔ Test withoutHooksToolsComeFromDanglingToolUsesInTheTranscript() passed after 54.584 seconds.
+✔ Test "C-030 FileIO.readAll 的负数上限、文件时间的纳秒乘法、DumpFormatter.clock 的 Int(秒数) 换算：极端值不 trap" passed after 54.627 seconds.
+✔ Test "C-012 嵌套 470–512 层的 JSON 不会把 512 KB 栈的工作线程压爆（JSONSerialization 递归解析）" passed after 54.659 seconds.
+✔ Test "C-027 Paths(home:) 遇到几十万个结尾斜杠不会 O(n²) 卡住；结果和原来的语义一致" passed after 54.686 seconds.
+✔ Test "C-013 TranscriptReader.bootstrap 遇到非正的窗口大小不会死循环" passed after 54.720 seconds.
+✔ Test "C-025 会话记录里 turn_duration / api_error 的数字（用时、重试次数）是天文数字或负数时被当作没有，不会流到快照里让界面的 Int(秒数) 换算 trap" passed after 54.755 seconds.
+✔ Test "C-006 事件时间戳在未来时，归属扣留最多 0.4 秒，不会把整个 hook 队列永远卡住" passed after 54.786 seconds.
+✔ Test "C-002 Date → 毫秒的换算是饱和的（不 trap）" passed after 54.814 seconds.
+✔ Test "C-010 桌面元数据里 priorCliSessionIds 有上万项时有上界、不卡死" passed after 54.849 seconds.
+✔ Test "C-019 文件事件按目录边界分流：sessions-old 之类同前缀的兄弟目录不算；空的会话 id 不匹配一切" passed after 54.880 seconds.
+✔ Test "C-005 ledger.json 里的计数是天文数字或负数时，恢复后不溢出、不为负" passed after 54.914 seconds.
+✔ Test "z2 更脏的随机回放：会话记录 / 小助手 / 桌面元数据 / 压缩 / 通知 / markSeen 混在一起，每一步快照都满足不变量" with 16 test cases passed after 54.942 seconds.
+✔ Test "C-004 会话记录里 usage 的数字是天文数字时，解析 / 累计 / 账本都不溢出" passed after 54.975 seconds.
+✔ Test "z1 参考模型对拍：随机事件流里，阶段、主线程打开的调用（个数和顺序）、忙碌 / 等待时的动作每一步都和任务书规则一致" with 16 test cases passed after 54.997 seconds.
+✔ Test "C-018 会话记录里 AskUserQuestion 的 input 不管带什么字段，detail 都是空串（不能当问题显示）" passed after 55.021 seconds.
+✔ Test "C-028 在 onChange 回调里（也就是在扫描队列上）调用 TokenLedger.flush() 不会对自己所在的队列 sync 而死锁 / 崩溃" passed after 55.047 seconds.
+✔ Test "C-003 归属判断遇到离谱的事件时间也不崩溃（Int(…) 换算）" passed after 55.079 seconds.
+✔ Test "C-009 identities.json 里别名 / 工位 / 条目数量离谱时，载入后有上界、不卡死" passed after 55.102 seconds.
+✔ Test "C-002 identities.json 里的天文数字不会让 App 每次启动都崩溃（崩溃循环）" passed after 55.126 seconds.
+✔ Test abortedMidStreamAlsoCountsAsAnInterrupt() passed after 55.159 seconds.
+✔ Test waitingVariantsThroughTheEngine() passed after 55.183 seconds.
+✔ Test "C-017 登记表 pid 不是整数（布尔 / 小数 / 超出 Int32 / 0 / 负数）时当作不可用，而不是被强转成别的 pid；文件名的 pid 为准" passed after 55.215 seconds.
+✔ Test "C-015 读过一条很长的行之后，半行缓冲不会一直占着几 MB 内存" passed after 55.253 seconds.
+✔ Test "C-011 hook 事件狂刷（Pre 永远没有 Post）时，ToolTracker 的 open 有上界" passed after 55.287 seconds.
+✔ Test "C-020 两个文件声称同一个 hostSessionId 时，桌面元数据读取器不会每次刷新都报告“变了”（抖动）" passed after 55.311 seconds.
+✔ Test "C-023 外部 JSON 里几 MB 长的字符串字段（标题 / 路径 / id / 工具名 / detail……）被截断到上限，不会原样留在内存 / 快照 / identities.json 里" passed after 55.332 seconds.
+✔ Test unwritableIdentityFileDegradesToMemoryOnly() passed after 55.357 seconds.
+✔ Test "C-026 hook 里一条时间戳在一年以后的 Stop、会话记录里一条一年以后的行，不会让登记表明明是 busy 的会话永远被当成 idle，也不会毒化“取最大时间”的事实" passed after 55.381 seconds.
+✔ Test aliasListIsBounded() passed after 55.410 seconds.
+✔ Test corruptIdentityFileIsIgnored() passed after 55.442 seconds.
+✔ Test terminalResumeInANewProcessKeepsTheSameBuddyViaSessionAlias() passed after 55.476 seconds.
+✔ Test pidReuseWithADifferentStartTimeIsANewBuddy() passed after 55.519 seconds.
+✔ Test rerollGivesANewSaltEachTime() passed after 55.563 seconds.
+✔ Test typingBeatsAreFourFramesOf133msAndWriteIsTwiceAsFast() passed after 55.590 seconds.
+✔ Test aSessionKnownOnlyToDesktopMetadataBecomesADesktopIdentity() passed after 55.630 seconds.
+✔ Test identitiesAreForgottenAfterSevenDays() passed after 55.659 seconds.
+✔ Test sippingAndLookingAroundHappenAtTheSpecifiedIntervals() passed after 55.679 seconds.
+✔ Test hostAliasWinsEvenWhenPidAndSessionIdChange() passed after 55.714 seconds.
+✔ Test askPosesRaiseAHandOrHoldAClipboard() passed after 55.747 seconds.
+✔ Test terminalKeyIsTPrefixPlusFirstSeenSessionId() passed after 55.778 seconds.
+✔ Test seatsAreTheSmallestFreeNumberAndReturningBuddiesGetTheirOwnSeatBack() passed after 55.823 seconds.
+✔ Test tappingScratchingWritingAndWavingFrequencies() passed after 55.856 seconds.
+✔ Test withoutProcStartNoProcessAliasIsUsed() passed after 55.892 seconds.
+✔ Test "C-014 引擎里按会话累积的缓存在会话来来去去之后有上界（transcriptPathCache / transcriptMissAt）" passed after 55.921 seconds.
+✔ Test persistenceRoundTripKeepsAliasesSeatAndSalt() passed after 55.951 seconds.
+✔ Test bodiesLeanAndHandsGoWhereTheTableSays() passed after 55.984 seconds.
+✔ Test idleDozeSleepErrorInterruptedAndStretchPoses() passed after 56.017 seconds.
+✔ Test terminalClearKeepsTheSameBuddyBecauseItIsTheSameProcess() passed after 56.047 seconds.
+✔ Test desktopPriorCliSessionIdsMapBackViaMetadataWhenHostIsMissing() passed after 56.075 seconds.
+✔ Test desktopKeyIsDPrefixPlusHostSessionId() passed after 56.114 seconds.
+✔ Test "文字图片缓存有上限（600 张，先进先出）：不停地渲染新的文字，最早的被淘汰、最近的还在缓存里；装满时按桌牌大小的文字算总共约 20 MB" passed after 56.146 seconds.
+✔ Test "C-029 hook 文件一下子有几十万行（App 被挂起很久 / 文件被换成大文件）：一次 poll 只交出最新的一批事件，不把所有事件堆在内存里" passed after 56.175 seconds.
+✔ Test everyDeskHasAMugAndTheSipReachesForIt() passed after 56.204 seconds.
+✔ Test "C-003 hook 行里离谱的 ts（天文数字 / 无穷 / 0 / 负数 / 布尔）在解析时就被拒绝" passed after 56.235 seconds.
+✔ Test noPoseSwingsFasterThanFourHertz() passed after 56.269 seconds.
+✔ Test theCursorBreathesThroughThreeLevelsAtHalfAHertzAndNeverBlinksOnAndOff() passed after 56.294 seconds.
+✔ Test onlyTheThinkingAndSleepingBubblesAnimateAndTheStickyNoteStandsStill() passed after 56.335 seconds.
+✔ Test fullReplayPassesWithPolling() passed after 56.367 seconds.
+✔ Test theMonitorFadesOutOver300msInsteadOfCuttingToBlack() passed after 56.392 seconds.
+✔ Test class8MissingGlyphsAndOverflowingContainersAreCaught() passed after 56.424 seconds.
+✔ Test theThinkingBubbleDotsBobSlowlyAndOutOfPhase() passed after 56.454 seconds.
+✔ Test "C-001 procStart 的年份 / 时分秒是天文数字时不崩溃（登记表 procStart 字段）" passed after 56.484 seconds.
+✔ Test "审查确认：FileWatcher 停掉并释放的时候队列里还排着 FSEvents 的回调块，回调不会去碰已经释放的对象（配合 MallocScribble 跑过）" passed after 56.508 seconds.
+✔ Test monitorsOfSessionsPresentAtLaunchBootLeftToRightAt100msIntervals() passed after 56.562 seconds.
+✔ Test theWaitingLightCyclesThroughThreeAdjacentLevelsAt0_8Hz() passed after 56.583 seconds.
+✔ Test "C-008 <pid>.json 是命名管道（FIFO）时不会把读取线程永远卡在 open() 上" passed after 56.604 seconds.
+✔ Test anEmptySeatNeverFades() passed after 56.626 seconds.
+✔ Test class8PixelDigitsPaintedOverByLaterDrawingAreCaught() passed after 56.647 seconds.
+✔ Test aCleanFrameReportsNothing() passed after 56.666 seconds.
+✔ Test class7TextNotOnWholeDevicePixelsIsCaught() passed after 56.685 seconds.
+✔ Test class4TheHoverCardMustNotCoverItsOwnFaceButMayCoverANeighbours() passed after 56.705 seconds.
+✔ Test class2TextOutsideItsContainerOrTheWindowIsCaught() passed after 56.725 seconds.
+✔ Test class1OverlappingTextIsCaught() passed after 56.745 seconds.
+✔ Test class4LabelsThatCoverAFaceScreenBubbleOrCardAreCaught() passed after 56.764 seconds.
+✔ Test class3LongTextWithoutAnEllipsisIsCaught() passed after 56.783 seconds.
+✔ Test class6LowContrastAgainstTheRealCanvasIsCaught() passed after 56.802 seconds.
+✔ Test retainedRenderingStaysIdenticalWhileTheMonitorFadesOut() passed after 56.820 seconds.
+✔ Test "5.6-13 等待类状态到来时立即插入：屏幕、桌牌、气泡在同一帧就换成等待内容（不等最短停留），身体 0.4 秒后转身" passed after 56.839 seconds.
+✔ Test floorDivisionMapsNegativeDevicePixelsToTheRightCanvasRow() passed after 56.858 seconds.
+✔ Test posesOfTheDashRowsCarryNoPropsAndTheSupervisorPointsThenFolds() passed after 56.876 seconds.
+✔ Test class5FontsBelowNinePointsAreCaught() passed after 56.894 seconds.
+✔ Test class8PixelDigitsThatTouchAreCaught() passed after 56.913 seconds.
+✔ Test "5.5-05 离场：起身 0.3 秒（椅子拉出来）→ 把椅子推好 → 挥手 0.7 秒 → 走出门 → 门在身后关上 0.16 秒；整个过程之后走路系统清空" passed after 56.931 seconds.
+✔ Test "5.5-07 下班工位：显示器关着、待机灯灭、没有人 / 气泡 / 道具，桌牌变暗，椅子推进去，点不到" passed after 56.951 seconds.
+✔ Test "5.6-06/07/08 最短停留正好是 姿势 1.5 s / 屏幕 0.8 s / 桌牌动作文字 1.0 s：目标一变、停留一满就换，不早也不晚（差不超过一帧）" passed after 56.970 seconds.
+✔ Test "5.6-23 错开最多 0.6 秒：10 个人同一帧变化，第 1…7 个依次晚 90 ms，第 8、9、10 个都是 0.6 秒（封顶）" passed after 56.989 seconds.
+✔ Test "5.6-05 连着批准好几次：两次等待之间只隔 0.6 秒，不来回转（一直面向你，只转一次身），最后一次结束 1.5 秒之后才转回去" passed after 57.008 seconds.
+✔ Test stateScreens() passed after 57.027 seconds.
+✔ Test "5.5-21 进场走到工位约 2.5 秒：路线 70–175 像素的座位走路时间正好 2.5 秒；更近的按 28 像素/秒、更远的按 70 像素/秒封顶（DESIGN.md 第 13 节记录）" passed after 57.047 seconds.
+✔ Test "5.6-18/19/20 做完一轮：先等 0.4 秒（继续保持忙姿势），再伸 1.2 秒懒腰，再 3/4 侧身靠着；未读旗一直保留" passed after 57.068 seconds.
+✔ Test documentScrollsOnePixelPerStepAndItsColourFollowsTheExtension() passed after 57.092 seconds.
+✔ Test "5.6-13 （SP-06）某个 buddy 正在「错开」的等待期里，等待类状态也要立即插入（≤ 250 ms），并且中间不能闪出一帧过期的旧动作" passed after 57.114 seconds.
+✔ Test "5.6-09 停留期间只记下最新的目标、跳过中间态：Read → Grep → Read 一直是「在读」；Read → Grep → Edit 直接到 Edit，屏幕 / 姿势 / 桌牌都没显示过 Grep" passed after 57.135 seconds.
+✔ Test "4.4-08 桌面本轮总结的英文 status_detail 只在悬停卡片里显示（隐私模式也不显示）；桌牌 / 状态候选 / 办公室里所有文字都没有它" passed after 57.154 seconds.
+✔ Test "5.6-10 同一类工具之间切换：姿势不变，只换屏幕内容（Grep → Glob：结果列表 → 文件树；Read swift → Read md：文档颜色；Edit → MultiEdit：什么都不变）" passed after 57.174 seconds.
+✔ Test dialogScreensHaveTheirButtonsOptionsAndOutline() passed after 57.193 seconds.
+✔ Test browserLoadsPageBlocksOneByOneAndSearchTypesTheQuery() passed after 57.212 seconds.
+✔ Test "5.6-14/15/16/17 长时间状态：Bash / WebFetch / WebSearch 超过 8 秒、Monitor、思考超过 20 秒都换成对应的姿势（边界两侧各测一次）" passed after 57.231 seconds.
+✔ Test helperListChecklistManualAndIconGrid() passed after 57.251 seconds.
+✔ Test editTypesCharactersAndWriteAddsRowsFromTheTop() passed after 57.270 seconds.
+✔ Test compactSqueezesRowsIntoOneBlockAndRetryShowsARotatingArrowAndDigits() passed after 57.289 seconds.
+✔ Test "5.6-19 疑点 Q-07：上一个姿势刚换过（1.5 秒最短停留还没满）时一轮结束，懒腰也不会被跳过或截短" passed after 57.308 seconds.
+✔ Test mcpBrowserPointerMovesAndTheClickRingOnlyDarkensThePalette() passed after 57.327 seconds.
+✔ Test terminalHasAGreenPromptAndTheLongBarFollowsOneMinusExpMinusTOverTau() passed after 57.345 seconds.
+✔ Test resultsHighlightEasesAndTheTreeUnfolds() passed after 57.365 seconds.
+✔ Test activityTextForEveryState() passed after 57.385 seconds.
+✔ Test activeAndAbsentLightsStayPut() passed after 57.404 seconds.
+✔ Test privacyModeNeverLeaksDetails() passed after 57.426 seconds.
+✔ Test emojiInTheTextDoesNotChangeTheLineHeight() passed after 57.448 seconds.
+✔ Test shortCommandKeepsTheFirstWordsAndDropsCdPrefixesAndOptions() passed after 57.472 seconds.
+✔ Test fileNamesClipsAndDurations() passed after 57.497 seconds.
+✔ Test textMeasurementIsCachedAndConsistent() passed after 57.528 seconds.
+✔ Test everyRowOfTheTableShowsItsPlateText() passed after 57.549 seconds.
+✔ Test class2HoverCardThatIsNotWhollyInsideTheWindowIsCaught() passed after 57.569 seconds.
+✔ Test clipRestrictsEveryDrawingPrimitive() passed after 57.588 seconds.
+✔ Test retryingThenBackToThinkingWhenTheRetryWindowPasses() passed after 57.607 seconds.
+✔ Test screenNeverChangesFasterThanEvery0_8Seconds() passed after 57.631 seconds.
+✔ Test tankAndStripShowAnOverflowBadgeBeyondEightPeople() passed after 57.654 seconds.
+✔ Test seatsStayPutWhenTheSnapshotOrderChanges() passed after 57.677 seconds.
+✔ Test walkersAreNeverDrawnOutsideTheDoorwayWhileInsideIt() passed after 57.697 seconds.
+✔ Test aWaitingBlipShorterThan0_4SecondsDoesNotTurnTheBuddy() passed after 57.718 seconds.
+✔ Test waitingTurnsAroundAfter0_4SecondsAndTurnsBackAfter1_5() passed after 57.740 seconds.
+✔ Test enteringWalkerAppearsOnlyAfterTheDoorStartedOpening() passed after 57.759 seconds.
+✔ Test poseNeverChangesFasterThanEvery1_5Seconds() passed after 57.780 seconds.
+✔ Test simultaneousBuddiesDoNotWearTheSameOutfit() passed after 57.801 seconds.
+✔ Test emptyOfficeAndTankShowTheNobodyIsInSign() passed after 57.822 seconds.
+✔ Test plateActionTextNeverChangesFasterThanEverySecond() passed after 57.842 seconds.
+✔ Test retainedRenderingMatchesFullRedrawWithNobodyAtAll(scene:) with 3 test cases passed after 57.861 seconds.
+✔ Test personPixelsCarryTheirSeatIDAndTheWallCarriesNone() passed after 57.882 seconds.
+✔ Test layoutDeskCountAndColumnHysteresis() passed after 57.902 seconds.
+✔ Test goldenFrameHashesAreStable() passed after 57.925 seconds.
+✔ Test simultaneousChangesAreStaggeredBy90msEach() passed after 57.946 seconds.
+✔ Test contentHashDistinguishesSingleBitChangesAndIgnoresNothing() passed after 57.964 seconds.
+✔ Test noFrameIsBlackAndTheMonitorNeverFadesToPureBlack() passed after 57.985 seconds.
+✔ Test tankAndStripHaveNoFlicker(scene:) with 2 test cases passed after 58.003 seconds.
+✔ Test copyRegionAndClearRegionTouchOnlyTheirRectangle() passed after 58.022 seconds.
+✔ Test retainedRenderingMatchesAtOtherWindowSizes() passed after 58.045 seconds.
+✔ Test quickMatrixHasZeroViolationsAndReallyCoversTheScenes() passed after 58.066 seconds.
+✔ Test seatSignatureChangesExactlyWhenPixelsCanChange() passed after 58.084 seconds.
+✔ Test retainedRenderingMatchesFullRedrawPixelForPixel(scene:) with 3 test cases passed after 58.103 seconds.
+✔ Test staticScreenClassificationMatchesWhatIsActuallyDrawn() passed after 58.127 seconds.
+✔ Test renderingIsDeterministic() passed after 58.146 seconds.
+✔ Test statusCandidatesGoFromDetailedToShort() passed after 58.165 seconds.
+✔ Test "R1b-06 只有零宽 / 控制 / 方向字符的标题也算空标题：显示占位文字，不画空桌牌" passed after 58.184 seconds.
+✔ Test "SAN-01 withDraws 返回的是一份稳定的拷贝：别的线程一直在画像素字时，反复收集并逐条读像素，不崩、不读到释放过的内存；自己画的那一条一条不少" passed after 58.202 seconds.
+✔ Test aSnapshotWithCorruptTimesNeverCrashesTheStage() passed after 58.220 seconds.
+✔ Test stripKeepsSeatedBuddiesStillWhenSomeoneNewArrives() passed after 58.238 seconds.
+✔ Test "R1b-04 等待类气泡（钥匙 / 问号 / 计划）不受最短停留限制：立刻出现，批准之后立刻消失；新来的人第一帧就有气泡" passed after 58.257 seconds.
+✔ Test "R3b-02 隐私模式端到端泄漏扫描：18 种工具 × 忙 / 等批准，桌牌 / 状态行 / 悬停卡片 / 下班工位的所有文字里都不出现会话标题、项目路径、工具详情、server 名" passed after 58.276 seconds.
+✔ Test retainedRenderingMatchesFullRedrawWithMoreThanEightPeople(scene:) with 3 test cases passed after 58.295 seconds.
+✔ Test "R1b-01 错开推迟期间活动变回已套用的同一种类：推迟记录作废，不能套用推迟开始时存下的过期快照" passed after 58.314 seconds.
+✔ Test "R1b-02 桌牌 1.0 秒最短停留不能被文件名 / 命令 / 搜索词里的数字绕过（part1.txt → part2.txt 也是换了动作）" passed after 58.334 seconds.
+✔ Test "R1b-05 打开隐私模式：桌牌动作文字当场就隐藏，不等 1.0 秒最短停留（刚换过字也一样）" passed after 58.353 seconds.
+✔ Test "R2-015 工具详情为空（hook 行被截断走降级解析时会出现）：桌牌文案不能是「在读 」「在找 ""」「运行 」这种带尾随空格 / 空引号的半截话" passed after 58.372 seconds.
+✔ Test theStandbyLightBreathesThroughThreeLevelsSlowly() passed after 58.392 seconds.
+✔ Test "R1b-04 工具节奏驱动的气泡也有 0.8 秒最短停留：Grep / Read 每 0.3 秒交替时，放大镜气泡不能跟着一闪一闪" passed after 58.412 seconds.
+✔ Test arrivalThenBusyThenTool() passed after 58.431 seconds.
+✔ Test "R1b-03 隐私模式：MCP server 名和未知工具名也不能出现在桌牌动作 / 状态行里（任务书 6.3：隐私模式下隐藏全部细节）" passed after 58.450 seconds.
+✔ Test emptyOfficeSignIsReadableAndDrawnOnTopOfTheDesks(zoom:) with 5 test cases passed after 58.469 seconds.
+✔ Test twoLinePlateTextStaysInsideThePlate(zoom:) with 3 test cases passed after 58.489 seconds.
+✔ Test sleepingBuddysTwoZsDoNotTouch() passed after 58.509 seconds.
+✔ Test "R1b-02 计时器数字仍然不受最短停留约束：「运行中 npm test · 0:09」→「0:10」…每秒都立刻换" passed after 58.533 seconds.
+✔ Test blankTitlesGetAPlaceholderOnPlatesAndCards() passed after 58.560 seconds.
+✔ Test emojiInkStaysInsideTheCJKInkRange(size:) with 4 test cases passed after 58.581 seconds.
+✔ Test hoverCardAlwaysAppearsInsideTheWindowWithoutCoveringItsOwner(win:zoom:) with 12 test cases passed after 58.607 seconds.
+✔ Test zoomIsClampedSoAtLeastOneWholeSeatFits() passed after 58.630 seconds.
+✔ Test emojiTitlesNeverLeaveTheirPlateOrCard(zoom:) with 4 test cases passed after 58.653 seconds.
+✔ Test plateTextUnderTheHoverCardIsHidden() passed after 58.679 seconds.
+✔ Test plateTextMeetsContrastAtAnyTimeOfDay(clock:zoom:) with 12 test cases passed after 58.707 seconds.
+✔ Test durationFormattersNeverTrapAndCapAtAboutThirtyYears() passed after 58.731 seconds.
+✔ Test "R1b-02 数字掩码只抹「计数器位置」：· 后面的计时、重试中 a/m、×N、派了 N 个帮手、打盹 N 分钟；文件名里的数字保留" passed after 58.752 seconds.
+✔ Test idleMinutesWithACorruptIdleSince() passed after 58.773 seconds.
+✔ Test rhythmStepsAreEvenAndNeverSkip() passed after 58.612 seconds.
+✔ Test theMcpAppScreenNeverFallsBackToThePlaceholderGlyph() passed after 58.630 seconds.
+✔ Test theSmallPixelFontDrawsEveryLatinCapital() passed after 58.651 seconds.
+✔ Test aLongBashBarGrowsButNeverFillsUp() passed after 58.685 seconds.
+✔ Test theLongBashProgressBarIsAboveTheRowsTheHeadHides() passed after 58.707 seconds.
+✔ Test documentAndLogScrollingStepsAreWholeFramesAt15fps() passed after 58.726 seconds.
+✔ Test seedIsDeterministic() passed after 58.085 seconds.
+✔ Test mcpServerFromTruncatedName() passed after 58.123 seconds.
+✔ Test theMonitorBootsInSixteenDitherLevelsOverThreeHundredMilliseconds() passed after 58.142 seconds.
+✔ Test activityPhase() passed after 58.162 seconds.
+✔ Test aMcpServersInitialIsALetterTheFontCanDraw() passed after 58.850 seconds.
+✔ Test helpersSlideInAtMostThreeShownAndTheRestAreCountedAndBackgroundOnesStayBeside() passed after 58.206 seconds.
+✔ Test toolCatalogClassifies() passed after 57.982 seconds.
+✔ Test sittingDownAndStandingUpAreThreeFramesOfAHundredMilliseconds() passed after 58.245 seconds.
+✔ Test theHoverCardIsPaintedIntoTheOfficeScene() passed after 58.017 seconds.
+✔ Test seatsTurnTowardsTheAisleAndAMirroredPersonIsTheFlippedImage() passed after 58.050 seconds.
+✔ Test tankAndStripGeometryMatchTheSpec() passed after 58.069 seconds.
+✔ Test theUnreadFlagIsPlantedOnTheMonitorOnlyWhileUnread() passed after 58.334 seconds.
+✔ Test theSettingsWindowHostsTheSwiftUIForm() passed after 59.208 seconds.
+✔ Test appearanceCacheIsBoundedByWhoIsHereNotByWhoWasEverSeen() passed after 57.276 seconds.
+✔ Test rerollOnlyTouchesTheChosenBuddy() passed after 57.295 seconds.
+✔ Test rerollWaitsForTheNewSaltAndThenEveryPlaceAgrees() passed after 57.317 seconds.
+✔ Test aMockSourceWithNonsenseSpeedStaysSane() passed after 57.336 seconds.
+✔ Test layoutSurvivesTheLargestSeatNumbers() passed after 57.355 seconds.
+✔ Test departedSessionsAreForgottenByTheScene(animate:) with 2 test cases passed after 57.366 seconds.
+✔ Test writeBGRAWithAPartlyOutsideCropWritesOnlyTheOverlap() passed after 57.385 seconds.
+✔ Test flickerScanWithATinyOrInsaneFrameRateTerminates() passed after 57.418 seconds.
+✔ Test aPerformerSurvivesInsaneToolTimestamps() passed after 57.446 seconds.
+✔ Test theStaticScreenCacheIsBounded() passed after 57.474 seconds.
+✔ Test aSessionThatComesBackWalksInAgainInsteadOfSittingDownAtOnce() passed after 57.485 seconds.
+✔ Test rerollingInTheDemoBumpsTheSaltOfThatBuddyOnly() passed after 57.507 seconds.
+✔ Test officeSceneRendersWithWildSeatNumbers() passed after 57.529 seconds.
+✔ Test demoModesWithNonsenseParametersDoNotCrashOrExplode() passed after 57.555 seconds.
+✔ Test hitIDsNeverOverflowAndStayInTheOfficeRange() passed after 57.577 seconds.
+2026-09-29 14:48:49.804 swiftpm-testing-helper[6951:4719456] demo: 跳转到 会话 demo:1
+2026-09-29 14:48:49.804 swiftpm-testing-helper[6951:4719456] demo: 跳转到 会话 demo:1
+✔ Test whiteboardTallyNeverTrapsAndNegativeCountsAsZero() passed after 57.606 seconds.
+✔ Test safeIntNeverTraps() passed after 57.625 seconds.
+✔ Test writeBGRAWithACropOutsideTheCanvasWritesNothing() passed after 57.664 seconds.
+✔ Test layoutCapsTheDeskCountWhateverTheSeatNumberIs() passed after 57.667 seconds.
+✔ Test officeHasNoFlickerAtNightAndDuringLightTransition() passed after 59.677 seconds.
+✔ Suite TickPacerTests passed after 59.751 seconds.
+✔ Suite DebugLogTests passed after 59.782 seconds.
+✔ Suite AlertCoordinatorTests passed after 59.808 seconds.
+✔ Suite SourceAuditTests passed after 59.850 seconds.
+✔ Suite ToastTextTests passed after 59.881 seconds.
+✔ Suite HelperAttributionEngineTests passed after 59.904 seconds.
+✔ Suite ActivityResolverTests passed after 59.954 seconds.
+✔ Suite HousekeepingTests passed after 59.973 seconds.
+✔ Suite TranscriptTests passed after 60.004 seconds.
+✔ Suite JumpTests passed after 60.042 seconds.
+✔ Suite SpecTraceAppTests passed after 60.064 seconds.
+✔ Suite CachesTests passed after 60.084 seconds.
+✔ Suite StoreTests passed after 60.099 seconds.
+✔ Suite EnginePresenceTests passed after 60.122 seconds.
+✔ Suite BuddyOfficeSmokeTests passed after 60.135 seconds.
+✔ Suite HookDropoutTests passed after 60.149 seconds.
+✔ Suite ScreenPickerTests passed after 60.161 seconds.
+✔ Suite HookLogTests passed after 60.174 seconds.
+✔ Suite StateRuleTests passed after 60.196 seconds.
+✔ Suite ProcessProbeTests passed after 60.209 seconds.
+✔ Suite TokenLedgerTests passed after 60.224 seconds.
+✔ Suite FuzzParserTests passed after 60.241 seconds.
+✔ Suite SeatSanitizerTests passed after 60.263 seconds.
+✔ Suite HelperAttributorTests passed after 60.276 seconds.
+✔ Suite SpecTraceSourcePinTests passed after 60.289 seconds.
+✔ Suite AutoQuitTests passed after 60.304 seconds.
+✔ Suite RegistryScannerTests passed after 60.328 seconds.
+✔ Suite PanelShowTests passed after 60.348 seconds.
+✔ Suite ApplyPlanTests passed after 60.368 seconds.
+✔ Suite JSONLTailerTests passed after 60.402 seconds.
+✔ Suite SourceAuditCoreTests passed after 60.425 seconds.
+✔ Suite ToolTrackerTests passed after 60.461 seconds.
+✔ Suite StripPlacementTests passed after 60.477 seconds.
+✔ Suite FuzzReadersTests passed after 60.492 seconds.
+✔ Suite SettingsTests passed after 60.507 seconds.
+✔ Suite FuzzPersistenceTests passed after 60.530 seconds.
+✔ Suite EngineConfigTests passed after 60.544 seconds.
+✔ Suite RobustnessTests passed after 60.557 seconds.
+✔ Suite SpecTraceThresholdTests passed after 60.570 seconds.
+✔ Suite FuzzTailerTests passed after 60.584 seconds.
+✔ Suite PerformerMappingTests passed after 60.607 seconds.
+✔ Suite WalkersAndOffDutyTests passed after 60.619 seconds.
+✔ Suite FuzzEngineTests passed after 60.632 seconds.
+✔ Suite SpecTraceMotionTests passed after 60.645 seconds.
+✔ Suite SpriteAndPaletteTests passed after 60.659 seconds.
+✔ Suite HitTestingTests passed after 60.684 seconds.
+✔ Suite EngineScenarioTests passed after 60.697 seconds.
+✔ Suite FileWatcherTests passed after 60.710 seconds.
+✔ Suite StateRuleInvariantTests passed after 60.724 seconds.
+✔ Suite FuzzRegressionTests passed after 60.747 seconds.
+✔ Suite SpecTracePoseTests passed after 60.760 seconds.
+✔ Suite IdentityTests passed after 60.773 seconds.
+✔ Suite SpecTraceExtraStageTests passed after 60.785 seconds.
+✔ Suite TextCacheBoundTests passed after 60.798 seconds.
+✔ Suite SpecTraceScreenTests passed after 60.820 seconds.
+✔ Suite TextAuditDetectorTests passed after 60.833 seconds.
+✔ Suite MonitorTests passed after 60.846 seconds.
+✔ Suite PlateCopyTests passed after 60.859 seconds.
+✔ Suite SpecTraceStageTests passed after 60.883 seconds.
+✔ Suite PerformerTimingTests passed after 60.896 seconds.
+✔ Suite SpecTracePlateTests passed after 60.909 seconds.
+✔ Suite ReviewRegressionStageTests passed after 60.922 seconds.
+✔ Suite TextAuditMatrixTests passed after 60.946 seconds.
+✔ Suite EngineBasicTests passed after 60.963 seconds.
+✔ Suite ExtremeValuesTests passed after 60.981 seconds.
+✔ Test officeHasNoFlickerAtEveryZoom(zoom:) with 3 test cases passed after 60.988 seconds.
+✔ Suite SpecTraceSceneTests passed after 61.019 seconds.
+✔ Suite SpecTraceSettingsTests passed after 61.037 seconds.
+✔ Suite TextAuditRegressionTests passed after 61.068 seconds.
+◇ Test theOfficeLayerReadsFilesOnlyThroughFileIO() started.
+◇ Test "chain2 行为：同一棵假 home 树，真的 buddyctl/buddydump dump --json 的输出 == App 构造方式的 SessionStore 算出来的（逐字段）" started.
+◇ Test "r2 kill(pid,0) 返回 EPERM（别人的进程，比如 launchd）当活着；引擎里也一直在场" started.
+◇ Test "C-007 .KEY / .Sock / CC-SOCKS 的大小写变体、路径里的 NUL、../ 都被保险认出来" started.
+◇ Test fullReplayPassesThroughTheFSEventsChainWhenAvailable() started.
+◇ Test "文件名里有空格 / 中文 / emoji / 换行 / 很长：FSEvents 回调照常送出原样的路径，不崩溃" started.
+✔ Suite ScreenContentTests passed after 61.086 seconds.
+✔ Suite AppLayerFixTests passed after 61.108 seconds.
+✔ Suite RenderingTests passed after 61.133 seconds.
+✔ Suite ModelContractTests passed after 61.156 seconds.
+回放开始（根目录 /var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/buddy-replay-fse-66F08077-DF66-475A-93C6-004CF0BCDBFA）
+✔ Test "r2 kill(pid,0) 返回 EPERM（别人的进程，比如 launchd）当活着；引擎里也一直在场" passed after 0.205 seconds.
+✔ Test theOfficeLayerReadsFilesOnlyThroughFileIO() passed after 0.229 seconds.
+✔ Test "文件名里有空格 / 中文 / emoji / 换行 / 很长：FSEvents 回调照常送出原样的路径，不崩溃" passed after 0.282 seconds.
+◇ Test "r3 进程被回收（真的子进程退出）：存活检查发现之后先防抖 3 秒（2.9 秒仍在场），3.1 秒离场" started.
+◇ Test aMissingOrUnreadableDirectoryIsJustEmpty() started.
+✔ Test "C-007 .KEY / .Sock / CC-SOCKS 的大小写变体、路径里的 NUL、../ 都被保险认出来" passed after 0.318 seconds.
+  文件监听: FSEvents（兜底每秒轮询）
+  ✓ 启动时办公室是空的         
+◇ Test "C-022 FileWatcher.resolved：空串 / 根 / 一堆斜杠 / `..` / 超长 / 含 NUL / 几千层不存在的深路径：不崩溃（递归会压爆 512 KB 的栈）、结果稳定" started.
+✔ Test aMissingOrUnreadableDirectoryIsJustEmpty() passed after 0.114 seconds.
+✔ Test "r3 进程被回收（真的子进程退出）：存活检查发现之后先防抖 3 秒（2.9 秒仍在场），3.1 秒离场" passed after 0.157 seconds.
+  ✓ 进场：新会话走进办公室（登记表 idle）     17 ms
+✔ Suite DesktopMetaFileIOTests passed after 61.553 seconds.
+◇ Test "C-014 token 账本：没有 buddy 在用的文件不再被扫描（不再 stat / open），也不会无限累积" started.
+✔ Test "chain2 行为：同一棵假 home 树，真的 buddyctl/buddydump dump --json 的输出 == App 构造方式的 SessionStore 算出来的（逐字段）" passed after 0.542 seconds.
+◇ Test "r4 PID 被复用（真进程还活着，但登记表 procStart 和它的启动时间差 10 秒）：判死，同样先防抖 3 秒" started.
+  ✓ 思考：一轮开始（登记表 busy + UserPromptSubmit）     15 ms
+✔ Test "r4 PID 被复用（真进程还活着，但登记表 procStart 和它的启动时间差 10 秒）：判死，同样先防抖 3 秒" passed after 0.071 seconds.
+◇ Test "chain3 行为：App 构造方式的 SessionStore 与直接用 SessionEngine 算出来的快照一致（同一个引擎）" started.
+✔ Suite StateRuleProcessTests passed after 61.718 seconds.
+  ✓ 读：Read app.swift     20 ms
+✔ Test "chain3 行为：App 构造方式的 SessionStore 与直接用 SessionEngine 算出来的快照一致（同一个引擎）" passed after 0.144 seconds.
+◇ Test "py1 QA/tools/token_crosscheck.py 在假 home 树上：独立实现 == 用量表 parse_line == dump == 手算期望值" started.
+✔ Test "C-022 FileWatcher.resolved：空串 / 根 / 一堆斜杠 / `..` / 超长 / 含 NUL / 几千层不存在的深路径：不崩溃（递归会压爆 512 KB 的栈）、结果稳定" passed after 0.453 seconds.
+✔ Suite FuzzWatcherTests passed after 61.917 seconds.
+  ✓ 读完：回到思考     10 ms
+  ✓ 并行搜索：Grep + Glob 同一毫秒（×2）     18 ms
+✔ Test "py1 QA/tools/token_crosscheck.py 在假 home 树上：独立实现 == 用量表 parse_line == dump == 手算期望值" passed after 0.302 seconds.
+◇ Test "py2 QA/tools/dump_vs_registry.py 在假 home 树上：pid / 标题链 / status / waitingFor / 集合 全部一致，输出里没有标题文字" started.
+✔ Test "C-024 多个线程同时原子写同一个文件：读到的永远是某一次完整的内容，不会是两次写的混合（临时文件名不能共用）" passed after 62.200 seconds.
+✔ Suite FuzzFileIOTests passed after 62.217 seconds.
+  ✓ 搜索完：回到思考     24 ms
+✔ Test "py2 QA/tools/dump_vs_registry.py 在假 home 树上：pid / 标题链 / status / waitingFor / 集合 全部一致，输出里没有标题文字" passed after 0.159 seconds.
+✔ Suite StateRuleChainTests passed after 62.290 seconds.
+✔ Test "4.3-42 第一次扫大文件放到后台低优先级：默认扫描队列跑在 .background（从最低优先级提交，测到的是队列自己的 QoS）" passed after 62.286 seconds.
+✔ Suite SpecTraceCoreTests passed after 62.291 seconds.
+  ✓ 改代码：Edit     10 ms
+  ✓ 改完：回到思考     15 ms
+  ✓ 长 Bash 开始     20 ms
+✔ Test mouseDownRoutesBackgroundDragsAndBuddyClicksTheRightWay() passed after 62.904 seconds.
+✔ Test whenAuthorizedTheSystemNotificationIsUsedInsteadOfTheToast() passed after 62.903 seconds.
+✔ Test aHiddenBuddyDisturbsNobodyButStillCountsAsALiveSession() passed after 62.903 seconds.
+✔ Test onlyASingleClickOnTheBackgroundStartsAWindowDrag() passed after 62.904 seconds.
+✔ Test testsRunOnTheMainThread() passed after 62.903 seconds.
+✔ Test notYetAskedOrNotAnAppBundleAlsoFallsBack(status:available:) with 2 test cases passed after 62.903 seconds.
+✔ Test whenSystemNotificationsAreDeniedTheFallbackAlertsReallyAppear() passed after 62.903 seconds.
+✔ Test clicksOnDanglingSeatsAndInDemoModeNeverJumpForReal() passed after 62.903 seconds.
+✔ Test theDockDoesNotBounceWhileTheAppIsAlreadyInFront() passed after 62.903 seconds.
+✔ Test theAutoQuitLiveSessionCheckCountsHiddenBuddies() passed after 62.903 seconds.
+✔ Test incomingDataIsSanitizedSortedAndDerived() passed after 62.903 seconds.
+✔ Test switchingTheDataSourceResetsTheFirstDataFlagAndStopsTheOldOne() passed after 62.903 seconds.
+✔ Test noWindowOtherThanTheFloatingPanelsIsRepeatedlyReframed() passed after 62.903 seconds.
+✔ Suite PixelViewDragTests passed after 62.908 seconds.
+✔ Suite AppModelTests passed after 62.907 seconds.
+✔ Test severalWaitersAreCountedAndMergedInTheFallbackToo() passed after 62.904 seconds.
+✔ Test everyFloatingPanelHasWindowAnimationsTurnedOff() passed after 62.904 seconds.
+✔ Test menuBarIconKindAndDockBadgeLabels() passed after 62.904 seconds.
+✔ Test demoModeNeverAddsToTheRealTally() passed after 62.904 seconds.
+✔ Test theAskedFlagSurvivesARestartButTheSettingsButtonStillWorks() passed after 62.904 seconds.
+✔ Test alreadyAnsweredNeverAsksAgain(status:) with 3 test cases passed after 62.904 seconds.
+✔ Test notAnAppBundleNeverTouchesTheNotificationCenter() passed after 62.904 seconds.
+✔ Test theFirstActiveOpenOfTheOfficeAsksExactlyOnce() passed after 62.904 seconds.
+✔ Test theThreeTitleBarButtonsClickOnlyWhenReleasedInsideAndShrinkingSwapsTheOfficeForTheTank() passed after 62.904 seconds.
+✔ Test aBackgroundLaunchDoesNotAskUntilTheAppIsInFront() passed after 62.904 seconds.
+✔ Test theStatusMenuHasBuddyRowsThenTheFiveTogglesThenDemoSettingsAndQuit() passed after 62.904 seconds.
+✔ Test theTerminalScriptFollowsTheSpecifiedSteps() passed after 62.904 seconds.
+✔ Test menuBarIconsAreEighteenPointTemplatesExceptTheColouredWaitingOne() passed after 62.904 seconds.
+✔ Test theProcessHelpersReadTheProcessTableAndTheHostLookupSkipsBackgroundApps() passed after 62.904 seconds.
+✔ Test titleBarButtonArtIsTwelveByTwelveWithFourStatesAndTenByTenIcons() passed after 62.904 seconds.
+✔ Test theDiagnosticsPageShowsEverythingTheSpecListsIncludingTheLastHookEventTime() passed after 62.904 seconds.
+✔ Test theJumpServiceKeepsTheSpecifiedMechanisms() passed after 62.904 seconds.
+✔ Test autoQuitListensForApplicationTermination() passed after 62.904 seconds.
+✔ Test theBuildScriptAndTheManualSayWhatTheSpecRequires() passed after 62.904 seconds.
+✔ Test theDecisionFunction() passed after 62.904 seconds.
+✔ Test loginItemUsesTheServiceManagementFirstThenTheSpecifiedLaunchAgentAndOnlyFromTheSwitch() passed after 62.904 seconds.
+✔ Test theTankIsDraggedByItsBackgroundThroughThePixelViewNotAppKitsBackgroundDrag() passed after 62.903 seconds.
+✔ Test aScreenParametersChangeRepositionsTheStrip() passed after 62.903 seconds.
+✔ Test settingsDriveTheTankAndTheStripAndTheStripHasTheSpecifiedSize() passed after 62.903 seconds.
+✔ Test theStripInterceptsBuddyPixelsWithAOnePixelHaloAndLetsEverythingElseThrough() passed after 62.902 seconds.
+✔ Test closingTheOfficeWindowOnlyHidesItAndRemembersThatItIsClosed() passed after 62.902 seconds.
+✔ Test thePanelsAreBorderlessNonActivatingFloatingAndTheStripIsTransparent() passed after 62.902 seconds.
+✔ Test doubleClickingTheTanksBackgroundGoesBackAndClickingABuddyJumps() passed after 62.902 seconds.
+✔ Test theOfficeWindowIsAnOrdinaryTitledResizableWindowThatRendersItsFirstFrameBeforeItIsShown() passed after 62.903 seconds.
+✔ Test labelsAndZoomSettingsReachTheOfficeRendering() passed after 62.902 seconds.
+✔ Test theOfficeHoverCardAppearsOnlyAfterTheMouseHasRestedFor250ms() passed after 62.902 seconds.
+✔ Test "R3c-01 三个人的等待提醒先后到（相邻两条 < 2 秒、首尾 ≥ 2 秒）：最后一张合并卡写「3 位同事在等你」，A 不能被落下" passed after 62.901 seconds.
+✔ Test "R4a-01 应用层读桌面元数据：某个会话的 lastFocusedAt 在 30 天以后（桌面 App 的时钟被拨快过）→ 丢掉它，「最近聚焦的」仍是真正在看的那个" passed after 62.901 seconds.
+✔ Test "R2-001 真实的小鱼缸控制器：运行中把缩放从 2 改成 1，下一拍图像层就是新大小（不是等画布下一次变化）" passed after 62.901 seconds.
+✔ Test "R3c-02 系统通知授权在运行期间被关掉：发出系统通知后再读一次真实状态，已经被拒了就补一张兜底提示卡；仍然授权的不补" passed after 62.901 seconds.
+✔ Test "R2-004 「等你」提醒被 20 秒节流挡住之后：这段等待没有提醒过，节流窗口一过、还在等就补发一条（不再重复）" passed after 62.901 seconds.
+✔ Test "R2-008 用 --data-root 起的开发副本：应用层读桌面元数据的根目录也跟着换成假 home（不再读真实的桌面会话元数据）" passed after 62.901 seconds.
+✔ Test "R2-016 拖窗口边缘（视口宽度一步一步变）：IOSurface 只在跨 64 像素的桶时才重建，不是每一步都新建一组" passed after 62.901 seconds.
+✔ Test "R2-006 隐私模式：「数据源诊断」文字和「测试深链」回执里不显示会话标题（共享屏幕时打开设置页不会露标题）" passed after 62.901 seconds.
+✔ Test "R2-014 系统时钟被往回拨（手动改时间 / NTP 校正）：节流记录里「来自未来」的时间当作已过期，新的一段等待照常提醒" passed after 62.901 seconds.
+✔ Test "R5a-01 出错提醒也过两道闸：桌面会话在「桌面 App 里的会话也提醒」关着时不提醒；你正在看那个会话时不提醒；都不挡时照常提醒" passed after 62.901 seconds.
+✔ Test "R2-002 提示卡出现：orderFront 的那一刻面板已经在屏幕外的起点，不能先出现在终点位置再跳走；新提示卡到来时已有的不被拽回终点" passed after 62.901 seconds.
+✔ Test "R2-016 分桶的 surface 渲染出来和「按缩放放大的画布」逐像素一致：contentsRect 裁得正好，不偏一个像素、边上没有混色" passed after 62.901 seconds.
+✔ Test "R2-017 办公室窗口（普通 NSWindow）也关掉 AppKit 的窗口出现 / 消失动画：快速 show / hide 时动画线程不会一路涨（B-010 的同类）" passed after 62.901 seconds.
+✔ Test "R2-003 两个会话先后「做完了要你处理」（blocked）：合并出来的「N 位同事有事找你」要留着，不能在同一次判定里被撤掉" passed after 62.901 seconds.
+✔ Test "R2-007 测试宿主进程的 --test-bundle-path 不算开发开关：测试里 DebugTools.enabled 必须是 false（不然被测代码里加一行 DebugTools.log 就会往用户真实的日志文件里写）" passed after 62.901 seconds.
+✔ Test "R2-016 用桶（比视口大）的 surface 时，显示出来的部分正好是视口：contentsRect 是 视口 / surface，图层尺寸 = 视口 × 缩放，左上角的像素就是画布的像素" passed after 62.901 seconds.
+✔ Test "R2-001 PixelView：画布没变、只有缩放变了（局部重绘的场景知道「没变」）时，图像层也要跟着新缩放变大小" passed after 62.901 seconds.
+✔ Test "R3c-01 合并卡只带「还在等」的人：A 在 C 到之前已经处理掉了，最后一张合并卡就是「2 位同事在等你」（B、C）" passed after 62.901 seconds.
+✔ Test theSystemNotificationGateIsTheAppBundleAndAClickCarriesTheKey() passed after 62.901 seconds.
+✔ Test notificationMaintenanceAndFallbackConstantsStayAsTheSpecSays() passed after 62.901 seconds.
+✔ Test theSoundModeFromTheSettingsReachesThePlayerAndEachKindHasItsOwnSound() passed after 62.901 seconds.
+✔ Test theSoundsAreSynthesisedAsEightBitMonoWavDataWithoutAnyFile() passed after 62.901 seconds.
+✔ Test pixelViewAndTitleBarButtonsNeverLetAppKitStartAWindowDrag() passed after 62.901 seconds.
+✔ Suite PanelAnimationTests passed after 62.910 seconds.
+✔ Suite AlertFallbackTests passed after 62.910 seconds.
+✔ Suite SpecTraceJumpAndLifecycleTests passed after 62.910 seconds.
+✔ Suite NotificationAuthTests passed after 62.910 seconds.
+✔ Suite SpecTraceChromeTests passed after 62.910 seconds.
+✔ Suite SpecTracePanelTests passed after 62.910 seconds.
+✔ Suite PixelViewTests passed after 62.910 seconds.
+✔ Suite SpecTraceAlertTests passed after 62.910 seconds.
+✔ Suite ReviewRegressionAppTests passed after 62.910 seconds.
+  ✓ 长 Bash 跑了 61 分钟：依然是 busy + Bash（不因时间判死）         
+  ✓ 长 Bash 结束     22 ms
+  ✓ 等批准：Bash git push（permission prompt）     16 ms
+  ✓ 批准了：回到 busy，不再等你     31 ms
+✔ Test "C-014 token 账本：没有 buddy 在用的文件不再被扫描（不再 stat / open），也不会无限累积" passed after 2.023 seconds.
+◇ Test "C-021 子代理的 .meta.json 一直不存在时，不会每次 poll 都去 open 它" started.
+✔ Test "C-021 子代理的 .meta.json 一直不存在时，不会每次 poll 都去 open 它" passed after 0.003 seconds.
+◇ Test "isForbidden 和独立判断在随机路径上逐个对照（大小写、NUL、cc-socks 目录、.、..、空段、Unicode）" started.
+  ✓ 提问：AskUserQuestion（detail 是选项描述，不能当问题）     19 ms
+  ✓ 回答了：回到 busy     20 ms
+✔ Test "isForbidden 和独立判断在随机路径上逐个对照（大小写、NUL、cc-socks 目录、.、..、空段、Unicode）" passed after 0.229 seconds.
+◇ Test "各种变体路径（大小写 / ./ / // / .. / 结尾斜杠 / 符号链接链 / 目录符号链接 / 绕过 cc-socks）都打不开假的 .key / .sock；观察口里一个都没有" started.
+✔ Test "各种变体路径（大小写 / ./ / // / .. / 结尾斜杠 / 符号链接链 / 目录符号链接 / 绕过 cc-socks）都打不开假的 .key / .sock；观察口里一个都没有" passed after 0.003 seconds.
+◇ Test "登记表目录里一堆诱饵（假 .key / 名字差一点点的 / 目录 / FIFO / 指向 .key 的符号链接）：只读合法的 <pid>.json，绝不打开 .key，记录不含任何诱饵的内容" started.
+✔ Test "登记表目录里一堆诱饵（假 .key / 名字差一点点的 / 目录 / FIFO / 指向 .key 的符号链接）：只读合法的 <pid>.json，绝不打开 .key，记录不含任何诱饵的内容" passed after 0.004 seconds.
+◇ Test "R3a P2-1 登记表诱饵测试不受并行套件的 open 影响：另一个线程一直在打开别处的 jsonl 文件时，它仍然通过" started.
+✔ Test "R3a P2-1 登记表诱饵测试不受并行套件的 open 影响：另一个线程一直在打开别处的 jsonl 文件时，它仍然通过" passed after 0.006 seconds.
+◇ Test "句柄泄漏：把所有读取器（FileIO / JSONLTailer / 登记表 / 桌面元数据 / 子代理 / 账本 / FileWatcher）在各种文件（正常 / 目录 / FIFO / .key / 符号链接 / 不存在 / 被删）上反复跑几千次，文件描述符个数不涨" started.
+  ✓ 计划待审：ExitPlanMode     15 ms
+  ✓ 计划批准了：回到 busy     25 ms
+  ✓ 派 3 个前台子代理：主线程 Agent ×3     11 ms
+  ✓ 前台小助手干活：它们的工具调用不算主线程的     16 ms
+  ✓ 前台小助手做完、Agent 返回：回到思考     16 ms
+✔ Test "句柄泄漏：把所有读取器（FileIO / JSONLTailer / 登记表 / 桌面元数据 / 子代理 / 账本 / FileWatcher）在各种文件（正常 / 目录 / FIFO / .key / 符号链接 / 不存在 / 被删）上反复跑几千次，文件描述符个数不涨" passed after 0.666 seconds.
+◇ Test "open 审计：每一类路径归到该归的类别；名字不合规的、类别之外的、密钥文件 / socket 都算「不该出现」" started.
+✔ Test "open 审计：每一类路径归到该归的类别；名字不合规的、类别之外的、密钥文件 / socket 都算「不该出现」" passed after 0.001 seconds.
+◇ Test "open 审计：报告抓得到密钥文件 / socket 的路径，汇总文字里不出现文件名，装上之前保险的拒绝次数不算" started.
+✔ Test "open 审计：报告抓得到密钥文件 / socket 的路径，汇总文字里不出现文件名，装上之前保险的拒绝次数不算" passed after 0.001 seconds.
+◇ Test "open 审计：保险在观察期间拒绝过一次 = 有代码尝试打开不该打开的文件 → 不 ok；之前的拒绝不算" started.
+✔ Test "open 审计：保险在观察期间拒绝过一次 = 有代码尝试打开不该打开的文件 → 不 ok；之前的拒绝不算" passed after 0.001 seconds.
+◇ Test "open 审计：在一棵放了诱饵的假 home 上跑一遍数据层（和 App 同一条链路）：只打开了 <pid>.json，一个诱饵都没碰，保险一次都没拒绝" started.
+✔ Test "open 审计：在一棵放了诱饵的假 home 上跑一遍数据层（和 App 同一条链路）：只打开了 <pid>.json，一个诱饵都没碰，保险一次都没拒绝" passed after 0.002 seconds.
+◇ Test "open 审计：别的线程同时在打开别处的文件（并行跑的其它测试）时，限定了范围的审计不受影响，不设范围的会被记进来" started.
+  ✓ 后台子代理：Agent 立刻返回，主线程继续读文件，小助手在自己跑 Bash     22 ms
+  ✓ 主线程读完     23 ms
+  ✓ 压缩：PreCompact → 整理上下文     20 ms
+  ✓ 压缩完：PostCompact → 回到思考     24 ms
+✔ Test "open 审计：别的线程同时在打开别处的文件（并行跑的其它测试）时，限定了范围的审计不受影响，不设范围的会被记进来" passed after 0.630 seconds.
+◇ Test keyFilesAreNeverOpened() started.
+✔ Test keyFilesAreNeverOpened() passed after 0.009 seconds.
+◇ Test safetyNetRefusesKeyAndSocketPaths() started.
+✔ Test safetyNetRefusesKeyAndSocketPaths() passed after 0.001 seconds.
+◇ Test codexHookFilesInTheSameDirectoryAreNeverTouched() started.
+✔ Test codexHookFilesInTheSameDirectoryAreNeverTouched() passed after 0.005 seconds.
+◇ Test engineNeverWritesUnderClaudeDir() started.
+✔ Test engineNeverWritesUnderClaudeDir() passed after 0.008 seconds.
+✔ Suite FileAccessTests passed after 65.150 seconds.
+  ✓ API 重试：第 2 次 / 共 10 次     19 ms
+  ✓ 重试窗口（retryInMs + 15 秒）过后没有新行：不再显示重试         
+  ✓ 出错：重试到上限 + 合成的 API 错误，登记表 idle     28 ms
+  ✓ 被打断：新一轮开始     22 ms
+  ✓ 被打断：用户按了停止（没有 Stop 事件）     17 ms
+  ✓ 3 秒后：被打断的状态消退，回到空闲         
+  ✓ 做完：新一轮开始     29 ms
+  ✓ 做完：Stop + 登记表 idle → 做完了（未读）     21 ms
+  ✓ 做完：桌面的本轮总结是 blocked（需要你处理）     15 ms
+  ✓ 6 秒后：做完了消退成空闲，但 blocked / 未读保持         
+  ✓ 空闲超过 10 分钟：打盹         
+  ✓ 空闲超过 45 分钟：睡着         
+  ✓ 进程被回收：登记文件消失，先防抖 3 秒（还在场）         
+  ✓ 防抖 3 秒后：离场，下班工位（桌面会话、元数据还在）         
+  ✓ 同一个身份回来：新进程带着同一个 hostSessionId     25 ms
+  ✓ 终端会话（无 hostSessionId）进场：key 是 t:<sessionId>     25 ms
+  ✓ 终端会话进程结束：离场后不是下班工位         
+  ✓ 8 秒后收回工位         
+  延迟基准：20 次孤立的登记表变化（busy ↔ waiting）…
+  诊断：文件监听: FSEvents（兜底每秒轮询） | 登记表: 正常（1 个文件） | hook: 部分会话没有事件（0/1） | 会话记录: 有 1 个会话没找到文件 | 桌面元数据: 正常（1 个） | token 统计: 正常
+
+步骤 43 个，通过 43，失败 0
+写文件 → 快照回调延迟（全部步骤）：p50 20 ms  p95 29 ms  max 31 ms
+登记表变化 → 快照回调延迟（15 步）：p50 21 ms  p95 31 ms  max 31 ms
+孤立变化的延迟基准（20 次）：p50 21 ms  p95 32 ms  max 32 ms
+✓ 回放通过
+假数据留在：/var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/buddy-replay-fse-66F08077-DF66-475A-93C6-004CF0BCDBFA
+✔ Test fullReplayPassesThroughTheFSEventsChainWhenAvailable() passed after 16.502 seconds.
+◇ Test replayRefusesANonEmptyRoot() started.
+✗ --root 必须是空目录或不存在的目录：/var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/buddy-replay-nonempty-5C8A2BC9-CB0C-4DBD-9C58-C7F9E0499A02
+✔ Test replayRefusesANonEmptyRoot() passed after 0.002 seconds.
+✔ Suite ReplayTests passed after 77.574 seconds.
+✔ Test run with 798 tests in 91 suites passed after 77.575 seconds.

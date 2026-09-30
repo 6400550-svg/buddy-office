@@ -1,0 +1,195 @@
+◇ Test run started.
+↳ Testing Library Version: 1902
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Suite DesktopMetaFileIOTests started.
+◇ Suite ReviewRegressionAppTests started.
+◇ Suite ReplayTests started.
+◇ Suite EngineConfigTests started.
+◇ Suite FileAccessTests started.
+◇ Test fullReplayPassesWithPolling() started.
+◇ Test readsLastFocusedThroughFileIOAndSkipsUnreadableEntries() started.
+◇ Test "R2-007 测试宿主进程的 --test-bundle-path 不算开发开关：测试里 DebugTools.enabled 必须是 false（不然被测代码里加一行 DebugTools.log 就会往用户真实的日志文件里写）" started.
+◇ Test "R3c-01 三个人的等待提醒先后到（相邻两条 < 2 秒、首尾 ≥ 2 秒）：最后一张合并卡写「3 位同事在等你」，A 不能被落下" started.
+◇ Test "R2-002 提示卡出现：orderFront 的那一刻面板已经在屏幕外的起点，不能先出现在终点位置再跳走；新提示卡到来时已有的不被拽回终点" started.
+◇ Test "R2-014 系统时钟被往回拨（手动改时间 / NTP 校正）：节流记录里「来自未来」的时间当作已过期，新的一段等待照常提醒" started.
+◇ Test "R2-006 隐私模式：「数据源诊断」文字和「测试深链」回执里不显示会话标题（共享屏幕时打开设置页不会露标题）" started.
+◇ Test "R2-016 用桶（比视口大）的 surface 时，显示出来的部分正好是视口：contentsRect 是 视口 / surface，图层尺寸 = 视口 × 缩放，左上角的像素就是画布的像素" started.
+◇ Test "R3c-02 系统通知授权在运行期间被关掉：发出系统通知后再读一次真实状态，已经被拒了就补一张兜底提示卡；仍然授权的不补" started.
+◇ Test "R3c-01 合并卡只带「还在等」的人：A 在 C 到之前已经处理掉了，最后一张合并卡就是「2 位同事在等你」（B、C）" started.
+◇ Test outOfRangeValuesAreClampedAndSleepAlwaysComesAfterDoze() started.
+◇ Test settingsMapToEngineOptions() started.
+◇ Test "R2-008 用 --data-root 起的开发副本：应用层读桌面元数据的根目录也跟着换成假 home（不再读真实的桌面会话元数据）" started.
+◇ Test "R5a-01 出错提醒也过两道闸：桌面会话在「桌面 App 里的会话也提醒」关着时不提醒；你正在看那个会话时不提醒；都不挡时照常提醒" started.
+◇ Test realProviderPassesTheSettingsToTheEngine() started.
+◇ Test "R2-001 真实的小鱼缸控制器：运行中把缩放从 2 改成 1，下一拍图像层就是新大小（不是等画布下一次变化）" started.
+◇ Test realProviderClampsWhatItReadsFromDefaults() started.
+◇ Test theDataRootArgumentReachesTheEngine() started.
+◇ Test "R2-003 两个会话先后「做完了要你处理」（blocked）：合并出来的「N 位同事有事找你」要留着，不能在同一次判定里被撤掉" started.
+◇ Test "R2-017 办公室窗口（普通 NSWindow）也关掉 AppKit 的窗口出现 / 消失动画：快速 show / hide 时动画线程不会一路涨（B-010 的同类）" started.
+◇ Test "R2-016 拖窗口边缘（视口宽度一步一步变）：IOSurface 只在跨 64 像素的桶时才重建，不是每一步都新建一组" started.
+◇ Test "R2-004 「等你」提醒被 20 秒节流挡住之后：这段等待没有提醒过，节流窗口一过、还在等就补发一条（不再重复）" started.
+◇ Test "R4a-01 应用层读桌面元数据：某个会话的 lastFocusedAt 在 30 天以后（桌面 App 的时钟被拨快过）→ 丢掉它，「最近聚焦的」仍是真正在看的那个" started.
+◇ Test "R2-016 分桶的 surface 渲染出来和「按缩放放大的画布」逐像素一致：contentsRect 裁得正好，不偏一个像素、边上没有混色" started.
+◇ Test "R2-001 PixelView：画布没变、只有缩放变了（局部重绘的场景知道「没变」）时，图像层也要跟着新缩放变大小" started.
+◇ Test "登记表目录里一堆诱饵（假 .key / 名字差一点点的 / 目录 / FIFO / 指向 .key 的符号链接）：只读合法的 <pid>.json，绝不打开 .key，记录不含任何诱饵的内容" started.
+回放开始（根目录 /var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/buddy-replay-test-DF9555A2-8166-4001-A132-2AB4CC8C542F）
+✔ Test outOfRangeValuesAreClampedAndSleepAlwaysComesAfterDoze() passed after 0.002 seconds.
+✔ Test settingsMapToEngineOptions() passed after 0.003 seconds.
+✔ Test readsLastFocusedThroughFileIOAndSkipsUnreadableEntries() passed after 0.003 seconds.
+◇ Test theOfficeLayerReadsFilesOnlyThroughFileIO() started.
+✔ Test "登记表目录里一堆诱饵（假 .key / 名字差一点点的 / 目录 / FIFO / 指向 .key 的符号链接）：只读合法的 <pid>.json，绝不打开 .key，记录不含任何诱饵的内容" passed after 0.008 seconds.
+◇ Test "open 审计：每一类路径归到该归的类别；名字不合规的、类别之外的、密钥文件 / socket 都算「不该出现」" started.
+✔ Test "open 审计：每一类路径归到该归的类别；名字不合规的、类别之外的、密钥文件 / socket 都算「不该出现」" passed after 0.001 seconds.
+◇ Test "open 审计：报告抓得到密钥文件 / socket 的路径，汇总文字里不出现文件名，装上之前保险的拒绝次数不算" started.
+✔ Test "open 审计：报告抓得到密钥文件 / socket 的路径，汇总文字里不出现文件名，装上之前保险的拒绝次数不算" passed after 0.001 seconds.
+◇ Test "open 审计：保险在观察期间拒绝过一次 = 有代码尝试打开不该打开的文件 → 不 ok；之前的拒绝不算" started.
+✔ Test realProviderPassesTheSettingsToTheEngine() passed after 0.009 seconds.
+✔ Test "open 审计：保险在观察期间拒绝过一次 = 有代码尝试打开不该打开的文件 → 不 ok；之前的拒绝不算" passed after 0.001 seconds.
+◇ Test "open 审计：在一棵放了诱饵的假 home 上跑一遍数据层（和 App 同一条链路）：只打开了 <pid>.json，一个诱饵都没碰，保险一次都没拒绝" started.
+✔ Test "open 审计：在一棵放了诱饵的假 home 上跑一遍数据层（和 App 同一条链路）：只打开了 <pid>.json，一个诱饵都没碰，保险一次都没拒绝" passed after 0.002 seconds.
+◇ Test "open 审计：别的线程同时在打开别处的文件（并行跑的其它测试）时，限定了范围的审计不受影响，不设范围的会被记进来" started.
+✔ Test realProviderClampsWhatItReadsFromDefaults() passed after 0.013 seconds.
+✔ Test theDataRootArgumentReachesTheEngine() passed after 0.014 seconds.
+✔ Suite EngineConfigTests passed after 0.015 seconds.
+✔ Test theOfficeLayerReadsFilesOnlyThroughFileIO() passed after 0.059 seconds.
+◇ Test aMissingOrUnreadableDirectoryIsJustEmpty() started.
+✔ Test aMissingOrUnreadableDirectoryIsJustEmpty() passed after 0.001 seconds.
+✔ Suite DesktopMetaFileIOTests passed after 0.062 seconds.
+✔ Test "R2-007 测试宿主进程的 --test-bundle-path 不算开发开关：测试里 DebugTools.enabled 必须是 false（不然被测代码里加一行 DebugTools.log 就会往用户真实的日志文件里写）" passed after 0.110 seconds.
+✔ Test "R3c-01 三个人的等待提醒先后到（相邻两条 < 2 秒、首尾 ≥ 2 秒）：最后一张合并卡写「3 位同事在等你」，A 不能被落下" passed after 0.118 seconds.
+✔ Test "R2-006 隐私模式：「数据源诊断」文字和「测试深链」回执里不显示会话标题（共享屏幕时打开设置页不会露标题）" passed after 0.118 seconds.
+✔ Test "R2-002 提示卡出现：orderFront 的那一刻面板已经在屏幕外的起点，不能先出现在终点位置再跳走；新提示卡到来时已有的不被拽回终点" passed after 0.118 seconds.
+✔ Test "R5a-01 出错提醒也过两道闸：桌面会话在「桌面 App 里的会话也提醒」关着时不提醒；你正在看那个会话时不提醒；都不挡时照常提醒" passed after 0.120 seconds.
+✔ Test "R3c-01 合并卡只带「还在等」的人：A 在 C 到之前已经处理掉了，最后一张合并卡就是「2 位同事在等你」（B、C）" passed after 0.120 seconds.
+✔ Test "R2-014 系统时钟被往回拨（手动改时间 / NTP 校正）：节流记录里「来自未来」的时间当作已过期，新的一段等待照常提醒" passed after 0.120 seconds.
+✔ Test "R2-001 真实的小鱼缸控制器：运行中把缩放从 2 改成 1，下一拍图像层就是新大小（不是等画布下一次变化）" passed after 0.120 seconds.
+✔ Test "R2-008 用 --data-root 起的开发副本：应用层读桌面元数据的根目录也跟着换成假 home（不再读真实的桌面会话元数据）" passed after 0.120 seconds.
+✔ Test "R3c-02 系统通知授权在运行期间被关掉：发出系统通知后再读一次真实状态，已经被拒了就补一张兜底提示卡；仍然授权的不补" passed after 0.121 seconds.
+✔ Test "R2-016 用桶（比视口大）的 surface 时，显示出来的部分正好是视口：contentsRect 是 视口 / surface，图层尺寸 = 视口 × 缩放，左上角的像素就是画布的像素" passed after 0.121 seconds.
+✔ Test "R4a-01 应用层读桌面元数据：某个会话的 lastFocusedAt 在 30 天以后（桌面 App 的时钟被拨快过）→ 丢掉它，「最近聚焦的」仍是真正在看的那个" passed after 0.120 seconds.
+✔ Test "R2-016 分桶的 surface 渲染出来和「按缩放放大的画布」逐像素一致：contentsRect 裁得正好，不偏一个像素、边上没有混色" passed after 0.120 seconds.
+✔ Test "R2-004 「等你」提醒被 20 秒节流挡住之后：这段等待没有提醒过，节流窗口一过、还在等就补发一条（不再重复）" passed after 0.120 seconds.
+✔ Test "R2-003 两个会话先后「做完了要你处理」（blocked）：合并出来的「N 位同事有事找你」要留着，不能在同一次判定里被撤掉" passed after 0.120 seconds.
+✔ Test "R2-016 拖窗口边缘（视口宽度一步一步变）：IOSurface 只在跨 64 像素的桶时才重建，不是每一步都新建一组" passed after 0.120 seconds.
+✔ Test "R2-001 PixelView：画布没变、只有缩放变了（局部重绘的场景知道「没变」）时，图像层也要跟着新缩放变大小" passed after 0.120 seconds.
+✔ Test "R2-017 办公室窗口（普通 NSWindow）也关掉 AppKit 的窗口出现 / 消失动画：快速 show / hide 时动画线程不会一路涨（B-010 的同类）" passed after 0.120 seconds.
+✔ Suite ReviewRegressionAppTests passed after 0.121 seconds.
+  文件监听: 纯轮询（每 50 ms）
+  ✓ 启动时办公室是空的         
+  ✓ 进场：新会话走进办公室（登记表 idle）     96 ms
+  ✓ 思考：一轮开始（登记表 busy + UserPromptSubmit）      7 ms
+✔ Test "open 审计：别的线程同时在打开别处的文件（并行跑的其它测试）时，限定了范围的审计不受影响，不设范围的会被记进来" passed after 0.631 seconds.
+◇ Test keyFilesAreNeverOpened() started.
+✔ Test keyFilesAreNeverOpened() passed after 0.012 seconds.
+◇ Test safetyNetRefusesKeyAndSocketPaths() started.
+✔ Test safetyNetRefusesKeyAndSocketPaths() passed after 0.001 seconds.
+✔ Suite FileAccessTests passed after 0.656 seconds.
+  ✓ 读：Read app.swift     37 ms
+  ✓ 读完：回到思考     34 ms
+  ✓ 并行搜索：Grep + Glob 同一毫秒（×2）     44 ms
+  ✓ 搜索完：回到思考     41 ms
+  ✓ 改代码：Edit     44 ms
+  ✓ 改完：回到思考     49 ms
+  ✓ 长 Bash 开始     34 ms
+  ✓ 长 Bash 跑了 61 分钟：依然是 busy + Bash（不因时间判死）         
+  ✓ 长 Bash 结束     40 ms
+  ✓ 等批准：Bash git push（permission prompt）     40 ms
+  ✓ 批准了：回到 busy，不再等你     40 ms
+  ✓ 提问：AskUserQuestion（detail 是选项描述，不能当问题）     35 ms
+  ✓ 回答了：回到 busy     34 ms
+  ✓ 计划待审：ExitPlanMode     44 ms
+  ✓ 计划批准了：回到 busy     36 ms
+  ✓ 派 3 个前台子代理：主线程 Agent ×3     40 ms
+  ✓ 前台小助手干活：它们的工具调用不算主线程的     37 ms
+  ✓ 前台小助手做完、Agent 返回：回到思考     39 ms
+  ✓ 后台子代理：Agent 立刻返回，主线程继续读文件，小助手在自己跑 Bash     55 ms
+  ✓ 主线程读完     26 ms
+  ✓ 压缩：PreCompact → 整理上下文     39 ms
+  ✓ 压缩完：PostCompact → 回到思考     46 ms
+  ✓ API 重试：第 2 次 / 共 10 次     38 ms
+  ✓ 重试窗口（retryInMs + 15 秒）过后没有新行：不再显示重试         
+  ✓ 出错：重试到上限 + 合成的 API 错误，登记表 idle     35 ms
+  ✓ 被打断：新一轮开始     81 ms
+  ✓ 被打断：用户按了停止（没有 Stop 事件）     42 ms
+  ✓ 3 秒后：被打断的状态消退，回到空闲         
+  ✓ 做完：新一轮开始     85 ms
+  ✓ 做完：Stop + 登记表 idle → 做完了（未读）     36 ms
+  ✓ 做完：桌面的本轮总结是 blocked（需要你处理）     89 ms
+  ✓ 6 秒后：做完了消退成空闲，但 blocked / 未读保持         
+  ✓ 空闲超过 10 分钟：打盹         
+  ✓ 空闲超过 45 分钟：睡着         
+  ✓ 进程被回收：登记文件消失，先防抖 3 秒（还在场）         
+  ✓ 防抖 3 秒后：离场，下班工位（桌面会话、元数据还在）         
+  ✓ 同一个身份回来：新进程带着同一个 hostSessionId     91 ms
+  ✓ 终端会话（无 hostSessionId）进场：key 是 t:<sessionId>     80 ms
+  ✓ 终端会话进程结束：离场后不是下班工位         
+  ✓ 8 秒后收回工位         
+  诊断：文件监听: 纯轮询（每 50 ms） | 登记表: 正常（1 个文件） | hook: 部分会话没有事件（0/1） | 会话记录: 有 1 个会话没找到文件 | 桌面元数据: 正常（1 个） | token 统计: 正常
+
+步骤 43 个，通过 43，失败 0
+写文件 → 快照回调延迟（全部步骤）：p50 40 ms  p95 91 ms  max 96 ms
+登记表变化 → 快照回调延迟（15 步）：p50 40 ms  p95 96 ms  max 96 ms
+✓ 回放通过
+假数据留在：/var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/buddy-replay-test-DF9555A2-8166-4001-A132-2AB4CC8C542F
+✔ Test fullReplayPassesWithPolling() passed after 7.020 seconds.
+◇ Test fullReplayPassesThroughTheFSEventsChainWhenAvailable() started.
+回放开始（根目录 /var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/buddy-replay-fse-CFB4A16F-05CC-4EF6-A360-9F4B26027B48）
+  文件监听: FSEvents（兜底每秒轮询）
+  ✓ 启动时办公室是空的         
+  ✓ 进场：新会话走进办公室（登记表 idle）     32 ms
+  ✓ 思考：一轮开始（登记表 busy + UserPromptSubmit）     33 ms
+  ✓ 读：Read app.swift     11 ms
+  ✓ 读完：回到思考     24 ms
+  ✓ 并行搜索：Grep + Glob 同一毫秒（×2）     28 ms
+  ✓ 搜索完：回到思考     23 ms
+  ✓ 改代码：Edit     34 ms
+  ✓ 改完：回到思考     22 ms
+  ✓ 长 Bash 开始     23 ms
+  ✓ 长 Bash 跑了 61 分钟：依然是 busy + Bash（不因时间判死）         
+  ✓ 长 Bash 结束     24 ms
+  ✓ 等批准：Bash git push（permission prompt）     24 ms
+  ✓ 批准了：回到 busy，不再等你     26 ms
+  ✓ 提问：AskUserQuestion（detail 是选项描述，不能当问题）     27 ms
+  ✓ 回答了：回到 busy     19 ms
+  ✓ 计划待审：ExitPlanMode     16 ms
+  ✓ 计划批准了：回到 busy     20 ms
+  ✓ 派 3 个前台子代理：主线程 Agent ×3     12 ms
+  ✓ 前台小助手干活：它们的工具调用不算主线程的     26 ms
+  ✓ 前台小助手做完、Agent 返回：回到思考     22 ms
+  ✓ 后台子代理：Agent 立刻返回，主线程继续读文件，小助手在自己跑 Bash     20 ms
+  ✓ 主线程读完     21 ms
+  ✓ 压缩：PreCompact → 整理上下文     20 ms
+  ✓ 压缩完：PostCompact → 回到思考     19 ms
+  ✓ API 重试：第 2 次 / 共 10 次     21 ms
+  ✓ 重试窗口（retryInMs + 15 秒）过后没有新行：不再显示重试         
+  ✓ 出错：重试到上限 + 合成的 API 错误，登记表 idle     21 ms
+  ✓ 被打断：新一轮开始     21 ms
+  ✓ 被打断：用户按了停止（没有 Stop 事件）     11 ms
+  ✓ 3 秒后：被打断的状态消退，回到空闲         
+  ✓ 做完：新一轮开始     29 ms
+  ✓ 做完：Stop + 登记表 idle → 做完了（未读）     21 ms
+  ✓ 做完：桌面的本轮总结是 blocked（需要你处理）     30 ms
+  ✓ 6 秒后：做完了消退成空闲，但 blocked / 未读保持         
+  ✓ 空闲超过 10 分钟：打盹         
+  ✓ 空闲超过 45 分钟：睡着         
+  ✓ 进程被回收：登记文件消失，先防抖 3 秒（还在场）         
+  ✓ 防抖 3 秒后：离场，下班工位（桌面会话、元数据还在）         
+  ✓ 同一个身份回来：新进程带着同一个 hostSessionId     26 ms
+  ✓ 终端会话（无 hostSessionId）进场：key 是 t:<sessionId>     27 ms
+  ✓ 终端会话进程结束：离场后不是下班工位         
+  ✓ 8 秒后收回工位         
+  延迟基准：20 次孤立的登记表变化（busy ↔ waiting）…
+  诊断：文件监听: FSEvents（兜底每秒轮询） | 登记表: 正常（1 个文件） | hook: 部分会话没有事件（0/1） | 会话记录: 有 1 个会话没找到文件 | 桌面元数据: 正常（1 个） | token 统计: 正常
+
+步骤 43 个，通过 43，失败 0
+写文件 → 快照回调延迟（全部步骤）：p50 23 ms  p95 33 ms  max 34 ms
+登记表变化 → 快照回调延迟（15 步）：p50 24 ms  p95 33 ms  max 33 ms
+孤立变化的延迟基准（20 次）：p50 20 ms  p95 32 ms  max 32 ms
+✓ 回放通过
+假数据留在：/var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/buddy-replay-fse-CFB4A16F-05CC-4EF6-A360-9F4B26027B48
+✔ Test fullReplayPassesThroughTheFSEventsChainWhenAvailable() passed after 16.513 seconds.
+◇ Test replayRefusesANonEmptyRoot() started.
+✗ --root 必须是空目录或不存在的目录：/var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/buddy-replay-nonempty-06431AA0-B1A6-4FEC-8238-91DF6311CB62
+✔ Test replayRefusesANonEmptyRoot() passed after 0.001 seconds.
+✔ Suite ReplayTests passed after 23.535 seconds.
+✔ Test run with 37 tests in 5 suites passed after 23.535 seconds.

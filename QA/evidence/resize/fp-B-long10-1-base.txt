@@ -1,0 +1,50 @@
+======================================================================
+BuddyOffice [38634]: 64-bit    Footprint: 26 MB (16384 bytes per page)
+======================================================================
+
+  Dirty      Clean  Reclaimable    Regions    Category
+    ---        ---          ---        ---    ---
+  15 MB        0 B          0 B         11    Malloc Small
+1819 KB        0 B          0 B        995    __DATA_DIRTY
+1733 KB      16 KB          0 B       1012    __DATA
+1728 KB        0 B          0 B          4    IOSurface
+ 880 KB        0 B          0 B         15    Malloc Metadata
+ 753 KB        0 B          0 B          1    page table
+ 704 KB        0 B          0 B         34    Untagged
+ 518 KB        0 B          0 B        524    __AUTH
+ 432 KB        0 B          0 B         27    CoreAnimation
+ 384 KB        0 B          0 B         16    Stack
+ 304 KB        0 B          0 B          1    Malloc Tiny
+ 288 KB      13 MB          0 B         36    mapped file
+ 272 KB        0 B          0 B          2    CoreUI Image Data
+ 208 KB        0 B          0 B          1    Dispatch Continuations
+ 171 KB        0 B          0 B       2662    unused dyld shared cache area
+ 128 KB        0 B          0 B          6    CG Image
+ 112 KB        0 B          0 B          3    CG Raster Data
+ 112 KB        0 B          0 B          4    __TPRO_CONST
+  96 KB      48 KB          0 B       1056    __DATA_CONST
+  64 KB        0 B          0 B          2    IOAccelerator
+  48 KB        0 B          0 B          6    IOKit
+  48 KB        0 B          0 B          1    __OBJC_RW
+  32 KB        0 B          0 B          1    Activity Tracing
+  32 KB        0 B          0 B          1    Untagged (media)
+  32 KB        0 B          0 B          2    CoreGraphics
+  16 KB        0 B          0 B          1    Deferred Reclaim
+  16 KB        0 B          0 B          1    OS Alloc Once
+  16 KB        0 B          0 B          2    IOAccelerator (graphics)
+  16 KB        0 B          0 B          1    Dyld Private Memory
+  16 KB        0 B          0 B          1    Foundation
+  16 KB        0 B          0 B          1    ColorSync
+    0 B    2240 KB          0 B       1144    __TEXT
+    0 B     112 KB          0 B          4    __LINKEDIT
+    0 B        0 B          0 B          1    __OBJC_RO
+    0 B        0 B          0 B          1    __FONT_DATA
+    0 B        0 B          0 B          1    __CTF
+    0 B        0 B          0 B       1049    __AUTH_CONST
+    ---        ---          ---        ---    ---
+  26 MB      16 MB          0 B       8632    TOTAL
+
+Auxiliary data:
+    phys_footprint: 26 MB
+    phys_footprint_peak: 26 MB
+

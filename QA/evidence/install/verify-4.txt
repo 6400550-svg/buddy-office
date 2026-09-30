@@ -1,0 +1,15 @@
+# 安装检查 2026-09-29 14:55:02
+版本：1.0.1（build 202609291454）；项目 VERSION 文件：1.0.1
+Bundle id：local.buddy-office
+codesign --verify --strict：通过（Identifier=local.buddy-office Signature=adhoc TeamIdentifier=not set ）
+可执行文件：5203760 字节，Sep 29 14:54；build 时间戳 202609291454
+源码里没有比装好的可执行文件更新的文件（装好的就是当前源码编出来的）
+在运行：pid 8274，启动于 Tue Sep 29 14:54:56 2026    ，路径 ~/Applications/Buddy M-eM^JM^^M-eM^EM-,M-eM-.M-$.app/Contents/MacOS/BuddyOffice
+文件句柄：55 个；类型 CHR:3 DIR:16 KQUEUE:1 REG:35 
+没有 .key / .sock 句柄
+没有网络连接（没有 IPv4 / IPv6 句柄）
+线程数：11；RSS 90.0 MB；CPU 累计   0:00.74
+hook-merge status：已安装（退出码 0）
+settings.json 和安装前逐字节相同（sha256 一致）：install 是幂等的，什么都没改
+mdfind：bundle id local.buddy-office 对应 1 个 App（应为 1：装好的这个）
+结论：✅ 装好的是修好的那一版，在运行，签名 / hook / 句柄都正常

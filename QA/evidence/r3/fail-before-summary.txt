@@ -1,0 +1,26 @@
+## r3aP22 (撤销修复后) rc=1
+✘ Test "R3a P2-2 桌面元数据的 lastFocusedAt 在 30 天以后：未读照样亮（和「一小时前」一样），不能让「未读」永远不亮" recorded an issue with 1 argument future → true at ReviewRegressionTests.swift:87:9: Expectation failed: (h.snap(K.key)?.unread → false) == true
+✘ Test "R3a P2-2 桌面元数据的 lastActivityAt 在 30 天以后：只当作「刚刚」，下班工位照常在 12 小时后到期，不会永远占着座位" recorded an issue at ReviewRegressionTests.swift:102:9: Expectation failed: (h.snapshots → [BuddyCore.BuddySnapshot(key: "d:local_22222222-0000-4000-8000-000000000000", seat: 3, salt: 0, title: "假会话", cwd: Optional("/fake/project"), origin: BuddyC
+✘ Test run with 2 tests in 1 suite failed after 0.011 seconds with 2 issues.
+## r3c01 (撤销修复后) rc=1
+✘ Test "R3c-01 三个人的等待提醒先后到（相邻两条 < 2 秒、首尾 ≥ 2 秒）：最后一张合并卡写「3 位同事在等你」，A 不能被落下" recorded an issue at ReviewRegressionAppTests.swift:282:9: Expectation failed: (lastMulti → "2 位同事在等你") == "3 位同事在等你"
+✘ Test run with 2 tests in 1 suite failed after 0.014 seconds with 1 issue.
+## r3c02 (撤销修复后) rc=1
+/private/tmp/claude-501/-Users-USER-Desktop/20c4bcc8-f611-4701-b1d3-f910aaa5248d/scratchpad/fix-tree/Sources/BuddyOffice/NotificationService.swift:104:17: error: value of optional type 'NotificationService?' must be unwrapped to refer to member 'toast' of wrapped base type 'NotificationService'
+    |                 |- error: value of optional type 'NotificationService?' must be unwrapped to refer to member 'toast' of wrapped base type 'NotificationService'
+error: fatalError
+## r3b02-title (撤销修复后) rc=1
+✘ Test "R3b-02 隐私模式端到端泄漏扫描：18 种工具 × 忙 / 等批准，桌牌 / 状态行 / 悬停卡片 / 下班工位的所有文字里都不出现会话标题、项目路径、工具详情、server 名" recorded an issue at ReviewRegressionStageTests.swift:262:9: Expectation failed: (leaks → ["Read long=false tool: 标题SECRETXYZ", "Read long=false waiting: 标题SECRETXYZ", "Read long=true tool
+✘ Test run with 1 test in 1 suite failed after 0.287 seconds with 1 issue.
+## r3b02-hovertitle (撤销修复后) rc=1
+✘ Test "R3b-02 隐私模式端到端泄漏扫描：18 种工具 × 忙 / 等批准，桌牌 / 状态行 / 悬停卡片 / 下班工位的所有文字里都不出现会话标题、项目路径、工具详情、server 名" recorded an issue at ReviewRegressionStageTests.swift:262:9: Expectation failed: (leaks → ["Read long=false tool: 标题SECRETXYZ", "Read long=false waiting: 标题SECRETXYZ", "Read long=true tool
+✘ Test run with 1 test in 1 suite failed after 0.311 seconds with 1 issue.
+## r3b02-cwd (撤销修复后) rc=1
+✘ Test "R3b-02 隐私模式端到端泄漏扫描：18 种工具 × 忙 / 等批准，桌牌 / 状态行 / 悬停卡片 / 下班工位的所有文字里都不出现会话标题、项目路径、工具详情、server 名" recorded an issue at ReviewRegressionStageTests.swift:262:9: Expectation failed: (leaks → ["Read long=false tool: /Users/SECRETXYZ/proj", "Read long=false waiting: /Users/SECRETXYZ/proj", "Read lo
+✘ Test run with 1 test in 1 suite failed after 0.312 seconds with 1 issue.
+## r3aP21 (撤销修复后) rc=1
+✘ Test "R3a P2-1 登记表诱饵测试不受并行套件的 open 影响：另一个线程一直在打开别处的 jsonl 文件时，它仍然通过" recorded an issue at FuzzSecurityTests.swift:128:9: Expectation failed: names.allSatisfy { Paths.isRegistryFileName($0) }
+✘ Test run with 1 test in 1 suite failed after 0.011 seconds with 1 issue.
+## R3b-01 撤销互斥后，竞争组合（DesktopMetaFileIOTests | EngineConfigTests | ReviewRegressionAppTests | AppModelTests）连跑 40 次：失败 0 次
+## R3b-01 修复后同一个组合连跑 60 次：失败 0 次
+DONE

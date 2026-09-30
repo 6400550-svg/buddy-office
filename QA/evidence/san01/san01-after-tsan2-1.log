@@ -1,0 +1,61 @@
+[0/1] Planning build
+Building for debugging...
+[0/9] Write sources
+[1/9] Write swift-version--1AB21518FC5DEDBE.txt
+[3/9] Compiling PixelKit PixelFont.swift
+[4/9] Emitting module PixelKit
+[5/16] Compiling BuddyStage StripScene.swift
+[6/16] Compiling BuddyStage TankScene.swift
+[7/16] Compiling BuddyStage TextAudit.swift
+[8/16] Compiling BuddyStage SeatRenderer.swift
+[9/17] Emitting module BuddyStage
+[10/17] Compiling BuddyStage RoomRenderer.swift
+[11/17] Compiling BuddyStage ScreenContent.swift
+[12/17] Compiling BuddyStage TextAuditRunner.swift
+[12/26] Write Objects.LinkFileList
+[14/26] Compiling buddyctl main.swift
+[15/26] Emitting module buddyctl
+[15/26] Write Objects.LinkFileList
+[16/26] Linking buddyctl
+[17/26] Applying buddyctl
+[18/26] Linking BuddyOffice
+[19/26] Applying BuddyOffice
+[21/26] Compiling BuddyStageTests ReviewRegressionStageTests.swift
+/private/tmp/claude-501/-Users-USER-Desktop/20c4bcc8-f611-4701-b1d3-f910aaa5248d/scratchpad/audit-tree/Tests/BuddyStageTests/ReviewRegressionStageTests.swift:249:30: warning: 'stopped' mutated after capture by sendable closure
+225 |         let ink = UInt8(pal.add("ink", RGBA8(255, 255, 255)))
+226 |         let style = Resolved(map: nil, lutA: PaletteLUT.identity(pal))
+227 |         let stop = NSLock(); nonisolated(unsafe) var stopped = false
+    |                                                      `- note: variable defined here
+228 |         let finished = DispatchSemaphore(value: 0)
+229 |         let workers = 4
+230 |         for _ in 0..<workers {
+231 |             Thread {
+    |                    `- note: variable captured by sendable closure
+232 |                 let c = Canvas(width: 64, height: 12)
+233 |                 while true {
+234 |                     stop.lock(); let s = stopped; stop.unlock()
+    |                                          `- note: capturing use
+235 |                     if s { break }
+236 |                     PixelFont.tiny.draw("0123456789", x: 1, y: 1, value: ink, style: style, on: c)
+    :
+247 |             if own != 1 { missing += 1 }
+248 |         }
+249 |         stop.lock(); stopped = true; stop.unlock()
+    |                              `- warning: 'stopped' mutated after capture by sendable closure
+250 |         for _ in 0..<workers { finished.wait() }
+251 |         #expect(missing == 0, "\(missing) 次收集里自己画的那一条不是恰好一条")
+[22/26] Compiling BuddyStageTests SpecTraceUITests.swift
+[23/26] Compiling BuddyStageTests TextAuditTests.swift
+[24/26] Emitting module BuddyStageTests
+[25/26] Compiling BuddyStageTests ScreenContentTests.swift
+[25/27] Write Objects.LinkFileList
+[26/27] Linking BuddyOfficePackageTests
+Build complete! (11.90s)
+◇ Test run started.
+↳ Testing Library Version: 1902
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Suite ReviewRegressionStageTests started.
+◇ Test "SAN-01 withDraws 返回的是一份稳定的拷贝：别的线程一直在画像素字时，反复收集并逐条读像素，不崩、不读到释放过的内存；自己画的那一条一条不少" started.
+✔ Test "SAN-01 withDraws 返回的是一份稳定的拷贝：别的线程一直在画像素字时，反复收集并逐条读像素，不崩、不读到释放过的内存；自己画的那一条一条不少" passed after 0.248 seconds.
+✔ Suite ReviewRegressionStageTests passed after 0.248 seconds.
+✔ Test run with 1 test in 1 suite passed after 0.249 seconds.

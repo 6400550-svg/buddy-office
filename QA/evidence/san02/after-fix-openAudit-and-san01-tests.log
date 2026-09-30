@@ -1,0 +1,66 @@
+[0/1] Planning build
+Building for debugging...
+[0/15] Write sources
+[7/15] Write swift-version--1AB21518FC5DEDBE.txt
+[9/19] Emitting module BuddyCore
+[10/19] Compiling BuddyCore OpenAudit.swift
+[11/20] Compiling PixelKit PixelFont.swift
+[12/20] Emitting module PixelKit
+[13/20] Compiling BuddyCore DumpCommand.swift
+[13/24] Write Objects.LinkFileList
+[14/33] Linking buddydump
+[15/33] Applying buddydump
+[17/33] Compiling BuddyCoreTests OpenAuditTests.swift
+[18/33] Compiling BuddyStage StripScene.swift
+[19/34] Compiling BuddyStage TextAudit.swift
+[20/34] Compiling BuddyStage TankScene.swift
+[21/34] Emitting module BuddyStage
+[22/34] Compiling BuddyStage SeatRenderer.swift
+[23/34] Compiling BuddyStage RoomRenderer.swift
+[24/34] Compiling BuddyStage ScreenContent.swift
+[25/34] Emitting module BuddyCoreTests
+[26/34] Compiling BuddyStage TextAuditRunner.swift
+[27/47] Emitting module buddyctl
+[28/47] Compiling buddyctl main.swift
+[28/47] Write Objects.LinkFileList
+[29/47] Linking buddyctl
+[30/47] Applying buddyctl
+[32/47] Compiling BuddyOffice SelfTests.swift
+[33/47] Compiling BuddyOffice AppDelegate.swift
+[34/47] Compiling BuddyOffice DebugTools.swift
+[35/47] Compiling BuddyOffice OfficeWindowController.swift
+[36/47] Emitting module BuddyOffice
+[37/47] Compiling BuddyOffice PixelView.swift
+[37/47] Write Objects.LinkFileList
+[39/47] Compiling BuddyStageTests ScreenContentTests.swift
+[40/47] Compiling BuddyStageTests TextAuditTests.swift
+[41/47] Compiling BuddyStageTests ReviewRegressionStageTests.swift
+[41/47] Linking BuddyOffice
+[42/47] Applying BuddyOffice
+[44/49] Compiling BuddyOfficeTests ReviewRegressionAppTests.swift
+[45/49] Emitting module BuddyOfficeTests
+[46/49] Emitting module BuddyStageTests
+[47/49] Compiling BuddyStageTests SpecTraceUITests.swift
+[47/49] Write Objects.LinkFileList
+[48/49] Linking BuddyOfficePackageTests
+Build complete! (14.89s)
+◇ Test run started.
+↳ Testing Library Version: 1902
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Suite ReviewRegressionStageTests started.
+◇ Suite FileAccessTests started.
+◇ Test "SAN-01 withDraws 返回的是一份稳定的拷贝：别的线程一直在画像素字时，反复收集并逐条读像素，不崩、不读到释放过的内存；自己画的那一条一条不少" started.
+◇ Test "open 审计：每一类路径归到该归的类别；名字不合规的、类别之外的、密钥文件 / socket 都算「不该出现」" started.
+✔ Test "open 审计：每一类路径归到该归的类别；名字不合规的、类别之外的、密钥文件 / socket 都算「不该出现」" passed after 0.001 seconds.
+◇ Test "open 审计：报告抓得到密钥文件 / socket 的路径，汇总文字里不出现文件名，装上之前保险的拒绝次数不算" started.
+✔ Test "open 审计：报告抓得到密钥文件 / socket 的路径，汇总文字里不出现文件名，装上之前保险的拒绝次数不算" passed after 0.001 seconds.
+◇ Test "open 审计：保险在观察期间拒绝过一次 = 有代码尝试打开不该打开的文件 → 不 ok；之前的拒绝不算" started.
+✔ Test "open 审计：保险在观察期间拒绝过一次 = 有代码尝试打开不该打开的文件 → 不 ok；之前的拒绝不算" passed after 0.002 seconds.
+◇ Test "open 审计：在一棵放了诱饵的假 home 上跑一遍数据层（和 App 同一条链路）：只打开了 <pid>.json，一个诱饵都没碰，保险一次都没拒绝" started.
+✔ Test "open 审计：在一棵放了诱饵的假 home 上跑一遍数据层（和 App 同一条链路）：只打开了 <pid>.json，一个诱饵都没碰，保险一次都没拒绝" passed after 0.002 seconds.
+◇ Test "open 审计：别的线程同时在打开别处的文件（并行跑的其它测试）时，限定了范围的审计不受影响，不设范围的会被记进来" started.
+✔ Test "SAN-01 withDraws 返回的是一份稳定的拷贝：别的线程一直在画像素字时，反复收集并逐条读像素，不崩、不读到释放过的内存；自己画的那一条一条不少" passed after 0.047 seconds.
+✔ Suite ReviewRegressionStageTests passed after 0.047 seconds.
+✔ Test "open 审计：别的线程同时在打开别处的文件（并行跑的其它测试）时，限定了范围的审计不受影响，不设范围的会被记进来" passed after 0.609 seconds.
+✔ Suite FileAccessTests passed after 0.615 seconds.
+✔ Test run with 6 tests in 2 suites passed after 0.615 seconds.

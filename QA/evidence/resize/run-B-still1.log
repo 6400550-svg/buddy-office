@@ -1,0 +1,10 @@
+resize-test: 开始：内容 672×678 缩放 2 基线 25.2 MB；5 轮 × 300 步（对照组：不改尺寸，范围 320–1368 × 300–739）
+resize-test: 第 1 轮做完：占用 25.5 MB，累计新建 IOSurface 组 0
+resize-test: 第 2 轮做完：占用 26.0 MB，累计新建 IOSurface 组 0
+resize-test: 第 3 轮做完：占用 26.2 MB，累计新建 IOSurface 组 1
+resize-test: 第 4 轮做完：占用 27.2 MB，累计新建 IOSurface 组 1
+resize-test: 第 5 轮做完：占用 27.6 MB，累计新建 IOSurface 组 1
+resize-test: 全部做完后 1 秒：占用 27.7 MB（比基线 +2.5 MB），累计新建 IOSurface 组 1
+resize-test: 全部做完后 10 秒：占用 28.0 MB（比基线 +2.8 MB），累计新建 IOSurface 组 3
+resize-test: 全部做完后 30 秒：占用 28.5 MB（比基线 +3.3 MB），累计新建 IOSurface 组 6
+resize-test: RESULT 增长 3.3 MB

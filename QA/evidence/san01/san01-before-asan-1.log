@@ -1,0 +1,259 @@
+Building for debugging...
+[0/27] /private/tmp/claude-501/-Users-USER-Desktop/20c4bcc8-f611-4701-b1d3-f910aaa5248d/scratchpad/audit-tree/.build-asan-a/arm64-apple-macosx/debug/BuddyOfficePackageTests.derived/runner.swift
+[1/27] Write sources
+[10/27] Write buddyctl-entitlement.plist
+[11/27] Write buddydump-entitlement.plist
+[11/27] Write sources
+[13/27] Write BuddyOffice-entitlement.plist
+[15/27] Write swift-version--1AB21518FC5DEDBE.txt
+[17/66] Emitting module PixelKit
+[18/66] Compiling BuddyCore ActivityResolver.swift
+[19/66] Compiling BuddyCore BuddyState.swift
+[20/66] Compiling BuddyCore HelperAttributor.swift
+[21/66] Compiling BuddyCore IdentityResolver.swift
+[22/66] Compiling BuddyCore SessionStore.swift
+[23/66] Compiling BuddyCore ToolCatalog.swift
+[24/66] Compiling BuddyCore SessionEngine.swift
+[25/66] Compiling BuddyCore SessionSignals.swift
+[26/66] Compiling BuddyCore ToolTracker.swift
+[27/66] Compiling BuddyCore DesktopMetaReader.swift
+[32/68] Compiling PixelKit Sprite.swift
+[33/68] Compiling PixelKit TextRenderer.swift
+[36/100] Compiling BuddyArt RoomArt.swift
+[37/100] Compiling BuddyArt SheetRenderer.swift
+[38/100] Compiling BuddyArt CellPreview.swift
+[39/100] Compiling BuddyArt Desk.swift
+[40/100] Compiling BuddyArt CharacterArt.swift
+[41/100] Compiling BuddyArt Bubbles.swift
+[42/100] Compiling BuddyArt ChromeArt.swift
+[43/100] Compiling BuddyArt MenuBarIcon.swift
+[44/100] Compiling BuddyArt Light.swift
+[45/100] Compiling BuddyArt MasterPalette.swift
+[46/100] Emitting module BuddyArt
+[47/105] Compiling BuddyArt PoseProps.swift
+[48/105] Compiling BuddyArt PropArt.swift
+[49/105] Compiling BuddyArt PropLegend.swift
+[50/105] Compiling BuddyArt SeatGeometry.swift
+[51/105] Compiling BuddyCore TimeUtil.swift
+[52/105] Compiling BuddyArt DeskProps.swift
+[57/105] Compiling BuddyArt AppIconArt.swift
+[63/105] Compiling BuddyArt Faces.swift
+[64/105] Compiling BuddyArt Hair.swift
+[65/105] Compiling BuddyArt HairStyles.swift
+[66/105] Compiling BuddyArt Heads.swift
+[67/105] Compiling BuddyArt Helpers.swift
+[68/105] Compiling BuddyArt Limbs.swift
+[69/105] Compiling BuddyArt Outfits.swift
+[70/105] Compiling BuddyArt ShadeKit.swift
+[71/105] Compiling BuddyArt Torso.swift
+[72/105] Emitting module BuddyCore
+[73/105] Compiling BuddyArt ArtCommands.swift
+[74/105] Compiling BuddyArt Accessories.swift
+[75/105] Compiling BuddyArt Appearance.swift
+[76/105] Compiling BuddyArt Blink.swift
+[77/105] Compiling BuddyArt BuddyRig.swift
+[78/105] Compiling BuddyArt Chair.swift
+[84/137] Compiling BuddyCoreTests SmokeTests.swift
+[85/137] Compiling BuddyCoreTests SourceAuditCoreTests.swift
+[86/137] Compiling BuddyCoreTests SpecTraceCoreTests.swift
+[87/137] Compiling BuddyCoreTests StateRuleChainTests.swift
+[88/137] Compiling BuddyCoreTests StateRuleInvariantTests.swift
+[89/137] Compiling BuddyCoreTests ActivityResolverTests.swift
+[90/137] Compiling BuddyCoreTests EngineBasicTests.swift
+[91/137] Compiling BuddyCoreTests EnginePresenceTests.swift
+[92/137] Compiling BuddyCoreTests EngineScenarioTests.swift
+[93/137] Compiling BuddyCoreTests FuzzEngineTests.swift
+[94/137] Compiling BuddyCoreTests FuzzParserTests.swift
+[95/159] Compiling buddydump main.swift
+[96/159] Emitting module buddydump
+[96/159] Write Objects.LinkFileList
+[97/159] Linking buddydump
+[98/159] Applying buddydump
+[100/159] Emitting module BuddyStage
+[101/163] Compiling BuddyStage PlateCopy.swift
+[102/163] Compiling BuddyStage PoseLibrary.swift
+[103/163] Compiling BuddyStage RoomRenderer.swift
+[104/163] Compiling BuddyStage SafeMath.swift
+[105/163] Compiling BuddyStage SceneClock.swift
+[106/163] Compiling BuddyStage ScreenContent.swift
+[107/168] Compiling BuddyStage AuditFixtures.swift
+[108/168] Compiling BuddyStage DemoScript.swift
+[109/168] Compiling BuddyStage FlickerScan.swift
+[110/168] Compiling BuddyStage HoverCard.swift
+[111/168] Compiling BuddyStage KeyHasher.swift
+[112/168] Compiling BuddyStage VisualDirector.swift
+[113/168] Compiling BuddyStage Walkers.swift
+[114/168] Compiling BuddyCoreTests HookLogTests.swift
+[115/168] Compiling BuddyCoreTests IdentityTests.swift
+[116/168] Compiling BuddyCoreTests JSONLTailerTests.swift
+[117/168] Compiling BuddyCoreTests ModelTests.swift
+[118/168] Compiling BuddyStage StageRun.swift
+[119/168] Compiling BuddyStage StripScene.swift
+[120/168] Compiling BuddyStage TankScene.swift
+[121/168] Compiling BuddyStage TextAudit.swift
+[122/168] Compiling BuddyStage TextAuditRunner.swift
+[123/168] Compiling BuddyStage ToastCard.swift
+[126/168] Compiling BuddyCoreTests StoreTests.swift
+[127/168] Compiling BuddyCoreTests Support.swift
+[128/168] Compiling BuddyCoreTests TokenLedgerTests.swift
+[129/168] Compiling BuddyCoreTests ToolTrackerTests.swift
+[130/168] Compiling BuddyCoreTests TranscriptTests.swift
+[134/168] Compiling BuddyStage OfficeLayout.swift
+[135/168] Compiling BuddyStage OfficeScene.swift
+[136/168] Compiling BuddyStage Performer.swift
+[146/168] Compiling BuddyStage SeatRenderer.swift
+[147/168] Compiling BuddyStage SkyRenderer.swift
+[148/168] Compiling BuddyStage StageCommands.swift
+[149/210] Compiling buddyctl main.swift
+[150/210] Emitting module buddyctl
+[150/210] Write Objects.LinkFileList
+[151/210] Linking buddyctl
+[152/210] Applying buddyctl
+[154/210] Emitting module BuddyStageTests
+[155/212] Compiling BuddyOffice SelfTests.swift
+[156/212] Compiling BuddyOffice Settings.swift
+[157/212] Compiling BuddyOffice SettingsView.swift
+[158/212] Compiling BuddyOffice SoundSynth.swift
+[159/212] Compiling BuddyOffice StatusItemController.swift
+[160/212] Compiling BuddyOffice AppModel.swift
+[161/212] Compiling BuddyOffice ApplyPlan.swift
+[162/212] Compiling BuddyOffice NotificationService.swift
+[163/212] Compiling BuddyOffice BoundedWait.swift
+[164/212] Compiling BuddyOffice DebugTools.swift
+[165/212] Compiling BuddyOffice EngineConfig.swift
+[166/212] Emitting module BuddyCoreTests
+[170/212] Compiling BuddyOffice JumpResolver.swift
+[171/212] Compiling BuddyOffice JumpService.swift
+[172/212] Compiling BuddyOffice AlertCoordinator.swift
+[173/212] Compiling BuddyStageTests TextAuditTests.swift
+[174/212] Compiling BuddyStageTests WalkersAndOffDutyTests.swift
+/private/tmp/claude-501/-Users-USER-Desktop/20c4bcc8-f611-4701-b1d3-f910aaa5248d/scratchpad/audit-tree/Tests/BuddyStageTests/ReviewRegressionStageTests.swift:249:30: warning: 'stopped' mutated after capture by sendable closure
+225 |         let ink = UInt8(pal.add("ink", RGBA8(255, 255, 255)))
+226 |         let style = Resolved(map: nil, lutA: PaletteLUT.identity(pal))
+227 |         let stop = NSLock(); nonisolated(unsafe) var stopped = false
+    |                                                      `- note: variable defined here
+228 |         let finished = DispatchSemaphore(value: 0)
+229 |         let workers = 4
+230 |         for _ in 0..<workers {
+231 |             Thread {
+    |                    `- note: variable captured by sendable closure
+232 |                 let c = Canvas(width: 64, height: 12)
+233 |                 while true {
+234 |                     stop.lock(); let s = stopped; stop.unlock()
+    |                                          `- note: capturing use
+235 |                     if s { break }
+236 |                     PixelFont.tiny.draw("0123456789", x: 1, y: 1, value: ink, style: style, on: c)
+    :
+247 |             if own != 1 { missing += 1 }
+248 |         }
+249 |         stop.lock(); stopped = true; stop.unlock()
+    |                              `- warning: 'stopped' mutated after capture by sendable closure
+250 |         for _ in 0..<workers { finished.wait() }
+251 |         #expect(missing == 0, "\(missing) 次收集里自己画的那一条不是恰好一条")
+/private/tmp/claude-501/-Users-USER-Desktop/20c4bcc8-f611-4701-b1d3-f910aaa5248d/scratchpad/audit-tree/Tests/BuddyStageTests/ReviewRegressionStageTests.swift:249:30: warning: 'stopped' mutated after capture by sendable closure
+225 |         let ink = UInt8(pal.add("ink", RGBA8(255, 255, 255)))
+226 |         let style = Resolved(map: nil, lutA: PaletteLUT.identity(pal))
+227 |         let stop = NSLock(); nonisolated(unsafe) var stopped = false
+    |                                                      `- note: variable defined here
+228 |         let finished = DispatchSemaphore(value: 0)
+229 |         let workers = 4
+230 |         for _ in 0..<workers {
+231 |             Thread {
+    |                    `- note: variable captured by sendable closure
+232 |                 let c = Canvas(width: 64, height: 12)
+233 |                 while true {
+234 |                     stop.lock(); let s = stopped; stop.unlock()
+    |                                          `- note: capturing use
+235 |                     if s { break }
+236 |                     PixelFont.tiny.draw("0123456789", x: 1, y: 1, value: ink, style: style, on: c)
+    :
+247 |             if own != 1 { missing += 1 }
+248 |         }
+249 |         stop.lock(); stopped = true; stop.unlock()
+    |                              `- warning: 'stopped' mutated after capture by sendable closure
+250 |         for _ in 0..<workers { finished.wait() }
+251 |         #expect(missing == 0, "\(missing) 次收集里自己画的那一条不是恰好一条")
+/private/tmp/claude-501/-Users-USER-Desktop/20c4bcc8-f611-4701-b1d3-f910aaa5248d/scratchpad/audit-tree/Tests/BuddyStageTests/ReviewRegressionStageTests.swift:249:30: warning: 'stopped' mutated after capture by sendable closure
+225 |         let ink = UInt8(pal.add("ink", RGBA8(255, 255, 255)))
+226 |         let style = Resolved(map: nil, lutA: PaletteLUT.identity(pal))
+227 |         let stop = NSLock(); nonisolated(unsafe) var stopped = false
+    |                                                      `- note: variable defined here
+228 |         let finished = DispatchSemaphore(value: 0)
+229 |         let workers = 4
+230 |         for _ in 0..<workers {
+231 |             Thread {
+    |                    `- note: variable captured by sendable closure
+232 |                 let c = Canvas(width: 64, height: 12)
+233 |                 while true {
+234 |                     stop.lock(); let s = stopped; stop.unlock()
+    |                                          `- note: capturing use
+235 |                     if s { break }
+236 |                     PixelFont.tiny.draw("0123456789", x: 1, y: 1, value: ink, style: style, on: c)
+    :
+247 |             if own != 1 { missing += 1 }
+248 |         }
+249 |         stop.lock(); stopped = true; stop.unlock()
+    |                              `- warning: 'stopped' mutated after capture by sendable closure
+250 |         for _ in 0..<workers { finished.wait() }
+251 |         #expect(missing == 0, "\(missing) 次收集里自己画的那一条不是恰好一条")
+[178/212] Compiling BuddyOffice AlertPipeline.swift
+[179/212] Compiling BuddyOffice AppDelegate.swift
+[180/212] Compiling BuddyOffice OfficeWindowController.swift
+[181/212] Compiling BuddyOffice PanelShow.swift
+[182/212] Emitting module BuddyOffice
+[188/217] Compiling BuddyOffice Providers.swift
+[189/217] Compiling BuddyOffice RealProvider.swift
+[190/217] Compiling BuddyOffice ScreenPicker.swift
+[193/217] Compiling BuddyOffice TankPanelController.swift
+[194/217] Compiling BuddyOffice TickPacer.swift
+[195/217] Compiling BuddyOffice TitleBarButtons.swift
+[196/217] Compiling BuddyOffice ToastController.swift
+[197/217] Compiling BuddyOffice main.swift
+[211/217] Compiling BuddyOffice StripPanelController.swift
+[212/217] Compiling BuddyOffice SystemHelpers.swift
+[212/217] Write Objects.LinkFileList
+[213/217] Linking BuddyOffice
+[214/217] Applying BuddyOffice
+[216/243] Emitting module BuddyOfficeTests
+[217/248] Compiling BuddyOfficeTests SeatSanitizerTests.swift
+[218/248] Compiling BuddyOfficeTests SettingsTests.swift
+[219/248] Compiling BuddyOfficeTests SmokeTests.swift
+[220/248] Compiling BuddyOfficeTests SourceAudit.swift
+[221/248] Compiling BuddyOfficeTests SourceAuditTests.swift
+[222/248] Compiling BuddyOfficeTests CachesTests.swift
+[223/248] Compiling BuddyOfficeTests DebugLogTests.swift
+[224/248] Compiling BuddyOfficeTests DesktopMetaFileIOTests.swift
+[225/248] Compiling BuddyOfficeTests EngineConfigTests.swift
+[226/248] Compiling BuddyOfficeTests Fakes.swift
+[227/248] Compiling BuddyOfficeTests PanelShowTests.swift
+[228/248] Compiling BuddyOfficeTests PixelViewDragTests.swift
+[229/248] Compiling BuddyOfficeTests PixelViewTests.swift
+[230/248] Compiling BuddyOfficeTests ReviewRegressionAppTests.swift
+[231/248] Compiling BuddyOfficeTests ScreenPickerTests.swift
+[232/248] Compiling BuddyOfficeTests Fixtures.swift
+[233/248] Compiling BuddyOfficeTests HousekeepingTests.swift
+[234/248] Compiling BuddyOfficeTests JumpTests.swift
+[235/248] Compiling BuddyOfficeTests NotificationAuthTests.swift
+[236/248] Compiling BuddyOfficeTests PanelAnimationTests.swift
+[237/248] Compiling BuddyOfficeTests AlertCoordinatorTests.swift
+[238/248] Compiling BuddyOfficeTests AlertFallbackTests.swift
+[239/248] Compiling BuddyOfficeTests AppModelTests.swift
+[240/248] Compiling BuddyOfficeTests ApplyPlanTests.swift
+[241/248] Compiling BuddyOfficeTests AutoQuitTests.swift
+[242/248] Compiling BuddyOfficeTests SpecTraceAppTests.swift
+[243/248] Compiling BuddyOfficeTests SpecTraceUITests.swift
+[244/248] Compiling BuddyOfficeTests StripPlacementTests.swift
+[245/248] Compiling BuddyOfficeTests TickPacerTests.swift
+[246/248] Compiling BuddyOfficeTests ToastTextTests.swift
+[247/250] Compiling BuddyOfficePackageTests runner.swift
+[248/250] Emitting module BuddyOfficePackageTests
+[248/250] Write Objects.LinkFileList
+[249/250] Linking BuddyOfficePackageTests
+Build complete! (117.17s)
+error: Process '/Library/Developer/CommandLineTools/usr/libexec/swift/pm/swiftpm-testing-helper --test-bundle-path /private/tmp/claude-501/-Users-USER-Desktop/20c4bcc8-f611-4701-b1d3-f910aaa5248d/scratchpad/audit-tree/.build-asan-a/arm64-apple-macosx/debug/BuddyOfficePackageTests.xctest/Contents/MacOS/BuddyOfficePackageTests --sanitize=address --scratch-path .build-asan-a -Xswiftc -F/Library/Developer/CommandLineTools/Library/Developer/Frameworks -Xswiftc -plugin-path -Xswiftc /Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing -Xlinker -F/Library/Developer/CommandLineTools/Library/Developer/Frameworks -Xlinker -rpath -Xlinker /Library/Developer/CommandLineTools/Library/Developer/Frameworks -Xlinker -rpath -Xlinker /Library/Developer/CommandLineTools/Library/Developer/usr/lib --filter san01 /private/tmp/claude-501/-Users-USER-Desktop/20c4bcc8-f611-4701-b1d3-f910aaa5248d/scratchpad/audit-tree/.build-asan-a/arm64-apple-macosx/debug/BuddyOfficePackageTests.xctest/Contents/MacOS/BuddyOfficePackageTests --testing-library swift-testing' exited with unexpected signal code 5
+◇ Test run started.
+↳ Testing Library Version: 1902
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Suite ReviewRegressionStageTests started.
+◇ Test "SAN-01 withDraws 返回的是一份稳定的拷贝：别的线程一直在画像素字时，反复收集并逐条读像素，不崩、不读到释放过的内存；自己画的那一条一条不少" started.
+Swift/ContiguousArrayBuffer.swift:695: Fatal error: Index out of range

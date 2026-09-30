@@ -1,0 +1,7 @@
+after: rc=0 ✔ Test run with 48 tests in 2 suites passed after 0.508 seconds.
+## R5a-01 撤销两道闸后 rc=1
+✘ Test "R5a-01 出错提醒也过两道闸：桌面会话在「桌面 App 里的会话也提醒」关着时不提醒；你正在看那个会话时不提醒；都不挡时照常提醒" recorded an issue at ReviewRegressionAppTests.swift:355:9: Expectation failed: (errorPosts(origin: .desktop, includeDesktop: false, suppress: true, looking: false) → 1) == 
+✘ Test "R5a-01 出错提醒也过两道闸：桌面会话在「桌面 App 里的会话也提醒」关着时不提醒；你正在看那个会话时不提醒；都不挡时照常提醒" recorded an issue at ReviewRegressionAppTests.swift:356:9: Expectation failed: (errorPosts(origin: .terminal, includeDesktop: false, suppress: true, looking: true) → 1) == 
+✘ Test "R5a-01 出错提醒也过两道闸：桌面会话在「桌面 App 里的会话也提醒」关着时不提醒；你正在看那个会话时不提醒；都不挡时照常提醒" recorded an issue at ReviewRegressionAppTests.swift:357:9: Expectation failed: (errorPosts(origin: .desktop, includeDesktop: true, suppress: true, looking: true) → 1) == 0
+✘ Test run with 1 test in 1 suite failed after 0.006 seconds with 3 issues.
+DONE

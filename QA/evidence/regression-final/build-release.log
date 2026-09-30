@@ -1,0 +1,17 @@
+Building for production...
+[0/14] Write sources
+[7/14] Write swift-version--1AB21518FC5DEDBE.txt
+[9/16] Compiling PixelKit Canvas.swift
+[10/17] Compiling BuddyArt ArtCommands.swift
+[11/17] Compiling BuddyCore ActivityResolver.swift
+[12/19] Compiling buddydump main.swift
+[12/19] Write Objects.LinkFileList
+[13/19] Linking buddydump
+[15/19] Compiling BuddyStage AuditFixtures.swift
+[16/21] Compiling buddyctl main.swift
+[16/21] Write Objects.LinkFileList
+[17/21] Linking buddyctl
+[19/21] Compiling BuddyOffice AlertCoordinator.swift
+[19/21] Write Objects.LinkFileList
+[20/21] Linking BuddyOffice
+Build complete! (96.89s)

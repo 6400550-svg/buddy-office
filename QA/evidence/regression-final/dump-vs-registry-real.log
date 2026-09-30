@@ -1,0 +1,12 @@
+dump 与登记表核对（root=real-home）
+  dump 共 4 行：present 4，下班 / 离场 0
+  集合：dump 多出 []，漏掉 []
+  pid 35991  20c4bcc8 desktop 标题来源=登记表 name 阶段(推算/dump)=idle/busy
+      pid=√  sessionId=√  hostSessionId=√  origin=√  key=√  liveness=√  registryStatus=×  waitingFor=√  phase=×  title=√   → 不稳定（对照期间登记表变过，请重跑）
+  pid 65995  d95629cf desktop 标题来源=登记表 name 阶段(推算/dump)=idle/idle
+      pid=√  sessionId=√  hostSessionId=√  origin=√  key=√  liveness=√  registryStatus=√  waitingFor=√  phase=√  title=√   → 一致
+  pid 74043  f0139ce1 desktop 标题来源=登记表 name 阶段(推算/dump)=idle/idle
+      pid=√  sessionId=√  hostSessionId=√  origin=√  key=√  liveness=√  registryStatus=√  waitingFor=√  phase=√  title=√   → 一致
+  pid 95474  711c9a9c desktop 标题来源=登记表 name 阶段(推算/dump)=idle/idle
+      pid=√  sessionId=√  hostSessionId=√  origin=√  key=√  liveness=√  registryStatus=√  waitingFor=√  phase=√  title=√   → 一致
+结论：全部一致

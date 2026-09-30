@@ -1,0 +1,12 @@
+--- /private/tmp/claude-501/-Users-USER-Desktop/20c4bcc8-f611-4701-b1d3-f910aaa5248d/scratchpad/resize-exp/PixelView.B.swift	2026-09-29 07:00:38
++++ /private/tmp/claude-501/-Users-USER-Desktop/20c4bcc8-f611-4701-b1d3-f910aaa5248d/scratchpad/resize-exp/PixelView.C.swift	2026-09-29 07:00:38
+@@ -152,7 +152,8 @@
+ 
+     /// 下一块可以写的 IOSurface（尺寸变了就重建）；三块都还在被合成器用着时返回 nil，这一帧退回 CGImage 路径。
+     private func nextSurface(w: Int, h: Int) -> IOSurface? {
+-        if surfaceW != w || surfaceH != h || surfaces.isEmpty {
++        let fits = !surfaces.isEmpty && surfaceW >= w && surfaceH >= h && surfaceW * surfaceH <= 2 * w * h
++        if !fits {
+             surfaces = (0..<3).compactMap { _ in
+                 IOSurface(properties: [.width: w, .height: h, .bytesPerElement: 4, .pixelFormat: 0x42475241 as UInt32])
+             }

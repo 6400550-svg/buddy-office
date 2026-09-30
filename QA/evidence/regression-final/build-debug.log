@@ -1,0 +1,184 @@
+Building for debugging...
+[0/27] Write sources
+[10/27] ~/Desktop/编程项目/Buddy办公室/.build-reg/arm64-apple-macosx/debug/BuddyOfficePackageTests.derived/runner.swift
+[11/27] Write sources
+[12/27] Write buddyctl-entitlement.plist
+[12/27] Write BuddyOffice-entitlement.plist
+[14/27] Write buddydump-entitlement.plist
+[15/27] Write swift-version--1AB21518FC5DEDBE.txt
+[17/66] Emitting module BuddyCore
+[18/71] Compiling BuddyCore SessionEngine.swift
+[19/71] Compiling BuddyCore SessionSignals.swift
+[20/73] Compiling BuddyCore FileIO.swift
+[21/73] Compiling BuddyCore Hashing.swift
+[22/73] Compiling BuddyCore Info.swift
+[23/73] Compiling BuddyCore SafeJSON.swift
+[24/73] Compiling BuddyCore TimeUtil.swift
+[25/73] Compiling PixelKit Sprite.swift
+[26/73] Compiling PixelKit TextRenderer.swift
+[27/73] Compiling BuddyCore ToolTracker.swift
+[28/73] Compiling BuddyCore DesktopMetaReader.swift
+[29/73] Compiling BuddyCore HelperAttributor.swift
+[30/73] Compiling BuddyCore IdentityResolver.swift
+[31/73] Compiling BuddyCore ActivityResolver.swift
+[32/73] Compiling BuddyCore BuddyState.swift
+[33/73] Emitting module PixelKit
+[34/73] Compiling BuddyCore SessionStore.swift
+[35/73] Compiling BuddyCore ToolCatalog.swift
+[42/73] Compiling BuddyCore JSONLTailer.swift
+[43/73] Compiling BuddyCore LineSanitizer.swift
+[44/73] Compiling BuddyCore ProcessProbe.swift
+[45/73] Compiling BuddyCore RegistryScanner.swift
+[46/73] Compiling BuddyCore SubagentReader.swift
+[47/100] Emitting module BuddyArt
+[48/105] Compiling BuddyArt DeskProps.swift
+[49/105] Compiling BuddyArt PoseProps.swift
+[50/105] Compiling BuddyArt PropArt.swift
+[51/105] Compiling BuddyArt PropLegend.swift
+[52/105] Compiling BuddyArt SeatGeometry.swift
+[53/105] Compiling BuddyArt Hair.swift
+[54/105] Compiling BuddyArt HairStyles.swift
+[55/105] Compiling BuddyArt Heads.swift
+[56/105] Compiling BuddyArt MasterPalette.swift
+[57/105] Compiling BuddyArt RoomArt.swift
+[58/105] Compiling BuddyArt AppIconArt.swift
+[59/105] Compiling BuddyArt Bubbles.swift
+[60/105] Compiling BuddyArt ChromeArt.swift
+[61/105] Compiling BuddyArt MenuBarIcon.swift
+[62/105] Compiling BuddyArt Light.swift
+[63/105] Compiling BuddyArt CharacterArt.swift
+[64/105] Compiling BuddyArt Faces.swift
+[68/105] Compiling BuddyArt Helpers.swift
+[69/105] Compiling BuddyArt Limbs.swift
+[70/105] Compiling BuddyArt Outfits.swift
+[71/105] Compiling BuddyArt ShadeKit.swift
+[72/105] Compiling BuddyArt Torso.swift
+[79/105] Compiling BuddyArt ArtCommands.swift
+[80/105] Compiling BuddyArt Accessories.swift
+[81/105] Compiling BuddyArt Appearance.swift
+[82/105] Compiling BuddyArt Blink.swift
+[83/105] Compiling BuddyArt BuddyRig.swift
+[84/105] Compiling BuddyArt Chair.swift
+[87/105] Compiling BuddyArt SheetRenderer.swift
+[88/105] Compiling BuddyArt CellPreview.swift
+[89/105] Compiling BuddyArt Desk.swift
+[95/159] Compiling buddydump main.swift
+[96/159] Emitting module buddydump
+[96/159] Write Objects.LinkFileList
+[98/159] Emitting module BuddyStage
+[99/163] Compiling BuddyStage PoseLibrary.swift
+[100/163] Compiling BuddyStage RoomRenderer.swift
+[101/163] Compiling BuddyStage SafeMath.swift
+[102/163] Compiling BuddyStage SceneClock.swift
+[102/163] Linking buddydump
+[103/163] Applying buddydump
+[105/163] Emitting module BuddyCoreTests
+[106/168] Compiling BuddyStage AuditFixtures.swift
+[107/168] Compiling BuddyStage DemoScript.swift
+[108/168] Compiling BuddyStage FlickerScan.swift
+[109/168] Compiling BuddyStage HoverCard.swift
+[110/168] Compiling BuddyStage KeyHasher.swift
+[111/168] Compiling BuddyStage OfficeScene.swift
+[112/168] Compiling BuddyStage Performer.swift
+[113/168] Compiling BuddyStage PlateCopy.swift
+[117/168] Compiling BuddyStage OfficeLayout.swift
+[121/168] Compiling BuddyStage TextAuditRunner.swift
+[122/168] Compiling BuddyStage ToastCard.swift
+[123/168] Compiling BuddyStage VisualDirector.swift
+[124/168] Compiling BuddyStage Walkers.swift
+[125/168] Compiling BuddyCoreTests StoreTests.swift
+[126/168] Compiling BuddyCoreTests Support.swift
+[127/168] Compiling BuddyCoreTests TokenLedgerTests.swift
+[128/168] Compiling BuddyCoreTests ToolTrackerTests.swift
+[129/168] Compiling BuddyCoreTests TranscriptTests.swift
+[130/168] Compiling BuddyStage StageRun.swift
+[131/168] Compiling BuddyStage StripScene.swift
+[132/168] Compiling BuddyStage TankScene.swift
+[133/168] Compiling BuddyStage TextAudit.swift
+[134/168] Compiling BuddyStage ScreenContent.swift
+[135/168] Compiling BuddyStage SeatRenderer.swift
+[136/168] Compiling BuddyStage SkyRenderer.swift
+[137/168] Compiling BuddyStage StageCommands.swift
+[138/211] Emitting module buddyctl
+[139/211] Compiling buddyctl main.swift
+[139/211] Write Objects.LinkFileList
+[141/211] Compiling BuddyOffice AlertCoordinator.swift
+[142/211] Compiling BuddyOffice AlertPipeline.swift
+[143/211] Compiling BuddyOffice AppDelegate.swift
+[144/211] Compiling BuddyOffice AppModel.swift
+[145/211] Compiling BuddyOffice ApplyPlan.swift
+[146/211] Compiling BuddyOffice NotificationService.swift
+[147/211] Compiling BuddyOffice ScreenPicker.swift
+[148/211] Compiling BuddyOffice SelfTests.swift
+[149/211] Compiling BuddyOffice Settings.swift
+[150/211] Compiling BuddyOffice BoundedWait.swift
+[151/211] Compiling BuddyOffice DebugTools.swift
+[152/211] Compiling BuddyOffice EngineConfig.swift
+[152/211] Linking buddyctl
+[153/211] Applying buddyctl
+[155/211] Emitting module BuddyStageTests
+[159/213] Compiling BuddyStageTests TextCacheBoundTests.swift
+[160/213] Compiling BuddyStageTests WalkersAndOffDutyTests.swift
+[164/213] Compiling BuddyOffice PixelView.swift
+[165/213] Compiling BuddyOffice Providers.swift
+[166/213] Compiling BuddyOffice SystemHelpers.swift
+[167/213] Compiling BuddyCoreTests StateRuleChainTests.swift
+[168/213] Compiling BuddyCoreTests StateRuleInvariantTests.swift
+[169/213] Compiling BuddyCoreTests StateRuleProcessTests.swift
+[170/213] Compiling BuddyCoreTests StateRuleTests.swift
+[171/213] Compiling BuddyOffice RealProvider.swift
+[174/213] Compiling BuddyOffice JumpResolver.swift
+[175/213] Compiling BuddyOffice JumpService.swift
+[176/213] Compiling BuddyOffice SettingsView.swift
+[177/213] Compiling BuddyOffice SoundSynth.swift
+[178/213] Compiling BuddyOffice StatusItemController.swift
+[179/213] Compiling BuddyOffice StripPanelController.swift
+[180/213] Compiling BuddyOffice OfficeWindowController.swift
+[181/213] Compiling BuddyOffice PanelShow.swift
+[182/213] Compiling BuddyOffice Panels.swift
+[183/213] Emitting module BuddyOffice
+[184/218] Compiling BuddyOffice TankPanelController.swift
+[185/218] Compiling BuddyOffice TickPacer.swift
+[186/218] Compiling BuddyOffice TitleBarButtons.swift
+[187/218] Compiling BuddyOffice ToastController.swift
+[188/218] Compiling BuddyOffice main.swift
+[213/218] Write Objects.LinkFileList
+[214/218] Linking BuddyOffice
+[215/218] Applying BuddyOffice
+[217/245] Compiling BuddyOfficeTests SeatSanitizerTests.swift
+[218/245] Compiling BuddyOfficeTests SettingsTests.swift
+[219/245] Compiling BuddyOfficeTests SmokeTests.swift
+[220/245] Compiling BuddyOfficeTests SourceAudit.swift
+[221/245] Compiling BuddyOfficeTests SourceAuditTests.swift
+[222/245] Compiling BuddyOfficeTests Fixtures.swift
+[223/245] Compiling BuddyOfficeTests HousekeepingTests.swift
+[224/245] Compiling BuddyOfficeTests JumpTests.swift
+[225/245] Compiling BuddyOfficeTests NotificationAuthTests.swift
+[226/245] Compiling BuddyOfficeTests PanelAnimationTests.swift
+[227/250] Compiling BuddyOfficeTests PanelShowTests.swift
+[228/250] Compiling BuddyOfficeTests PixelViewDragTests.swift
+[229/250] Compiling BuddyOfficeTests PixelViewTests.swift
+[230/250] Compiling BuddyOfficeTests ReviewRegressionAppTests.swift
+[231/250] Compiling BuddyOfficeTests ScreenPickerTests.swift
+[232/250] Emitting module BuddyOfficeTests
+[233/250] Compiling BuddyOfficeTests DebugLogTests.swift
+[234/250] Compiling BuddyOfficeTests DesktopMetaFileIOTests.swift
+[235/250] Compiling BuddyOfficeTests DesktopMetaGate.swift
+[236/250] Compiling BuddyOfficeTests EngineConfigTests.swift
+[237/250] Compiling BuddyOfficeTests Fakes.swift
+[238/250] Compiling BuddyOfficeTests AlertCoordinatorTests.swift
+[239/250] Compiling BuddyOfficeTests AlertFallbackTests.swift
+[240/250] Compiling BuddyOfficeTests AppModelTests.swift
+[241/250] Compiling BuddyOfficeTests ApplyPlanTests.swift
+[242/250] Compiling BuddyOfficeTests AutoQuitTests.swift
+[243/250] Compiling BuddyOfficeTests CachesTests.swift
+[244/250] Compiling BuddyOfficeTests SpecTraceAppTests.swift
+[245/250] Compiling BuddyOfficeTests SpecTraceUITests.swift
+[246/250] Compiling BuddyOfficeTests StripPlacementTests.swift
+[247/250] Compiling BuddyOfficeTests TickPacerTests.swift
+[248/250] Compiling BuddyOfficeTests ToastTextTests.swift
+[249/252] Compiling BuddyOfficePackageTests runner.swift
+[250/252] Emitting module BuddyOfficePackageTests
+[250/252] Write Objects.LinkFileList
+[251/252] Linking BuddyOfficePackageTests
+Build complete! (117.89s)

@@ -1,0 +1,53 @@
+test_backup_and_temp_files_are_created_private_without_relying_on_chmod (__main__.HookMergeTests.test_backup_and_temp_files_are_created_private_without_relying_on_chmod) ... ok
+test_dangling_symlink_is_refused_and_creates_nothing (__main__.HookMergeTests.test_dangling_symlink_is_refused_and_creates_nothing) ... 拒绝：/var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/hm-test-371k8wd8/settings.json 是符号链接，但它指向的目录不存在（/private/var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/hm-test-371k8wd8/no-such-dir/settings.json）。为了不弄乱你的目录结构，什么都没改。
+ok
+test_file_mode_is_preserved (__main__.HookMergeTests.test_file_mode_is_preserved) ... ok
+test_install_appends_one_group_and_keeps_everything_else (__main__.HookMergeTests.test_install_appends_one_group_and_keeps_everything_else) ... ok
+test_install_creates_file_when_missing (__main__.HookMergeTests.test_install_creates_file_when_missing) ... ok
+test_install_then_uninstall_is_byte_identical_and_keeps_trailing_newline_state (__main__.HookMergeTests.test_install_then_uninstall_is_byte_identical_and_keeps_trailing_newline_state) ... ok
+test_install_twice_is_idempotent (__main__.HookMergeTests.test_install_twice_is_idempotent) ... ok
+test_refuses_invalid_json_and_leaves_no_trace (__main__.HookMergeTests.test_refuses_invalid_json_and_leaves_no_trace) ... 拒绝：/var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/hm-test-l7f8upbp/settings.json 不是合法的 JSON（Expecting property name enclosed in double quotes: line 1 column 12 (char 11)）。为了不弄坏它，什么都没改。
+拒绝：/var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/hm-test-l7f8upbp/settings.json 不是合法的 JSON（Expecting property name enclosed in double quotes: line 1 column 12 (char 11)）。为了不弄坏它，什么都没改。
+ok
+test_refuses_non_object_and_bad_hooks_shape (__main__.HookMergeTests.test_refuses_non_object_and_bad_hooks_shape) ... 拒绝：/var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/hm-test-xfyjahip/settings.json 的顶层不是一个 JSON 对象。为了不弄坏它，什么都没改。
+拒绝：settings.json 里的 hooks 不是对象，为了不弄坏它，什么都没改。
+拒绝：settings.json 里的 hooks.SessionStart 不是数组，为了不弄坏它，什么都没改。
+ok
+test_status (__main__.HookMergeTests.test_status) ... ok
+test_symlinked_settings_keeps_the_link_and_edits_the_real_file (__main__.HookMergeTests.test_symlinked_settings_keeps_the_link_and_edits_the_real_file) ... ok
+test_unicode_survives (__main__.HookMergeTests.test_unicode_survives) ... ok
+test_uninstall_only_removes_ours_from_a_shared_group (__main__.HookMergeTests.test_uninstall_only_removes_ours_from_a_shared_group) ... ok
+test_uninstall_removes_emptied_event_and_hooks (__main__.HookMergeTests.test_uninstall_removes_emptied_event_and_hooks) ... ok
+test_uninstall_restores_original (__main__.HookMergeTests.test_uninstall_restores_original) ... ok
+test_uninstall_when_not_installed_changes_nothing (__main__.HookMergeTests.test_uninstall_when_not_installed_changes_nothing) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.020s
+
+OK
+已添加 SessionStart hook。备份：/var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/hm-test-ezpdz6us/settings.json.bak-20260929-145712
+已添加 SessionStart hook。备份：/var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/hm-test-vopkjvx4/settings.json.bak-20260929-145712
+settings.json 里没有 local.buddy-office 的 hook，什么都没改。
+已添加 SessionStart hook。备份：/var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/hm-test-vopkjvx4/settings.json.bak-20260929-145712-1
+已添加 SessionStart hook。备份：/var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/hm-test-8iyagby6/settings.json.bak-20260929-145712
+已添加 SessionStart hook。（原来没有 settings.json，是新建的）
+已添加 SessionStart hook。备份：/var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/hm-test-cr4tp0hf/settings.json.bak-20260929-145712
+已删除 SessionStart hook。备份：/var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/hm-test-cr4tp0hf/settings.json.bak-20260929-145712-1
+已添加 SessionStart hook。备份：/var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/hm-test-cr4tp0hf/settings.json.bak-20260929-145712
+已删除 SessionStart hook。备份：/var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/hm-test-cr4tp0hf/settings.json.bak-20260929-145712-1
+已添加 SessionStart hook。备份：/var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/hm-test-y2mzxlo3/settings.json.bak-20260929-145712
+已经装过了（settings.json 里有 local.buddy-office 的 hook），什么都没改。
+未安装
+已添加 SessionStart hook。备份：/var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/hm-test-iymj3fks/settings.json.bak-20260929-145712
+已安装
+已添加 SessionStart hook。备份：/var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/hm-test-whq77vs9/settings.json.bak-20260929-145712
+已经装过了（settings.json 里有 local.buddy-office 的 hook），什么都没改。
+已删除 SessionStart hook。备份：/var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/hm-test-whq77vs9/settings.json.bak-20260929-145712-1
+未安装
+已添加 SessionStart hook。备份：/var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/hm-test-m5jztx1o/settings.json.bak-20260929-145712
+已删除 SessionStart hook。备份：/var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/hm-test-0qhcpsvd/settings.json.bak-20260929-145712
+已添加 SessionStart hook。备份：/var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/hm-test-l9wayu5d/settings.json.bak-20260929-145712
+已删除 SessionStart hook。备份：/var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/hm-test-l9wayu5d/settings.json.bak-20260929-145712-1
+已添加 SessionStart hook。备份：/var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/hm-test-pt2otpk7/settings.json.bak-20260929-145712
+已删除 SessionStart hook。备份：/var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/hm-test-pt2otpk7/settings.json.bak-20260929-145712-1
+settings.json 里没有 local.buddy-office 的 hook，什么都没改。

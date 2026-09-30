@@ -1,0 +1,27 @@
+Process 53071 is not debuggable. Due to security restrictions, leaks can only show or save contents of readonly memory of restricted processes.
+
+Process:         BuddyOffice [53071]
+Path:            /Users/USER/Desktop/*/Buddy 办公室 soak-replay.app/Contents/MacOS/BuddyOffice
+Load Address:    0x104028000
+Identifier:      local.buddy-office.dev
+Version:         0.1.0-dev (202609290000)
+Code Type:       ARM64
+Platform:        macOS
+Parent Process:  launchd [1]
+Target Type:     live task (Roots Present)
+
+Date/Time:       2026-09-29 10:37:53.450 -0700
+Launch Time:     2026-09-29 10:02:23.052 -0700
+OS Version:      macOS 27.2 (26B5091g)
+Report Version:  7
+Analysis Tool:   /usr/bin/leaks
+
+Physical footprint:         31.2M
+Physical footprint (peak):  32.2M
+Idle exit:                  untracked
+----
+
+leaks Report Version: 4.0
+Process 53071: 55939 nodes malloced for 11361 KB
+Process 53071: 0 leaks for 0 total leaked bytes.
+

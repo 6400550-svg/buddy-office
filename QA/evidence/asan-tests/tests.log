@@ -1,0 +1,1023 @@
+[0/1] Planning build
+Building for debugging...
+[0/13] Write sources
+[5/13] Write swift-version--1AB21518FC5DEDBE.txt
+[7/17] Compiling BuddyCore DesktopMetaReader.swift
+[8/17] Compiling BuddyCore TokenLedger.swift
+[9/18] Compiling BuddyCore SessionStore.swift
+[10/18] Compiling BuddyCore SessionEngine.swift
+[11/18] Emitting module BuddyCore
+[12/21] Compiling BuddyCore DumpCommand.swift
+[13/21] Compiling BuddyCore OpenAudit.swift
+[14/21] Compiling BuddyCore ReplayCommand.swift
+[14/25] Write Objects.LinkFileList
+[16/44] Linking buddydump
+[17/44] Applying buddydump
+[18/44] Linking buddyctl
+[19/44] Applying buddyctl
+[21/44] Compiling BuddyOffice EngineConfig.swift
+[22/44] Emitting module BuddyOffice
+[23/44] Compiling BuddyOffice JumpService.swift
+[24/44] Compiling BuddyOffice RealProvider.swift
+[25/46] Compiling BuddyOffice AppDelegate.swift
+[26/46] Compiling BuddyOffice AppModel.swift
+[26/46] Write Objects.LinkFileList
+[28/46] Emitting module BuddyStageTests
+[29/46] Compiling BuddyStageTests ReviewRegressionStageTests.swift
+[29/46] Linking BuddyOffice
+[30/46] Applying BuddyOffice
+[32/52] Compiling BuddyOfficeTests DesktopMetaGate.swift
+[33/53] Emitting module BuddyCoreTests
+[34/55] Compiling BuddyCoreTests Support.swift
+[35/55] Compiling BuddyCoreTests TokenLedgerTests.swift
+[36/58] Compiling BuddyOfficeTests CachesTests.swift
+[37/58] Compiling BuddyOfficeTests DesktopMetaFileIOTests.swift
+[38/58] Compiling BuddyOfficeTests EngineConfigTests.swift
+[39/58] Compiling BuddyOfficeTests ReviewRegressionAppTests.swift
+[40/58] Emitting module BuddyOfficeTests
+[41/58] Compiling BuddyCoreTests StateRuleChainTests.swift
+[42/58] Compiling BuddyCoreTests StateRuleProcessTests.swift
+[43/58] Compiling BuddyCoreTests OpenAuditTests.swift
+[44/58] Compiling BuddyCoreTests SpecTraceCoreTests.swift
+[45/62] Compiling BuddyCoreTests FuzzSupport.swift
+[46/62] Compiling BuddyCoreTests HelperAttributionTests.swift
+[47/64] Compiling BuddyOfficeTests SpecTraceUITests.swift
+[48/64] Compiling BuddyCoreTests HookLogTests.swift
+[49/64] Compiling BuddyCoreTests IdentityTests.swift
+[50/66] Compiling BuddyCoreTests ActivityResolverTests.swift
+[51/66] Compiling BuddyCoreTests EngineBasicTests.swift
+[52/66] Compiling BuddyCoreTests FuzzParserTests.swift
+[53/68] Compiling BuddyCoreTests FuzzPersistenceTests.swift
+[54/68] Compiling BuddyCoreTests FuzzRegressionTests.swift
+[55/68] Compiling BuddyCoreTests FuzzSecurityTests.swift
+[56/68] Compiling BuddyCoreTests StateRuleTests.swift
+[57/68] Compiling BuddyCoreTests StoreTests.swift
+[58/68] Compiling BuddyCoreTests RobustnessTests.swift
+[59/68] Compiling BuddyCoreTests StateRuleInvariantTests.swift
+[60/68] Compiling BuddyCoreTests RegistryTests.swift
+[61/68] Compiling BuddyCoreTests ReviewRegressionTests.swift
+[62/68] Compiling BuddyCoreTests ToolTrackerTests.swift
+[63/68] Compiling BuddyCoreTests TranscriptTests.swift
+[64/68] Compiling BuddyCoreTests EnginePresenceTests.swift
+[65/68] Compiling BuddyCoreTests EngineScenarioTests.swift
+[66/68] Compiling BuddyCoreTests FuzzEngineTests.swift
+[66/68] Write Objects.LinkFileList
+[67/68] Linking BuddyOfficePackageTests
+Build complete! (31.58s)
+◇ Test run started.
+↳ Testing Library Version: 1902
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Suite TextAuditMatrixTests started.
+◇ Suite SpecTraceExtraStageTests started.
+◇ Suite BuddyOfficeSmokeTests started.
+◇ Suite AutoQuitTests started.
+◇ Suite PerformerTimingTests started.
+◇ Suite NotificationAuthTests started.
+◇ Suite AppLayerFixTests started.
+◇ Suite SpecTraceJumpAndLifecycleTests started.
+◇ Suite MonitorTests started.
+◇ Suite PixelViewTests started.
+◇ Suite SettingsTests started.
+◇ Suite SpecTraceMotionTests started.
+◇ Suite DebugLogTests started.
+◇ Suite SpecTraceSceneTests started.
+◇ Suite HitTestingTests started.
+◇ Suite SpecTraceThresholdTests started.
+◇ Suite AppModelTests started.
+◇ Suite ExtremeValuesTests started.
+◇ Suite TextAuditRegressionTests started.
+◇ Suite SpecTraceSettingsTests started.
+◇ Suite ScreenPickerTests started.
+◇ Suite PlateCopyTests started.
+◇ Suite SeatSanitizerTests started.
+◇ Suite ToastTextTests started.
+◇ Suite RenderingTests started.
+◇ Suite SpecTracePoseTests started.
+◇ Suite PanelShowTests started.
+◇ Suite SpecTraceAlertTests started.
+◇ Suite ReviewRegressionStageTests started.
+◇ Suite SpecTracePlateTests started.
+◇ Suite ScreenContentTests started.
+◇ Suite DesktopMetaFileIOTests started.
+◇ Suite SpriteAndPaletteTests started.
+◇ Suite SpecTraceScreenTests started.
+◇ Suite EngineConfigTests started.
+◇ Suite SpecTraceStageTests started.
+◇ Suite StripPlacementTests started.
+◇ Suite SpecTraceAppTests started.
+◇ Suite WalkersAndOffDutyTests started.
+◇ Suite PanelAnimationTests started.
+◇ Suite ReviewRegressionAppTests started.
+◇ Suite TextAuditDetectorTests started.
+◇ Suite ApplyPlanTests started.
+◇ Suite JumpTests started.
+◇ Suite SpecTraceSourcePinTests started.
+◇ Suite AlertCoordinatorTests started.
+◇ Suite PerformerMappingTests started.
+◇ Suite HousekeepingTests started.
+◇ Suite CachesTests started.
+◇ Suite PixelViewDragTests started.
+◇ Suite SpecTraceChromeTests started.
+◇ Suite SpecTracePanelTests started.
+◇ Suite SourceAuditTests started.
+◇ Suite TextCacheBoundTests started.
+◇ Suite TickPacerTests started.
+◇ Suite AlertFallbackTests started.
+◇ Test screenNeverChangesFasterThanEvery0_8Seconds() started.
+◇ Test waitingTurnsAroundAfter0_4SecondsAndTurnsBackAfter1_5() started.
+◇ Test theSwitchIsHonouredBothWhenClaudeQuitsAndWhenTheTimerFires() started.
+◇ Test noFrameIsBlackAndTheMonitorNeverFadesToPureBlack() started.
+◇ Test quickMatrixHasZeroViolationsAndReallyCoversTheScenes() started.
+◇ Test seatsStayPutWhenTheSnapshotOrderChanges() started.
+◇ Test aWaitingBlipShorterThan0_4SecondsDoesNotTurnTheBuddy() started.
+◇ Test hiddenBuddiesStillCountAsLiveSessions() started.
+◇ Test theCursorBreathesThroughThreeLevelsAtHalfAHertzAndNeverBlinksOnAndOff() started.
+◇ Test notAnAppBundleNeverTouchesTheNotificationCenter() started.
+◇ Test claudeQuitsAndNobodyIsLeftSoWeQuitAfterSixtySeconds() started.
+◇ Test simultaneousBuddiesDoNotWearTheSameOutfit() started.
+◇ Test theThinkingBubbleDotsBobSlowlyAndOutOfPhase() started.
+◇ Test claudeComingBackCancelsTheCountdownAndANewQuitReplacesTheOld() started.
+◇ Test theTestEntryPointCountsDownTheGivenSeconds() started.
+◇ Test autoQuitNeverQuitsAnotherApp() started.
+◇ Test theFirstActiveOpenOfTheOfficeAsksExactlyOnce() started.
+◇ Test everyDeskHasAMugAndTheSipReachesForIt() started.
+◇ Test simultaneousChangesAreStaggeredBy90msEach() started.
+◇ Test noPresentSessionsMeansNothingIsLive() started.
+◇ Test posesOfTheDashRowsCarryNoPropsAndTheSupervisorPointsThenFolds() started.
+◇ Test liveSessionsIncludingHiddenOnesKeepUsAlive() started.
+◇ Test aBackgroundLaunchDoesNotAskUntilTheAppIsInFront() started.
+◇ Test alreadyAnsweredNeverAsksAgain(status:) started.
+◇ Test plateActionTextNeverChangesFasterThanEverySecond() started.
+◇ Test theAskedFlagSurvivesARestartButTheSettingsButtonStillWorks() started.
+◇ Test theDecisionFunction() started.
+◇ Test layoutCapsTheDeskCountWhateverTheSeatNumberIs() started.
+◇ Test officeSceneRendersWithWildSeatNumbers() started.
+◇ Test aMockSourceWithNonsenseSpeedStaysSane() started.
+◇ Test safeIntNeverTraps() started.
+◇ Test flickerScanWithATinyOrInsaneFrameRateTerminates() started.
+◇ Test theTerminalScriptFollowsTheSpecifiedSteps() started.
+◇ Test writeBGRAWithACropOutsideTheCanvasWritesNothing() started.
+◇ Test onlyClaudeQuittingStartsTheCountdown() started.
+◇ Test loginItemUsesTheServiceManagementFirstThenTheSpecifiedLaunchAgentAndOnlyFromTheSwitch() started.
+◇ Test rerollingInTheDemoBumpsTheSaltOfThatBuddyOnly() started.
+◇ Test writeBGRAWithAPartlyOutsideCropWritesOnlyTheOverlap() started.
+◇ Test aSessionThatComesBackWalksInAgainInsteadOfSittingDownAtOnce() started.
+◇ Test autoQuitListensForApplicationTermination() started.
+◇ Test retainedRenderingStaysIdenticalWhileTheMonitorFadesOut() started.
+◇ Test theProcessHelpersReadTheProcessTableAndTheHostLookupSkipsBackgroundApps() started.
+◇ Test theDiagnosticsPageShowsEverythingTheSpecListsIncludingTheLastHookEventTime() started.
+◇ Test activeAndAbsentLightsStayPut() started.
+◇ Test theJumpServiceKeepsTheSpecifiedMechanisms() started.
+◇ Test theMonitorFadesOutOver300msInsteadOfCuttingToBlack() started.
+◇ Test testTargetCanImportTheExecutableModule() started.
+◇ Test theBuildScriptAndTheManualSayWhatTheSpecRequires() started.
+◇ Test anEmptySeatNeverFades() started.
+◇ Test appearanceCacheIsBoundedByWhoIsHereNotByWhoWasEverSeen() started.
+◇ Test pixelViewAndTitleBarButtonsNeverLetAppKitStartAWindowDrag() started.
+◇ Test theStandbyLightBreathesThroughThreeLevelsSlowly() started.
+◇ Test monitorsOfSessionsPresentAtLaunchBootLeftToRightAt100msIntervals() started.
+◇ Test demoModesWithNonsenseParametersDoNotCrashOrExplode() started.
+◇ Test aPerformerSurvivesInsaneToolTimestamps() started.
+◇ Test rerollOnlyTouchesTheChosenBuddy() started.
+◇ Test rerollWaitsForTheNewSaltAndThenEveryPlaceAgrees() started.
+◇ Test layoutSurvivesTheLargestSeatNumbers() started.
+◇ Test whiteboardTallyNeverTrapsAndNegativeCountsAsZero() started.
+◇ Test hitIDsNeverOverflowAndStayInTheOfficeRange() started.
+◇ Test tallyReadFromTheFileIsClamped() started.
+◇ Test departedSessionsAreForgottenByTheScene(animate:) started.
+◇ Test theWaitingLightCyclesThroughThreeAdjacentLevelsAt0_8Hz() started.
+◇ Test dayKeysStayGregorianInAnyLocale() started.
+◇ Test deriveNeverTrapsWhateverTheDormantMaxIs() started.
+◇ Test dayNightSwitchTakesTwentyMinutesAndEveryPixelFlipsExactlyOnce() started.
+◇ Test numbersWrittenBehindOurBackAreClampedIntoTheirValidRange() started.
+◇ Test blinksEveryFiveToEightSecondsInThreeFramesOfAtLeast240msAndOnlyTouchTheEyes() started.
+◇ Test everyBuddyBreathesOnePixelEveryFourSeconds() started.
+◇ Test addTallyDoesNotOverflow() started.
+◇ Test bubblesPopInInThreeIntegerSizesAndEveryIconIsSevenBySeven() started.
+◇ Test onlyDevelopmentFlagsTurnLoggingOn() started.
+◇ Test springOutputHasAPlusMinusPointSixHysteresisAndSlowSpringsSnap() started.
+◇ Test linesAreAppendedToAPrivateFileInAPrivateDirectory() started.
+◇ Test theTurnIsSixSpecifiedStepsWithTheChairFollowingAndThenTheHandRises() started.
+◇ Test sessionTitlesNeverGoIntoTheLog() started.
+◇ Test theLogIsRotatedInsteadOfGrowingForever() started.
+◇ Test aSymlinkAtTheLogPathIsNeverFollowed() started.
+◇ Test springsStartFromRestWithZetaThreeQuartersAndOvershootSlightly() started.
+◇ Test noDebugLogCallInterpolatesASessionTitle() started.
+◇ Test tankAndStripGeometryMatchTheSpec() started.
+◇ Test noNSLogUsesAnInterpolatedFormatString() started.
+◇ Test failuresNeverCrash() started.
+◇ Test seatsTurnTowardsTheAisleAndAMirroredPersonIsTheFlippedImage() started.
+◇ Test helpersSlideInAtMostThreeShownAndTheRestAreCountedAndBackgroundOnesStayBeside() started.
+◇ Test theMonitorBootsInSixteenDitherLevelsOverThreeHundredMilliseconds() started.
+◇ Test theHoverCardIsPaintedIntoTheOfficeScene() started.
+◇ Test emptyAndOffDutySeatsAreNotClickable() started.
+◇ Test sittingDownAndStandingUpAreThreeFramesOfAHundredMilliseconds() started.
+◇ Test theStaticScreenCacheIsBounded() started.
+◇ Test everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+◇ Test theUnreadFlagIsPlantedOnTheMonitorOnlyWhileUnread() started.
+◇ Test clicksOnDanglingSeatsAndInDemoModeNeverJumpForReal() started.
+◇ Test aFinishedTurnWaitsThenStretchesThenLeansThroughTheWholePipeline() started.
+◇ Test theAutoQuitLiveSessionCheckCountsHiddenBuddies() started.
+◇ Test hitIdsRoundTripAndAreClampedForCrazySeatNumbers() started.
+◇ Test statesSwitchExactlyOnTheSpecifiedSeconds() started.
+◇ Test durationFormattersNeverTrapAndCapAtAboutThirtyYears() started.
+◇ Test idleMinutesWithACorruptIdleSince() started.
+◇ Test aSnapshotWithCorruptTimesNeverCrashesTheStage() started.
+◇ Test emojiTitlesNeverLeaveTheirPlateOrCard(zoom:) started.
+◇ Test zoomIsClampedSoAtLeastOneWholeSeatFits() started.
+◇ Test plateTextUnderTheHoverCardIsHidden() started.
+◇ Test incomingDataIsSanitizedSortedAndDerived() started.
+◇ Test emojiInkStaysInsideTheCJKInkRange(size:) started.
+◇ Test plateTextMeetsContrastAtAnyTimeOfDay(clock:zoom:) started.
+◇ Test twoLinePlateTextStaysInsideThePlate(zoom:) started.
+◇ Test emptyOfficeSignIsReadableAndDrawnOnTopOfTheDesks(zoom:) started.
+◇ Test blankTitlesGetAPlaceholderOnPlatesAndCards() started.
+◇ Test sleepingBuddysTwoZsDoNotTouch() started.
+◇ Test hoverCardAlwaysAppearsInsideTheWindowWithoutCoveringItsOwner(win:zoom:) started.
+◇ Test everyNotifySettingReachesTheAlertConfig() started.
+◇ Test theSettingsWindowHostsTheSwiftUIForm() started.
+◇ Test textMeasurementIsCachedAndConsistent() started.
+◇ Test mainAndUnknownValuesUseThePrimaryScreen() started.
+◇ Test mouseFollowsTheScreenTheMouseIsOn() started.
+◇ Test everySettingOfTheSpecExistsWithItsDefaultAndHasAControlInTheSettingsPage() started.
+◇ Test emojiInTheTextDoesNotChangeTheLineHeight() started.
+◇ Test aChosenScreenIsFoundByIDThenByNameAndFallsBackToThePrimaryWhenUnplugged() started.
+◇ Test fileNamesClipsAndDurations() started.
+◇ Test settingsPageOptionsAlwaysContainTheCurrentValue() started.
+◇ Test activityTextForEveryState() started.
+◇ Test shortCommandKeepsTheFirstWordsAndDropsCdPrefixesAndOptions() started.
+◇ Test wildSeatNumbersBecomeTheSmallestFreeSeats() started.
+◇ Test privacyModeNeverLeaksDetails() started.
+◇ Test aNormalListIsReturnedUntouchedAndOrderIsKept() started.
+◇ Test approvalBodiesFitNoMatterHowLongTheToolOrTheCommandIs() started.
+◇ Test everyFixedAlertTextFits() started.
+◇ Test statusCandidatesGoFromDetailedToShort() started.
+◇ Test shorteningOrderIsCommandThenToolThenGeneric() started.
+◇ Test approvalWordingThatAlreadyFitsIsUnchanged() started.
+◇ Test whenThereAreNoFreeSeatsLeftNothingCrashes() started.
+◇ Test theOldDeepLinkNoticeWasTruncatedAndTheNewOneFits() started.
+◇ Test stripKeepsSeatedBuddiesStillWhenSomeoneNewArrives() started.
+◇ Test contentHashDistinguishesSingleBitChangesAndIgnoresNothing() started.
+◇ Test staticScreenClassificationMatchesWhatIsActuallyDrawn() started.
+◇ Test personPixelsCarryTheirSeatIDAndTheWallCarriesNone() started.
+◇ Test retainedRenderingMatchesFullRedrawPixelForPixel(scene:) started.
+◇ Test retainedRenderingMatchesAtOtherWindowSizes() started.
+◇ Test goldenFrameHashesAreStable() started.
+◇ Test tankAndStripShowAnOverflowBadgeBeyondEightPeople() started.
+◇ Test enteringWalkerAppearsOnlyAfterTheDoorStartedOpening() started.
+◇ Test theNSLogAuditCatchesTheOldSpellings() started.
+◇ Test officeHasNoFlickerAtEveryZoom(zoom:) started.
+◇ Test switchingTheDataSourceResetsTheFirstDataFlagAndStopsTheOldOne() started.
+◇ Test tappingScratchingWritingAndWavingFrequencies() started.
+◇ Test typingBeatsAreFourFramesOf133msAndWriteIsTwiceAsFast() started.
+◇ Test emptyOfficeAndTankShowTheNobodyIsInSign() started.
+◇ Test renderingIsDeterministic() started.
+◇ Test onlyTheThinkingAndSleepingBubblesAnimateAndTheStickyNoteStandsStill() started.
+◇ Test bodiesLeanAndHandsGoWhereTheTableSays() started.
+◇ Test askPosesRaiseAHandOrHoldAClipboard() started.
+◇ Test retainedRenderingMatchesFullRedrawWithNobodyAtAll(scene:) started.
+◇ Test copyRegionAndClearRegionTouchOnlyTheirRectangle() started.
+◇ Test idleDozeSleepErrorInterruptedAndStretchPoses() started.
+◇ Test noPoseSwingsFasterThanFourHertz() started.
+◇ Test sippingAndLookingAroundHappenAtTheSpecifiedIntervals() started.
+◇ Test walkersAreNeverDrawnOutsideTheDoorwayWhileInsideIt() started.
+◇ Test aPanelThatIsNotOnScreenGetsItsFirstFrameBeforeItAppears() started.
+◇ Test retainedRenderingMatchesFullRedrawWithMoreThanEightPeople(scene:) started.
+◇ Test layoutDeskCountAndColumnHysteresis() started.
+◇ Test clipRestrictsEveryDrawingPrimitive() started.
+◇ Test aPanelThatIsAlreadyOnScreenIsNotOrderedFrontAgain() started.
+◇ Test aHiddenPanelIsRenderedOnlyWhenItsFirstFrameIsRequested() started.
+◇ Test notificationMaintenanceAndFallbackConstantsStayAsTheSpecSays() started.
+◇ Test theSoundModeFromTheSettingsReachesThePlayerAndEachKindHasItsOwnSound() started.
+◇ Test theSystemNotificationGateIsTheAppBundleAndAClickCarriesTheKey() started.
+◇ Test "SAN-01 withDraws 返回的是一份稳定的拷贝：别的线程一直在画像素字时，反复收集并逐条读像素，不崩、不读到释放过的内存；自己画的那一条一条不少" started.
+◇ Test "R2-015 工具详情为空（hook 行被截断走降级解析时会出现）：桌牌文案不能是「在读 」「在找 ""」「运行 」这种带尾随空格 / 空引号的半截话" started.
+◇ Test "R1b-04 等待类气泡（钥匙 / 问号 / 计划）不受最短停留限制：立刻出现，批准之后立刻消失；新来的人第一帧就有气泡" started.
+◇ Test "R1b-04 工具节奏驱动的气泡也有 0.8 秒最短停留：Grep / Read 每 0.3 秒交替时，放大镜气泡不能跟着一闪一闪" started.
+◇ Test "R1b-02 桌牌 1.0 秒最短停留不能被文件名 / 命令 / 搜索词里的数字绕过（part1.txt → part2.txt 也是换了动作）" started.
+◇ Test "R1b-01 错开推迟期间活动变回已套用的同一种类：推迟记录作废，不能套用推迟开始时存下的过期快照" started.
+◇ Test "R3b-02 隐私模式端到端泄漏扫描：18 种工具 × 忙 / 等批准，桌牌 / 状态行 / 悬停卡片 / 下班工位的所有文字里都不出现会话标题、项目路径、工具详情、server 名" started.
+◇ Test everyRowOfTheTableShowsItsPlateText() started.
+◇ Test "R1b-02 数字掩码只抹「计数器位置」：· 后面的计时、重试中 a/m、×N、派了 N 个帮手、打盹 N 分钟；文件名里的数字保留" started.
+◇ Test theSoundsAreSynthesisedAsEightBitMonoWavDataWithoutAnyFile() started.
+◇ Test officeHasNoFlickerAtNightAndDuringLightTransition() started.
+◇ Test "R1b-06 只有零宽 / 控制 / 方向字符的标题也算空标题：显示占位文字，不画空桌牌" started.
+◇ Test theLongBashProgressBarIsAboveTheRowsTheHeadHides() started.
+◇ Test "R1b-02 计时器数字仍然不受最短停留约束：「运行中 npm test · 0:09」→「0:10」…每秒都立刻换" started.
+◇ Test rhythmStepsAreEvenAndNeverSkip() started.
+◇ Test "R1b-05 打开隐私模式：桌牌动作文字当场就隐藏，不等 1.0 秒最短停留（刚换过字也一样）" started.
+◇ Test aLongBashBarGrowsButNeverFillsUp() started.
+◇ Test aMcpServersInitialIsALetterTheFontCanDraw() started.
+◇ Test documentAndLogScrollingStepsAreWholeFramesAt15fps() started.
+◇ Test theSmallPixelFontDrawsEveryLatinCapital() started.
+◇ Test spritesAreNotEmptyAndAnchorsInside() started.
+◇ Test spriteBooksHaveNoErrors() started.
+◇ Test hairColorsAreFarApart() started.
+◇ Test directIndexedPaletteEntriesFitInOneByte() started.
+◇ Test outlineIsDarkerThanFillByAtLeastPointOneFive() started.
+◇ Test browserLoadsPageBlocksOneByOneAndSearchTypesTheQuery() started.
+◇ Test theMcpAppScreenNeverFallsBackToThePlaceholderGlyph() started.
+◇ Test mcpBrowserPointerMovesAndTheClickRingOnlyDarkensThePalette() started.
+◇ Test helperListChecklistManualAndIconGrid() started.
+◇ Test terminalHasAGreenPromptAndTheLongBarFollowsOneMinusExpMinusTOverTau() started.
+◇ Test everyHairOutfitAndHeadHasAllFiveFacings() started.
+◇ Test dialogScreensHaveTheirButtonsOptionsAndOutline() started.
+◇ Test realProviderPassesTheSettingsToTheEngine() started.
+◇ Test outOfRangeValuesAreClampedAndSleepAlwaysComesAfterDoze() started.
+◇ Test compactSqueezesRowsIntoOneBlockAndRetryShowsARotatingArrowAndDigits() started.
+◇ Test theDataRootArgumentReachesTheEngine() started.
+◇ Test realProviderClampsWhatItReadsFromDefaults() started.
+◇ Test stateScreens() started.
+◇ Test "5.5-07 下班工位：显示器关着、待机灯灭、没有人 / 气泡 / 道具，桌牌变暗，椅子推进去，点不到" started.
+◇ Test editTypesCharactersAndWriteAddsRowsFromTheTop() started.
+◇ Test "4.4-08 桌面本轮总结的英文 status_detail 只在悬停卡片里显示（隐私模式也不显示）；桌牌 / 状态候选 / 办公室里所有文字都没有它" started.
+◇ Test documentScrollsOnePixelPerStepAndItsColourFollowsTheExtension() started.
+◇ Test resultsHighlightEasesAndTheTreeUnfolds() started.
+◇ Test "5.6-13 （SP-06）某个 buddy 正在「错开」的等待期里，等待类状态也要立即插入（≤ 250 ms），并且中间不能闪出一帧过期的旧动作" started.
+◇ Test "5.5-21 进场走到工位约 2.5 秒：路线 70–175 像素的座位走路时间正好 2.5 秒；更近的按 28 像素/秒、更远的按 70 像素/秒封顶（DESIGN.md 第 13 节记录）" started.
+◇ Test "5.5-05 离场：起身 0.3 秒（椅子拉出来）→ 把椅子推好 → 挥手 0.7 秒 → 走出门 → 门在身后关上 0.16 秒；整个过程之后走路系统清空" started.
+◇ Test anyChangeOfThePlacementInputsTriggersARepositionAndNothingElseDoes() started.
+◇ Test settingsMapToEngineOptions() started.
+◇ Test "5.6-10 同一类工具之间切换：姿势不变，只换屏幕内容（Grep → Glob：结果列表 → 文件树；Read swift → Read md：文档颜色；Edit → MultiEdit：什么都不变）" started.
+◇ Test "5.6-09 停留期间只记下最新的目标、跳过中间态：Read → Grep → Read 一直是「在读」；Read → Grep → Edit 直接到 Edit，屏幕 / 姿势 / 桌牌都没显示过 Grep" started.
+◇ Test rightLeftCenterAndUnknownAlignments() started.
+◇ Test "5.6-19 疑点 Q-07：上一个姿势刚换过（1.5 秒最短停留还没满）时一轮结束，懒腰也不会被跳过或截短" started.
+◇ Test shrinkingTheDormantLimitKeepsTheMostRecentlyActiveSeats() started.
+◇ Test walkingInTakesAboutTwoAndAHalfSecondsAndFarSeatsAreSpeedCapped() started.
+◇ Test anOffDutyDeskIsDimSilentAndUnclickableAndTheCoatHangsByTheDoor() started.
+◇ Test aSessionThatArrivesAfterLaunchWalksInAndSitsDownWhileOnesPresentAtLaunchAreAlreadySeated() started.
+◇ Test noWindowOtherThanTheFloatingPanelsIsRepeatedlyReframed() started.
+◇ Test class8PixelDigitsPaintedOverByLaterDrawingAreCaught() started.
+◇ Test "5.6-05 连着批准好几次：两次等待之间只隔 0.6 秒，不来回转（一直面向你，只转一次身），最后一次结束 1.5 秒之后才转回去" started.
+◇ Test "5.6-06/07/08 最短停留正好是 姿势 1.5 s / 屏幕 0.8 s / 桌牌动作文字 1.0 s：目标一变、停留一满就换，不早也不晚（差不超过一帧）" started.
+◇ Test leavingStandsWavesWalksOutAndTheDoorClosesBehindThem() started.
+◇ Test everyFloatingPanelHasWindowAnimationsTurnedOff() started.
+◇ Test class1OverlappingTextIsCaught() started.
+◇ Test class8PixelDigitsThatTouchAreCaught() started.
+◇ Test class7TextNotOnWholeDevicePixelsIsCaught() started.
+◇ Test class4LabelsThatCoverAFaceScreenBubbleOrCardAreCaught() started.
+◇ Test aCleanFrameReportsNothing() started.
+◇ Test class5FontsBelowNinePointsAreCaught() started.
+◇ Test aHiddenAppDoesNotGetItsOfficeWindowPoppedBackEither() started.
+◇ Test tankAndStripHaveNoFlicker(scene:) started.
+◇ Test aLoneEmptyPetStripIsNotAnEntryPoint() started.
+◇ Test class2HoverCardThatIsNotWhollyInsideTheWindowIsCaught() started.
+◇ Test class2TextOutsideItsContainerOrTheWindowIsCaught() started.
+◇ Test class4TheHoverCardMustNotCoverItsOwnFaceButMayCoverANeighbours() started.
+◇ Test floorDivisionMapsNegativeDevicePixelsToTheRightCanvasRow() started.
+◇ Test poseNeverChangesFasterThanEvery1_5Seconds() started.
+◇ Test turningTheOfficeOffHidesIt() started.
+◇ Test theFirstApplyDoesEverything() started.
+◇ Test class3LongTextWithoutAnEllipsisIsCaught() started.
+◇ Test class6LowContrastAgainstTheRealCanvasIsCaught() started.
+◇ Test turningTheOfficeOnShowsItEvenIfItIsMinimized() started.
+◇ Test nothingChangedMeansNothingToDo() started.
+◇ Test "R3c-01 合并卡只带「还在等」的人：A 在 C 到之前已经处理掉了，最后一张合并卡就是「2 位同事在等你」（B、C）" started.
+◇ Test atLeastOneEntryIsAlwaysKept() started.
+◇ Test aMinimizedOfficeWindowIsNotBroughtBackByAnUnrelatedSettingsWrite() started.
+◇ Test "R2-014 系统时钟被往回拨（手动改时间 / NTP 校正）：节流记录里「来自未来」的时间当作已过期，新的一段等待照常提醒" started.
+◇ Test seatSignatureChangesExactlyWhenPixelsCanChange() started.
+◇ Test "R2-008 用 --data-root 起的开发副本：应用层读桌面元数据的根目录也跟着换成假 home（不再读真实的桌面会话元数据）" started.
+◇ Test "R2-003 两个会话先后「做完了要你处理」（blocked）：合并出来的「N 位同事有事找你」要留着，不能在同一次判定里被撤掉" started.
+◇ Test "R2-002 提示卡出现：orderFront 的那一刻面板已经在屏幕外的起点，不能先出现在终点位置再跳走；新提示卡到来时已有的不被拽回终点" started.
+◇ Test "R4a-01 应用层读桌面元数据：某个会话的 lastFocusedAt 在 30 天以后（桌面 App 的时钟被拨快过）→ 丢掉它，「最近聚焦的」仍是真正在看的那个" started.
+◇ Test "R2-007 测试宿主进程的 --test-bundle-path 不算开发开关：测试里 DebugTools.enabled 必须是 false（不然被测代码里加一行 DebugTools.log 就会往用户真实的日志文件里写）" started.
+◇ Test "R2-016 分桶的 surface 渲染出来和「按缩放放大的画布」逐像素一致：contentsRect 裁得正好，不偏一个像素、边上没有混色" started.
+◇ Test "R1b-03 隐私模式：MCP server 名和未知工具名也不能出现在桌牌动作 / 状态行里（任务书 6.3：隐私模式下隐藏全部细节）" started.
+◇ Test "R2-017 办公室窗口（普通 NSWindow）也关掉 AppKit 的窗口出现 / 消失动画：快速 show / hide 时动画线程不会一路涨（B-010 的同类）" started.
+◇ Test "R2-001 真实的小鱼缸控制器：运行中把缩放从 2 改成 1，下一拍图像层就是新大小（不是等画布下一次变化）" started.
+◇ Test readsLastFocusedThroughFileIOAndSkipsUnreadableEntries() started.
+◇ Test "R2-004 「等你」提醒被 20 秒节流挡住之后：这段等待没有提醒过，节流窗口一过、还在等就补发一条（不再重复）" started.
+◇ Test "R3c-02 系统通知授权在运行期间被关掉：发出系统通知后再读一次真实状态，已经被拒了就补一张兜底提示卡；仍然授权的不补" started.
+◇ Test danglingSeatsNeverJump() started.
+◇ Test theTerminalScriptHasATimeoutAndOnlyAcceptsRealTTYNames() started.
+◇ Test "R2-016 拖窗口边缘（视口宽度一步一步变）：IOSurface 只在跨 64 像素的桶时才重建，不是每一步都新建一组" started.
+◇ Test theUserManualDoesNotClaimThatThePlateIsClickable() started.
+◇ Test deepLinkVerdictAfterTwoAndAHalfSeconds() started.
+◇ Test "R3c-01 三个人的等待提醒先后到（相邻两条 < 2 秒、首尾 ≥ 2 秒）：最后一张合并卡写「3 位同事在等你」，A 不能被落下" started.
+◇ Test notificationClicksRouteCorrectly() started.
+◇ Test "R2-006 隐私模式：「数据源诊断」文字和「测试深链」回执里不显示会话标题（共享屏幕时打开设置页不会露标题）" started.
+◇ Test everySeatMapsToItsOwnSessionAndItsOwnTarget() started.
+◇ Test "R2-016 用桶（比视口大）的 surface 时，显示出来的部分正好是视口：contentsRect 是 视口 / surface，图层尺寸 = 视口 × 缩放，左上角的像素就是画布的像素" started.
+◇ Test noAccessibilityPermissionAPIsAreUsed() started.
+◇ Test dockReopenCloseAndHotkeyBehaviourIsWiredAsSpecified() started.
+◇ Test hoverCardsAppearAfter250msOnAllThreeSurfaces() started.
+◇ Test theContextMenuOffersJumpRerollHideAndOpenOfficeInThatOrder() started.
+◇ Test "5.6-23 错开最多 0.6 秒：10 个人同一帧变化，第 1…7 个依次晚 90 ms，第 8、9、10 个都是 0.6 秒（封顶）" started.
+◇ Test theStripPollingRatesAndDistancesStayAsSpecified() started.
+◇ Test theTitleBarButtonsAreWiredToTheThreeActions() started.
+◇ Test deepLinkRules() started.
+◇ Test alertsTwoSecondsOrMoreApartStayApart() started.
+◇ Test approvalAlertWaitsExactlyOneAndAHalfSecondThenFiresOnce() started.
+◇ Test waitingBranchNeverSkipsThePerSnapshotBookkeeping() started.
+◇ Test desktopSessionsAreSkippedWhenIncludeDesktopIsOff() started.
+◇ Test theDesktopLookingRuleUsesTheFrontmostClaudeAndTheMostRecentlyFocusedSession() started.
+◇ Test aKeyThatIsNoLongerPresentResolvesToNothing() started.
+◇ Test aDesktopSessionWaitsEightSecondsForTheTurnSummary() started.
+◇ Test aPendingFinishedAlertIsDroppedIfTheNextTurnAlreadyStarted() started.
+◇ Test desktopSessionYouAreLookingAtNeverAlertsForThatWholeWait() started.
+◇ Test finishedAlertNeedsAnUninterruptedTurnOfAtLeast30Seconds() started.
+◇ Test waitingKeysAreImmediateButTheDockBounceUsesTheSameDebounce() started.
+◇ Test "5.6-14/15/16/17 长时间状态：Bash / WebFetch / WebSearch 超过 8 秒、Monitor、思考超过 20 秒都换成对应的姿势（边界两侧各测一次）" started.
+◇ Test errorAlertsAreOffByDefaultAndThrottledWhenOn() started.
+◇ Test afterSeatsAndSessionsChangeAClickStillResolvesToWhoSitsThereNow() started.
+◇ Test bookkeepingDoesNotGrowWithEverySessionEverSeen() started.
+◇ Test plateStripPixelsCarryNoObjectIDSoClickingThePlateDoesNothing() started.
+◇ Test aHiddenBuddysFinishedTurnsStillCountForTheWhiteboardButNeverAlert() started.
+◇ Test privacyModeHidesTheTitleAndTheCommand() started.
+◇ Test "5.6-18/19/20 做完一轮：先等 0.4 秒（继续保持忙姿势），再伸 1.2 秒懒腰，再 3/4 侧身靠着；未读旗一直保留" started.
+◇ Test aTerminalFinishedAlertAlsoWaitsEightSecondsWhenYouAreLooking() started.
+◇ Test onlyTheChangedEntriesAreTouched() started.
+◇ Test differentKindsAndDifferentBuddiesAreNotThrottledAgainstEachOther() started.
+◇ Test class8MissingGlyphsAndOverflowingContainersAreCaught() started.
+◇ Test "5.6-13 等待类状态到来时立即插入：屏幕、桌牌、气泡在同一帧就换成等待内容（不等最短停留），身体 0.4 秒后转身" started.
+◇ Test everyNormallyFinishedTurnIsCountedForTheWhiteboardEvenWhenNoAlertIsSent() started.
+◇ Test aForcedDockIconIsWrittenBackSoTheSettingsPageDoesNotSayOff() started.
+◇ Test sameBuddySameKindIsThrottledForTwentySeconds() started.
+◇ Test questionPlanAndOtherWaitsHaveTheirOwnWording() started.
+◇ Test "R2-001 PixelView：画布没变、只有缩放变了（局部重绘的场景知道「没变」）时，图像层也要跟着新缩放变大小" started.
+◇ Test theMergedNotificationIsClearedWhenNobodyIsWaitingAnymore() started.
+◇ Test aWaitBlipShorterThanTheDebounceNeverAlertsAndClearsItsNotification() started.
+◇ Test threeBuddiesMergeIntoThree() started.
+◇ Test alertsWithinTwoSecondsOfEachOtherMergeIntoOne() started.
+◇ Test theSameBuddyAlertingTwiceIsNotAMerge() started.
+◇ Test mergedFinishedAndMixedNotificationsUseTheirOwnWords() started.
+◇ Test terminalSessionWaitsEightSecondsThenChecksAgainWhetherYouAreStillLooking() started.
+◇ Test delegatingToForegroundHelpersPointsAtThemAndBackgroundOnesLeavesYouTyping() started.
+◇ Test changingTheKindOfWaitRestartsTheDebounce() started.
+◇ Test settingsSwitchesTurnTheKindsOff() started.
+◇ Test hidingABuddyWhoIsAlreadyAlertingClearsTheAlert() started.
+◇ Test aBlockedIdleSessionShowsTheStickyNote() started.
+◇ Test everyRowOfTheStateToAnimationTable() started.
+◇ Test titlesAreAlwaysDisplayable() started.
+◇ Test finishingATurnWaits0_4SecondsBeforeStretching() started.
+◇ Test everyToolCategoryHasAPoseAndAScreen() started.
+◇ Test aStuckStopCannotHoldTheMainThreadForLongerThanTheTimeout() started.
+◇ Test aPendingApprovalIsNotReportedAsEnabled() started.
+◇ Test mostRecentHostIsTheLargestLastFocusedAndTiesAreDeterministic() started.
+◇ Test fastWorkFinishesBeforeWeReturn() started.
+◇ Test pruningRemovesOnlyOurStaleTallyKeys() started.
+◇ Test theHoverCardIsRebuiltOnlyWhenItsContentCanHaveChanged() started.
+◇ Test tallyKeysOlderThanThirtyDaysAreStale() started.
+◇ Test theLoginSwitchFallsBackToOffWhenEnablingFailed() started.
+◇ Test aMissingHostIsNeverMostRecentlyFocused() started.
+◇ Test onlyASingleClickOnTheBackgroundStartsAWindowDrag() started.
+◇ Test theMetadataCacheReadsOncePerSecondNotOncePerCall() started.
+◇ Test menuBarIconsAreEighteenPointTemplatesExceptTheColouredWaitingOne() started.
+◇ Test settingsDriveTheTankAndTheStripAndTheStripHasTheSpecifiedSize() started.
+◇ Test mouseDownRoutesBackgroundDragsAndBuddyClicksTheRightWay() started.
+◇ Test theThreeTitleBarButtonsClickOnlyWhenReleasedInsideAndShrinkingSwapsTheOfficeForTheTank() started.
+◇ Test diagnosticsTextListsEverythingTheSettingsPageShows() started.
+◇ Test closingTheOfficeWindowOnlyHidesItAndRemembersThatItIsClosed() started.
+◇ Test theTankIsDraggedByItsBackgroundThroughThePixelViewNotAppKitsBackgroundDrag() started.
+◇ Test doubleClickingTheTanksBackgroundGoesBackAndClickingABuddyJumps() started.
+◇ Test theStatusMenuHasBuddyRowsThenTheFiveTogglesThenDemoSettingsAndQuit() started.
+◇ Test theOfficeWindowIsAnOrdinaryTitledResizableWindowThatRendersItsFirstFrameBeforeItIsShown() started.
+◇ Test theOfficeHoverCardAppearsOnlyAfterTheMouseHasRestedFor250ms() started.
+◇ Test titleBarButtonArtIsTwelveByTwelveWithFourStatesAndTenByTenIcons() started.
+◇ Test labelsAndZoomSettingsReachTheOfficeRendering() started.
+◇ Test aScreenParametersChangeRepositionsTheStrip() started.
+◇ Test thePanelsAreBorderlessNonActivatingFloatingAndTheStripIsTransparent() started.
+◇ Test noPathsUnderTheClaudeDirectoryOrSecretFiles() started.
+◇ Test onlyNotificationServiceTouchesTheUserNotificationCenter() started.
+◇ Test terminalAndVSCodeTargets() started.
+◇ Test noNetworkAndNoCredentialAPIs() started.
+◇ Test hiddenBuddiesAreMutedNoAlertNoBadgeNoBounce() started.
+◇ Test noForceTryNoForceCastAndFatalErrorOnlyInRequiredInits() started.
+◇ Test theStripInterceptsBuddyPixelsWithAOnePixelHaloAndLetsEverythingElseThrough() started.
+◇ Test theAuditsCatchTheirTargetsAndIgnoreLookAlikes() started.
+◇ Test noSubprocessesAndNoThirdPartyImports() started.
+◇ Test case passing 1 argument status → UNAuthorizationStatus(rawValue: 1) to alreadyAnsweredNeverAsksAgain(status:) started.
+◇ Test case passing 1 argument status → UNAuthorizationStatus(rawValue: 2) to alreadyAnsweredNeverAsksAgain(status:) started.
+◇ Test case passing 1 argument status → UNAuthorizationStatus(rawValue: 3) to alreadyAnsweredNeverAsksAgain(status:) started.
+◇ Test "文字图片缓存有上限（600 张，先进先出）：不停地渲染新的文字，最早的被淘汰、最近的还在缓存里；装满时按桌牌大小的文字算总共约 20 MB" started.
+◇ Test aHeavyTickNeverSchedulesTheNextOneBackToBack() started.
+◇ Test aHighRateMouseCannotDriveTheTicksAboveThirtyFps() started.
+◇ Test wakingStillPullsALateTickForwardImmediately() started.
+◇ Test case passing 1 argument animate → true to departedSessionsAreForgottenByTheScene(animate:) started.
+◇ Test case passing 1 argument animate → false to departedSessionsAreForgottenByTheScene(animate:) started.
+◇ Test case passing 2 arguments count → 1, viewportW → 168 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+◇ Test case passing 2 arguments count → 1, viewportW → 224 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+◇ Test case passing 2 arguments count → 1, viewportW → 336 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+◇ Test case passing 2 arguments count → 1, viewportW → 448 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+◇ Test case passing 1 argument zoom → 2 to emojiTitlesNeverLeaveTheirPlateOrCard(zoom:) started.
+◇ Test case passing 2 arguments count → 4, viewportW → 168 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+◇ Test case passing 1 argument zoom → 3 to emojiTitlesNeverLeaveTheirPlateOrCard(zoom:) started.
+◇ Test case passing 2 arguments count → 4, viewportW → 224 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+◇ Test case passing 1 argument zoom → 4 to emojiTitlesNeverLeaveTheirPlateOrCard(zoom:) started.
+◇ Test case passing 1 argument zoom → 5 to emojiTitlesNeverLeaveTheirPlateOrCard(zoom:) started.
+◇ Test case passing 2 arguments count → 4, viewportW → 336 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+◇ Test case passing 1 argument size → 10 to emojiInkStaysInsideTheCJKInkRange(size:) started.
+◇ Test case passing 2 arguments count → 4, viewportW → 448 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+◇ Test case passing 2 arguments clock → "12:00", zoom → 2 to plateTextMeetsContrastAtAnyTimeOfDay(clock:zoom:) started.
+◇ Test case passing 1 argument size → 11 to emojiInkStaysInsideTheCJKInkRange(size:) started.
+◇ Test case passing 1 argument size → 12 to emojiInkStaysInsideTheCJKInkRange(size:) started.
+◇ Test case passing 1 argument zoom → 3 to twoLinePlateTextStaysInsideThePlate(zoom:) started.
+◇ Test case passing 2 arguments count → 6, viewportW → 168 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+◇ Test case passing 2 arguments count → 6, viewportW → 224 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+◇ Test case passing 1 argument size → 13 to emojiInkStaysInsideTheCJKInkRange(size:) started.
+◇ Test case passing 1 argument zoom → 4 to twoLinePlateTextStaysInsideThePlate(zoom:) started.
+◇ Test case passing 2 arguments count → 6, viewportW → 336 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+◇ Test case passing 1 argument zoom → 5 to twoLinePlateTextStaysInsideThePlate(zoom:) started.
+◇ Test case passing 1 argument zoom → 1 to emptyOfficeSignIsReadableAndDrawnOnTopOfTheDesks(zoom:) started.
+◇ Test case passing 2 arguments count → 6, viewportW → 448 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+◇ Test case passing 1 argument zoom → 2 to emptyOfficeSignIsReadableAndDrawnOnTopOfTheDesks(zoom:) started.
+◇ Test case passing 2 arguments count → 12, viewportW → 168 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+◇ Test case passing 1 argument zoom → 3 to emptyOfficeSignIsReadableAndDrawnOnTopOfTheDesks(zoom:) started.
+◇ Test case passing 2 arguments clock → "12:00", zoom → 3 to plateTextMeetsContrastAtAnyTimeOfDay(clock:zoom:) started.
+◇ Test case passing 1 argument zoom → 4 to emptyOfficeSignIsReadableAndDrawnOnTopOfTheDesks(zoom:) started.
+◇ Test case passing 2 arguments count → 12, viewportW → 224 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+◇ Test case passing 1 argument zoom → 5 to emptyOfficeSignIsReadableAndDrawnOnTopOfTheDesks(zoom:) started.
+◇ Test case passing 2 arguments clock → "12:00", zoom → 4 to plateTextMeetsContrastAtAnyTimeOfDay(clock:zoom:) started.
+◇ Test case passing 2 arguments count → 12, viewportW → 336 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+◇ Test case passing 2 arguments clock → "12:00", zoom → 5 to plateTextMeetsContrastAtAnyTimeOfDay(clock:zoom:) started.
+◇ Test case passing 2 arguments count → 12, viewportW → 448 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+◇ Test case passing 2 arguments win → Window(name: "默认", wPt: 672, hPt: 678), zoom → 2 to hoverCardAlwaysAppearsInsideTheWindowWithoutCoveringItsOwner(win:zoom:) started.
+◇ Test case passing 2 arguments count → 20, viewportW → 168 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+◇ Test case passing 2 arguments count → 20, viewportW → 224 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+◇ Test case passing 2 arguments win → Window(name: "默认", wPt: 672, hPt: 678), zoom → 3 to hoverCardAlwaysAppearsInsideTheWindowWithoutCoveringItsOwner(win:zoom:) started.
+◇ Test case passing 2 arguments clock → "23:00", zoom → 2 to plateTextMeetsContrastAtAnyTimeOfDay(clock:zoom:) started.
+◇ Test case passing 2 arguments count → 20, viewportW → 336 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+◇ Test case passing 2 arguments win → Window(name: "默认", wPt: 672, hPt: 678), zoom → 4 to hoverCardAlwaysAppearsInsideTheWindowWithoutCoveringItsOwner(win:zoom:) started.
+◇ Test case passing 2 arguments clock → "23:00", zoom → 3 to plateTextMeetsContrastAtAnyTimeOfDay(clock:zoom:) started.
+◇ Test case passing 2 arguments count → 20, viewportW → 448 to everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) started.
+◇ Test case passing 2 arguments clock → "23:00", zoom → 4 to plateTextMeetsContrastAtAnyTimeOfDay(clock:zoom:) started.
+◇ Test case passing 2 arguments win → Window(name: "最小", wPt: 200, hPt: 220), zoom → 2 to hoverCardAlwaysAppearsInsideTheWindowWithoutCoveringItsOwner(win:zoom:) started.
+◇ Test case passing 2 arguments clock → "23:00", zoom → 5 to plateTextMeetsContrastAtAnyTimeOfDay(clock:zoom:) started.
+◇ Test case passing 2 arguments clock → "05:30", zoom → 2 to plateTextMeetsContrastAtAnyTimeOfDay(clock:zoom:) started.
+◇ Test case passing 2 arguments win → Window(name: "最小", wPt: 200, hPt: 220), zoom → 3 to hoverCardAlwaysAppearsInsideTheWindowWithoutCoveringItsOwner(win:zoom:) started.
+◇ Test case passing 2 arguments clock → "05:30", zoom → 3 to plateTextMeetsContrastAtAnyTimeOfDay(clock:zoom:) started.
+◇ Test case passing 2 arguments win → Window(name: "最小", wPt: 200, hPt: 220), zoom → 4 to hoverCardAlwaysAppearsInsideTheWindowWithoutCoveringItsOwner(win:zoom:) started.
+◇ Test case passing 2 arguments clock → "05:30", zoom → 4 to plateTextMeetsContrastAtAnyTimeOfDay(clock:zoom:) started.
+◇ Test case passing 2 arguments clock → "05:30", zoom → 5 to plateTextMeetsContrastAtAnyTimeOfDay(clock:zoom:) started.
+◇ Test case passing 2 arguments win → Window(name: "很窄", wPt: 260, hPt: 700), zoom → 2 to hoverCardAlwaysAppearsInsideTheWindowWithoutCoveringItsOwner(win:zoom:) started.
+◇ Test case passing 2 arguments win → Window(name: "很窄", wPt: 260, hPt: 700), zoom → 3 to hoverCardAlwaysAppearsInsideTheWindowWithoutCoveringItsOwner(win:zoom:) started.
+◇ Test case passing 2 arguments win → Window(name: "很窄", wPt: 260, hPt: 700), zoom → 4 to hoverCardAlwaysAppearsInsideTheWindowWithoutCoveringItsOwner(win:zoom:) started.
+◇ Test case passing 2 arguments win → Window(name: "矮宽", wPt: 900, hPt: 260), zoom → 2 to hoverCardAlwaysAppearsInsideTheWindowWithoutCoveringItsOwner(win:zoom:) started.
+◇ Test case passing 2 arguments win → Window(name: "矮宽", wPt: 900, hPt: 260), zoom → 3 to hoverCardAlwaysAppearsInsideTheWindowWithoutCoveringItsOwner(win:zoom:) started.
+◇ Test case passing 2 arguments win → Window(name: "矮宽", wPt: 900, hPt: 260), zoom → 4 to hoverCardAlwaysAppearsInsideTheWindowWithoutCoveringItsOwner(win:zoom:) started.
+◇ Test case passing 1 argument scene → "office" to retainedRenderingMatchesFullRedrawPixelForPixel(scene:) started.
+◇ Test case passing 1 argument scene → "tank" to retainedRenderingMatchesFullRedrawPixelForPixel(scene:) started.
+◇ Test case passing 1 argument scene → "strip" to retainedRenderingMatchesFullRedrawPixelForPixel(scene:) started.
+◇ Test case passing 1 argument zoom → 1 to officeHasNoFlickerAtEveryZoom(zoom:) started.
+◇ Test case passing 1 argument zoom → 2 to officeHasNoFlickerAtEveryZoom(zoom:) started.
+◇ Test case passing 1 argument zoom → 3 to officeHasNoFlickerAtEveryZoom(zoom:) started.
+◇ Test case passing 1 argument scene → "office" to retainedRenderingMatchesFullRedrawWithNobodyAtAll(scene:) started.
+◇ Test case passing 1 argument scene → "tank" to retainedRenderingMatchesFullRedrawWithNobodyAtAll(scene:) started.
+◇ Test case passing 1 argument scene → "strip" to retainedRenderingMatchesFullRedrawWithNobodyAtAll(scene:) started.
+◇ Test case passing 1 argument scene → "office" to retainedRenderingMatchesFullRedrawWithMoreThanEightPeople(scene:) started.
+◇ Test case passing 1 argument scene → "tank" to retainedRenderingMatchesFullRedrawWithMoreThanEightPeople(scene:) started.
+◇ Test case passing 1 argument scene → "strip" to retainedRenderingMatchesFullRedrawWithMoreThanEightPeople(scene:) started.
+◇ Test theDockDoesNotBounceWhileTheAppIsAlreadyInFront() started.
+◇ Test severalWaitersAreCountedAndMergedInTheFallbackToo() started.
+◇ Test whenSystemNotificationsAreDeniedTheFallbackAlertsReallyAppear() started.
+◇ Test whenAuthorizedTheSystemNotificationIsUsedInsteadOfTheToast() started.
+◇ Test demoModeNeverAddsToTheRealTally() started.
+◇ Test menuBarIconKindAndDockBadgeLabels() started.
+◇ Test aHiddenBuddyDisturbsNobodyButStillCountsAsALiveSession() started.
+◇ Test notYetAskedOrNotAnAppBundleAlsoFallsBack(status:available:) started.
+◇ Test testsRunOnTheMainThread() started.
+◇ Test case passing 1 argument scene → "tank" to tankAndStripHaveNoFlicker(scene:) started.
+◇ Test case passing 1 argument scene → "strip" to tankAndStripHaveNoFlicker(scene:) started.
+✔ Test theSwitchIsHonouredBothWhenClaudeQuitsAndWhenTheTimerFires() passed after 36.097 seconds.
+✔ Test aWaitingBlipShorterThan0_4SecondsDoesNotTurnTheBuddy() passed after 36.099 seconds.
+✔ Test hiddenBuddiesStillCountAsLiveSessions() passed after 36.100 seconds.
+✔ Test screenNeverChangesFasterThanEvery0_8Seconds() passed after 36.100 seconds.
+✔ Test claudeQuitsAndNobodyIsLeftSoWeQuitAfterSixtySeconds() passed after 36.102 seconds.
+✔ Test waitingTurnsAroundAfter0_4SecondsAndTurnsBackAfter1_5() passed after 36.104 seconds.
+✔ Test simultaneousBuddiesDoNotWearTheSameOutfit() passed after 36.104 seconds.
+✔ Test theTestEntryPointCountsDownTheGivenSeconds() passed after 36.104 seconds.
+✔ Test claudeComingBackCancelsTheCountdownAndANewQuitReplacesTheOld() passed after 36.104 seconds.
+✔ Test autoQuitNeverQuitsAnotherApp() passed after 36.104 seconds.
+✔ Test everyDeskHasAMugAndTheSipReachesForIt() passed after 36.105 seconds.
+✔ Test theCursorBreathesThroughThreeLevelsAtHalfAHertzAndNeverBlinksOnAndOff() passed after 36.106 seconds.
+✔ Test noPresentSessionsMeansNothingIsLive() passed after 36.106 seconds.
+✔ Test posesOfTheDashRowsCarryNoPropsAndTheSupervisorPointsThenFolds() passed after 36.106 seconds.
+✔ Test liveSessionsIncludingHiddenOnesKeepUsAlive() passed after 36.106 seconds.
+✔ Test simultaneousChangesAreStaggeredBy90msEach() passed after 36.106 seconds.
+✔ Test layoutCapsTheDeskCountWhateverTheSeatNumberIs() passed after 36.106 seconds.
+✔ Test plateActionTextNeverChangesFasterThanEverySecond() passed after 36.111 seconds.
+✔ Test aMockSourceWithNonsenseSpeedStaysSane() passed after 36.111 seconds.
+✔ Test flickerScanWithATinyOrInsaneFrameRateTerminates() passed after 36.111 seconds.
+✔ Test writeBGRAWithACropOutsideTheCanvasWritesNothing() passed after 36.111 seconds.
+✔ Test onlyClaudeQuittingStartsTheCountdown() passed after 36.111 seconds.
+✔ Test safeIntNeverTraps() passed after 36.111 seconds.
+✔ Test rerollingInTheDemoBumpsTheSaltOfThatBuddyOnly() passed after 36.467 seconds.
+✔ Test writeBGRAWithAPartlyOutsideCropWritesOnlyTheOverlap() passed after 36.468 seconds.
+✔ Test seatsStayPutWhenTheSnapshotOrderChanges() passed after 36.469 seconds.
+✔ Test officeSceneRendersWithWildSeatNumbers() passed after 36.468 seconds.
+✔ Test activeAndAbsentLightsStayPut() passed after 36.468 seconds.
+✔ Test theThinkingBubbleDotsBobSlowlyAndOutOfPhase() passed after 36.470 seconds.
+✔ Test testTargetCanImportTheExecutableModule() passed after 36.469 seconds.
+✔ Test anEmptySeatNeverFades() passed after 36.469 seconds.
+✔ Test appearanceCacheIsBoundedByWhoIsHereNotByWhoWasEverSeen() passed after 36.470 seconds.
+✔ Test theStandbyLightBreathesThroughThreeLevelsSlowly() passed after 36.470 seconds.
+✔ Test monitorsOfSessionsPresentAtLaunchBootLeftToRightAt100msIntervals() passed after 36.470 seconds.
+✔ Test aPerformerSurvivesInsaneToolTimestamps() passed after 36.470 seconds.
+✔ Test demoModesWithNonsenseParametersDoNotCrashOrExplode() passed after 36.479 seconds.
+✔ Test rerollOnlyTouchesTheChosenBuddy() passed after 36.479 seconds.
+✔ Test rerollWaitsForTheNewSaltAndThenEveryPlaceAgrees() passed after 36.479 seconds.
+✔ Test whiteboardTallyNeverTrapsAndNegativeCountsAsZero() passed after 36.479 seconds.
+✔ Test hitIDsNeverOverflowAndStayInTheOfficeRange() passed after 36.479 seconds.
+✔ Test layoutSurvivesTheLargestSeatNumbers() passed after 36.479 seconds.
+✔ Test theWaitingLightCyclesThroughThreeAdjacentLevelsAt0_8Hz() passed after 36.479 seconds.
+✔ Test aSessionThatComesBackWalksInAgainInsteadOfSittingDownAtOnce() passed after 36.480 seconds.
+✔ Test dayKeysStayGregorianInAnyLocale() passed after 36.479 seconds.
+✔ Test deriveNeverTrapsWhateverTheDormantMaxIs() passed after 36.479 seconds.
+✔ Test tallyReadFromTheFileIsClamped() passed after 36.479 seconds.
+✔ Test departedSessionsAreForgottenByTheScene(animate:) with 2 test cases passed after 36.480 seconds.
+✔ Test dayNightSwitchTakesTwentyMinutesAndEveryPixelFlipsExactlyOnce() passed after 36.479 seconds.
+✔ Test numbersWrittenBehindOurBackAreClampedIntoTheirValidRange() passed after 36.479 seconds.
+✔ Test blinksEveryFiveToEightSecondsInThreeFramesOfAtLeast240msAndOnlyTouchTheEyes() passed after 36.479 seconds.
+✔ Test addTallyDoesNotOverflow() passed after 36.479 seconds.
+✔ Test bubblesPopInInThreeIntegerSizesAndEveryIconIsSevenBySeven() passed after 36.479 seconds.
+✔ Test onlyDevelopmentFlagsTurnLoggingOn() passed after 36.480 seconds.
+✔ Test linesAreAppendedToAPrivateFileInAPrivateDirectory() passed after 36.480 seconds.
+✔ Test springOutputHasAPlusMinusPointSixHysteresisAndSlowSpringsSnap() passed after 36.480 seconds.
+✔ Test theTurnIsSixSpecifiedStepsWithTheChairFollowingAndThenTheHandRises() passed after 36.480 seconds.
+✔ Test sessionTitlesNeverGoIntoTheLog() passed after 36.480 seconds.
+✔ Test aSymlinkAtTheLogPathIsNeverFollowed() passed after 36.480 seconds.
+✔ Test everyBuddyBreathesOnePixelEveryFourSeconds() passed after 36.481 seconds.
+✔ Test springsStartFromRestWithZetaThreeQuartersAndOvershootSlightly() passed after 36.480 seconds.
+✔ Test noDebugLogCallInterpolatesASessionTitle() passed after 36.480 seconds.
+✔ Test theLogIsRotatedInsteadOfGrowingForever() passed after 36.480 seconds.
+✔ Test failuresNeverCrash() passed after 36.480 seconds.
+✔ Test seatsTurnTowardsTheAisleAndAMirroredPersonIsTheFlippedImage() passed after 36.480 seconds.
+✔ Test noNSLogUsesAnInterpolatedFormatString() passed after 36.480 seconds.
+✔ Test helpersSlideInAtMostThreeShownAndTheRestAreCountedAndBackgroundOnesStayBeside() passed after 36.480 seconds.
+✔ Test tankAndStripGeometryMatchTheSpec() passed after 36.481 seconds.
+✔ Test theHoverCardIsPaintedIntoTheOfficeScene() passed after 36.480 seconds.
+✔ Test theMonitorBootsInSixteenDitherLevelsOverThreeHundredMilliseconds() passed after 36.480 seconds.
+✔ Test theMonitorFadesOutOver300msInsteadOfCuttingToBlack() passed after 36.482 seconds.
+✔ Test sittingDownAndStandingUpAreThreeFramesOfAHundredMilliseconds() passed after 36.481 seconds.
+✔ Test theUnreadFlagIsPlantedOnTheMonitorOnlyWhileUnread() passed after 36.480 seconds.
+✔ Test theStaticScreenCacheIsBounded() passed after 36.481 seconds.
+✔ Test aFinishedTurnWaitsThenStretchesThenLeansThroughTheWholePipeline() passed after 36.481 seconds.
+✔ Test retainedRenderingStaysIdenticalWhileTheMonitorFadesOut() passed after 36.483 seconds.
+✔ Test hitIdsRoundTripAndAreClampedForCrazySeatNumbers() passed after 36.481 seconds.
+✔ Test statesSwitchExactlyOnTheSpecifiedSeconds() passed after 36.481 seconds.
+✔ Test emptyAndOffDutySeatsAreNotClickable() passed after 36.481 seconds.
+✔ Test durationFormattersNeverTrapAndCapAtAboutThirtyYears() passed after 36.481 seconds.
+✔ Test idleMinutesWithACorruptIdleSince() passed after 36.481 seconds.
+✔ Test everyPixelOfASeatsIdLiesInsideThatSeatsOwnCell(count:viewportW:) with 20 test cases passed after 36.482 seconds.
+✔ Test aSnapshotWithCorruptTimesNeverCrashesTheStage() passed after 36.482 seconds.
+✔ Test emojiTitlesNeverLeaveTheirPlateOrCard(zoom:) with 4 test cases passed after 36.482 seconds.
+✔ Test zoomIsClampedSoAtLeastOneWholeSeatFits() passed after 36.482 seconds.
+✔ Test plateTextUnderTheHoverCardIsHidden() passed after 36.482 seconds.
+✔ Test emojiInkStaysInsideTheCJKInkRange(size:) with 4 test cases passed after 36.482 seconds.
+✔ Test plateTextMeetsContrastAtAnyTimeOfDay(clock:zoom:) with 12 test cases passed after 36.485 seconds.
+✔ Test twoLinePlateTextStaysInsideThePlate(zoom:) with 3 test cases passed after 36.485 seconds.
+✔ Test blankTitlesGetAPlaceholderOnPlatesAndCards() passed after 36.485 seconds.
+✔ Test emptyOfficeSignIsReadableAndDrawnOnTopOfTheDesks(zoom:) with 5 test cases passed after 36.490 seconds.
+✔ Test sleepingBuddysTwoZsDoNotTouch() passed after 36.489 seconds.
+✔ Test everyNotifySettingReachesTheAlertConfig() passed after 36.489 seconds.
+✔ Test hoverCardAlwaysAppearsInsideTheWindowWithoutCoveringItsOwner(win:zoom:) with 12 test cases passed after 36.490 seconds.
+✔ Test textMeasurementIsCachedAndConsistent() passed after 36.490 seconds.
+✔ Test mouseFollowsTheScreenTheMouseIsOn() passed after 36.489 seconds.
+✔ Test everySettingOfTheSpecExistsWithItsDefaultAndHasAControlInTheSettingsPage() passed after 36.490 seconds.
+✔ Test mainAndUnknownValuesUseThePrimaryScreen() passed after 36.490 seconds.
+✔ Test emojiInTheTextDoesNotChangeTheLineHeight() passed after 36.490 seconds.
+✔ Test aChosenScreenIsFoundByIDThenByNameAndFallsBackToThePrimaryWhenUnplugged() passed after 36.490 seconds.
+✔ Test fileNamesClipsAndDurations() passed after 36.490 seconds.
+✔ Test settingsPageOptionsAlwaysContainTheCurrentValue() passed after 36.490 seconds.
+✔ Test activityTextForEveryState() passed after 36.499 seconds.
+✔ Test shortCommandKeepsTheFirstWordsAndDropsCdPrefixesAndOptions() passed after 36.499 seconds.
+✔ Test wildSeatNumbersBecomeTheSmallestFreeSeats() passed after 36.499 seconds.
+✔ Test privacyModeNeverLeaksDetails() passed after 36.500 seconds.
+✔ Test approvalBodiesFitNoMatterHowLongTheToolOrTheCommandIs() passed after 36.499 seconds.
+✔ Test aNormalListIsReturnedUntouchedAndOrderIsKept() passed after 36.500 seconds.
+✔ Test everyFixedAlertTextFits() passed after 36.499 seconds.
+✔ Test statusCandidatesGoFromDetailedToShort() passed after 36.500 seconds.
+✔ Test shorteningOrderIsCommandThenToolThenGeneric() passed after 36.500 seconds.
+✔ Test approvalWordingThatAlreadyFitsIsUnchanged() passed after 36.500 seconds.
+✔ Test whenThereAreNoFreeSeatsLeftNothingCrashes() passed after 36.500 seconds.
+✔ Test theOldDeepLinkNoticeWasTruncatedAndTheNewOneFits() passed after 36.500 seconds.
+✔ Test contentHashDistinguishesSingleBitChangesAndIgnoresNothing() passed after 36.500 seconds.
+✔ Test staticScreenClassificationMatchesWhatIsActuallyDrawn() passed after 36.500 seconds.
+✔ Test stripKeepsSeatedBuddiesStillWhenSomeoneNewArrives() passed after 36.500 seconds.
+✔ Test personPixelsCarryTheirSeatIDAndTheWallCarriesNone() passed after 36.500 seconds.
+✔ Test goldenFrameHashesAreStable() passed after 36.504 seconds.
+✔ Test tankAndStripShowAnOverflowBadgeBeyondEightPeople() passed after 36.504 seconds.
+✔ Test retainedRenderingMatchesAtOtherWindowSizes() passed after 36.504 seconds.
+✔ Test enteringWalkerAppearsOnlyAfterTheDoorStartedOpening() passed after 36.504 seconds.
+✔ Test theNSLogAuditCatchesTheOldSpellings() passed after 36.504 seconds.
+✔ Test retainedRenderingMatchesFullRedrawPixelForPixel(scene:) with 3 test cases passed after 36.504 seconds.
+✔ Test tappingScratchingWritingAndWavingFrequencies() passed after 36.504 seconds.
+✔ Test emptyOfficeAndTankShowTheNobodyIsInSign() passed after 36.504 seconds.
+✔ Test typingBeatsAreFourFramesOf133msAndWriteIsTwiceAsFast() passed after 36.504 seconds.
+✔ Test renderingIsDeterministic() passed after 36.504 seconds.
+✔ Test onlyTheThinkingAndSleepingBubblesAnimateAndTheStickyNoteStandsStill() passed after 36.504 seconds.
+✔ Test bodiesLeanAndHandsGoWhereTheTableSays() passed after 36.504 seconds.
+✔ Test askPosesRaiseAHandOrHoldAClipboard() passed after 36.504 seconds.
+✔ Test retainedRenderingMatchesFullRedrawWithNobodyAtAll(scene:) with 3 test cases passed after 36.504 seconds.
+✔ Test copyRegionAndClearRegionTouchOnlyTheirRectangle() passed after 36.504 seconds.
+✔ Test idleDozeSleepErrorInterruptedAndStretchPoses() passed after 36.504 seconds.
+✔ Test sippingAndLookingAroundHappenAtTheSpecifiedIntervals() passed after 36.504 seconds.
+✔ Test quickMatrixHasZeroViolationsAndReallyCoversTheScenes() passed after 36.512 seconds.
+✔ Test aPanelThatIsNotOnScreenGetsItsFirstFrameBeforeItAppears() passed after 36.504 seconds.
+✔ Test walkersAreNeverDrawnOutsideTheDoorwayWhileInsideIt() passed after 36.504 seconds.
+✔ Test layoutDeskCountAndColumnHysteresis() passed after 36.504 seconds.
+✔ Test noFrameIsBlackAndTheMonitorNeverFadesToPureBlack() passed after 36.512 seconds.
+✔ Test clipRestrictsEveryDrawingPrimitive() passed after 36.504 seconds.
+✔ Test aPanelThatIsAlreadyOnScreenIsNotOrderedFrontAgain() passed after 36.504 seconds.
+✔ Test retainedRenderingMatchesFullRedrawWithMoreThanEightPeople(scene:) with 3 test cases passed after 36.504 seconds.
+✔ Test aHiddenPanelIsRenderedOnlyWhenItsFirstFrameIsRequested() passed after 36.504 seconds.
+✔ Test "SAN-01 withDraws 返回的是一份稳定的拷贝：别的线程一直在画像素字时，反复收集并逐条读像素，不崩、不读到释放过的内存；自己画的那一条一条不少" passed after 36.510 seconds.
+✔ Test "R1b-04 等待类气泡（钥匙 / 问号 / 计划）不受最短停留限制：立刻出现，批准之后立刻消失；新来的人第一帧就有气泡" passed after 36.510 seconds.
+✔ Test "R2-015 工具详情为空（hook 行被截断走降级解析时会出现）：桌牌文案不能是「在读 」「在找 ""」「运行 」这种带尾随空格 / 空引号的半截话" passed after 36.510 seconds.
+✔ Test "R1b-04 工具节奏驱动的气泡也有 0.8 秒最短停留：Grep / Read 每 0.3 秒交替时，放大镜气泡不能跟着一闪一闪" passed after 36.510 seconds.
+✔ Test "R1b-02 桌牌 1.0 秒最短停留不能被文件名 / 命令 / 搜索词里的数字绕过（part1.txt → part2.txt 也是换了动作）" passed after 36.510 seconds.
+✔ Test "R1b-01 错开推迟期间活动变回已套用的同一种类：推迟记录作废，不能套用推迟开始时存下的过期快照" passed after 36.513 seconds.
+✔ Test everyRowOfTheTableShowsItsPlateText() passed after 36.513 seconds.
+✔ Test "R1b-02 数字掩码只抹「计数器位置」：· 后面的计时、重试中 a/m、×N、派了 N 个帮手、打盹 N 分钟；文件名里的数字保留" passed after 36.518 seconds.
+✔ Test "R3b-02 隐私模式端到端泄漏扫描：18 种工具 × 忙 / 等批准，桌牌 / 状态行 / 悬停卡片 / 下班工位的所有文字里都不出现会话标题、项目路径、工具详情、server 名" passed after 36.518 seconds.
+✔ Test "R1b-06 只有零宽 / 控制 / 方向字符的标题也算空标题：显示占位文字，不画空桌牌" passed after 36.518 seconds.
+✔ Test theLongBashProgressBarIsAboveTheRowsTheHeadHides() passed after 36.518 seconds.
+✔ Test "R1b-02 计时器数字仍然不受最短停留约束：「运行中 npm test · 0:09」→「0:10」…每秒都立刻换" passed after 36.518 seconds.
+✔ Test rhythmStepsAreEvenAndNeverSkip() passed after 36.518 seconds.
+✔ Test "R1b-05 打开隐私模式：桌牌动作文字当场就隐藏，不等 1.0 秒最短停留（刚换过字也一样）" passed after 36.518 seconds.
+✔ Test aLongBashBarGrowsButNeverFillsUp() passed after 36.518 seconds.
+✔ Test aMcpServersInitialIsALetterTheFontCanDraw() passed after 36.518 seconds.
+✔ Test documentAndLogScrollingStepsAreWholeFramesAt15fps() passed after 36.518 seconds.
+✔ Test theSmallPixelFontDrawsEveryLatinCapital() passed after 36.518 seconds.
+✔ Test spriteBooksHaveNoErrors() passed after 36.518 seconds.
+✔ Test spritesAreNotEmptyAndAnchorsInside() passed after 36.518 seconds.
+✔ Test hairColorsAreFarApart() passed after 36.518 seconds.
+✔ Test directIndexedPaletteEntriesFitInOneByte() passed after 36.518 seconds.
+✔ Test outlineIsDarkerThanFillByAtLeastPointOneFive() passed after 36.518 seconds.
+✔ Test browserLoadsPageBlocksOneByOneAndSearchTypesTheQuery() passed after 36.518 seconds.
+✔ Test theMcpAppScreenNeverFallsBackToThePlaceholderGlyph() passed after 36.519 seconds.
+✔ Test mcpBrowserPointerMovesAndTheClickRingOnlyDarkensThePalette() passed after 36.518 seconds.
+✔ Test helperListChecklistManualAndIconGrid() passed after 36.522 seconds.
+✔ Test everyHairOutfitAndHeadHasAllFiveFacings() passed after 36.522 seconds.
+✔ Test terminalHasAGreenPromptAndTheLongBarFollowsOneMinusExpMinusTOverTau() passed after 36.522 seconds.
+✔ Test outOfRangeValuesAreClampedAndSleepAlwaysComesAfterDoze() passed after 36.522 seconds.
+✔ Test realProviderPassesTheSettingsToTheEngine() passed after 36.522 seconds.
+✔ Test dialogScreensHaveTheirButtonsOptionsAndOutline() passed after 36.522 seconds.
+✔ Test compactSqueezesRowsIntoOneBlockAndRetryShowsARotatingArrowAndDigits() passed after 36.522 seconds.
+✔ Test theDataRootArgumentReachesTheEngine() passed after 36.522 seconds.
+✔ Test realProviderClampsWhatItReadsFromDefaults() passed after 36.522 seconds.
+✔ Test "5.5-07 下班工位：显示器关着、待机灯灭、没有人 / 气泡 / 道具，桌牌变暗，椅子推进去，点不到" passed after 36.522 seconds.
+✔ Test stateScreens() passed after 36.522 seconds.
+✔ Test editTypesCharactersAndWriteAddsRowsFromTheTop() passed after 36.522 seconds.
+✔ Test documentScrollsOnePixelPerStepAndItsColourFollowsTheExtension() passed after 36.523 seconds.
+✔ Test noPoseSwingsFasterThanFourHertz() passed after 36.525 seconds.
+◇ Test case passing 2 arguments status → UNAuthorizationStatus(rawValue: 0), available → true to notYetAskedOrNotAnAppBundleAlsoFallsBack(status:available:) started.
+◇ Test case passing 2 arguments status → UNAuthorizationStatus(rawValue: 2), available → false to notYetAskedOrNotAnAppBundleAlsoFallsBack(status:available:) started.
+✔ Test "5.5-21 进场走到工位约 2.5 秒：路线 70–175 像素的座位走路时间正好 2.5 秒；更近的按 28 像素/秒、更远的按 70 像素/秒封顶（DESIGN.md 第 13 节记录）" passed after 36.529 seconds.
+✔ Test resultsHighlightEasesAndTheTreeUnfolds() passed after 36.530 seconds.
+✔ Test "5.5-05 离场：起身 0.3 秒（椅子拉出来）→ 把椅子推好 → 挥手 0.7 秒 → 走出门 → 门在身后关上 0.16 秒；整个过程之后走路系统清空" passed after 36.529 seconds.
+✔ Test "5.6-13 （SP-06）某个 buddy 正在「错开」的等待期里，等待类状态也要立即插入（≤ 250 ms），并且中间不能闪出一帧过期的旧动作" passed after 36.530 seconds.
+✔ Test anyChangeOfThePlacementInputsTriggersARepositionAndNothingElseDoes() passed after 36.530 seconds.
+✔ Test settingsMapToEngineOptions() passed after 36.530 seconds.
+✔ Test "5.6-10 同一类工具之间切换：姿势不变，只换屏幕内容（Grep → Glob：结果列表 → 文件树；Read swift → Read md：文档颜色；Edit → MultiEdit：什么都不变）" passed after 36.530 seconds.
+✔ Test "4.4-08 桌面本轮总结的英文 status_detail 只在悬停卡片里显示（隐私模式也不显示）；桌牌 / 状态候选 / 办公室里所有文字都没有它" passed after 36.530 seconds.
+✔ Test "5.6-09 停留期间只记下最新的目标、跳过中间态：Read → Grep → Read 一直是「在读」；Read → Grep → Edit 直接到 Edit，屏幕 / 姿势 / 桌牌都没显示过 Grep" passed after 36.530 seconds.
+✔ Test rightLeftCenterAndUnknownAlignments() passed after 36.530 seconds.
+✔ Test shrinkingTheDormantLimitKeepsTheMostRecentlyActiveSeats() passed after 36.530 seconds.
+✔ Test walkingInTakesAboutTwoAndAHalfSecondsAndFarSeatsAreSpeedCapped() passed after 36.530 seconds.
+✔ Test "5.6-19 疑点 Q-07：上一个姿势刚换过（1.5 秒最短停留还没满）时一轮结束，懒腰也不会被跳过或截短" passed after 36.530 seconds.
+✔ Test anOffDutyDeskIsDimSilentAndUnclickableAndTheCoatHangsByTheDoor() passed after 36.530 seconds.
+✔ Test class8PixelDigitsPaintedOverByLaterDrawingAreCaught() passed after 36.530 seconds.
+✔ Test "5.6-05 连着批准好几次：两次等待之间只隔 0.6 秒，不来回转（一直面向你，只转一次身），最后一次结束 1.5 秒之后才转回去" passed after 36.534 seconds.
+✔ Test "5.6-06/07/08 最短停留正好是 姿势 1.5 s / 屏幕 0.8 s / 桌牌动作文字 1.0 s：目标一变、停留一满就换，不早也不晚（差不超过一帧）" passed after 36.534 seconds.
+✔ Test aSessionThatArrivesAfterLaunchWalksInAndSitsDownWhileOnesPresentAtLaunchAreAlreadySeated() passed after 36.534 seconds.
+✔ Test class8PixelDigitsThatTouchAreCaught() passed after 36.534 seconds.
+✔ Test class4LabelsThatCoverAFaceScreenBubbleOrCardAreCaught() passed after 36.534 seconds.
+✔ Test class7TextNotOnWholeDevicePixelsIsCaught() passed after 36.534 seconds.
+✔ Test class1OverlappingTextIsCaught() passed after 36.534 seconds.
+✔ Test aCleanFrameReportsNothing() passed after 36.534 seconds.
+✔ Test class5FontsBelowNinePointsAreCaught() passed after 36.534 seconds.
+✔ Test aHiddenAppDoesNotGetItsOfficeWindowPoppedBackEither() passed after 36.534 seconds.
+✔ Test leavingStandsWavesWalksOutAndTheDoorClosesBehindThem() passed after 36.535 seconds.
+✔ Test aLoneEmptyPetStripIsNotAnEntryPoint() passed after 36.534 seconds.
+✔ Test class2HoverCardThatIsNotWhollyInsideTheWindowIsCaught() passed after 36.535 seconds.
+✔ Test class2TextOutsideItsContainerOrTheWindowIsCaught() passed after 36.535 seconds.
+✔ Test class4TheHoverCardMustNotCoverItsOwnFaceButMayCoverANeighbours() passed after 36.535 seconds.
+✔ Test poseNeverChangesFasterThanEvery1_5Seconds() passed after 36.535 seconds.
+✔ Test floorDivisionMapsNegativeDevicePixelsToTheRightCanvasRow() passed after 36.535 seconds.
+✔ Test turningTheOfficeOffHidesIt() passed after 36.535 seconds.
+✔ Test theFirstApplyDoesEverything() passed after 36.535 seconds.
+✔ Test class3LongTextWithoutAnEllipsisIsCaught() passed after 36.535 seconds.
+✔ Test class6LowContrastAgainstTheRealCanvasIsCaught() passed after 36.535 seconds.
+✔ Test turningTheOfficeOnShowsItEvenIfItIsMinimized() passed after 36.535 seconds.
+✔ Test nothingChangedMeansNothingToDo() passed after 36.535 seconds.
+✔ Test atLeastOneEntryIsAlwaysKept() passed after 36.535 seconds.
+✔ Test aMinimizedOfficeWindowIsNotBroughtBackByAnUnrelatedSettingsWrite() passed after 36.535 seconds.
+✔ Test seatSignatureChangesExactlyWhenPixelsCanChange() passed after 36.536 seconds.
+✔ Test "R1b-03 隐私模式：MCP server 名和未知工具名也不能出现在桌牌动作 / 状态行里（任务书 6.3：隐私模式下隐藏全部细节）" passed after 36.536 seconds.
+✔ Test readsLastFocusedThroughFileIOAndSkipsUnreadableEntries() passed after 36.536 seconds.
+✔ Test theTerminalScriptHasATimeoutAndOnlyAcceptsRealTTYNames() passed after 36.536 seconds.
+✔ Test danglingSeatsNeverJump() passed after 36.536 seconds.
+✔ Test theUserManualDoesNotClaimThatThePlateIsClickable() passed after 36.536 seconds.
+✔ Test deepLinkVerdictAfterTwoAndAHalfSeconds() passed after 36.536 seconds.
+✔ Test notificationClicksRouteCorrectly() passed after 36.537 seconds.
+✔ Test everySeatMapsToItsOwnSessionAndItsOwnTarget() passed after 36.537 seconds.
+✔ Test noAccessibilityPermissionAPIsAreUsed() passed after 36.537 seconds.
+✔ Test dockReopenCloseAndHotkeyBehaviourIsWiredAsSpecified() passed after 36.537 seconds.
+✔ Test hoverCardsAppearAfter250msOnAllThreeSurfaces() passed after 36.537 seconds.
+✔ Test theContextMenuOffersJumpRerollHideAndOpenOfficeInThatOrder() passed after 36.537 seconds.
+✔ Test "5.6-23 错开最多 0.6 秒：10 个人同一帧变化，第 1…7 个依次晚 90 ms，第 8、9、10 个都是 0.6 秒（封顶）" passed after 36.537 seconds.
+✔ Test theStripPollingRatesAndDistancesStayAsSpecified() passed after 36.537 seconds.
+✔ Test theTitleBarButtonsAreWiredToTheThreeActions() passed after 36.537 seconds.
+✔ Test deepLinkRules() passed after 36.537 seconds.
+✔ Test alertsTwoSecondsOrMoreApartStayApart() passed after 36.537 seconds.
+✔ Test approvalAlertWaitsExactlyOneAndAHalfSecondThenFiresOnce() passed after 36.537 seconds.
+✔ Test waitingBranchNeverSkipsThePerSnapshotBookkeeping() passed after 36.537 seconds.
+✔ Test desktopSessionsAreSkippedWhenIncludeDesktopIsOff() passed after 36.537 seconds.
+✔ Test theDesktopLookingRuleUsesTheFrontmostClaudeAndTheMostRecentlyFocusedSession() passed after 36.538 seconds.
+✔ Test aDesktopSessionWaitsEightSecondsForTheTurnSummary() passed after 36.539 seconds.
+✔ Test aKeyThatIsNoLongerPresentResolvesToNothing() passed after 36.540 seconds.
+✔ Test aPendingFinishedAlertIsDroppedIfTheNextTurnAlreadyStarted() passed after 36.539 seconds.
+✔ Test desktopSessionYouAreLookingAtNeverAlertsForThatWholeWait() passed after 36.539 seconds.
+✔ Test waitingKeysAreImmediateButTheDockBounceUsesTheSameDebounce() passed after 36.539 seconds.
+✔ Test finishedAlertNeedsAnUninterruptedTurnOfAtLeast30Seconds() passed after 36.539 seconds.
+✔ Test "5.6-14/15/16/17 长时间状态：Bash / WebFetch / WebSearch 超过 8 秒、Monitor、思考超过 20 秒都换成对应的姿势（边界两侧各测一次）" passed after 36.539 seconds.
+✔ Test errorAlertsAreOffByDefaultAndThrottledWhenOn() passed after 36.539 seconds.
+✔ Test afterSeatsAndSessionsChangeAClickStillResolvesToWhoSitsThereNow() passed after 36.541 seconds.
+✔ Test bookkeepingDoesNotGrowWithEverySessionEverSeen() passed after 36.540 seconds.
+✔ Test aHiddenBuddysFinishedTurnsStillCountForTheWhiteboardButNeverAlert() passed after 36.540 seconds.
+✔ Test privacyModeHidesTheTitleAndTheCommand() passed after 36.540 seconds.
+✔ Test "5.6-18/19/20 做完一轮：先等 0.4 秒（继续保持忙姿势），再伸 1.2 秒懒腰，再 3/4 侧身靠着；未读旗一直保留" passed after 36.541 seconds.
+✔ Test plateStripPixelsCarryNoObjectIDSoClickingThePlateDoesNothing() passed after 36.541 seconds.
+✔ Test aTerminalFinishedAlertAlsoWaitsEightSecondsWhenYouAreLooking() passed after 36.541 seconds.
+✔ Test onlyTheChangedEntriesAreTouched() passed after 36.541 seconds.
+✔ Test differentKindsAndDifferentBuddiesAreNotThrottledAgainstEachOther() passed after 36.541 seconds.
+✔ Test class8MissingGlyphsAndOverflowingContainersAreCaught() passed after 36.541 seconds.
+✔ Test "5.6-13 等待类状态到来时立即插入：屏幕、桌牌、气泡在同一帧就换成等待内容（不等最短停留），身体 0.4 秒后转身" passed after 36.541 seconds.
+✔ Test everyNormallyFinishedTurnIsCountedForTheWhiteboardEvenWhenNoAlertIsSent() passed after 36.541 seconds.
+✔ Test aForcedDockIconIsWrittenBackSoTheSettingsPageDoesNotSayOff() passed after 36.541 seconds.
+✔ Test sameBuddySameKindIsThrottledForTwentySeconds() passed after 36.541 seconds.
+✔ Test questionPlanAndOtherWaitsHaveTheirOwnWording() passed after 36.541 seconds.
+✔ Test theMergedNotificationIsClearedWhenNobodyIsWaitingAnymore() passed after 36.541 seconds.
+✔ Test aWaitBlipShorterThanTheDebounceNeverAlertsAndClearsItsNotification() passed after 36.541 seconds.
+✔ Test threeBuddiesMergeIntoThree() passed after 36.541 seconds.
+✔ Test alertsWithinTwoSecondsOfEachOtherMergeIntoOne() passed after 36.541 seconds.
+✔ Test theSameBuddyAlertingTwiceIsNotAMerge() passed after 36.541 seconds.
+✔ Test mergedFinishedAndMixedNotificationsUseTheirOwnWords() passed after 36.541 seconds.
+✔ Test delegatingToForegroundHelpersPointsAtThemAndBackgroundOnesLeavesYouTyping() passed after 36.541 seconds.
+✔ Test terminalSessionWaitsEightSecondsThenChecksAgainWhetherYouAreStillLooking() passed after 36.541 seconds.
+✔ Test settingsSwitchesTurnTheKindsOff() passed after 36.541 seconds.
+✔ Test changingTheKindOfWaitRestartsTheDebounce() passed after 36.541 seconds.
+✔ Test hidingABuddyWhoIsAlreadyAlertingClearsTheAlert() passed after 36.541 seconds.
+✔ Test everyRowOfTheStateToAnimationTable() passed after 36.541 seconds.
+✔ Test aBlockedIdleSessionShowsTheStickyNote() passed after 36.541 seconds.
+✔ Test finishingATurnWaits0_4SecondsBeforeStretching() passed after 36.542 seconds.
+✔ Test titlesAreAlwaysDisplayable() passed after 36.542 seconds.
+✔ Test aStuckStopCannotHoldTheMainThreadForLongerThanTheTimeout() passed after 36.542 seconds.
+✔ Test aPendingApprovalIsNotReportedAsEnabled() passed after 36.542 seconds.
+✔ Test mostRecentHostIsTheLargestLastFocusedAndTiesAreDeterministic() passed after 36.542 seconds.
+✔ Test everyToolCategoryHasAPoseAndAScreen() passed after 36.543 seconds.
+✔ Test fastWorkFinishesBeforeWeReturn() passed after 36.543 seconds.
+✔ Test pruningRemovesOnlyOurStaleTallyKeys() passed after 36.543 seconds.
+✔ Test theHoverCardIsRebuiltOnlyWhenItsContentCanHaveChanged() passed after 36.543 seconds.
+✔ Test tallyKeysOlderThanThirtyDaysAreStale() passed after 36.544 seconds.
+✔ Test theLoginSwitchFallsBackToOffWhenEnablingFailed() passed after 36.544 seconds.
+✔ Test aMissingHostIsNeverMostRecentlyFocused() passed after 36.544 seconds.
+✔ Test theMetadataCacheReadsOncePerSecondNotOncePerCall() passed after 36.544 seconds.
+✔ Test diagnosticsTextListsEverythingTheSettingsPageShows() passed after 36.544 seconds.
+✔ Test noPathsUnderTheClaudeDirectoryOrSecretFiles() passed after 36.543 seconds.
+✔ Test onlyNotificationServiceTouchesTheUserNotificationCenter() passed after 36.543 seconds.
+✔ Test terminalAndVSCodeTargets() passed after 36.543 seconds.
+✔ Test noNetworkAndNoCredentialAPIs() passed after 36.543 seconds.
+✔ Test hiddenBuddiesAreMutedNoAlertNoBadgeNoBounce() passed after 36.544 seconds.
+✔ Test noForceTryNoForceCastAndFatalErrorOnlyInRequiredInits() passed after 36.544 seconds.
+✔ Test theAuditsCatchTheirTargetsAndIgnoreLookAlikes() passed after 36.544 seconds.
+✔ Test noSubprocessesAndNoThirdPartyImports() passed after 36.544 seconds.
+✔ Test "文字图片缓存有上限（600 张，先进先出）：不停地渲染新的文字，最早的被淘汰、最近的还在缓存里；装满时按桌牌大小的文字算总共约 20 MB" passed after 36.458 seconds.
+✔ Test aHeavyTickNeverSchedulesTheNextOneBackToBack() passed after 36.402 seconds.
+✔ Test aHighRateMouseCannotDriveTheTicksAboveThirtyFps() passed after 36.347 seconds.
+✔ Test wakingStillPullsALateTickForwardImmediately() passed after 36.345 seconds.
+✔ Test theSettingsWindowHostsTheSwiftUIForm() passed after 36.563 seconds.
+✔ Suite AutoQuitTests passed after 36.583 seconds.
+✔ Suite PerformerTimingTests passed after 36.585 seconds.
+✔ Suite SpecTraceExtraStageTests passed after 36.585 seconds.
+✔ Suite AppLayerFixTests passed after 36.585 seconds.
+✔ Suite MonitorTests passed after 36.586 seconds.
+✔ Suite BuddyOfficeSmokeTests passed after 36.587 seconds.
+✔ Suite SettingsTests passed after 36.586 seconds.
+✔ Suite SpecTraceMotionTests passed after 36.586 seconds.
+✔ Suite DebugLogTests passed after 36.586 seconds.
+✔ Suite SpecTraceSceneTests passed after 36.587 seconds.
+✔ Suite SpecTraceThresholdTests passed after 36.587 seconds.
+✔ Suite HitTestingTests passed after 36.588 seconds.
+✔ Suite ExtremeValuesTests passed after 36.588 seconds.
+✔ Suite TextAuditRegressionTests passed after 36.589 seconds.
+✔ Suite PlateCopyTests passed after 36.589 seconds.
+✔ Suite ScreenPickerTests passed after 36.590 seconds.
+✔ Suite SeatSanitizerTests passed after 36.590 seconds.
+✔ Suite ToastTextTests passed after 36.590 seconds.
+✔ Suite SpecTracePoseTests passed after 36.590 seconds.
+✔ Suite TextAuditMatrixTests passed after 36.591 seconds.
+✔ Suite PanelShowTests passed after 36.590 seconds.
+✔ Suite ReviewRegressionStageTests passed after 36.590 seconds.
+✔ Suite SpecTracePlateTests passed after 36.590 seconds.
+✔ Suite ScreenContentTests passed after 36.590 seconds.
+✔ Suite SpriteAndPaletteTests passed after 36.590 seconds.
+✔ Suite SpecTraceScreenTests passed after 36.590 seconds.
+✔ Suite EngineConfigTests passed after 36.590 seconds.
+✔ Suite SpecTraceStageTests passed after 36.590 seconds.
+✔ Suite StripPlacementTests passed after 36.590 seconds.
+✔ Suite SpecTraceAppTests passed after 36.591 seconds.
+✔ Suite WalkersAndOffDutyTests passed after 36.591 seconds.
+✔ Suite TextAuditDetectorTests passed after 36.591 seconds.
+✔ Suite ApplyPlanTests passed after 36.592 seconds.
+✔ Suite JumpTests passed after 36.592 seconds.
+✔ Suite SpecTraceSourcePinTests passed after 36.592 seconds.
+✔ Suite AlertCoordinatorTests passed after 36.592 seconds.
+✔ Suite PerformerMappingTests passed after 36.593 seconds.
+✔ Suite HousekeepingTests passed after 36.593 seconds.
+✔ Suite CachesTests passed after 36.593 seconds.
+✔ Suite SourceAuditTests passed after 36.593 seconds.
+✔ Suite TextCacheBoundTests passed after 36.599 seconds.
+✔ Suite TickPacerTests passed after 36.599 seconds.
+✔ Suite SpecTraceSettingsTests passed after 36.601 seconds.
+◇ Test theOfficeLayerReadsFilesOnlyThroughFileIO() started.
+2026-09-29 14:21:35.425 swiftpm-testing-helper[95079:4656497] demo: 跳转到 会话 demo:1
+2026-09-29 14:21:35.425 swiftpm-testing-helper[95079:4656497] demo: 跳转到 会话 demo:1
+✔ Test theOfficeLayerReadsFilesOnlyThroughFileIO() passed after 0.287 seconds.
+◇ Test aMissingOrUnreadableDirectoryIsJustEmpty() started.
+✔ Test aMissingOrUnreadableDirectoryIsJustEmpty() passed after 0.001 seconds.
+✔ Suite DesktopMetaFileIOTests passed after 36.891 seconds.
+✔ Test notAnAppBundleNeverTouchesTheNotificationCenter() passed after 39.700 seconds.
+✔ Test theFirstActiveOpenOfTheOfficeAsksExactlyOnce() passed after 39.712 seconds.
+✔ Test aBackgroundLaunchDoesNotAskUntilTheAppIsInFront() passed after 39.712 seconds.
+✔ Test theAskedFlagSurvivesARestartButTheSettingsButtonStillWorks() passed after 39.712 seconds.
+✔ Test theDecisionFunction() passed after 39.712 seconds.
+✔ Test alreadyAnsweredNeverAsksAgain(status:) with 3 test cases passed after 39.713 seconds.
+✔ Test theTerminalScriptFollowsTheSpecifiedSteps() passed after 39.713 seconds.
+✔ Test loginItemUsesTheServiceManagementFirstThenTheSpecifiedLaunchAgentAndOnlyFromTheSwitch() passed after 39.713 seconds.
+✔ Test autoQuitListensForApplicationTermination() passed after 39.713 seconds.
+✔ Test theProcessHelpersReadTheProcessTableAndTheHostLookupSkipsBackgroundApps() passed after 39.713 seconds.
+✔ Test theDiagnosticsPageShowsEverythingTheSpecListsIncludingTheLastHookEventTime() passed after 39.713 seconds.
+✔ Test theJumpServiceKeepsTheSpecifiedMechanisms() passed after 39.713 seconds.
+✔ Test theBuildScriptAndTheManualSayWhatTheSpecRequires() passed after 39.713 seconds.
+✔ Test pixelViewAndTitleBarButtonsNeverLetAppKitStartAWindowDrag() passed after 39.713 seconds.
+✔ Test clicksOnDanglingSeatsAndInDemoModeNeverJumpForReal() passed after 39.711 seconds.
+✔ Test theAutoQuitLiveSessionCheckCountsHiddenBuddies() passed after 39.711 seconds.
+✔ Test incomingDataIsSanitizedSortedAndDerived() passed after 39.710 seconds.
+✔ Test switchingTheDataSourceResetsTheFirstDataFlagAndStopsTheOldOne() passed after 39.708 seconds.
+✔ Test notificationMaintenanceAndFallbackConstantsStayAsTheSpecSays() passed after 39.707 seconds.
+✔ Test theSoundModeFromTheSettingsReachesThePlayerAndEachKindHasItsOwnSound() passed after 39.707 seconds.
+✔ Test theSystemNotificationGateIsTheAppBundleAndAClickCarriesTheKey() passed after 39.707 seconds.
+✔ Test theSoundsAreSynthesisedAsEightBitMonoWavDataWithoutAnyFile() passed after 39.707 seconds.
+✔ Suite NotificationAuthTests passed after 39.724 seconds.
+✔ Suite SpecTraceJumpAndLifecycleTests passed after 39.724 seconds.
+✔ Suite PixelViewTests passed after 39.724 seconds.
+✔ Suite AppModelTests passed after 39.723 seconds.
+✔ Suite SpecTraceAlertTests passed after 39.723 seconds.
+✔ Test noWindowOtherThanTheFloatingPanelsIsRepeatedlyReframed() passed after 39.756 seconds.
+✔ Test everyFloatingPanelHasWindowAnimationsTurnedOff() passed after 39.758 seconds.
+✔ Test "R3c-01 合并卡只带「还在等」的人：A 在 C 到之前已经处理掉了，最后一张合并卡就是「2 位同事在等你」（B、C）" passed after 39.757 seconds.
+✔ Test "R2-014 系统时钟被往回拨（手动改时间 / NTP 校正）：节流记录里「来自未来」的时间当作已过期，新的一段等待照常提醒" passed after 39.757 seconds.
+✔ Test "R2-008 用 --data-root 起的开发副本：应用层读桌面元数据的根目录也跟着换成假 home（不再读真实的桌面会话元数据）" passed after 39.758 seconds.
+✔ Test "R2-003 两个会话先后「做完了要你处理」（blocked）：合并出来的「N 位同事有事找你」要留着，不能在同一次判定里被撤掉" passed after 39.758 seconds.
+✔ Test "R2-002 提示卡出现：orderFront 的那一刻面板已经在屏幕外的起点，不能先出现在终点位置再跳走；新提示卡到来时已有的不被拽回终点" passed after 39.758 seconds.
+✔ Test "R4a-01 应用层读桌面元数据：某个会话的 lastFocusedAt 在 30 天以后（桌面 App 的时钟被拨快过）→ 丢掉它，「最近聚焦的」仍是真正在看的那个" passed after 39.758 seconds.
+✔ Test "R2-007 测试宿主进程的 --test-bundle-path 不算开发开关：测试里 DebugTools.enabled 必须是 false（不然被测代码里加一行 DebugTools.log 就会往用户真实的日志文件里写）" passed after 39.758 seconds.
+✔ Test "R2-016 分桶的 surface 渲染出来和「按缩放放大的画布」逐像素一致：contentsRect 裁得正好，不偏一个像素、边上没有混色" passed after 39.758 seconds.
+✔ Test "R2-017 办公室窗口（普通 NSWindow）也关掉 AppKit 的窗口出现 / 消失动画：快速 show / hide 时动画线程不会一路涨（B-010 的同类）" passed after 39.758 seconds.
+✔ Test "R2-001 真实的小鱼缸控制器：运行中把缩放从 2 改成 1，下一拍图像层就是新大小（不是等画布下一次变化）" passed after 39.758 seconds.
+✔ Test "R2-004 「等你」提醒被 20 秒节流挡住之后：这段等待没有提醒过，节流窗口一过、还在等就补发一条（不再重复）" passed after 39.758 seconds.
+✔ Test "R3c-02 系统通知授权在运行期间被关掉：发出系统通知后再读一次真实状态，已经被拒了就补一张兜底提示卡；仍然授权的不补" passed after 39.759 seconds.
+✔ Test "R2-016 拖窗口边缘（视口宽度一步一步变）：IOSurface 只在跨 64 像素的桶时才重建，不是每一步都新建一组" passed after 39.758 seconds.
+✔ Test "R3c-01 三个人的等待提醒先后到（相邻两条 < 2 秒、首尾 ≥ 2 秒）：最后一张合并卡写「3 位同事在等你」，A 不能被落下" passed after 39.759 seconds.
+✔ Test "R2-006 隐私模式：「数据源诊断」文字和「测试深链」回执里不显示会话标题（共享屏幕时打开设置页不会露标题）" passed after 39.759 seconds.
+✔ Test "R2-016 用桶（比视口大）的 surface 时，显示出来的部分正好是视口：contentsRect 是 视口 / surface，图层尺寸 = 视口 × 缩放，左上角的像素就是画布的像素" passed after 39.759 seconds.
+✔ Test "R2-001 PixelView：画布没变、只有缩放变了（局部重绘的场景知道「没变」）时，图像层也要跟着新缩放变大小" passed after 39.760 seconds.
+✔ Test onlyASingleClickOnTheBackgroundStartsAWindowDrag() passed after 39.757 seconds.
+✔ Test menuBarIconsAreEighteenPointTemplatesExceptTheColouredWaitingOne() passed after 39.757 seconds.
+✔ Test settingsDriveTheTankAndTheStripAndTheStripHasTheSpecifiedSize() passed after 39.758 seconds.
+✔ Test mouseDownRoutesBackgroundDragsAndBuddyClicksTheRightWay() passed after 39.758 seconds.
+✔ Test theThreeTitleBarButtonsClickOnlyWhenReleasedInsideAndShrinkingSwapsTheOfficeForTheTank() passed after 39.758 seconds.
+✔ Test theTankIsDraggedByItsBackgroundThroughThePixelViewNotAppKitsBackgroundDrag() passed after 39.758 seconds.
+✔ Test closingTheOfficeWindowOnlyHidesItAndRemembersThatItIsClosed() passed after 39.758 seconds.
+✔ Test doubleClickingTheTanksBackgroundGoesBackAndClickingABuddyJumps() passed after 39.758 seconds.
+✔ Test theStatusMenuHasBuddyRowsThenTheFiveTogglesThenDemoSettingsAndQuit() passed after 39.758 seconds.
+✔ Test theOfficeWindowIsAnOrdinaryTitledResizableWindowThatRendersItsFirstFrameBeforeItIsShown() passed after 39.758 seconds.
+✔ Test theOfficeHoverCardAppearsOnlyAfterTheMouseHasRestedFor250ms() passed after 39.759 seconds.
+✔ Test titleBarButtonArtIsTwelveByTwelveWithFourStatesAndTenByTenIcons() passed after 39.759 seconds.
+✔ Test labelsAndZoomSettingsReachTheOfficeRendering() passed after 39.760 seconds.
+✔ Test aScreenParametersChangeRepositionsTheStrip() passed after 39.760 seconds.
+✔ Test thePanelsAreBorderlessNonActivatingFloatingAndTheStripIsTransparent() passed after 39.760 seconds.
+✔ Test theStripInterceptsBuddyPixelsWithAOnePixelHaloAndLetsEverythingElseThrough() passed after 39.760 seconds.
+✔ Test theDockDoesNotBounceWhileTheAppIsAlreadyInFront() passed after 16.340 seconds.
+✔ Test severalWaitersAreCountedAndMergedInTheFallbackToo() passed after 16.291 seconds.
+✔ Test whenSystemNotificationsAreDeniedTheFallbackAlertsReallyAppear() passed after 16.291 seconds.
+✔ Test whenAuthorizedTheSystemNotificationIsUsedInsteadOfTheToast() passed after 16.291 seconds.
+✔ Test demoModeNeverAddsToTheRealTally() passed after 16.291 seconds.
+✔ Test menuBarIconKindAndDockBadgeLabels() passed after 16.291 seconds.
+✔ Test aHiddenBuddyDisturbsNobodyButStillCountsAsALiveSession() passed after 16.291 seconds.
+✔ Test notYetAskedOrNotAnAppBundleAlsoFallsBack(status:available:) with 2 test cases passed after 16.291 seconds.
+✔ Test testsRunOnTheMainThread() passed after 16.285 seconds.
+✔ Suite PanelAnimationTests passed after 39.786 seconds.
+✔ Suite ReviewRegressionAppTests passed after 39.786 seconds.
+✔ Suite PixelViewDragTests passed after 39.786 seconds.
+✔ Suite SpecTraceChromeTests passed after 39.786 seconds.
+✔ Suite SpecTracePanelTests passed after 39.786 seconds.
+✔ Suite AlertFallbackTests passed after 39.786 seconds.
+✔ Test tankAndStripHaveNoFlicker(scene:) with 2 test cases passed after 53.457 seconds.
+✔ Test officeHasNoFlickerAtNightAndDuringLightTransition() passed after 68.894 seconds.
+✔ Test officeHasNoFlickerAtEveryZoom(zoom:) with 3 test cases passed after 82.627 seconds.
+✔ Suite RenderingTests passed after 82.643 seconds.
+✔ Test run with 379 tests in 56 suites passed after 82.645 seconds.

@@ -1,0 +1,11 @@
+# ASan 运行 2026-09-29 14:14  ~/Desktop/编程项目/Buddy办公室/.build-asan/release/buddyctl
+确认：这个 buddyctl 带 AddressSanitizer（有 __asan_init 符号）
+golden：退出码 0，ASan 报错 0 处，3 秒；golden: 17 条全部一致 ✅
+verify-office：退出码 0，ASan 报错 0 处，83 秒；verify: 86448 对帧，其中 25020 帧局部重绘判定「没变」直接跳过；全部一致 ✅
+verify-tank：退出码 0，ASan 报错 0 处，37 秒；verify: 86448 对帧，其中 33456 帧局部重绘判定「没变」直接跳过；全部一致 ✅
+verify-strip：退出码 0，ASan 报错 0 处，66 秒；verify: 86448 对帧，其中 33516 帧局部重绘判定「没变」直接跳过；全部一致 ✅
+flicker-office：退出码 0，ASan 报错 0 处，10 秒；flicker[office zoom 3]: 2398 帧，全部干净 ✅（另有 13 处 ≤ 6 个孤立像素的抖动，已容忍）
+flicker-tank：退出码 0，ASan 报错 0 处，4 秒；flicker[tank zoom 3]: 2398 帧，全部干净 ✅（另有 11 处 ≤ 6 个孤立像素的抖动，已容忍）
+flicker-strip：退出码 0，ASan 报错 0 处，4 秒；flicker[strip zoom 3]: 2398 帧，全部干净 ✅（另有 13 处 ≤ 6 个孤立像素的抖动，已容忍）
+text-audit：退出码 0，ASan 报错 0 处，63 秒；text-audit：违规 0 ✅
+# 完成 14:19

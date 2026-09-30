@@ -1,0 +1,407 @@
+Building for debugging...
+[0/13] Write sources
+[5/13] Write swift-version--1AB21518FC5DEDBE.txt
+[7/17] Emitting module BuddyCore
+[8/17] Compiling BuddyCore SessionEngine.swift
+[9/17] Compiling BuddyCore TokenLedger.swift
+[10/17] Compiling BuddyCore DesktopMetaReader.swift
+[11/21] Compiling BuddyCore SessionStore.swift
+[12/21] Compiling BuddyCore ReplayCommand.swift
+[13/21] Compiling BuddyCore OpenAudit.swift
+[14/21] Compiling BuddyCore DumpCommand.swift
+[14/25] Write Objects.LinkFileList
+[16/44] Linking buddydump
+[17/44] Applying buddydump
+[18/44] Linking buddyctl
+[19/44] Applying buddyctl
+[21/44] Compiling BuddyOffice RealProvider.swift
+[22/44] Emitting module BuddyOffice
+[23/44] Compiling BuddyOffice EngineConfig.swift
+[24/44] Compiling BuddyOffice JumpService.swift
+[25/46] Compiling BuddyOffice AppDelegate.swift
+[26/46] Compiling BuddyOffice AppModel.swift
+[26/46] Write Objects.LinkFileList
+[28/46] Emitting module BuddyStageTests
+[29/46] Compiling BuddyStageTests ReviewRegressionStageTests.swift
+[29/46] Linking BuddyOffice
+[30/46] Applying BuddyOffice
+[32/52] Compiling BuddyOfficeTests CachesTests.swift
+[33/52] Compiling BuddyOfficeTests DesktopMetaFileIOTests.swift
+[34/52] Compiling BuddyOfficeTests ReviewRegressionAppTests.swift
+[35/52] Compiling BuddyOfficeTests EngineConfigTests.swift
+[36/52] Compiling BuddyOfficeTests DesktopMetaGate.swift
+[37/52] Emitting module BuddyOfficeTests
+[38/53] Compiling BuddyCoreTests FuzzPersistenceTests.swift
+[39/53] Compiling BuddyCoreTests FuzzRegressionTests.swift
+[40/53] Compiling BuddyCoreTests FuzzSecurityTests.swift
+[41/55] Compiling BuddyCoreTests OpenAuditTests.swift
+[42/55] Compiling BuddyCoreTests SpecTraceCoreTests.swift
+[43/55] Compiling BuddyCoreTests StateRuleChainTests.swift
+[44/55] Compiling BuddyCoreTests StateRuleProcessTests.swift
+[45/55] Emitting module BuddyCoreTests
+[46/55] Compiling BuddyCoreTests StateRuleTests.swift
+[47/55] Compiling BuddyCoreTests StoreTests.swift
+[48/55] Compiling BuddyCoreTests Support.swift
+[49/55] Compiling BuddyCoreTests TokenLedgerTests.swift
+[50/66] Compiling BuddyOfficeTests SpecTraceUITests.swift
+[51/66] Compiling BuddyCoreTests EnginePresenceTests.swift
+[52/66] Compiling BuddyCoreTests EngineScenarioTests.swift
+[53/66] Compiling BuddyCoreTests FuzzEngineTests.swift
+[54/68] Compiling BuddyCoreTests RegistryTests.swift
+[55/68] Compiling BuddyCoreTests ReviewRegressionTests.swift
+[56/68] Compiling BuddyCoreTests RobustnessTests.swift
+[57/68] Compiling BuddyCoreTests StateRuleInvariantTests.swift
+[58/68] Compiling BuddyCoreTests HookLogTests.swift
+[59/68] Compiling BuddyCoreTests IdentityTests.swift
+[60/68] Compiling BuddyCoreTests FuzzSupport.swift
+[61/68] Compiling BuddyCoreTests HelperAttributionTests.swift
+[62/68] Compiling BuddyCoreTests ActivityResolverTests.swift
+[63/68] Compiling BuddyCoreTests EngineBasicTests.swift
+[64/68] Compiling BuddyCoreTests FuzzParserTests.swift
+[65/68] Compiling BuddyCoreTests ToolTrackerTests.swift
+[66/68] Compiling BuddyCoreTests TranscriptTests.swift
+[66/68] Write Objects.LinkFileList
+[67/68] Linking BuddyOfficePackageTests
+Build complete! (29.31s)
+◇ Test run started.
+↳ Testing Library Version: 1902
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Suite FuzzWatcherTests started.
+◇ Suite EngineScenarioTests started.
+◇ Suite FuzzReadersTests started.
+◇ Suite HookDropoutTests started.
+◇ Suite FileWatcherTests started.
+◇ Suite StoreTests started.
+◇ Suite FuzzTailerTests started.
+◇ Suite JSONLTailerTests started.
+◇ Suite RobustnessTests started.
+◇ Suite HookLogTests started.
+◇ Suite ReplayTests started.
+◇ Suite TokenLedgerTests started.
+◇ Suite StateRuleProcessTests started.
+◇ Test aNormalStopAfterAnEarlierInterruptIsNotInterrupted() started.
+◇ Test withoutHooksToolsComeFromDanglingToolUsesInTheTranscript() started.
+◇ Test abortedMidStreamAlsoCountsAsAnInterrupt() started.
+◇ Test nextWakeIsScheduledForTimeDrivenChanges() started.
+◇ Test aDanglingToolFromAnInterruptedTurnDoesNotLeakIntoTheNextOne() started.
+◇ Test erroredTurnStaysErroredUntilItStartsDozing() started.
+◇ Test attachingToAnIdleSessionThatJustFinishedShowsFinishedForTheRemainingTime() started.
+◇ Test attachingToALongIdleSessionShowsTheRightSleepState() started.
+◇ Test aNormalTurnProducesTheExpectedActivitiesAndEvents() started.
+◇ Test compactionThroughHooks() started.
+◇ Test "审查确认：FileWatcher 停掉并释放的时候队列里还排着 FSEvents 的回调块，回调不会去碰已经释放的对象（配合 MallocScribble 跑过）" started.
+◇ Test "登记表被原地反复重写（先写一半再写完整 / 写垃圾 / 清空 / 换成非 interactive / 删除再重建）：扫描器总是收敛到“最后一份好的内容”，从不丢会话、不产出垃圾" started.
+◇ Test "子代理目录里各种脏东西（垃圾 meta / 垃圾记录 / 目录 / FIFO / 符号链接 / 名字古怪 / 文件在读的时候增长和被删）：poll 不崩溃、不卡死，只报告目录里真有的文件" started.
+◇ Test aTurnWithoutAStopEventWhileHooksWorkIsInferredAsInterrupted() started.
+◇ Test startingTheNextTurnClearsUnread() started.
+◇ Test dozeAndSleepThresholdsAreConfigurable() started.
+◇ Test "桌面元数据目录里各种脏东西（目录 / FIFO / 符号链接 / 垃圾 JSON / 超过 4 MiB / 名字古怪 / 文件在读的时候被删）：refresh 不崩溃、不卡死、结果只含合法条目，重复刷新没有抖动" started.
+◇ Test attentionKindChangesWhileStillWaitingEmitAFreshEvent() started.
+◇ Test reportsFileChangesUnderTheWatchedRoots() started.
+◇ Test interruptDetectedFromTheTranscriptWithoutAnyHook() started.
+◇ Test aSessionBusyForAnHourNeverDies() started.
+◇ Test promptEventThatArrivesBeforeTheRegistryFlipsCountsAsBusyOnce() started.
+◇ Test waitingAtStartupIsReportedImmediately() started.
+◇ Test waitingVariantsThroughTheEngine() started.
+◇ Test aPromptThatNeverBecomesBusyExpiresAfter3Seconds() started.
+◇ Test retryingThenBackToThinkingWhenTheRetryWindowPasses() started.
+◇ Test aWaitingSessionStaysWaitingNoMatterHowLong() started.
+◇ Test ifCcmonIsUninstalledMidSessionToolsFallBackToTheTranscript() started.
+◇ Test attachingMidTurnEstimatesTheTurnStartFromHooks() started.
+◇ Test aWatcherWithNoExistingRootFailsToStart() started.
+◇ Test "超长行的边界：1.5 MB 保留、恰好 4 MiB 保留、4 MiB + 1 丢掉、16 MiB 丢掉；后面的行都能读到" started.
+◇ Test "随机字节：长度 0 / 1 / 2 / 7 / 64 / 4096 / 1 MiB，和标准答案一致，不崩溃" started.
+◇ Test aBusyHookSessionWithAQuietTranscriptStaysOnHooks() started.
+◇ Test "hook 行的 JSON 层面：类型错误 / null / 重复键 / 超长键 / 深层嵌套 / 空对象空数组 / 巨大数字：不崩溃，结果满足不变量" started.
+◇ Test "任务书第 4 节的已知坑（Codex 文件 / AskUserQuestion 的 detail / tool 名被截断 / 用户输入）：变异用例" started.
+◇ Test "随机内容 × 极小的块 / 极小的行上限：逐行和独立实现的标准答案一致" started.
+◇ Test "hook 行在每一个字节位置截断（含多字节字符中间、\uXXXX 转义中间）：不崩溃，结果要么是 nil 要么和原事件前缀一致" started.
+◇ Test "HookLogReader：一次读完 / 分很多次追加，事件序列相同；计数自洽；坏行被跳过而不是让整个文件失败" started.
+◇ Test "文件被截短、删除、换成新 inode、再追加：每次都从头读、只交付完整的行，不会读到旧内容的残片" started.
+◇ Test "从 committedOffset 恢复：新读取器接着读，得到剩下的完整行（半行会被重新读）" started.
+◇ Test seekToTailWhenStartIsExactlyALineStartKeepsThatLine() started.
+◇ Test "非法 UTF-8（孤立续字节 / 截断的多字节 / 0xFF / 过长编码 / 代理对）放在行首、行中、每个字段里、行尾：不崩溃、不放行坏 ts" started.
+◇ Test truncationRestartsFromZero() started.
+◇ Test "半行 / 只有换行 / 很多空行 / CRLF / 结尾没有换行" started.
+◇ Test "随机字节（0 / 1 / 2 / 7 / 64 / 4096 / 1 MiB）当 hook 行：不崩溃、不死循环，放行的一定满足不变量" started.
+◇ Test "seekToTail：从任意窗口开始，只交付完整的行，起点落在行中间就跳过那半行" started.
+◇ Test multiByteCharactersAcrossChunks() started.
+◇ Test stopIsIdempotentAndSilencesCallbacks() started.
+◇ Test exactlyAtTheLimitIsKept() started.
+◇ Test halfLineIsHeldUntilCompleted() started.
+◇ Test linesStraddlingChunkBoundaries() started.
+◇ Test oversizeLineSplitAcrossPollsIsSkippedUntilNewline() started.
+◇ Test crlfAndEmptyLines() started.
+◇ Test "文件分成随机长度的很多次追加：每一步都只交付完整的行，最终结果和一次读完完全相同" started.
+◇ Test seekToTailAlignsToLineStart() started.
+◇ Test timeDrivenChangesHappenOnTimeNotOnTheNextHeartbeat() started.
+◇ Test oversizeLineIsDroppedAndTheNextLineSurvives() started.
+◇ Test markSeenAndRerollAreSafeFromAnyThread() started.
+◇ Test pathsWithSpecialCharactersWork() started.
+◇ Test rotationToNewInodeRestartsFromZero() started.
+◇ Test resumeFromCommittedOffset() started.
+◇ Test missingFileThenAppears() started.
+◇ Test fsEventsModeWorksWhenTheSystemAllowsIt() started.
+◇ Test aTailerSurvivesTheFileBeingRewrittenUnderneathIt() started.
+◇ Test randomGarbageInEveryDataSourceNeverCrashesTheEngine() started.
+◇ Test aHugeGarbageLineDoesNotStallTheHookReader() started.
+◇ Test pollingStoreDeliversSnapshotsAndEventsOnTheCallbackQueue() started.
+◇ Test aRegistryFileThatIsADirectoryOrHasWeirdTypesIsIgnored() started.
+◇ Test aHeartbeatArrivesAtLeastOncePerSecondWhenNothingChanges() started.
+◇ Test snapshotCallbacksAreLimitedTo20HzEvenUnderAStreamOfChanges() started.
+◇ Test notificationTextIsKept() started.
+◇ Test normalLine() started.
+◇ Test unsafeSessionIdsNeverBecomePaths() started.
+◇ Test toolDetailKeyFollowsTheHookRules() started.
+◇ Test askUserQuestionDetailIsNeverKept() started.
+◇ Test userPromptIsDroppedAtParseTime() started.
+◇ Test truncatedMcpToolNameKeepsPrefixAndMatchesByPrefix() started.
+◇ Test garbageLinesAreSkippedWithoutFailingTheWholeFile() started.
+◇ Test truncatedUnicodeEscapeFallsBackToRegexFields() started.
+◇ Test fullReplayPassesWithPolling() started.
+◇ Test subagentTranscriptsAreAddedToTheBuddysTotal() started.
+◇ Test ledgerFileRestoresProgressAndDedupesAcrossTheBoundary() started.
+◇ Test invalidUTF8IsCleanedNotFatal() started.
+◇ Test truncatedFileIsRescannedFromTheStart() started.
+◇ Test partialLineIsCountedOnlyOnceItIsComplete() started.
+◇ Test persistenceFailureDegradesToMemoryOnly() started.
+◇ Test groupsWithPriorSessionsAreRescannedInsteadOfUsingTheLedger() started.
+◇ Test syntheticAndIncompleteLinesAreIgnored() started.
+◇ Test "r1 sysctl 读到的启动时间就是进程真的启动的时候；procStart（整秒）与它相差 < 2 秒算同一个进程，别的时间算被复用；进程退出后 kill(pid,0) 是 ESRCH = 死" started.
+◇ Test aBigFileIsScannedFast() started.
+◇ Test missingFilesCountAsScannedZeroNotForeverScanning() started.
+◇ Test sameMessageIdIsCountedOnceWithTheMaximumOfEachField() started.
+◇ Test sumsInputOutputCacheWriteAndCacheRead() started.
+◇ Test dedupeAlsoWorksAcrossPollsAndFiles() started.
+◇ Test cacheCreationSplitFollowsTheMeterRule() started.
+✔ Test withoutHooksToolsComeFromDanglingToolUsesInTheTranscript() passed after 4.411 seconds.
+✔ Test abortedMidStreamAlsoCountsAsAnInterrupt() passed after 4.412 seconds.
+✔ Test nextWakeIsScheduledForTimeDrivenChanges() passed after 4.412 seconds.
+✔ Test aNormalTurnProducesTheExpectedActivitiesAndEvents() passed after 4.412 seconds.
+回放开始（根目录 /var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/buddy-replay-test-367FD3AE-5112-430F-A52D-BF917342A8F2）
+  文件监听: 纯轮询（每 50 ms）
+  ✓ 启动时办公室是空的         
+  ✓ 进场：新会话走进办公室（登记表 idle）    114 ms
+✔ Test aDanglingToolFromAnInterruptedTurnDoesNotLeakIntoTheNextOne() passed after 4.956 seconds.
+✔ Test attachingToAnIdleSessionThatJustFinishedShowsFinishedForTheRemainingTime() passed after 4.956 seconds.
+  ✓ 思考：一轮开始（登记表 busy + UserPromptSubmit）     37 ms
+✔ Test aNormalStopAfterAnEarlierInterruptIsNotInterrupted() passed after 5.072 seconds.
+✔ Test attachingToALongIdleSessionShowsTheRightSleepState() passed after 5.072 seconds.
+✔ Test erroredTurnStaysErroredUntilItStartsDozing() passed after 5.072 seconds.
+✔ Test compactionThroughHooks() passed after 5.072 seconds.
+✔ Test startingTheNextTurnClearsUnread() passed after 5.072 seconds.
+✔ Test dozeAndSleepThresholdsAreConfigurable() passed after 5.072 seconds.
+✔ Test aTurnWithoutAStopEventWhileHooksWorkIsInferredAsInterrupted() passed after 5.116 seconds.
+✔ Test interruptDetectedFromTheTranscriptWithoutAnyHook() passed after 5.117 seconds.
+✔ Test attentionKindChangesWhileStillWaitingEmitAFreshEvent() passed after 5.117 seconds.
+✔ Test "登记表被原地反复重写（先写一半再写完整 / 写垃圾 / 清空 / 换成非 interactive / 删除再重建）：扫描器总是收敛到“最后一份好的内容”，从不丢会话、不产出垃圾" passed after 5.117 seconds.
+✔ Test promptEventThatArrivesBeforeTheRegistryFlipsCountsAsBusyOnce() passed after 5.117 seconds.
+  ✓ 读：Read app.swift     40 ms
+  ✓ 读完：回到思考     49 ms
+  ✓ 并行搜索：Grep + Glob 同一毫秒（×2）     54 ms
+  ✓ 搜索完：回到思考     52 ms
+✔ Test aPromptThatNeverBecomesBusyExpiresAfter3Seconds() passed after 5.715 seconds.
+FSEvents 模式延迟：p50 15 ms, max 30 ms
+✔ Test "子代理目录里各种脏东西（垃圾 meta / 垃圾记录 / 目录 / FIFO / 符号链接 / 名字古怪 / 文件在读的时候增长和被删）：poll 不崩溃、不卡死，只报告目录里真有的文件" passed after 5.723 seconds.
+✔ Test waitingAtStartupIsReportedImmediately() passed after 5.723 seconds.
+✔ Test aSessionBusyForAnHourNeverDies() passed after 5.723 seconds.
+✔ Test retryingThenBackToThinkingWhenTheRetryWindowPasses() passed after 5.723 seconds.
+✔ Test aWaitingSessionStaysWaitingNoMatterHowLong() passed after 5.736 seconds.
+✔ Test attachingMidTurnEstimatesTheTurnStartFromHooks() passed after 5.736 seconds.
+✔ Test ifCcmonIsUninstalledMidSessionToolsFallBackToTheTranscript() passed after 5.736 seconds.
+✔ Test aWatcherWithNoExistingRootFailsToStart() passed after 5.736 seconds.
+✔ Test waitingVariantsThroughTheEngine() passed after 5.737 seconds.
+✔ Test "任务书第 4 节的已知坑（Codex 文件 / AskUserQuestion 的 detail / tool 名被截断 / 用户输入）：变异用例" passed after 5.736 seconds.
+✔ Test "超长行的边界：1.5 MB 保留、恰好 4 MiB 保留、4 MiB + 1 丢掉、16 MiB 丢掉；后面的行都能读到" passed after 5.736 seconds.
+✔ Test "桌面元数据目录里各种脏东西（目录 / FIFO / 符号链接 / 垃圾 JSON / 超过 4 MiB / 名字古怪 / 文件在读的时候被删）：refresh 不崩溃、不卡死、结果只含合法条目，重复刷新没有抖动" passed after 5.737 seconds.
+✔ Test aBusyHookSessionWithAQuietTranscriptStaysOnHooks() passed after 5.737 seconds.
+✔ Test "hook 行在每一个字节位置截断（含多字节字符中间、\uXXXX 转义中间）：不崩溃，结果要么是 nil 要么和原事件前缀一致" passed after 5.736 seconds.
+✔ Test "随机内容 × 极小的块 / 极小的行上限：逐行和独立实现的标准答案一致" passed after 5.737 seconds.
+✔ Test "hook 行的 JSON 层面：类型错误 / null / 重复键 / 超长键 / 深层嵌套 / 空对象空数组 / 巨大数字：不崩溃，结果满足不变量" passed after 5.737 seconds.
+✔ Test "文件被截短、删除、换成新 inode、再追加：每次都从头读、只交付完整的行，不会读到旧内容的残片" passed after 5.737 seconds.
+✔ Test seekToTailWhenStartIsExactlyALineStartKeepsThatLine() passed after 5.737 seconds.
+✔ Test truncationRestartsFromZero() passed after 5.737 seconds.
+✔ Test "半行 / 只有换行 / 很多空行 / CRLF / 结尾没有换行" passed after 5.737 seconds.
+✔ Test "从 committedOffset 恢复：新读取器接着读，得到剩下的完整行（半行会被重新读）" passed after 5.737 seconds.
+✔ Test reportsFileChangesUnderTheWatchedRoots() passed after 5.737 seconds.
+✔ Test "非法 UTF-8（孤立续字节 / 截断的多字节 / 0xFF / 过长编码 / 代理对）放在行首、行中、每个字段里、行尾：不崩溃、不放行坏 ts" passed after 5.737 seconds.
+✔ Test "seekToTail：从任意窗口开始，只交付完整的行，起点落在行中间就跳过那半行" passed after 5.737 seconds.
+✔ Test multiByteCharactersAcrossChunks() passed after 5.737 seconds.
+✔ Test exactlyAtTheLimitIsKept() passed after 5.737 seconds.
+✔ Test halfLineIsHeldUntilCompleted() passed after 5.737 seconds.
+✔ Test linesStraddlingChunkBoundaries() passed after 5.737 seconds.
+✔ Test stopIsIdempotentAndSilencesCallbacks() passed after 5.737 seconds.
+✔ Test seekToTailAlignsToLineStart() passed after 5.737 seconds.
+✔ Test crlfAndEmptyLines() passed after 5.737 seconds.
+✔ Test oversizeLineSplitAcrossPollsIsSkippedUntilNewline() passed after 5.737 seconds.
+✔ Test "HookLogReader：一次读完 / 分很多次追加，事件序列相同；计数自洽；坏行被跳过而不是让整个文件失败" passed after 5.737 seconds.
+✔ Test oversizeLineIsDroppedAndTheNextLineSurvives() passed after 5.737 seconds.
+✔ Test pathsWithSpecialCharactersWork() passed after 5.737 seconds.
+✔ Test "审查确认：FileWatcher 停掉并释放的时候队列里还排着 FSEvents 的回调块，回调不会去碰已经释放的对象（配合 MallocScribble 跑过）" passed after 5.738 seconds.
+✔ Test rotationToNewInodeRestartsFromZero() passed after 5.737 seconds.
+✔ Test "文件分成随机长度的很多次追加：每一步都只交付完整的行，最终结果和一次读完完全相同" passed after 5.737 seconds.
+✔ Test missingFileThenAppears() passed after 5.737 seconds.
+✔ Test resumeFromCommittedOffset() passed after 5.737 seconds.
+✔ Test markSeenAndRerollAreSafeFromAnyThread() passed after 5.737 seconds.
+✔ Test randomGarbageInEveryDataSourceNeverCrashesTheEngine() passed after 5.737 seconds.
+✔ Test aHugeGarbageLineDoesNotStallTheHookReader() passed after 5.737 seconds.
+✔ Test aTailerSurvivesTheFileBeingRewrittenUnderneathIt() passed after 5.737 seconds.
+✔ Test aRegistryFileThatIsADirectoryOrHasWeirdTypesIsIgnored() passed after 5.737 seconds.
+✔ Test pollingStoreDeliversSnapshotsAndEventsOnTheCallbackQueue() passed after 5.737 seconds.
+✔ Test timeDrivenChangesHappenOnTimeNotOnTheNextHeartbeat() passed after 5.738 seconds.
+✔ Test notificationTextIsKept() passed after 5.737 seconds.
+✔ Test normalLine() passed after 5.737 seconds.
+✔ Test toolDetailKeyFollowsTheHookRules() passed after 5.737 seconds.
+✔ Test unsafeSessionIdsNeverBecomePaths() passed after 5.737 seconds.
+✔ Test askUserQuestionDetailIsNeverKept() passed after 5.737 seconds.
+✔ Test userPromptIsDroppedAtParseTime() passed after 5.737 seconds.
+✔ Test truncatedMcpToolNameKeepsPrefixAndMatchesByPrefix() passed after 5.737 seconds.
+✔ Test garbageLinesAreSkippedWithoutFailingTheWholeFile() passed after 5.737 seconds.
+✔ Test truncatedUnicodeEscapeFallsBackToRegexFields() passed after 5.720 seconds.
+✔ Test snapshotCallbacksAreLimitedTo20HzEvenUnderAStreamOfChanges() passed after 5.738 seconds.
+✔ Test subagentTranscriptsAreAddedToTheBuddysTotal() passed after 5.720 seconds.
+✔ Test invalidUTF8IsCleanedNotFatal() passed after 5.719 seconds.
+✔ Test ledgerFileRestoresProgressAndDedupesAcrossTheBoundary() passed after 5.719 seconds.
+✔ Test truncatedFileIsRescannedFromTheStart() passed after 5.719 seconds.
+✔ Test partialLineIsCountedOnlyOnceItIsComplete() passed after 5.719 seconds.
+✔ Test persistenceFailureDegradesToMemoryOnly() passed after 5.719 seconds.
+✔ Test syntheticAndIncompleteLinesAreIgnored() passed after 5.702 seconds.
+✔ Test groupsWithPriorSessionsAreRescannedInsteadOfUsingTheLedger() passed after 5.702 seconds.
+✔ Test "r1 sysctl 读到的启动时间就是进程真的启动的时候；procStart（整秒）与它相差 < 2 秒算同一个进程，别的时间算被复用；进程退出后 kill(pid,0) 是 ESRCH = 死" passed after 5.698 seconds.
+✔ Test "随机字节（0 / 1 / 2 / 7 / 64 / 4096 / 1 MiB）当 hook 行：不崩溃、不死循环，放行的一定满足不变量" passed after 5.739 seconds.
+✔ Test missingFilesCountAsScannedZeroNotForeverScanning() passed after 5.677 seconds.
+✔ Test sameMessageIdIsCountedOnceWithTheMaximumOfEachField() passed after 5.677 seconds.
+✔ Test sumsInputOutputCacheWriteAndCacheRead() passed after 5.677 seconds.
+✔ Test aBigFileIsScannedFast() passed after 5.678 seconds.
+✔ Test fsEventsModeWorksWhenTheSystemAllowsIt() passed after 5.738 seconds.
+✔ Test cacheCreationSplitFollowsTheMeterRule() passed after 5.632 seconds.
+✔ Suite FuzzReadersTests passed after 5.741 seconds.
+✔ Suite EngineScenarioTests passed after 5.741 seconds.
+✔ Suite HookDropoutTests passed after 5.741 seconds.
+✔ Suite FileWatcherTests passed after 5.741 seconds.
+✔ Suite JSONLTailerTests passed after 5.741 seconds.
+✔ Suite RobustnessTests passed after 5.741 seconds.
+✔ Suite HookLogTests passed after 5.741 seconds.
+◇ Test "文件名里有空格 / 中文 / emoji / 换行 / 很长：FSEvents 回调照常送出原样的路径，不崩溃" started.
+◇ Test "r2 kill(pid,0) 返回 EPERM（别人的进程，比如 launchd）当活着；引擎里也一直在场" started.
+✔ Test dedupeAlsoWorksAcrossPollsAndFiles() passed after 5.664 seconds.
+✔ Suite TokenLedgerTests passed after 5.744 seconds.
+✔ Test "r2 kill(pid,0) 返回 EPERM（别人的进程，比如 launchd）当活着；引擎里也一直在场" passed after 0.006 seconds.
+◇ Test "r3 进程被回收（真的子进程退出）：存活检查发现之后先防抖 3 秒（2.9 秒仍在场），3.1 秒离场" started.
+✔ Test "r3 进程被回收（真的子进程退出）：存活检查发现之后先防抖 3 秒（2.9 秒仍在场），3.1 秒离场" passed after 0.005 seconds.
+◇ Test "r4 PID 被复用（真进程还活着，但登记表 procStart 和它的启动时间差 10 秒）：判死，同样先防抖 3 秒" started.
+✔ Test "r4 PID 被复用（真进程还活着，但登记表 procStart 和它的启动时间差 10 秒）：判死，同样先防抖 3 秒" passed after 0.006 seconds.
+✔ Suite StateRuleProcessTests passed after 5.761 seconds.
+✔ Test "文件名里有空格 / 中文 / emoji / 换行 / 很长：FSEvents 回调照常送出原样的路径，不崩溃" passed after 0.059 seconds.
+◇ Test "C-022 FileWatcher.resolved：空串 / 根 / 一堆斜杠 / `..` / 超长 / 含 NUL / 几千层不存在的深路径：不崩溃（递归会压爆 512 KB 的栈）、结果稳定" started.
+  ✓ 改代码：Edit     39 ms
+  ✓ 改完：回到思考     28 ms
+✔ Test aHeartbeatArrivesAtLeastOncePerSecondWhenNothingChanges() passed after 6.134 seconds.
+✔ Suite StoreTests passed after 6.137 seconds.
+  ✓ 长 Bash 开始     45 ms
+  ✓ 长 Bash 跑了 61 分钟：依然是 busy + Bash（不因时间判死）         
+  ✓ 长 Bash 结束     42 ms
+✔ Test "C-022 FileWatcher.resolved：空串 / 根 / 一堆斜杠 / `..` / 超长 / 含 NUL / 几千层不存在的深路径：不崩溃（递归会压爆 512 KB 的栈）、结果稳定" passed after 0.774 seconds.
+✔ Suite FuzzWatcherTests passed after 6.576 seconds.
+  ✓ 等批准：Bash git push（permission prompt）     47 ms
+  ✓ 批准了：回到 busy，不再等你     33 ms
+✔ Test "随机字节：长度 0 / 1 / 2 / 7 / 64 / 4096 / 1 MiB，和标准答案一致，不崩溃" passed after 6.745 seconds.
+✔ Suite FuzzTailerTests passed after 6.747 seconds.
+  ✓ 提问：AskUserQuestion（detail 是选项描述，不能当问题）     41 ms
+  ✓ 回答了：回到 busy     45 ms
+  ✓ 计划待审：ExitPlanMode     42 ms
+  ✓ 计划批准了：回到 busy     39 ms
+  ✓ 派 3 个前台子代理：主线程 Agent ×3     43 ms
+  ✓ 前台小助手干活：它们的工具调用不算主线程的     46 ms
+  ✓ 前台小助手做完、Agent 返回：回到思考     29 ms
+  ✓ 后台子代理：Agent 立刻返回，主线程继续读文件，小助手在自己跑 Bash     45 ms
+  ✓ 主线程读完     33 ms
+  ✓ 压缩：PreCompact → 整理上下文     47 ms
+  ✓ 压缩完：PostCompact → 回到思考     38 ms
+  ✓ API 重试：第 2 次 / 共 10 次     41 ms
+  ✓ 重试窗口（retryInMs + 15 秒）过后没有新行：不再显示重试         
+  ✓ 出错：重试到上限 + 合成的 API 错误，登记表 idle     62 ms
+  ✓ 被打断：新一轮开始     82 ms
+  ✓ 被打断：用户按了停止（没有 Stop 事件）     65 ms
+  ✓ 3 秒后：被打断的状态消退，回到空闲         
+  ✓ 做完：新一轮开始     85 ms
+  ✓ 做完：Stop + 登记表 idle → 做完了（未读）     48 ms
+  ✓ 做完：桌面的本轮总结是 blocked（需要你处理）    101 ms
+  ✓ 6 秒后：做完了消退成空闲，但 blocked / 未读保持         
+  ✓ 空闲超过 10 分钟：打盹         
+  ✓ 空闲超过 45 分钟：睡着         
+  ✓ 进程被回收：登记文件消失，先防抖 3 秒（还在场）         
+  ✓ 防抖 3 秒后：离场，下班工位（桌面会话、元数据还在）         
+  ✓ 同一个身份回来：新进程带着同一个 hostSessionId     96 ms
+  ✓ 终端会话（无 hostSessionId）进场：key 是 t:<sessionId>     93 ms
+  ✓ 终端会话进程结束：离场后不是下班工位         
+  ✓ 8 秒后收回工位         
+  诊断：文件监听: 纯轮询（每 50 ms） | 登记表: 正常（1 个文件） | hook: 部分会话没有事件（0/1） | 会话记录: 有 1 个会话没找到文件 | 桌面元数据: 正常（1 个） | token 统计: 正常
+
+步骤 43 个，通过 43，失败 0
+写文件 → 快照回调延迟（全部步骤）：p50 45 ms  p95 101 ms  max 114 ms
+登记表变化 → 快照回调延迟（15 步）：p50 48 ms  p95 114 ms  max 114 ms
+✓ 回放通过
+假数据留在：/var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/buddy-replay-test-367FD3AE-5112-430F-A52D-BF917342A8F2
+✔ Test fullReplayPassesWithPolling() passed after 11.616 seconds.
+◇ Test fullReplayPassesThroughTheFSEventsChainWhenAvailable() started.
+回放开始（根目录 /var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/buddy-replay-fse-FD626585-5758-471F-AFE8-2B8F8C470527）
+  文件监听: FSEvents（兜底每秒轮询）
+  ✓ 启动时办公室是空的         
+  ✓ 进场：新会话走进办公室（登记表 idle）     30 ms
+  ✓ 思考：一轮开始（登记表 busy + UserPromptSubmit）     35 ms
+  ✓ 读：Read app.swift     36 ms
+  ✓ 读完：回到思考     21 ms
+  ✓ 并行搜索：Grep + Glob 同一毫秒（×2）     27 ms
+  ✓ 搜索完：回到思考     27 ms
+  ✓ 改代码：Edit     41 ms
+  ✓ 改完：回到思考     20 ms
+  ✓ 长 Bash 开始     22 ms
+  ✓ 长 Bash 跑了 61 分钟：依然是 busy + Bash（不因时间判死）         
+  ✓ 长 Bash 结束     21 ms
+  ✓ 等批准：Bash git push（permission prompt）     20 ms
+  ✓ 批准了：回到 busy，不再等你     20 ms
+  ✓ 提问：AskUserQuestion（detail 是选项描述，不能当问题）     25 ms
+  ✓ 回答了：回到 busy     48 ms
+  ✓ 计划待审：ExitPlanMode     20 ms
+  ✓ 计划批准了：回到 busy     21 ms
+  ✓ 派 3 个前台子代理：主线程 Agent ×3     11 ms
+  ✓ 前台小助手干活：它们的工具调用不算主线程的     21 ms
+  ✓ 前台小助手做完、Agent 返回：回到思考     21 ms
+  ✓ 后台子代理：Agent 立刻返回，主线程继续读文件，小助手在自己跑 Bash     21 ms
+  ✓ 主线程读完     14 ms
+  ✓ 压缩：PreCompact → 整理上下文     20 ms
+  ✓ 压缩完：PostCompact → 回到思考     20 ms
+  ✓ API 重试：第 2 次 / 共 10 次     20 ms
+  ✓ 重试窗口（retryInMs + 15 秒）过后没有新行：不再显示重试         
+  ✓ 出错：重试到上限 + 合成的 API 错误，登记表 idle     16 ms
+  ✓ 被打断：新一轮开始     21 ms
+  ✓ 被打断：用户按了停止（没有 Stop 事件）     29 ms
+  ✓ 3 秒后：被打断的状态消退，回到空闲         
+  ✓ 做完：新一轮开始     21 ms
+  ✓ 做完：Stop + 登记表 idle → 做完了（未读）     26 ms
+  ✓ 做完：桌面的本轮总结是 blocked（需要你处理）     27 ms
+  ✓ 6 秒后：做完了消退成空闲，但 blocked / 未读保持         
+  ✓ 空闲超过 10 分钟：打盹         
+  ✓ 空闲超过 45 分钟：睡着         
+  ✓ 进程被回收：登记文件消失，先防抖 3 秒（还在场）         
+  ✓ 防抖 3 秒后：离场，下班工位（桌面会话、元数据还在）         
+  ✓ 同一个身份回来：新进程带着同一个 hostSessionId     21 ms
+  ✓ 终端会话（无 hostSessionId）进场：key 是 t:<sessionId>     20 ms
+  ✓ 终端会话进程结束：离场后不是下班工位         
+  ✓ 8 秒后收回工位         
+  延迟基准：20 次孤立的登记表变化（busy ↔ waiting）…
+  诊断：文件监听: FSEvents（兜底每秒轮询） | 登记表: 正常（1 个文件） | hook: 部分会话没有事件（0/1） | 会话记录: 有 1 个会话没找到文件 | 桌面元数据: 正常（1 个） | token 统计: 正常
+
+步骤 43 个，通过 43，失败 0
+写文件 → 快照回调延迟（全部步骤）：p50 21 ms  p95 41 ms  max 48 ms
+登记表变化 → 快照回调延迟（15 步）：p50 21 ms  p95 48 ms  max 48 ms
+孤立变化的延迟基准（20 次）：p50 23 ms  p95 42 ms  max 42 ms
+✓ 回放通过
+假数据留在：/var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/buddy-replay-fse-FD626585-5758-471F-AFE8-2B8F8C470527
+✔ Test fullReplayPassesThroughTheFSEventsChainWhenAvailable() passed after 16.561 seconds.
+◇ Test replayRefusesANonEmptyRoot() started.
+✗ --root 必须是空目录或不存在的目录：/var/folders/pf/3xfb5c097n1bqwtflx1dfpk00000gn/T/buddy-replay-nonempty-FAFA67AD-DAF1-4CC5-B606-A39270F9D0D6
+✔ Test replayRefusesANonEmptyRoot() passed after 0.002 seconds.
+✔ Suite ReplayTests passed after 28.201 seconds.
+✔ Test run with 102 tests in 13 suites passed after 28.202 seconds.

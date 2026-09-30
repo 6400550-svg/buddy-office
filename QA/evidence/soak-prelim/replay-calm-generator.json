@@ -1,0 +1,17 @@
+{
+ "seconds": 840.0530378818512,
+ "counters": {
+  "registry_writes": 132,
+  "hook_events": 1805,
+  "transcript_lines": 975,
+  "garbage_lines": 10,
+  "huge_lines": 0,
+  "sessions_started": 13,
+  "sessions_killed": 5,
+  "resumes": 4,
+  "clears": 4,
+  "honeypot_key_opened": 0,
+  "honeypot_sock_connected": 0
+ },
+ "violations": []
+}

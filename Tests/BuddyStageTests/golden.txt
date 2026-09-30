@@ -1,0 +1,17 @@
+office@12:00/t=5 88f774b44bcf8042
+office@12:00/t=20 8c2bd3e396f94782
+office@12:00/t=41 70e425f4aca82d0f
+office@12:00/t=52 b49c18daaf201aaa
+office@12:00/t=59 87cc60b70b777e8a
+office@12:00/t=66 8738d86e351e0410
+office@22:30/t=20 ef3ebed9f80e85c4
+office@22:30/t=41 1f1d63c1aca29e01
+office@06:50/t=30 3525c4f33d5939d2
+office@18:55/t=45 2d21f7912df8663e
+tank@12:00/t=20 d53c7495a17f8f3b
+tank@12:00/t=41 2d3d046ee171c674
+tank@12:00/t=59 4b3d40bcc008f828
+tank@22:30/t=41 b49de20ac5fbdc2e
+strip@12:00/t=20 e1ced363fe341e4c
+strip@12:00/t=41 de3020f7ab063b63
+strip@12:00/t=59 3107299e98246ed7

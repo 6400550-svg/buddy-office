@@ -1,0 +1,516 @@
+Building for debugging...
+[0/27] /private/tmp/claude-501/-Users-USER-Desktop/20c4bcc8-f611-4701-b1d3-f910aaa5248d/scratchpad/audit-tree/.build-tsan-a/arm64-apple-macosx/debug/BuddyOfficePackageTests.derived/runner.swift
+[0/27] Write sources
+[8/27] Write BuddyOffice-entitlement.plist
+[8/27] Write sources
+[12/27] Write buddydump-entitlement.plist
+[12/27] Write buddyctl-entitlement.plist
+[15/27] Write swift-version--1AB21518FC5DEDBE.txt
+[17/66] Emitting module BuddyCore
+[18/71] Emitting module PixelKit
+[19/73] Compiling BuddyCore SubagentReader.swift
+[20/73] Compiling BuddyCore ActivityResolver.swift
+[21/73] Compiling BuddyCore IdentityResolver.swift
+[22/73] Compiling BuddyCore SessionEngine.swift
+[23/73] Compiling BuddyCore ProcessProbe.swift
+[24/73] Compiling BuddyCore RegistryScanner.swift
+[25/73] Compiling BuddyCore JSONLTailer.swift
+[26/73] Compiling BuddyCore LineSanitizer.swift
+[27/73] Compiling PixelKit Sprite.swift
+[28/73] Compiling PixelKit TextRenderer.swift
+[29/73] Compiling BuddyCore FileIO.swift
+[30/73] Compiling BuddyCore Hashing.swift
+[31/73] Compiling BuddyCore Info.swift
+[32/73] Compiling BuddyCore SafeJSON.swift
+[33/73] Compiling BuddyCore TimeUtil.swift
+[34/73] Compiling BuddyCore BuddyState.swift
+[35/73] Compiling BuddyCore HelperAttributor.swift
+[41/100] Emitting module BuddyArt
+[42/105] Compiling BuddyArt Faces.swift
+[43/105] Compiling BuddyArt Hair.swift
+[44/105] Compiling BuddyArt HairStyles.swift
+[45/105] Compiling BuddyArt Heads.swift
+[46/105] Compiling BuddyArt ArtCommands.swift
+[47/105] Compiling BuddyArt DeskProps.swift
+[48/105] Compiling BuddyArt PoseProps.swift
+[49/105] Compiling BuddyArt PropArt.swift
+[50/105] Compiling BuddyArt PropLegend.swift
+[51/105] Compiling BuddyArt SeatGeometry.swift
+[52/105] Compiling BuddyArt AppIconArt.swift
+[53/105] Compiling BuddyArt Bubbles.swift
+[54/105] Compiling BuddyArt ChromeArt.swift
+[55/105] Compiling BuddyArt MenuBarIcon.swift
+[56/105] Compiling BuddyArt Light.swift
+[57/105] Compiling BuddyArt CharacterArt.swift
+[62/105] Compiling BuddyArt Helpers.swift
+[63/105] Compiling BuddyArt Limbs.swift
+[64/105] Compiling BuddyArt Outfits.swift
+[65/105] Compiling BuddyArt ShadeKit.swift
+[66/105] Compiling BuddyArt Torso.swift
+[68/105] Compiling BuddyArt Accessories.swift
+[69/105] Compiling BuddyArt Appearance.swift
+[70/105] Compiling BuddyArt Blink.swift
+[71/105] Compiling BuddyArt BuddyRig.swift
+[72/105] Compiling BuddyArt Chair.swift
+[73/105] Compiling BuddyArt MasterPalette.swift
+[74/105] Compiling BuddyArt RoomArt.swift
+[75/105] Compiling BuddyArt SheetRenderer.swift
+[76/105] Compiling BuddyArt CellPreview.swift
+[77/105] Compiling BuddyArt Desk.swift
+[95/159] Compiling buddydump main.swift
+[96/159] Emitting module buddydump
+[96/159] Write Objects.LinkFileList
+[97/159] Linking buddydump
+[98/159] Applying buddydump
+[100/159] Compiling BuddyStage PoseLibrary.swift
+[101/159] Compiling BuddyStage RoomRenderer.swift
+[102/159] Compiling BuddyStage SafeMath.swift
+[103/159] Compiling BuddyStage SceneClock.swift
+[104/163] Emitting module BuddyCoreTests
+[105/168] Compiling BuddyStage StageRun.swift
+[106/168] Compiling BuddyStage StripScene.swift
+[107/168] Compiling BuddyStage TankScene.swift
+[108/168] Compiling BuddyStage TextAudit.swift
+[109/168] Emitting module BuddyStage
+[113/168] Compiling BuddyStage TextAuditRunner.swift
+[114/168] Compiling BuddyStage ToastCard.swift
+[115/168] Compiling BuddyStage VisualDirector.swift
+[116/168] Compiling BuddyStage AuditFixtures.swift
+[117/168] Compiling BuddyStage DemoScript.swift
+[118/168] Compiling BuddyStage FlickerScan.swift
+[119/168] Compiling BuddyStage HoverCard.swift
+[120/168] Compiling BuddyStage KeyHasher.swift
+[121/168] Compiling BuddyStage SeatRenderer.swift
+[122/168] Compiling BuddyStage SkyRenderer.swift
+[123/168] Compiling BuddyStage StageCommands.swift
+[124/168] Compiling BuddyStage OfficeLayout.swift
+[125/168] Compiling BuddyStage OfficeScene.swift
+[126/168] Compiling BuddyStage Performer.swift
+[130/168] Compiling BuddyStage Walkers.swift
+[131/168] Compiling BuddyCoreTests StoreTests.swift
+[132/168] Compiling BuddyCoreTests Support.swift
+[133/168] Compiling BuddyCoreTests TokenLedgerTests.swift
+[134/168] Compiling BuddyCoreTests ToolTrackerTests.swift
+[135/168] Compiling BuddyCoreTests TranscriptTests.swift
+[139/168] Compiling BuddyStage PlateCopy.swift
+[140/168] Compiling BuddyStage ScreenContent.swift
+[144/210] Emitting module buddyctl
+[145/210] Compiling buddyctl main.swift
+[145/210] Write Objects.LinkFileList
+[147/210] Compiling BuddyOffice PanelShow.swift
+[148/210] Compiling BuddyOffice Panels.swift
+[149/210] Compiling BuddyOffice PixelView.swift
+[150/210] Compiling BuddyOffice Providers.swift
+[151/210] Compiling BuddyOffice RealProvider.swift
+[152/210] Compiling BuddyOffice ScreenPicker.swift
+[152/210] Linking buddyctl
+[153/210] Applying buddyctl
+[155/210] Emitting module BuddyStageTests
+[156/210] Compiling BuddyOffice BoundedWait.swift
+[157/210] Compiling BuddyOffice DebugTools.swift
+[158/210] Compiling BuddyOffice EngineConfig.swift
+[159/212] Compiling BuddyOffice SystemHelpers.swift
+[160/212] Compiling BuddyCoreTests StateRuleChainTests.swift
+[161/212] Compiling BuddyCoreTests StateRuleInvariantTests.swift
+[162/212] Compiling BuddyCoreTests StateRuleProcessTests.swift
+[163/212] Compiling BuddyCoreTests StateRuleTests.swift
+[164/212] Compiling BuddyOffice JumpResolver.swift
+[165/212] Compiling BuddyOffice JumpService.swift
+[166/212] Compiling BuddyOffice AlertCoordinator.swift
+[173/212] Compiling BuddyStageTests TextAuditTests.swift
+[174/212] Compiling BuddyStageTests WalkersAndOffDutyTests.swift
+[175/212] Compiling BuddyOffice ApplyPlan.swift
+[176/212] Compiling BuddyOffice NotificationService.swift
+[177/212] Compiling BuddyOffice AlertPipeline.swift
+/private/tmp/claude-501/-Users-USER-Desktop/20c4bcc8-f611-4701-b1d3-f910aaa5248d/scratchpad/audit-tree/Tests/BuddyStageTests/ReviewRegressionStageTests.swift:249:30: warning: 'stopped' mutated after capture by sendable closure
+225 |         let ink = UInt8(pal.add("ink", RGBA8(255, 255, 255)))
+226 |         let style = Resolved(map: nil, lutA: PaletteLUT.identity(pal))
+227 |         let stop = NSLock(); nonisolated(unsafe) var stopped = false
+    |                                                      `- note: variable defined here
+228 |         let finished = DispatchSemaphore(value: 0)
+229 |         let workers = 4
+230 |         for _ in 0..<workers {
+231 |             Thread {
+    |                    `- note: variable captured by sendable closure
+232 |                 let c = Canvas(width: 64, height: 12)
+233 |                 while true {
+234 |                     stop.lock(); let s = stopped; stop.unlock()
+    |                                          `- note: capturing use
+235 |                     if s { break }
+236 |                     PixelFont.tiny.draw("0123456789", x: 1, y: 1, value: ink, style: style, on: c)
+    :
+247 |             if own != 1 { missing += 1 }
+248 |         }
+249 |         stop.lock(); stopped = true; stop.unlock()
+    |                              `- warning: 'stopped' mutated after capture by sendable closure
+250 |         for _ in 0..<workers { finished.wait() }
+251 |         #expect(missing == 0, "\(missing) 次收集里自己画的那一条不是恰好一条")
+[178/212] Compiling BuddyOffice AppDelegate.swift
+/private/tmp/claude-501/-Users-USER-Desktop/20c4bcc8-f611-4701-b1d3-f910aaa5248d/scratchpad/audit-tree/Tests/BuddyStageTests/ReviewRegressionStageTests.swift:249:30: warning: 'stopped' mutated after capture by sendable closure
+225 |         let ink = UInt8(pal.add("ink", RGBA8(255, 255, 255)))
+226 |         let style = Resolved(map: nil, lutA: PaletteLUT.identity(pal))
+227 |         let stop = NSLock(); nonisolated(unsafe) var stopped = false
+    |                                                      `- note: variable defined here
+228 |         let finished = DispatchSemaphore(value: 0)
+229 |         let workers = 4
+230 |         for _ in 0..<workers {
+231 |             Thread {
+    |                    `- note: variable captured by sendable closure
+232 |                 let c = Canvas(width: 64, height: 12)
+233 |                 while true {
+234 |                     stop.lock(); let s = stopped; stop.unlock()
+    |                                          `- note: capturing use
+235 |                     if s { break }
+236 |                     PixelFont.tiny.draw("0123456789", x: 1, y: 1, value: ink, style: style, on: c)
+    :
+247 |             if own != 1 { missing += 1 }
+248 |         }
+249 |         stop.lock(); stopped = true; stop.unlock()
+    |                              `- warning: 'stopped' mutated after capture by sendable closure
+250 |         for _ in 0..<workers { finished.wait() }
+251 |         #expect(missing == 0, "\(missing) 次收集里自己画的那一条不是恰好一条")
+[179/212] Compiling BuddyOffice AppModel.swift
+/private/tmp/claude-501/-Users-USER-Desktop/20c4bcc8-f611-4701-b1d3-f910aaa5248d/scratchpad/audit-tree/Tests/BuddyStageTests/ReviewRegressionStageTests.swift:249:30: warning: 'stopped' mutated after capture by sendable closure
+225 |         let ink = UInt8(pal.add("ink", RGBA8(255, 255, 255)))
+226 |         let style = Resolved(map: nil, lutA: PaletteLUT.identity(pal))
+227 |         let stop = NSLock(); nonisolated(unsafe) var stopped = false
+    |                                                      `- note: variable defined here
+228 |         let finished = DispatchSemaphore(value: 0)
+229 |         let workers = 4
+230 |         for _ in 0..<workers {
+231 |             Thread {
+    |                    `- note: variable captured by sendable closure
+232 |                 let c = Canvas(width: 64, height: 12)
+233 |                 while true {
+234 |                     stop.lock(); let s = stopped; stop.unlock()
+    |                                          `- note: capturing use
+235 |                     if s { break }
+236 |                     PixelFont.tiny.draw("0123456789", x: 1, y: 1, value: ink, style: style, on: c)
+    :
+247 |             if own != 1 { missing += 1 }
+248 |         }
+249 |         stop.lock(); stopped = true; stop.unlock()
+    |                              `- warning: 'stopped' mutated after capture by sendable closure
+250 |         for _ in 0..<workers { finished.wait() }
+251 |         #expect(missing == 0, "\(missing) 次收集里自己画的那一条不是恰好一条")
+[180/212] Compiling BuddyOffice OfficeWindowController.swift
+[192/217] Emitting module BuddyOffice
+[201/217] Compiling BuddyOffice SelfTests.swift
+[202/217] Compiling BuddyOffice Settings.swift
+[203/217] Compiling BuddyOffice SettingsView.swift
+[204/217] Compiling BuddyOffice SoundSynth.swift
+[205/217] Compiling BuddyOffice StatusItemController.swift
+[206/217] Compiling BuddyOffice StripPanelController.swift
+[208/217] Compiling BuddyOffice TankPanelController.swift
+[209/217] Compiling BuddyOffice TickPacer.swift
+[210/217] Compiling BuddyOffice TitleBarButtons.swift
+[211/217] Compiling BuddyOffice ToastController.swift
+[212/217] Compiling BuddyOffice main.swift
+[212/217] Write Objects.LinkFileList
+[213/217] Linking BuddyOffice
+[214/217] Applying BuddyOffice
+[216/243] Compiling BuddyOfficeTests SeatSanitizerTests.swift
+[217/243] Compiling BuddyOfficeTests SettingsTests.swift
+[218/243] Compiling BuddyOfficeTests SmokeTests.swift
+[219/243] Compiling BuddyOfficeTests SourceAudit.swift
+[220/243] Compiling BuddyOfficeTests SourceAuditTests.swift
+[221/248] Compiling BuddyOfficeTests PanelShowTests.swift
+[222/248] Compiling BuddyOfficeTests PixelViewDragTests.swift
+[223/248] Compiling BuddyOfficeTests PixelViewTests.swift
+[224/248] Compiling BuddyOfficeTests ReviewRegressionAppTests.swift
+[225/248] Compiling BuddyOfficeTests ScreenPickerTests.swift
+[226/248] Compiling BuddyOfficeTests CachesTests.swift
+[227/248] Compiling BuddyOfficeTests DebugLogTests.swift
+[228/248] Compiling BuddyOfficeTests DesktopMetaFileIOTests.swift
+[229/248] Compiling BuddyOfficeTests EngineConfigTests.swift
+[230/248] Compiling BuddyOfficeTests Fakes.swift
+[231/248] Compiling BuddyOfficeTests Fixtures.swift
+[232/248] Compiling BuddyOfficeTests HousekeepingTests.swift
+[233/248] Compiling BuddyOfficeTests JumpTests.swift
+[234/248] Compiling BuddyOfficeTests NotificationAuthTests.swift
+[235/248] Compiling BuddyOfficeTests PanelAnimationTests.swift
+[236/248] Compiling BuddyOfficeTests AlertCoordinatorTests.swift
+[237/248] Compiling BuddyOfficeTests AlertFallbackTests.swift
+[238/248] Compiling BuddyOfficeTests AppModelTests.swift
+[239/248] Compiling BuddyOfficeTests ApplyPlanTests.swift
+[240/248] Compiling BuddyOfficeTests AutoQuitTests.swift
+[241/248] Emitting module BuddyOfficeTests
+[242/248] Compiling BuddyOfficeTests SpecTraceAppTests.swift
+[243/248] Compiling BuddyOfficeTests SpecTraceUITests.swift
+[244/248] Compiling BuddyOfficeTests StripPlacementTests.swift
+[245/248] Compiling BuddyOfficeTests TickPacerTests.swift
+[246/248] Compiling BuddyOfficeTests ToastTextTests.swift
+[247/250] Emitting module BuddyOfficePackageTests
+[248/250] Compiling BuddyOfficePackageTests runner.swift
+[248/250] Write Objects.LinkFileList
+[249/250] Linking BuddyOfficePackageTests
+Build complete! (127.38s)
+◇ Test run started.
+↳ Testing Library Version: 1902
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Suite ReviewRegressionStageTests started.
+◇ Test "SAN-01 withDraws 返回的是一份稳定的拷贝：别的线程一直在画像素字时，反复收集并逐条读像素，不崩、不读到释放过的内存；自己画的那一条一条不少" started.
+==================
+WARNING: ThreadSanitizer: data race (pid=45103)
+  Write of size 1 at 0x000110a56bc0 by thread T4 (mutexes: write M0, write M1):
+    #0 static PixelFont.setAuditSink(_:) PixelFont.swift:41 (BuddyOfficePackageTests:arm64+0x10ba1a4)
+    #1 static TextAuditRunner.withDraws<A>(_:) TextAuditRunner.swift:129 (BuddyOfficePackageTests:arm64+0xd8e670)
+    #2 ReviewRegressionStageTests.san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText() ReviewRegressionStageTests.swift:244 (BuddyOfficePackageTests:arm64+0xee26d0)
+    #3 $s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_7__localfMu0_ #1 @Sendable (_:) in static ReviewRegressionStageTests.$s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_16f61474e9c76108b9fMu_@Sendable () @__swiftmacro_15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_.swift:5 (BuddyOfficePackageTests:arm64+0xee19c4)
+    #4 swift::runJobInEstablishedExecutorContext(swift::Job*, swift::SerialExecutorRef, swift::TaskExecutorRef) <null> (libswift_Concurrency.dylib:arm64e+0x2c4c)
+
+  Previous read of size 1 at 0x000110a56bc0 by thread T7:
+    #0 PixelFont.draw(_:x:y:value:style:on:id:container:) PixelFont.swift (BuddyOfficePackageTests:arm64+0x10ba328)
+    #1 closure #1 in ReviewRegressionStageTests.san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText() ReviewRegressionStageTests.swift:236 (BuddyOfficePackageTests:arm64+0xee5e24)
+    #2 partial apply for closure #1 in ReviewRegressionStageTests.san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText() /<compiler-generated> (BuddyOfficePackageTests:arm64+0xee68b4)
+    #3 thunk for @escaping @callee_guaranteed @Sendable () -> () <null> (BuddyOfficePackageTests:arm64+0x166d90)
+    #4 __NSThread__start__ <null> (Foundation:arm64e+0x53ca4)
+
+  Location is global 'static PixelFont.auditEnabled' at 0x000110a56bc0 (BuddyOfficePackageTests+0x141abc0)
+
+  Mutex M0 (0x00010bf05648) created at:
+    #0 pthread_mutex_init <null> (libclang_rt.tsan_osx_dynamic.dylib:arm64e+0x352ec)
+    #1 -[NSLock init] <null> (Foundation:arm64e+0x3c80)
+    #2 dispatch_once <null> (libclang_rt.tsan_osx_dynamic.dylib:arm64e+0x8dd84)
+    #3 dispatch_once_f <null> (libclang_rt.tsan_osx_dynamic.dylib:arm64e+0x8debc)
+    #4 static TextAuditRunner.withDraws<A>(_:) TextAuditRunner.swift:127 (BuddyOfficePackageTests:arm64+0xd8e6f4)
+    #5 ReviewRegressionStageTests.san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText() ReviewRegressionStageTests.swift:244 (BuddyOfficePackageTests:arm64+0xee26d0)
+    #6 $s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_7__localfMu0_ #1 @Sendable (_:) in static ReviewRegressionStageTests.$s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_16f61474e9c76108b9fMu_@Sendable () @__swiftmacro_15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_.swift:5 (BuddyOfficePackageTests:arm64+0xee19c4)
+    #7 swift::runJobInEstablishedExecutorContext(swift::Job*, swift::SerialExecutorRef, swift::TaskExecutorRef) <null> (libswift_Concurrency.dylib:arm64e+0x2c4c)
+
+  Mutex M1 (0x00010bf052e8) created at:
+    #0 pthread_mutex_init <null> (libclang_rt.tsan_osx_dynamic.dylib:arm64e+0x352ec)
+    #1 -[NSLock init] <null> (Foundation:arm64e+0x3c80)
+    #2 dispatch_once <null> (libclang_rt.tsan_osx_dynamic.dylib:arm64e+0x8dd84)
+    #3 dispatch_once_f <null> (libclang_rt.tsan_osx_dynamic.dylib:arm64e+0x8debc)
+    #4 static PixelFont.setAuditSink(_:) PixelFont.swift:41 (BuddyOfficePackageTests:arm64+0x10ba1e0)
+    #5 static TextAuditRunner.withDraws<A>(_:) TextAuditRunner.swift:129 (BuddyOfficePackageTests:arm64+0xd8e670)
+    #6 ReviewRegressionStageTests.san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText() ReviewRegressionStageTests.swift:244 (BuddyOfficePackageTests:arm64+0xee26d0)
+    #7 $s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_7__localfMu0_ #1 @Sendable (_:) in static ReviewRegressionStageTests.$s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_16f61474e9c76108b9fMu_@Sendable () @__swiftmacro_15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_.swift:5 (BuddyOfficePackageTests:arm64+0xee19c4)
+    #8 swift::runJobInEstablishedExecutorContext(swift::Job*, swift::SerialExecutorRef, swift::TaskExecutorRef) <null> (libswift_Concurrency.dylib:arm64e+0x2c4c)
+
+  Thread T4 (tid=4028312, running) is a GCD worker thread
+
+  Thread T7 (tid=4028316, running) created by thread T4 at:
+    #0 pthread_create <null> (libclang_rt.tsan_osx_dynamic.dylib:arm64e+0x33834)
+    #1 -[NSThread startAndReturnError:] <null> (Foundation:arm64e+0x211954)
+    #2 $s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_7__localfMu0_ #1 @Sendable (_:) in static ReviewRegressionStageTests.$s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_16f61474e9c76108b9fMu_@Sendable () @__swiftmacro_15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_.swift:5 (BuddyOfficePackageTests:arm64+0xee19c4)
+    #3 swift::runJobInEstablishedExecutorContext(swift::Job*, swift::SerialExecutorRef, swift::TaskExecutorRef) <null> (libswift_Concurrency.dylib:arm64e+0x2c4c)
+
+SUMMARY: ThreadSanitizer: data race PixelFont.swift:41 in static PixelFont.setAuditSink(_:)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=45103)
+  Read of size 8 at 0x00010b51caf0 by thread T4 (mutexes: write M0):
+    #0 static TextAuditRunner.withDraws<A>(_:) TextAuditRunner.swift (BuddyOfficePackageTests:arm64+0xd8e6a8)
+    #1 ReviewRegressionStageTests.san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText() ReviewRegressionStageTests.swift:244 (BuddyOfficePackageTests:arm64+0xee26d0)
+    #2 $s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_7__localfMu0_ #1 @Sendable (_:) in static ReviewRegressionStageTests.$s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_16f61474e9c76108b9fMu_@Sendable () @__swiftmacro_15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_.swift:5 (BuddyOfficePackageTests:arm64+0xee19c4)
+    #3 swift::runJobInEstablishedExecutorContext(swift::Job*, swift::SerialExecutorRef, swift::TaskExecutorRef) <null> (libswift_Concurrency.dylib:arm64e+0x2c4c)
+
+  Previous write of size 8 at 0x00010b51caf0 by thread T9 (mutexes: write M1):
+    #0 closure #1 in static TextAuditRunner.withDraws<A>(_:) TextAuditRunner.swift:129 (BuddyOfficePackageTests:arm64+0xd8e7b8)
+    #1 partial apply for closure #1 in static TextAuditRunner.withDraws<A>(_:) <null> (BuddyOfficePackageTests:arm64+0xda02c0)
+    #2 PixelFont.draw(_:x:y:value:style:on:id:container:) PixelFont.swift:68 (BuddyOfficePackageTests:arm64+0x10bac20)
+    #3 closure #1 in ReviewRegressionStageTests.san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText() ReviewRegressionStageTests.swift:236 (BuddyOfficePackageTests:arm64+0xee5e24)
+    #4 partial apply for closure #1 in ReviewRegressionStageTests.san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText() /<compiler-generated> (BuddyOfficePackageTests:arm64+0xee68b4)
+    #5 thunk for @escaping @callee_guaranteed @Sendable () -> () <null> (BuddyOfficePackageTests:arm64+0x166d90)
+    #6 __NSThread__start__ <null> (Foundation:arm64e+0x53ca4)
+
+  Location is heap block of size 32 at 0x00010b51cae0 allocated by thread T4:
+    #0 malloc <null> (libclang_rt.tsan_osx_dynamic.dylib:arm64e+0x679b4)
+    #1 _malloc_type_malloc_outlined <null> (libsystem_malloc.dylib:arm64e+0x1eeac)
+    #2 ReviewRegressionStageTests.san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText() ReviewRegressionStageTests.swift:244 (BuddyOfficePackageTests:arm64+0xee26d0)
+    #3 $s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_7__localfMu0_ #1 @Sendable (_:) in static ReviewRegressionStageTests.$s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_16f61474e9c76108b9fMu_@Sendable () @__swiftmacro_15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_.swift:5 (BuddyOfficePackageTests:arm64+0xee19c4)
+    #4 swift::runJobInEstablishedExecutorContext(swift::Job*, swift::SerialExecutorRef, swift::TaskExecutorRef) <null> (libswift_Concurrency.dylib:arm64e+0x2c4c)
+
+  Mutex M0 (0x00010bf05648) created at:
+    #0 pthread_mutex_init <null> (libclang_rt.tsan_osx_dynamic.dylib:arm64e+0x352ec)
+    #1 -[NSLock init] <null> (Foundation:arm64e+0x3c80)
+    #2 dispatch_once <null> (libclang_rt.tsan_osx_dynamic.dylib:arm64e+0x8dd84)
+    #3 dispatch_once_f <null> (libclang_rt.tsan_osx_dynamic.dylib:arm64e+0x8debc)
+    #4 static TextAuditRunner.withDraws<A>(_:) TextAuditRunner.swift:127 (BuddyOfficePackageTests:arm64+0xd8e6f4)
+    #5 ReviewRegressionStageTests.san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText() ReviewRegressionStageTests.swift:244 (BuddyOfficePackageTests:arm64+0xee26d0)
+    #6 $s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_7__localfMu0_ #1 @Sendable (_:) in static ReviewRegressionStageTests.$s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_16f61474e9c76108b9fMu_@Sendable () @__swiftmacro_15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_.swift:5 (BuddyOfficePackageTests:arm64+0xee19c4)
+    #7 swift::runJobInEstablishedExecutorContext(swift::Job*, swift::SerialExecutorRef, swift::TaskExecutorRef) <null> (libswift_Concurrency.dylib:arm64e+0x2c4c)
+
+  Mutex M1 (0x00010bf05be8) created at:
+    #0 pthread_mutex_init <null> (libclang_rt.tsan_osx_dynamic.dylib:arm64e+0x352ec)
+    #1 -[NSLock init] <null> (Foundation:arm64e+0x3c80)
+    #2 ReviewRegressionStageTests.san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText() ReviewRegressionStageTests.swift:244 (BuddyOfficePackageTests:arm64+0xee26d0)
+    #3 $s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_7__localfMu0_ #1 @Sendable (_:) in static ReviewRegressionStageTests.$s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_16f61474e9c76108b9fMu_@Sendable () @__swiftmacro_15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_.swift:5 (BuddyOfficePackageTests:arm64+0xee19c4)
+    #4 swift::runJobInEstablishedExecutorContext(swift::Job*, swift::SerialExecutorRef, swift::TaskExecutorRef) <null> (libswift_Concurrency.dylib:arm64e+0x2c4c)
+
+  Thread T4 (tid=4028312, running) is a GCD worker thread
+
+  Thread T9 (tid=4028318, running) created by thread T4 at:
+    #0 pthread_create <null> (libclang_rt.tsan_osx_dynamic.dylib:arm64e+0x33834)
+    #1 -[NSThread startAndReturnError:] <null> (Foundation:arm64e+0x211954)
+    #2 $s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_7__localfMu0_ #1 @Sendable (_:) in static ReviewRegressionStageTests.$s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_16f61474e9c76108b9fMu_@Sendable () @__swiftmacro_15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_.swift:5 (BuddyOfficePackageTests:arm64+0xee19c4)
+    #3 swift::runJobInEstablishedExecutorContext(swift::Job*, swift::SerialExecutorRef, swift::TaskExecutorRef) <null> (libswift_Concurrency.dylib:arm64e+0x2c4c)
+
+SUMMARY: ThreadSanitizer: data race TextAuditRunner.swift in static TextAuditRunner.withDraws<A>(_:)
+==================
+==================
+WARNING: ThreadSanitizer: Swift access race (pid=45103)
+  Modifying access of Swift variable at 0x00010b51caf0 by thread T7 (mutexes: write M0):
+    #0 closure #1 in static TextAuditRunner.withDraws<A>(_:) TextAuditRunner.swift:129 (BuddyOfficePackageTests:arm64+0xd8e770)
+    #1 partial apply for closure #1 in static TextAuditRunner.withDraws<A>(_:) <null> (BuddyOfficePackageTests:arm64+0xda02c0)
+    #2 PixelFont.draw(_:x:y:value:style:on:id:container:) PixelFont.swift:68 (BuddyOfficePackageTests:arm64+0x10bac20)
+    #3 closure #1 in ReviewRegressionStageTests.san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText() ReviewRegressionStageTests.swift:236 (BuddyOfficePackageTests:arm64+0xee5e24)
+    #4 partial apply for closure #1 in ReviewRegressionStageTests.san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText() /<compiler-generated> (BuddyOfficePackageTests:arm64+0xee68b4)
+    #5 thunk for @escaping @callee_guaranteed @Sendable () -> () <null> (BuddyOfficePackageTests:arm64+0x166d90)
+    #6 __NSThread__start__ <null> (Foundation:arm64e+0x53ca4)
+
+  Previous read of size 8 at 0x00010b51caf0 by thread T4 (mutexes: write M1):
+    #0 static TextAuditRunner.withDraws<A>(_:) TextAuditRunner.swift (BuddyOfficePackageTests:arm64+0xd8e6a8)
+    #1 ReviewRegressionStageTests.san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText() ReviewRegressionStageTests.swift:244 (BuddyOfficePackageTests:arm64+0xee26d0)
+    #2 $s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_7__localfMu0_ #1 @Sendable (_:) in static ReviewRegressionStageTests.$s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_16f61474e9c76108b9fMu_@Sendable () @__swiftmacro_15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_.swift:5 (BuddyOfficePackageTests:arm64+0xee19c4)
+    #3 swift::runJobInEstablishedExecutorContext(swift::Job*, swift::SerialExecutorRef, swift::TaskExecutorRef) <null> (libswift_Concurrency.dylib:arm64e+0x2c4c)
+
+  Location is heap block of size 32 at 0x00010b51cae0 allocated by thread T4:
+    #0 malloc <null> (libclang_rt.tsan_osx_dynamic.dylib:arm64e+0x679b4)
+    #1 _malloc_type_malloc_outlined <null> (libsystem_malloc.dylib:arm64e+0x1eeac)
+    #2 ReviewRegressionStageTests.san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText() ReviewRegressionStageTests.swift:244 (BuddyOfficePackageTests:arm64+0xee26d0)
+    #3 $s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_7__localfMu0_ #1 @Sendable (_:) in static ReviewRegressionStageTests.$s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_16f61474e9c76108b9fMu_@Sendable () @__swiftmacro_15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_.swift:5 (BuddyOfficePackageTests:arm64+0xee19c4)
+    #4 swift::runJobInEstablishedExecutorContext(swift::Job*, swift::SerialExecutorRef, swift::TaskExecutorRef) <null> (libswift_Concurrency.dylib:arm64e+0x2c4c)
+
+  Mutex M0 (0x00010bf02ac8) created at:
+    #0 pthread_mutex_init <null> (libclang_rt.tsan_osx_dynamic.dylib:arm64e+0x352ec)
+    #1 -[NSLock init] <null> (Foundation:arm64e+0x3c80)
+    #2 ReviewRegressionStageTests.san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText() ReviewRegressionStageTests.swift:244 (BuddyOfficePackageTests:arm64+0xee26d0)
+    #3 $s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_7__localfMu0_ #1 @Sendable (_:) in static ReviewRegressionStageTests.$s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_16f61474e9c76108b9fMu_@Sendable () @__swiftmacro_15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_.swift:5 (BuddyOfficePackageTests:arm64+0xee19c4)
+    #4 swift::runJobInEstablishedExecutorContext(swift::Job*, swift::SerialExecutorRef, swift::TaskExecutorRef) <null> (libswift_Concurrency.dylib:arm64e+0x2c4c)
+
+  Mutex M1 (0x00010bf05648) created at:
+    #0 pthread_mutex_init <null> (libclang_rt.tsan_osx_dynamic.dylib:arm64e+0x352ec)
+    #1 -[NSLock init] <null> (Foundation:arm64e+0x3c80)
+    #2 dispatch_once <null> (libclang_rt.tsan_osx_dynamic.dylib:arm64e+0x8dd84)
+    #3 dispatch_once_f <null> (libclang_rt.tsan_osx_dynamic.dylib:arm64e+0x8debc)
+    #4 static TextAuditRunner.withDraws<A>(_:) TextAuditRunner.swift:127 (BuddyOfficePackageTests:arm64+0xd8e6f4)
+    #5 ReviewRegressionStageTests.san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText() ReviewRegressionStageTests.swift:244 (BuddyOfficePackageTests:arm64+0xee26d0)
+    #6 $s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_7__localfMu0_ #1 @Sendable (_:) in static ReviewRegressionStageTests.$s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_16f61474e9c76108b9fMu_@Sendable () @__swiftmacro_15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_.swift:5 (BuddyOfficePackageTests:arm64+0xee19c4)
+    #7 swift::runJobInEstablishedExecutorContext(swift::Job*, swift::SerialExecutorRef, swift::TaskExecutorRef) <null> (libswift_Concurrency.dylib:arm64e+0x2c4c)
+
+  Thread T7 (tid=4028316, running) created by thread T4 at:
+    #0 pthread_create <null> (libclang_rt.tsan_osx_dynamic.dylib:arm64e+0x33834)
+    #1 -[NSThread startAndReturnError:] <null> (Foundation:arm64e+0x211954)
+    #2 $s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_7__localfMu0_ #1 @Sendable (_:) in static ReviewRegressionStageTests.$s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_16f61474e9c76108b9fMu_@Sendable () @__swiftmacro_15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_.swift:5 (BuddyOfficePackageTests:arm64+0xee19c4)
+    #3 swift::runJobInEstablishedExecutorContext(swift::Job*, swift::SerialExecutorRef, swift::TaskExecutorRef) <null> (libswift_Concurrency.dylib:arm64e+0x2c4c)
+
+  Thread T4 (tid=4028312, running) is a GCD worker thread
+
+SUMMARY: ThreadSanitizer: Swift access race TextAuditRunner.swift:129 in closure #1 in static TextAuditRunner.withDraws<A>(_:)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=45103)
+  Read of size 8 at 0x00010b5157d0 by thread T4 (mutexes: write M0):
+    #0 static TextAuditRunner.withDraws<A>(_:) TextAuditRunner.swift (BuddyOfficePackageTests:arm64+0xd8e6a8)
+    #1 ReviewRegressionStageTests.san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText() ReviewRegressionStageTests.swift:244 (BuddyOfficePackageTests:arm64+0xee26d0)
+    #2 $s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_7__localfMu0_ #1 @Sendable (_:) in static ReviewRegressionStageTests.$s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_16f61474e9c76108b9fMu_@Sendable () @__swiftmacro_15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_.swift:5 (BuddyOfficePackageTests:arm64+0xee19c4)
+    #3 swift::runJobInEstablishedExecutorContext(swift::Job*, swift::SerialExecutorRef, swift::TaskExecutorRef) <null> (libswift_Concurrency.dylib:arm64e+0x2c4c)
+
+  Previous write of size 8 at 0x00010b5157d0 by thread T9 (mutexes: write M1):
+    #0 closure #1 in static TextAuditRunner.withDraws<A>(_:) TextAuditRunner.swift:129 (BuddyOfficePackageTests:arm64+0xd8e80c)
+    #1 partial apply for closure #1 in static TextAuditRunner.withDraws<A>(_:) <null> (BuddyOfficePackageTests:arm64+0xda02c0)
+    #2 PixelFont.draw(_:x:y:value:style:on:id:container:) PixelFont.swift:68 (BuddyOfficePackageTests:arm64+0x10bac20)
+    #3 closure #1 in ReviewRegressionStageTests.san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText() ReviewRegressionStageTests.swift:236 (BuddyOfficePackageTests:arm64+0xee5e24)
+    #4 partial apply for closure #1 in ReviewRegressionStageTests.san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText() /<compiler-generated> (BuddyOfficePackageTests:arm64+0xee68b4)
+    #5 thunk for @escaping @callee_guaranteed @Sendable () -> () <null> (BuddyOfficePackageTests:arm64+0x166d90)
+    #6 __NSThread__start__ <null> (Foundation:arm64e+0x53ca4)
+
+  Location is heap block of size 32 at 0x00010b5157c0 allocated by thread T4:
+    #0 malloc <null> (libclang_rt.tsan_osx_dynamic.dylib:arm64e+0x679b4)
+    #1 _malloc_type_malloc_outlined <null> (libsystem_malloc.dylib:arm64e+0x1eeac)
+    #2 ReviewRegressionStageTests.san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText() ReviewRegressionStageTests.swift:244 (BuddyOfficePackageTests:arm64+0xee26d0)
+    #3 $s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_7__localfMu0_ #1 @Sendable (_:) in static ReviewRegressionStageTests.$s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_16f61474e9c76108b9fMu_@Sendable () @__swiftmacro_15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_.swift:5 (BuddyOfficePackageTests:arm64+0xee19c4)
+    #4 swift::runJobInEstablishedExecutorContext(swift::Job*, swift::SerialExecutorRef, swift::TaskExecutorRef) <null> (libswift_Concurrency.dylib:arm64e+0x2c4c)
+
+  Mutex M0 (0x00010bf05648) created at:
+    #0 pthread_mutex_init <null> (libclang_rt.tsan_osx_dynamic.dylib:arm64e+0x352ec)
+    #1 -[NSLock init] <null> (Foundation:arm64e+0x3c80)
+    #2 dispatch_once <null> (libclang_rt.tsan_osx_dynamic.dylib:arm64e+0x8dd84)
+    #3 dispatch_once_f <null> (libclang_rt.tsan_osx_dynamic.dylib:arm64e+0x8debc)
+    #4 static TextAuditRunner.withDraws<A>(_:) TextAuditRunner.swift:127 (BuddyOfficePackageTests:arm64+0xd8e6f4)
+    #5 ReviewRegressionStageTests.san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText() ReviewRegressionStageTests.swift:244 (BuddyOfficePackageTests:arm64+0xee26d0)
+    #6 $s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_7__localfMu0_ #1 @Sendable (_:) in static ReviewRegressionStageTests.$s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_16f61474e9c76108b9fMu_@Sendable () @__swiftmacro_15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_.swift:5 (BuddyOfficePackageTests:arm64+0xee19c4)
+    #7 swift::runJobInEstablishedExecutorContext(swift::Job*, swift::SerialExecutorRef, swift::TaskExecutorRef) <null> (libswift_Concurrency.dylib:arm64e+0x2c4c)
+
+  Mutex M1 (0x00010bf01988) created at:
+    #0 pthread_mutex_init <null> (libclang_rt.tsan_osx_dynamic.dylib:arm64e+0x352ec)
+    #1 -[NSLock init] <null> (Foundation:arm64e+0x3c80)
+    #2 ReviewRegressionStageTests.san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText() ReviewRegressionStageTests.swift:244 (BuddyOfficePackageTests:arm64+0xee26d0)
+    #3 $s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_7__localfMu0_ #1 @Sendable (_:) in static ReviewRegressionStageTests.$s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_16f61474e9c76108b9fMu_@Sendable () @__swiftmacro_15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_.swift:5 (BuddyOfficePackageTests:arm64+0xee19c4)
+    #4 swift::runJobInEstablishedExecutorContext(swift::Job*, swift::SerialExecutorRef, swift::TaskExecutorRef) <null> (libswift_Concurrency.dylib:arm64e+0x2c4c)
+
+  Thread T4 (tid=4028312, running) is a GCD worker thread
+
+  Thread T9 (tid=4028318, running) created by thread T4 at:
+    #0 pthread_create <null> (libclang_rt.tsan_osx_dynamic.dylib:arm64e+0x33834)
+    #1 -[NSThread startAndReturnError:] <null> (Foundation:arm64e+0x211954)
+    #2 $s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_7__localfMu0_ #1 @Sendable (_:) in static ReviewRegressionStageTests.$s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_16f61474e9c76108b9fMu_@Sendable () @__swiftmacro_15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_.swift:5 (BuddyOfficePackageTests:arm64+0xee19c4)
+    #3 swift::runJobInEstablishedExecutorContext(swift::Job*, swift::SerialExecutorRef, swift::TaskExecutorRef) <null> (libswift_Concurrency.dylib:arm64e+0x2c4c)
+
+SUMMARY: ThreadSanitizer: data race TextAuditRunner.swift in static TextAuditRunner.withDraws<A>(_:)
+==================
+==================
+WARNING: ThreadSanitizer: Swift access race (pid=45103)
+  Modifying access of Swift variable at 0x00010b504e30 by thread T9 (mutexes: write M0):
+    #0 closure #1 in static TextAuditRunner.withDraws<A>(_:) TextAuditRunner.swift:129 (BuddyOfficePackageTests:arm64+0xd8e798)
+    #1 partial apply for closure #1 in static TextAuditRunner.withDraws<A>(_:) <null> (BuddyOfficePackageTests:arm64+0xda02c0)
+    #2 PixelFont.draw(_:x:y:value:style:on:id:container:) PixelFont.swift:68 (BuddyOfficePackageTests:arm64+0x10bac20)
+    #3 closure #1 in ReviewRegressionStageTests.san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText() ReviewRegressionStageTests.swift:236 (BuddyOfficePackageTests:arm64+0xee5e24)
+    #4 partial apply for closure #1 in ReviewRegressionStageTests.san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText() /<compiler-generated> (BuddyOfficePackageTests:arm64+0xee68b4)
+    #5 thunk for @escaping @callee_guaranteed @Sendable () -> () <null> (BuddyOfficePackageTests:arm64+0x166d90)
+    #6 __NSThread__start__ <null> (Foundation:arm64e+0x53ca4)
+
+  Previous read of size 8 at 0x00010b504e30 by thread T4 (mutexes: write M1):
+    #0 static TextAuditRunner.withDraws<A>(_:) TextAuditRunner.swift (BuddyOfficePackageTests:arm64+0xd8e6a8)
+    #1 ReviewRegressionStageTests.san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText() ReviewRegressionStageTests.swift:244 (BuddyOfficePackageTests:arm64+0xee26d0)
+    #2 $s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_7__localfMu0_ #1 @Sendable (_:) in static ReviewRegressionStageTests.$s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_16f61474e9c76108b9fMu_@Sendable () @__swiftmacro_15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_.swift:5 (BuddyOfficePackageTests:arm64+0xee19c4)
+    #3 swift::runJobInEstablishedExecutorContext(swift::Job*, swift::SerialExecutorRef, swift::TaskExecutorRef) <null> (libswift_Concurrency.dylib:arm64e+0x2c4c)
+
+  Location is heap block of size 32 at 0x00010b504e20 allocated by thread T4:
+    #0 malloc <null> (libclang_rt.tsan_osx_dynamic.dylib:arm64e+0x679b4)
+    #1 _malloc_type_malloc_outlined <null> (libsystem_malloc.dylib:arm64e+0x1eeac)
+    #2 ReviewRegressionStageTests.san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText() ReviewRegressionStageTests.swift:244 (BuddyOfficePackageTests:arm64+0xee26d0)
+    #3 $s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_7__localfMu0_ #1 @Sendable (_:) in static ReviewRegressionStageTests.$s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_16f61474e9c76108b9fMu_@Sendable () @__swiftmacro_15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_.swift:5 (BuddyOfficePackageTests:arm64+0xee19c4)
+    #4 swift::runJobInEstablishedExecutorContext(swift::Job*, swift::SerialExecutorRef, swift::TaskExecutorRef) <null> (libswift_Concurrency.dylib:arm64e+0x2c4c)
+
+  Mutex M0 (0x00010bf01808) created at:
+    #0 pthread_mutex_init <null> (libclang_rt.tsan_osx_dynamic.dylib:arm64e+0x352ec)
+    #1 -[NSLock init] <null> (Foundation:arm64e+0x3c80)
+    #2 ReviewRegressionStageTests.san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText() ReviewRegressionStageTests.swift:244 (BuddyOfficePackageTests:arm64+0xee26d0)
+    #3 $s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_7__localfMu0_ #1 @Sendable (_:) in static ReviewRegressionStageTests.$s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_16f61474e9c76108b9fMu_@Sendable () @__swiftmacro_15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_.swift:5 (BuddyOfficePackageTests:arm64+0xee19c4)
+    #4 swift::runJobInEstablishedExecutorContext(swift::Job*, swift::SerialExecutorRef, swift::TaskExecutorRef) <null> (libswift_Concurrency.dylib:arm64e+0x2c4c)
+
+  Mutex M1 (0x00010bf05648) created at:
+    #0 pthread_mutex_init <null> (libclang_rt.tsan_osx_dynamic.dylib:arm64e+0x352ec)
+    #1 -[NSLock init] <null> (Foundation:arm64e+0x3c80)
+    #2 dispatch_once <null> (libclang_rt.tsan_osx_dynamic.dylib:arm64e+0x8dd84)
+    #3 dispatch_once_f <null> (libclang_rt.tsan_osx_dynamic.dylib:arm64e+0x8debc)
+    #4 static TextAuditRunner.withDraws<A>(_:) TextAuditRunner.swift:127 (BuddyOfficePackageTests:arm64+0xd8e6f4)
+    #5 ReviewRegressionStageTests.san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText() ReviewRegressionStageTests.swift:244 (BuddyOfficePackageTests:arm64+0xee26d0)
+    #6 $s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_7__localfMu0_ #1 @Sendable (_:) in static ReviewRegressionStageTests.$s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_16f61474e9c76108b9fMu_@Sendable () @__swiftmacro_15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_.swift:5 (BuddyOfficePackageTests:arm64+0xee19c4)
+    #7 swift::runJobInEstablishedExecutorContext(swift::Job*, swift::SerialExecutorRef, swift::TaskExecutorRef) <null> (libswift_Concurrency.dylib:arm64e+0x2c4c)
+
+  Thread T9 (tid=4028318, running) created by thread T4 at:
+    #0 pthread_create <null> (libclang_rt.tsan_osx_dynamic.dylib:arm64e+0x33834)
+    #1 -[NSThread startAndReturnError:] <null> (Foundation:arm64e+0x211954)
+    #2 $s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_7__localfMu0_ #1 @Sendable (_:) in static ReviewRegressionStageTests.$s15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_16f61474e9c76108b9fMu_@Sendable () @__swiftmacro_15BuddyStageTests016ReviewRegressionbC0V58san01_withDrawsIsSafeWhileOtherThreadsKeepDrawingPixelText4TestfMp_.swift:5 (BuddyOfficePackageTests:arm64+0xee19c4)
+    #3 swift::runJobInEstablishedExecutorContext(swift::Job*, swift::SerialExecutorRef, swift::TaskExecutorRef) <null> (libswift_Concurrency.dylib:arm64e+0x2c4c)
+
+  Thread T4 (tid=4028312, running) is a GCD worker thread
+
+SUMMARY: ThreadSanitizer: Swift access race TextAuditRunner.swift:129 in closure #1 in static TextAuditRunner.withDraws<A>(_:)
+==================
+✘ Test "SAN-01 withDraws 返回的是一份稳定的拷贝：别的线程一直在画像素字时，反复收集并逐条读像素，不崩、不读到释放过的内存；自己画的那一条一条不少" recorded an issue at ReviewRegressionStageTests.swift:251:9: Expeerror: Process '/Library/Developer/CommandLineTools/usr/libexec/swift/pm/swiftpm-testing-helper --test-bundle-path /private/tmp/claude-501/-Users-USER-Desktop/20c4bcc8-f611-4701-b1d3-f910aaa5248d/scratchpad/audit-tree/.build-tsan-a/arm64-apple-macosx/debug/BuddyOfficePackageTests.xctest/Contents/MacOS/BuddyOfficePackageTests --sanitize=thread --scratch-path .build-tsan-a -Xswiftc -F/Library/Developer/CommandLineTools/Library/Developer/Frameworks -Xswiftc -plugin-path -Xswiftc /Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing -Xlinker -F/Library/Developer/CommandLineTools/Library/Developer/Frameworks -Xlinker -rpath -Xlinker /Library/Developer/CommandLineTools/Library/Developer/Frameworks -Xlinker -rpath -Xlinker /Library/Developer/CommandLineTools/Library/Developer/usr/lib --filter san01 /private/tmp/claude-501/-Users-USER-Desktop/20c4bcc8-f611-4701-b1d3-f910aaa5248d/scratchpad/audit-tree/.build-tsan-a/arm64-apple-macosx/debug/BuddyOfficePackageTests.xctest/Contents/MacOS/BuddyOfficePackageTests --testing-library swift-testing' exited with unexpected signal code 6
+ctation failed: (missing → 36) == 0
+↳ 36 次收集里自己画的那一条不是恰好一条
+✘ Test "SAN-01 withDraws 返回的是一份稳定的拷贝：别的线程一直在画像素字时，反复收集并逐条读像素，不崩、不读到释放过的内存；自己画的那一条一条不少" failed after 1.260 seconds with 1 issue.
+↳ /// `withDraws` 在 `setAuditSink(nil)` 之后直接读 `box.value`，而别的线程里「已经取到 sink、还没 append 完」的那次 draw 会在锁里改同一个数组：
+↳ /// 数据竞争，读到的数组缓冲区可能已经被 append 换掉 / 释放。审计打开的那一小段时间里，并行跑的其它线程的像素字也会被收进来（文档写明过），所以这个窗口是真的。
+↳ /// 这条测试在普通运行下多半不红（窗口很窄），要在 ASan / TSan 下才能确定地抓到（QA/tools/asan_tests.sh、tsan_run.sh 跑它；证据在 QA/evidence/fail-before-review.md）。
+✘ Suite ReviewRegressionStageTests failed after 1.260 seconds with 1 issue.
+↳ /// 收尾前的独立复查（QA/review-R1b.md）新发现的问题的回归测试。编号对应 QA/issues-review.md。全部用假时钟。
+✘ Test run with 1 test in 1 suite failed after 1.261 seconds with 1 issue.
+ThreadSanitizer: reported 5 warnings

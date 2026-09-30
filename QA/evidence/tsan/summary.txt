@@ -1,0 +1,4 @@
+# TSan 运行 2026-09-29 14:19  filter=StoreTests|TokenLedgerTests|FuzzWatcherTests|RobustnessTests|StateRuleProcessTests|HookLogTests|JSONLTailerTests|FuzzTailerTests|FuzzReadersTests|EngineScenarioTests
+退出码 0；TSan 报告 0 处；61 秒；✔ Test run with 102 tests in 13 suites passed after 28.202 seconds.
+表现层 + 应用层测试：退出码 0；TSan 报告 0 处；12 秒；✔ Test run with 133 tests in 16 suites passed after 8.643 seconds.
+# 完成 14:20

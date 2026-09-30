@@ -1,0 +1,8 @@
+## R4a-01 (撤销修复后) rc=1
+✘ Test "R4a-01 应用层读桌面元数据：某个会话的 lastFocusedAt 在 30 天以后（桌面 App 的时钟被拨快过）→ 丢掉它，「最近聚焦的」仍是真正在看的那个" recorded an issue at ReviewRegressionAppTests.swift:337:13: Expectation failed: (all["local_x"] == nil → false) && (all["local_y"] != nil → <not evaluated>)
+✘ Test "R4a-01 应用层读桌面元数据：某个会话的 lastFocusedAt 在 30 天以后（桌面 App 的时钟被拨快过）→ 丢掉它，「最近聚焦的」仍是真正在看的那个" recorded an issue at ReviewRegressionAppTests.swift:338:13: Expectation failed: (DesktopMeta.mostRecentHost(all) → "local_x") == "local_y"
+✘ Test "R4a-01 应用层读桌面元数据：某个会话的 lastFocusedAt 在 30 天以后（桌面 App 的时钟被拨快过）→ 丢掉它，「最近聚焦的」仍是真正在看的那个" recorded an issue at ReviewRegressionAppTests.swift:339:13: Expectation failed: (DesktopMeta.isMostRecentlyFocused(host: "local_y") → false) && (!DesktopMeta.isMostRecentlyFocused(host: "local_x") → <not evaluated>)
+✘ Test run with 1 test in 1 suite failed after 0.005 seconds with 3 issues.
+## R4b-01 (撤销修复：测试的账本队列改回 .background) + 8 个 CPU 空转进程：rc=0  ✔ Test run with 96 tests in 4 suites passed after 0.907 seconds.
+## R4b-01 (修复后) + 8 个 CPU 空转进程：rc=0  ✔ Test run with 96 tests in 4 suites passed after 1.492 seconds.
+DONE

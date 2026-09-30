@@ -1,0 +1,48 @@
+======================================================================
+BuddyOffice [59203]: 64-bit    Footprint: 27 MB (16384 bytes per page)
+======================================================================
+
+  Dirty      Clean  Reclaimable    Regions    Category
+    ---        ---          ---        ---    ---
+  16 MB        0 B          0 B         12    Malloc Small
+1835 KB        0 B          0 B       1001    __DATA_DIRTY
+1765 KB      16 KB          0 B       1019    __DATA
+1536 KB        0 B          0 B          3    IOSurface
+ 912 KB        0 B          0 B         15    Malloc Metadata
+ 753 KB        0 B          0 B          1    page table
+ 752 KB        0 B          0 B         23    CG Raster Data
+ 640 KB        0 B          0 B         31    Untagged
+ 502 KB        0 B          0 B        527    __AUTH
+ 448 KB      48 KB          0 B       1063    __DATA_CONST
+ 400 KB        0 B          0 B         18    Stack
+ 304 KB        0 B          0 B          1    Malloc Tiny
+ 272 KB        0 B          0 B          2    CoreUI Image Data
+ 256 KB        0 B          0 B          1    Dispatch Continuations
+ 240 KB        0 B          0 B         15    CoreAnimation
+ 171 KB        0 B          0 B       2687    unused dyld shared cache area
+ 128 KB        0 B          0 B          5    CG Image
+ 112 KB        0 B          0 B          4    __TPRO_CONST
+  96 KB        0 B          0 B          1    Untagged (media)
+  64 KB        0 B          0 B          2    IOAccelerator
+  48 KB        0 B          0 B          6    IOKit
+  48 KB        0 B          0 B          1    __OBJC_RW
+  32 KB        0 B          0 B          1    Activity Tracing
+  32 KB        0 B          0 B          4    CoreGraphics
+  16 KB        0 B          0 B          1    Deferred Reclaim
+  16 KB        0 B          0 B          1    OS Alloc Once
+  16 KB        0 B          0 B          2    IOAccelerator (graphics)
+  16 KB        0 B          0 B          1    Foundation
+    0 B    3376 KB          0 B         31    mapped file
+    0 B    2064 KB          0 B       1151    __TEXT
+    0 B      16 KB          0 B          5    __LINKEDIT
+    0 B        0 B          0 B          1    __OBJC_RO
+    0 B        0 B          0 B          1    __FONT_DATA
+    0 B        0 B          0 B          1    __CTF
+    0 B        0 B          0 B       1055    __AUTH_CONST
+    ---        ---          ---        ---    ---
+  27 MB    5520 KB          0 B       8695    TOTAL
+
+Auxiliary data:
+    phys_footprint: 27 MB
+    phys_footprint_peak: 27 MB
+
