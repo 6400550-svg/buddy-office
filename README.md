@@ -17,13 +17,26 @@
 
 ![夜晚的办公室](docs/office-night.gif)
 
-## 要求
-
-- macOS 14 或更高
-- 命令行开发者工具（没有的话，安装程序会触发苹果的安装窗口）
-- 已经在用 Claude Code
-
 ## 安装
+
+### 方式一：下载 Release（推荐，不用编译）
+
+1. 到 [Releases](https://github.com/6400550-svg/buddy-office/releases/latest) 下载 `BuddyOffice-*-macos-arm64.zip`，双击解压。
+2. 打开「终端」，运行下面三行（把路径换成你解压出来的文件夹，也可以输入 `cd ` 后把文件夹拖进终端）：
+
+```bash
+cd ~/Downloads/BuddyOffice-1.0.1
+xattr -dr com.apple.quarantine .
+bash 安装.command
+```
+
+要求：**Apple 芯片（M1 及以后）的 Mac，macOS 14 或更高**，不需要装任何开发工具。
+
+> **为什么要那行 `xattr`？** App 没有付费的 Apple 开发者证书签名（也没有公证），浏览器下载的文件会被系统打上“隔离”标记，直接双击会被拦下。这一行只是去掉这个标记，只处理你刚解压的这个文件夹。你也可以先看一眼 [`安装.command`](%E5%AE%89%E8%A3%85.command) 和源码再决定。
+
+### 方式二：从源码安装
+
+适合 Intel Mac，或者想自己改代码的人。需要 macOS 14+ 和命令行开发者工具（没有的话，安装程序会触发苹果的安装窗口）。
 
 ```bash
 git clone https://github.com/6400550-svg/buddy-office.git
@@ -31,14 +44,15 @@ cd buddy-office
 bash 安装.command
 ```
 
-也可以在 Finder 里双击「安装.command」。如果提示“来自身份不明的开发者”，右键 → 打开。
+第一次会现场编译，大约 1～3 分钟。
 
-- 第一次会从源码编译，大约 1～3 分钟。
+### 安装过程和之后
+
 - 中途会问一句“要不要让 Buddy 办公室跟着 Claude 自动打开？”，回答 Y（直接回车）就会在 `~/.claude/settings.json` 里加一条“会话启动”hook，改动之前会先备份成 `settings.json.bak-日期-时间`。
 - 装好后 App 在 `~/Applications/Buddy 办公室.app`，Dock 和菜单栏各有一个图标。
 - 没有会话时办公室是空的，牌子上写着“今天还没人上班”；开一个 Claude Code 会话，几秒内就会有人走进来。
 
-**卸载：** `bash 卸载.command`。它会退出 App、注销开机启动、删除 App，并且只从 `settings.json` 里去掉它自己那条 hook（别的 hook 不动，同样先备份）。
+**卸载：** 在同一个文件夹里运行 `bash 卸载.command`。它会退出 App、注销开机启动、删除 App，并且只从 `settings.json` 里去掉它自己那条 hook（别的 hook 不动，同样先备份）。
 
 ## 三种形态
 

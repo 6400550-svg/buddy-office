@@ -7,6 +7,9 @@ YES=0; [ "$1" = "--yes" ] && YES=1
 NAME="Buddy 办公室"
 DEST="$HOME/Applications/$NAME.app"
 STAGE="$HOME/Applications/.$NAME.new.app"
+# 预编译发行包（Releases 里下载的 zip）：App 就在本脚本旁边、没有源码，跳过编译；从源码克隆的仓库则现场编译到 dist/
+PREBUILT=0; [ -d "$NAME.app" ] && [ ! -f Package.swift ] && PREBUILT=1
+if [ "$PREBUILT" = 1 ]; then SRC="$NAME.app"; else SRC="dist/$NAME.app"; fi
 
 say() { printf "\n\033[1m%s\033[0m\n" "$1"; }
 fail() {
@@ -25,6 +28,12 @@ echo "   Buddy 办公室 · 安装"
 echo "========================================"
 
 # ---------- ① 开发工具 ----------
+if [ "$PREBUILT" = 1 ]; then
+  say "① 使用预编译版本（不需要开发工具）"
+  ARCH_APP="$(lipo -archs "$SRC/Contents/MacOS/BuddyOffice" 2>/dev/null)"
+  case " $ARCH_APP " in *" $(uname -m) "*) ;; *) fail "这个预编译版本只支持 $ARCH_APP，你的 Mac 是 $(uname -m)。请改用源码安装：git clone 仓库后运行 bash 安装.command。" ;; esac
+  echo "   $ARCH_APP"
+else
 say "① 检查开发工具"
 if ! xcode-select -p >/dev/null 2>&1; then
   xcode-select --install >/dev/null 2>&1
@@ -37,7 +46,8 @@ echo "   $SWIFT_V"
 # ---------- ② ③ 编译、图标、打包 ----------
 say "② 编译（第一次大约 1～3 分钟）· ③ 生成图标并打包"
 bash scripts/build-app.sh || fail "编译或打包失败，上面是出错信息。"
-[ -d "dist/$NAME.app" ] || fail "没有生成 dist/$NAME.app。"
+fi
+[ -d "$SRC" ] || fail "没有找到 $SRC。"
 
 # ---------- ④ 安装 ----------
 say "④ 安装到 ~/Applications"
@@ -50,7 +60,7 @@ if pgrep -x BuddyOffice >/dev/null 2>&1; then
 fi
 mkdir -p "$HOME/Applications" || fail "没法创建 ~/Applications。"
 rm -rf "$STAGE"
-ditto "dist/$NAME.app" "$STAGE" || fail "复制失败。"
+ditto "$SRC" "$STAGE" || fail "复制失败。"
 xattr -cr "$STAGE" 2>/dev/null
 OLD="$HOME/Applications/.$NAME.old.app"
 rm -rf "$OLD"
@@ -65,7 +75,7 @@ echo "   已安装：$DEST"
 # 项目里 dist/ 下的编译产物和装好的 App 是同一个 bundle id：留着的话，系统（LaunchServices）可能在 hook 的 `open -g -b local.buddy-office`
 # 里挑中它而不是 ~/Applications 里这个。所以先把它注销、删掉，再把装好的这个登记一下（下次要用就重新编译一遍，很快）。
 LSREG=/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister
-if [ -d "dist/$NAME.app" ]; then
+if [ "$PREBUILT" != 1 ] && [ -d "dist/$NAME.app" ]; then
   [ -x "$LSREG" ] && "$LSREG" -u "dist/$NAME.app" >/dev/null 2>&1
   rm -rf "dist/$NAME.app"
 fi
