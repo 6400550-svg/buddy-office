@@ -26,7 +26,7 @@
 2. 打开「终端」，运行下面三行（把路径换成你解压出来的文件夹，也可以输入 `cd ` 后把文件夹拖进终端）：
 
 ```bash
-cd ~/Downloads/BuddyOffice-1.0.1
+cd ~/Downloads/BuddyOffice-1.1.0
 xattr -dr com.apple.quarantine .
 bash 安装.command
 ```
