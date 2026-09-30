@@ -27,6 +27,12 @@ public struct Paths: Sendable, Equatable {
     public var projectsDir: String { claudeDir + "/projects" }
     public var settingsFile: String { claudeDir + "/settings.json" }
 
+    // ~/.codex 下（只读）。**只碰这两样**：会话索引（线程标题）和 sessions/ 下的会话记录；同目录的 auth.json（登录凭据）、
+    // sqlite 数据库、config.toml 一概不读（`FileIO.isForbidden` 也会拒绝 auth.json）。
+    public var codexDir: String { home + "/.codex" }
+    public var codexSessionsDir: String { codexDir + "/sessions" }
+    public var codexIndexFile: String { codexDir + "/session_index.jsonl" }
+
     /// Claude 桌面 App 的会话元数据：`<acct>/<org>/local_<uuid>.json`
     public var desktopSessionsDir: String { home + "/Library/Application Support/Claude/claude-code-sessions" }
 

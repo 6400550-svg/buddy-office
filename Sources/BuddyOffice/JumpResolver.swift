@@ -9,6 +9,8 @@ enum JumpTarget: Equatable {
     case activateClaude
     case vscode(cwd: String?)
     case terminal(pid: Int32)
+    /// Codex 线程：深链 codex://threads/<线程 id>（Codex 桌面 App 自己的链接）
+    case codexThread(url: URL)
     /// 跳不了（比如终端会话没有 pid）
     case none
 }
@@ -31,6 +33,12 @@ enum JumpResolver {
         return URL(string: "claude://code/\(needsInput ? "needs-input" : "continue")?session=\(host)")
     }
 
+    /// codex://threads/<线程 id>：id 必须是 UUID（拼进链接之前守一道）。
+    static func codexURL(threadId: String) -> URL? {
+        guard CodexNames.isUUID(threadId) else { return nil }
+        return URL(string: "codex://threads/\(threadId)")
+    }
+
     static func target(for s: BuddySnapshot, deepLinkDisabled: Bool) -> JumpTarget {
         switch s.origin {
         case .desktop:
@@ -40,6 +48,8 @@ enum JumpResolver {
             return .vscode(cwd: (s.cwd?.isEmpty ?? true) ? nil : s.cwd)
         case .terminal:
             return s.pid.map { .terminal(pid: $0) } ?? .none
+        case .codex:
+            return codexURL(threadId: s.sessionId).map { .codexThread(url: $0) } ?? .none
         }
     }
 

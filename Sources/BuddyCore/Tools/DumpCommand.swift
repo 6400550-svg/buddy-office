@@ -135,7 +135,7 @@ public enum DumpFormatter {
         for r in rows {
             let s = r.snapshot
             let originName: String
-            switch s.origin { case .desktop: originName = "桌面"; case .vscode: originName = "VSCode"; case .terminal: originName = "终端" }
+            switch s.origin { case .desktop: originName = "桌面"; case .vscode: originName = "VSCode"; case .terminal: originName = "终端"; case .codex: originName = "Codex" }
             var src = originName
             if s.modelFamily != .claude { src += "/\(s.modelFamily.rawValue)" }
             let pidStr: String

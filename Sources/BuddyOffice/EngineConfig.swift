@@ -29,5 +29,6 @@ enum EngineConfig {
         options.sleepAfter = v.sleepAfter
         options.dormantMax = v.dormantMax
         options.dormantRecent = v.dormantRecent
+        options.codexEnabled = settings.bool("codex.enabled")
     }
 }

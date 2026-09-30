@@ -13,8 +13,8 @@ public enum HoverCard {
 
     static func originName(_ s: BuddySnapshot) -> String {
         var t: String
-        switch s.origin { case .desktop: t = "Claude 桌面 App"; case .vscode: t = "VS Code"; case .terminal: t = "终端" }
-        switch s.modelFamily { case .deepseek: t += " · DeepSeek"; case .glm: t += " · GLM"; case .other: t += " · 其他模型"; case .claude: break }
+        switch s.origin { case .desktop: t = "Claude 桌面 App"; case .vscode: t = "VS Code"; case .terminal: t = "终端"; case .codex: t = "Codex" }
+        switch s.modelFamily { case .deepseek: t += " · DeepSeek"; case .glm: t += " · GLM"; case .gpt: t += " · GPT"; case .other: t += " · 其他模型"; case .claude: break }
         return t
     }
 

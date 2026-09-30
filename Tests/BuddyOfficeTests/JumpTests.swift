@@ -71,6 +71,17 @@ import PixelKit
         #expect(JumpResolver.snapshot(forKey: "nope", in: all) == nil)
     }
 
+    @Test func codexThreadsJumpThroughTheirOwnDeepLink() {
+        let id = "01a0f083-d304-7420-b1e2-8305fec5add2"
+        var s = Fx.snap("x:" + id, origin: .codex, activity: .thinking)
+        s.sessionId = id
+        #expect(JumpResolver.target(for: s, deepLinkDisabled: false) == .codexThread(url: URL(string: "codex://threads/\(id)")!))
+        #expect(JumpResolver.target(for: s, deepLinkDisabled: true) == .codexThread(url: URL(string: "codex://threads/\(id)")!), "Codex 的深链不受 Claude 深链停用的影响")
+        s.sessionId = "../../evil"
+        #expect(JumpResolver.target(for: s, deepLinkDisabled: false) == .none, "线程 id 不是 UUID：不拼进链接")
+        #expect(SessionOrigin.codex.isAppHosted && SessionOrigin.desktop.isAppHosted && !SessionOrigin.terminal.isAppHosted)
+    }
+
     @Test func deepLinkRules() {
         func desktop(_ host: String?, _ act: Activity = .idle) -> BuddySnapshot { Fx.snap("d:x", origin: .desktop, activity: act, host: host) }
         #expect(JumpResolver.target(for: desktop("local_abc-123"), deepLinkDisabled: false) == .desktopDeepLink(host: "local_abc-123", url: URL(string: "claude://code/continue?session=local_abc-123")!))

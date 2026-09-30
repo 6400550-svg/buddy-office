@@ -5,11 +5,17 @@ public enum SessionOrigin: String, Sendable, Equatable, Codable {
     case desktop   // entrypoint: claude-desktop / claude-desktop-3p / local-agent
     case vscode    // entrypoint: claude-vscode
     case terminal  // 其余
+    case codex     // OpenAI Codex（~/.codex 里的线程；桌面 App / VS Code 插件 / CLI 都算）
 }
 
-/// 模型系列（悬停卡片里的来源标识）。由会话记录里 assistant 的 message.model 前缀判断。
+extension SessionOrigin {
+    /// 由桌面 App 自己管理的会话（Claude 桌面 App、Codex 桌面 App）：App 自己也会发系统通知，提醒开关按「桌面 App 里的会话也提醒」算。
+    public var isAppHosted: Bool { self == .desktop || self == .codex }
+}
+
+/// 模型系列（悬停卡片里的来源标识）。由会话记录里 assistant 的 message.model 前缀判断（Codex 的线程看 turn_context.model）。
 public enum ModelFamily: String, Sendable, Equatable, Codable {
-    case claude, deepseek, glm, other
+    case claude, deepseek, glm, gpt, other
 }
 
 /// 在不在场。

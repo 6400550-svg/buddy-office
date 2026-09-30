@@ -17,6 +17,7 @@ final class JumpService {
     /// 给用户看的一条说明（标题 + 一句话；提示卡单行放不下就会被省略号截掉，所以要短）。
     var onNotice: ((_ title: String, _ body: String) -> Void)?
     static let claudeBundleID = "com.anthropic.claudefordesktop"
+    static let codexBundleID = "com.openai.codex"
     /// 深链连续失败 2 次后停用，给用户的说明（提示卡单行最宽 220 pt：标题 12 pt、正文 11 pt，两行都必须放得下——有测试量过）。
     static let deepLinkDisabledNotice = (title: "深链跳转没有生效", body: "已改为直接打开 Claude，可在设置里重试")
 
@@ -30,6 +31,7 @@ final class JumpService {
         case .activateClaude: activateClaude()
         case .vscode(let cwd): jumpVSCode(cwd: cwd)
         case .terminal(let pid): jumpTerminal(pid: pid)
+        case .codexThread(let url): NSWorkspace.shared.open(url)
         case .none: break
         }
     }

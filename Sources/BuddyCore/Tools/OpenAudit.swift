@@ -71,6 +71,10 @@ public final class OpenAudit: @unchecked Sendable {
         if under(paths.desktopSessionsDir) != nil {
             return last.hasPrefix("local_") && last.hasSuffix(".json") ? ("桌面会话元数据 local_<uuid>.json", true) : ("桌面会话目录里名字不合规的文件", false)
         }
+        if path == paths.codexIndexFile { return ("Codex 线程索引 ~/.codex/session_index.jsonl", true) }
+        if under(paths.codexSessionsDir) != nil {
+            return CodexNames.threadId(fromRolloutName: last) != nil ? ("Codex 会话记录 ~/.codex/sessions/**/rollout-*.jsonl", true) : ("Codex sessions 目录里名字不合规的文件", false)
+        }
         if path == paths.settingsFile { return ("settings.json（只读：检查 hook 有没有注册）", true) }
         if under(paths.appSupportDir) != nil { return ("本 App 自己的数据（identities / ledger）", true) }
         return ("其他位置的文件", false)

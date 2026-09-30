@@ -32,6 +32,7 @@ struct SettingsView: View {
     @AppStorage("dormant.max") var dormantMax = 4
     @AppStorage("dormant.recentHours") var dormantHours = 3
     @AppStorage("privacy.hideDetails") var privacy = false
+    @AppStorage("codex.enabled") var codexEnabled = true
     @AppStorage("autoQuitWithClaude") var autoQuit = true
     @AppStorage("login.enabled") var loginEnabled = false
     @AppStorage("hotkey.enabled") var hotkey = false
@@ -106,6 +107,11 @@ struct SettingsView: View {
                     Stepper("最多保留：\(dormantMax) 个", value: $dormantMax, in: 0...8)
                     Stepper("启动时只显示最近 \(dormantHours) 小时内的会话", value: $dormantHours, in: 1...24)
                     Text("以上四项在下次启动 Buddy 办公室后生效（「最多保留」调小会立刻生效）。").font(.footnote).foregroundStyle(.secondary)
+                }
+                Section("Codex（GPT）") {
+                    Toggle("把 Codex 里正在工作的线程也放进办公室", isOn: $codexEnabled)
+                    Text("只读 ~/.codex 里的会话记录（不读对话内容、不碰登录凭据）。线程安静 30 分钟后走出办公室；Codex 里的「等你批准」不会写进记录，所以不会举手。下次启动 Buddy 办公室后生效。")
+                        .font(.footnote).foregroundStyle(.secondary)
                 }
                 Section("其他") {
                     Toggle("隐私模式（隐藏全部细节）", isOn: $privacy)

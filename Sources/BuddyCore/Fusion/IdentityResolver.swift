@@ -116,6 +116,16 @@ public final class IdentityResolver {
         return Match(identity: identity, kind: .new)
     }
 
+    /// Codex 线程的身份：key = `"x:" + 线程 id`（线程 id 本身就是稳定的，不需要别名）。第一次见到时新建，工位 / 外观盐持久化。
+    public func codexIdentity(threadId: String) -> Identity {
+        let key = "x:" + threadId
+        let t = now()
+        var identity = identities[key] ?? Identity(key: key, seat: -1, salt: 0, aliases: [], createdAt: t, lastSeenAt: t)
+        identity.lastSeenAt = t
+        store(identity, persistNow: identities[key] == nil)
+        return identity
+    }
+
     private func attach(_ aliases: [String], to identity: inout Identity) {
         for a in aliases where !identity.aliases.contains(a) {
             identity.aliases.append(a)

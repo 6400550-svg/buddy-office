@@ -151,14 +151,14 @@ final class AlertCoordinator {
 
             // 做完了
             if case .finished = cur, was != cur, let d = s.lastTurnDuration,
-               config.finished, d >= Double(config.finishedMinSeconds), (s.origin != .desktop || config.includeDesktop) {
+               config.finished, d >= Double(config.finishedMinSeconds), (!s.origin.isAppHosted || config.includeDesktop) {
                 finished[s.key] = FinishedPending(since: now, duration: d)
             }
             if let f = finished[s.key] { out += handleFinished(s, f, now: now, config: config, isLooking: isLooking, title: title) }
 
             // 出错（默认关）。和等待类 / 做完了一样要过两道闸：桌面 App 的会话要开着「桌面 App 里的会话也提醒」，你正在看那个会话时不提醒
             // （原来只看开关和节流：关掉「桌面会话也提醒」来避免和 Claude.app 自己的通知重复的人，桌面会话出错时还是被提醒；R5a-01）
-            if case .errored = cur, was != cur, config.error, s.origin != .desktop || config.includeDesktop,
+            if case .errored = cur, was != cur, config.error, !s.origin.isAppHosted || config.includeDesktop,
                !(config.suppressWhenFocused && isLooking(s)), throttle("\(s.key)|error", now: now) {
                 out += post(key: s.key, kind: .error, title: title, body: "出错了", now: now)
             }
@@ -177,7 +177,7 @@ final class AlertCoordinator {
         guard now.timeIntervalSince(ep.since) >= Self.debounce else { return [] }
         if !ep.bounced { ep.bounced = true; newlyWaiting = true }             // Dock 弹跳和弹窗 / 系统通知共用同一个 1.5 s 去抖
         let enabled = (att == .question || att == .plan) ? config.question : config.permission
-        let desktopOK = s.origin != .desktop || config.includeDesktop
+        let desktopOK = !s.origin.isAppHosted || config.includeDesktop
         guard !ep.alerted, enabled, desktopOK else { return [] }
         if let d = ep.deferredUntil, now < d { return [] }                    // 宿主 App 在最前面：先等 8 s 再判断
         if config.suppressWhenFocused, isLooking(s) {

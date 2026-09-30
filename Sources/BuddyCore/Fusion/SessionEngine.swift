@@ -39,6 +39,12 @@ public final class SessionEngine {
         public var ledgerQueue: DispatchQueue?
         public var hookTailWindow = 256 << 10
         public var transcriptTailWindow = 512 << 10
+        /// 是否把 Codex（OpenAI）的线程也读进来（设置页里的开关；`~/.codex` 不存在时什么都不会发生）。
+        public var codexEnabled = true
+        /// Codex 线程安静多久后走出办公室 / 最多同时坐几个 / 探测「Codex 在不在运行」的对象（测试注入）。
+        public var codexLinger: TimeInterval = 30 * 60
+        public var codexMaxThreads = 6
+        public var codexProbe: CodexProcessProbing = SystemCodexProbe()
 
         public init(paths: Paths = .real, now: @escaping () -> Date = Date.init,
                     probe: ProcessProbing = SystemProcessProbe()) {
@@ -68,6 +74,8 @@ public final class SessionEngine {
     let registry: RegistryScanner
     let metaReader: DesktopMetaReader
     let identities: IdentityResolver
+    /// Codex 线程（独立的一条数据源，共用身份 / 工位）。
+    let codex: CodexEngine?
 
     /// 一条登记记录里和身份有关的字段：没变就不用重新归属（登记表每次状态变化只改 status 之类的字段）。
     private struct IdentitySig: Equatable {
@@ -102,6 +110,16 @@ public final class SessionEngine {
         self.registry = RegistryScanner(dir: p.sessionsDir)
         self.metaReader = DesktopMetaReader(rootDir: p.desktopSessionsDir, now: options.now)
         self.identities = IdentityResolver(path: options.persist ? p.identitiesFile : nil, now: options.now)
+        if options.codexEnabled {
+            var co = CodexEngine.Options(paths: p, now: options.now, probe: options.codexProbe)
+            co.linger = options.codexLinger
+            co.maxThreads = options.codexMaxThreads
+            co.dozeAfter = options.dozeAfter
+            co.sleepAfter = options.sleepAfter
+            self.codex = CodexEngine(options: co, identities: self.identities)
+        } else {
+            self.codex = nil
+        }
         self.ledger = options.scanTokens
             ? TokenLedger(ledgerPath: options.persist ? p.ledgerFile : nil, now: options.now, queue: options.ledgerQueue)
             : nil
@@ -119,9 +137,13 @@ public final class SessionEngine {
         return s
     }
 
-    public func markSeen(key: String) { buddies[key]?.unread = false }
+    public func markSeen(key: String) {
+        if let cx = codex, cx.owns(key: key) { cx.markSeen(key: key); return }
+        buddies[key]?.unread = false
+    }
 
     public func rerollAppearance(key: String) {
+        if let cx = codex, cx.owns(key: key) { cx.rerollAppearance(key: key); return }
         guard let salt = identities.reroll(key: key) else { return }
         buddies[key]?.salt = salt
     }
@@ -173,10 +195,18 @@ public final class SessionEngine {
         pruneCaches(now: now)
         identities.saveIfNeeded()
 
-        let snaps = buddies.values.map { snapshot($0, now: now) }
-            .sorted { ($0.seat, $0.key) < ($1.seat, $1.key) }
+        var snaps = buddies.values.map { snapshot($0, now: now) }
+        var outEvents = pendingEvents
+        if let cx = codex {
+            // Codex 线程：工位要避开 Claude 会话占着的，反过来 `occupiedSeats()` 也会避开 Codex 的
+            let out = cx.poll(occupied: Set(snaps.map { $0.seat }.filter { $0 >= 0 }))
+            snaps += out.snapshots
+            outEvents += out.events
+            wakeAt(out.nextWake)
+        }
+        snaps.sort { ($0.seat, $0.key) < ($1.seat, $1.key) }
         firstPoll = false
-        return Output(snapshots: snaps, events: pendingEvents, nextWake: wake, tokenVersion: ledger?.version ?? 0)
+        return Output(snapshots: snaps, events: outEvents, nextWake: wake, tokenVersion: ledger?.version ?? 0)
     }
 
     /// 按会话 id 累积的缓存要定期清理（会话来来去去，不清理会一直涨）：
@@ -223,7 +253,7 @@ public final class SessionEngine {
     // MARK: - 在场 / 离场
 
     private func occupiedSeats() -> Set<Int> {
-        Set(buddies.values.map { $0.seat }.filter { $0 >= 0 })
+        Set(buddies.values.map { $0.seat }.filter { $0 >= 0 }).union(codex?.seats ?? [])
     }
 
     private func reconcile(alive: [RegistryRecord], now: Date) {
@@ -981,6 +1011,13 @@ public final class SessionEngine {
             if l.persistenceOK == false { d.sourceStatus.append("token 账本: 写不了磁盘，只在内存里") }
         }
         if identities.persistenceOK == false { d.sourceStatus.append("身份: 写不了磁盘，只在内存里") }
+        if let cx = codex {
+            d.sourceStatus += cx.diagnosticLines()
+            d.sessions += cx.diagnosticSessions()
+            d.liveSessionCount += cx.liveCount
+        } else {
+            d.sourceStatus.append("Codex: 已在设置里关闭")
+        }
         return d
     }
 
@@ -1039,7 +1076,7 @@ public struct BuddyDebugRow {
 public extension SessionEngine {
     func debugRows() -> [BuddyDebugRow] {
         let now = options.now()
-        return buddies.values.map { st in
+        return (buddies.values.map { st in
             let snap = snapshot(st, now: now)
             var liveness = "away"
             if st.isLive || st.isPendingAway, let pid = st.record?.pid {
@@ -1061,6 +1098,6 @@ public extension SessionEngine {
                 transcriptPath: st.transcriptPath, lastTranscriptLineAt: st.transcript?.facts.lastLineAt,
                 tokenMessages: totals?.messages ?? 0, tokenScanComplete: totals?.scannedAllFiles ?? true,
                 helperFiles: st.helpers?.helperCount ?? 0)
-        }.sorted { ($0.snapshot.seat, $0.snapshot.key) < ($1.snapshot.seat, $1.snapshot.key) }
+        } + (codex?.debugRows() ?? [])).sorted { ($0.snapshot.seat, $0.snapshot.key) < ($1.snapshot.seat, $1.snapshot.key) }
     }
 }

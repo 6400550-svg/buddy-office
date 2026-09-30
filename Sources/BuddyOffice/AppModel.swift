@@ -281,6 +281,7 @@ final class AppModel {
             guard front?.bundleIdentifier == JumpService.claudeBundleID, let h = s.hostSessionId else { return false }
             return DesktopMeta.cache.isMostRecentlyFocused(host: h)          // 带 1 秒缓存：不在主线程上每个 tick 都重读全部元数据文件
         case .vscode: return front?.bundleIdentifier == "com.microsoft.VSCode"
+        case .codex: return front?.bundleIdentifier == JumpService.codexBundleID
         case .terminal:
             guard let pid = s.pid, let host = JumpService.shared.hostApp(of: pid) else { return false }
             return front?.processIdentifier == host.processIdentifier

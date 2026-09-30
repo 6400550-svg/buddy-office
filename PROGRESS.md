@@ -3,6 +3,8 @@
 任务书：`~/Desktop/Buddy办公室-开发提示词.md`（M0–M7，独立做完，自己验证，不问用户）。
 **用户拒绝了 computer-use 对本 App 的授权**（2026-09-28）——GUI 只能用「自渲染 + 命中测试自检」间接验证，最后如实汇报；不要再问、也不要用 screencapture 绕过。
 
+## 1.1.0（2026-09-30）：加了 Codex（GPT）数据源，见 DESIGN.md 第 14 节；`CodexTests` 12 个 + 全部 810 个测试通过
+
 ## 状态：M0–M7 全部完成（2026-09-29），已装到 `~/Applications/Buddy 办公室.app` 并在运行
 
 - [x] M0 可行性小样（DESIGN.md 第 2 节）

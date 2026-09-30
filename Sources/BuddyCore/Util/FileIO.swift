@@ -21,7 +21,7 @@ private func sysFstat(_ fd: Int32, _ st: inout SysStat) -> Int32 { fstat(fd, &st
 /// BuddyCore 里**所有**读文件的动作都从这里走。
 ///
 /// 两个目的：
-/// 1. 保险：绝不打开密钥文件（`*.key`）、socket（`*.sock`）；就算上层有 bug 想打开也会被拒绝。
+/// 1. 保险：绝不打开密钥文件（`*.key`）、socket（`*.sock`）、Codex 的登录凭据（`auth.json`）；就算上层有 bug 想打开也会被拒绝。
 /// 2. 给测试留一个观察口：`openObserver` 能看到每一次 open 的路径，用来断言"`.key` 永远没被碰过"。
 public enum FileIO {
     private static let lock = NSLock()
@@ -40,7 +40,7 @@ public enum FileIO {
         lock.lock(); defer { lock.unlock() }; return _forbiddenHits
     }
 
-    /// 这个路径是不是绝不能打开的（密钥 / socket）。
+    /// 这个路径是不是绝不能打开的（密钥 / socket / 登录凭据）。
     ///
     /// 判断时**不区分大小写**（macOS 默认的 APFS 大小写不敏感：`1001.abc.KEY` 打开的就是 `1001.abc.key`），
     /// 路径里有 NUL 也拒绝（C 字符串会在 NUL 处截断：`x.key\0.json` 看名字是 .json，实际打开的却是 x.key）；
@@ -49,6 +49,7 @@ public enum FileIO {
         if path.utf8.contains(0) { return true }
         let name = (path as NSString).lastPathComponent.lowercased()
         if name.hasSuffix(".key") || name.hasSuffix(".sock") { return true }
+        if name == "auth.json" { return true }             // Codex 的登录凭据（~/.codex/auth.json）：读会话记录的代码绝不能碰
         if path.lowercased().split(separator: "/", omittingEmptySubsequences: true).contains("cc-socks") { return true }
         return false
     }
@@ -133,6 +134,28 @@ public enum FileIO {
         }
         guard ok else { return nil }
         if got < total { data.removeSubrange(got..<total) }
+        return data
+    }
+
+    /// 读文件开头最多 `maxBytes` 个字节（大文件只想看第一行时用；文件比它短就只返回实际长度）。
+    public static func readPrefix(_ path: String, maxBytes: Int) -> Data? {
+        guard maxBytes > 0 else { return nil }
+        let fd = open(path)
+        guard fd >= 0 else { return nil }
+        defer { close(fd) }
+        var data = Data(count: maxBytes)
+        let n: Int = data.withUnsafeMutableBytes { raw in
+            guard let base = raw.baseAddress else { return -1 }
+            var got = 0
+            while got < maxBytes {
+                let r = pread(fd, base + got, maxBytes - got, off_t(got))
+                if r <= 0 { break }
+                got += r
+            }
+            return got
+        }
+        guard n > 0 else { return nil }
+        data.removeSubrange(n..<data.count)
         return data
     }
 

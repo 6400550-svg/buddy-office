@@ -47,6 +47,8 @@ public final class SessionStore: SnapshotProvider {
     private var allIdle = false
     private var watchNote = "文件监听: 未启动"
     private var watchedPrefixes: (sessions: String, desktop: String, monitor: String, projects: String)?
+    /// `~/.codex/sessions` 的真实路径（存在时才监听；下面任何变化都值得 poll 一次）。
+    private var codexPrefix: String?
 
     private let latestLock = NSLock()
     private var latestSnapshots: [BuddySnapshot] = []
@@ -214,7 +216,12 @@ public final class SessionStore: SnapshotProvider {
             watchNote = "文件监听: 纯轮询（每 \(Int(options.pollInterval * 1000)) ms）"
             return
         }
-        let roots = [p.claudeDir, p.desktopSessionsDir].map { FileWatcher.resolved($0) }
+        var roots = [p.claudeDir, p.desktopSessionsDir].map { FileWatcher.resolved($0) }
+        if options.engine.codexEnabled, FileIO.stat(p.codexSessionsDir)?.isDirectory == true {
+            let c = FileWatcher.resolved(p.codexSessionsDir)
+            roots.append(c)
+            codexPrefix = c
+        }
         let w = FileWatcher(roots: roots, queue: queue, latency: 0.05) { [weak self] paths in self?.fsEvents(paths) }
         if w.start() {
             watcher = w
@@ -227,6 +234,7 @@ public final class SessionStore: SnapshotProvider {
     /// 按路径前缀分流：sessions/、.monitor/、projects/、claude-code-sessions/，其余全部忽略。
     private func fsEvents(_ paths: [String]) {
         guard running, let pre = watchedPrefixes else { return }
+        if let cp = codexPrefix, paths.contains(where: { $0 == cp || $0.hasPrefix(cp + "/") }) { poke(); return }
         if SessionStore.shouldPoke(paths: paths, prefixes: pre, tracked: engine?.trackedSessionIds ?? []) { poke() }
     }
 

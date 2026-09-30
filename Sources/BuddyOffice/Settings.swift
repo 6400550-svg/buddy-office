@@ -18,6 +18,7 @@ final class Settings {
             "notify.includeDesktop": true, "notify.suppressWhenFocused": true, "notify.sound": "8bit", "notify.error": false,
             "idle.dozeMinutes": 10, "idle.sleepMinutes": 45,
             "dormant.max": 4, "dormant.recentHours": 3,
+            "codex.enabled": true,
             "privacy.hideDetails": false, "autoQuitWithClaude": true, "login.enabled": false, "hotkey.enabled": false,
             "hidden.keys": [String](),
         ])

@@ -302,3 +302,26 @@ python3 Tests/hook_merge_test.py     # hook-merge.py 的测试
 - **`hookActive` 多了一条「掉线」判据（任务书 4.2）**：任务书写「当前会话有 `ts ≥ startedAt − 5s` 的事件，就说明 hook 在正常工作；以后用户卸掉了 ccmon，要自动退回用会话记录判断工具」。实现：在这条判据之外，会话记录比 hook 的最后一个事件领先超过 15 秒也当作 hook 掉线（用户中途卸掉 ccmon：hook 安静、会话记录还在长）。理由：任务书没有给「已经在跑的会话中途掉线」怎么发现；只看 `startedAt` 会让掉线的会话一直显示「思考中」。影响：没有工具的长时间生成里，会话记录可能比 hook 晚 15 秒以上才落盘，`hookActive` 会短暂为 false，只是让工具判断改用会话记录，不会判死会话。测试：`HookDropoutTests`（`EngineScenarioTests.swift`）。
 - **启动时显示器依次开机的总延迟封顶 1.5 秒（任务书 5.5）**：任务书写「App 启动时就已经在跑的会话直接坐好，显示器从左到右依次开机，每台间隔 100 ms」。实现：按座位号从左到右每台晚 100 ms，总延迟封顶 1.5 秒（第 16 台起和第 15 台一起开）。理由：启动时人很多时，别让最后一台等好几秒。影响：启动时超过 15 个会话才会碰到。测试：`MonitorTests.monitorsOfSessionsPresentAtLaunchBootLeftToRightAt100msIntervals`。
 
+## 14. Codex（GPT）数据源（1.1.0，2026-09-30）
+
+用户要「GPT 工作我也能看见」。这台机器上的 GPT = Codex（`/Applications/ChatGPT.app` 里的 Codex 桌面 App，进程 `codex app-server`，数据在 `~/.codex`）。
+
+**实测的数据（这台机器，Codex 0.158）**
+
+| 项 | 结论 |
+|---|---|
+| 线程存哪 | `~/.codex/sessions/YYYY/MM/DD/rollout-<时间>-<线程 UUID>.jsonl`（一行一个事件，最大 27 MB、`compacted` 行会带一整段历史）；标题在 `~/.codex/session_index.jsonl`（id / thread_name / updated_at）。数据库（state_5 / thread_history / logs）不用。 |
+| 事件词汇 | 只有 6 种 `event_msg`：`task_started` / `task_complete` / `turn_aborted`（一轮的边界）、`item_completed`、`token_count`、`thread_settings_applied`；`response_item`：`function_call` / `custom_tool_call`（开工具）、`*_output`（关工具）、`reasoning`、`message`……；`turn_context` 有 model / effort / approval_policy / cwd。 |
+| 工具名 | `exec`（包了一层 JS 的 shell，参数里 `tools.exec_command({cmd:"…"})`）、`exec_command`、`apply_patch`、`view_image`、`js`（computer-use 的 REPL）、`spawn_agent` 系列（子代理）、`request_user_input_async`（问你问题）。已加进 `ToolCatalog`。 |
+| 等批准 | **不会写进会话记录**（`approval_policy` 基本是 never；即使是 on-request 也没有对应事件）。所以做不出「等批准」，只有 `request_user_input*` 开着才算「在问你」。 |
+| 深链 | `codex://threads/<线程 id>`（从 app.asar 里抠出来的），点小人用它跳转。 |
+| hook | `~/.codex/hooks.json` 里已经接了 ccmon 的 hook.sh，事件也写进 `~/.claude/.monitor/<线程 id>.events.jsonl`；**没用它**：会话记录本身就是实时落盘的，多一个数据源只会多一种不一致。 |
+
+**实现**（`Ingest/CodexReader.swift`、`Fusion/CodexEngine.swift`，由 `SessionEngine` 调用，共用身份 / 工位）
+
+- **在场规则**：Codex（进程名 `codex` / `ChatGPT`，`sysctl(KERN_PROC_ALL)` 每 2 秒看一次）在运行，且线程正在跑一轮、或最近 30 分钟内有动静（rollout 文件的 mtime / 最后一个事件）。Codex 没有「一个会话一个进程」，所以只能这样。安静超过 30 分钟（或 Codex 退出）→ 3 秒防抖 → 走出办公室 → 8 秒后收回工位。同时最多坐 6 个（按「正在跑 > 最近有动静」排）。子代理 / guardian 线程（`session_meta.source` 是对象）不算同事。
+- **动作**：从 rollout 尾部 4 MiB 读事实（一轮开着没有、开着的工具、token），转成 `SessionSignals` 交给 `ActivityResolver`（和 Claude 会话同一套：做完了 5 秒 → 空闲 → 10 分钟打盹）。一轮开着但 15 分钟文件没动静 → 悄悄当作空闲（不报「做完了」）。
+- **不读**：对话内容（只留事件类型、工具名、时间、token 数；命令 / 文件路径只留一句 detail，和 Claude 的 hook detail 同一类）、`auth.json`（`FileIO.isForbidden` 拒绝）、数据库、config.toml。`OpenAudit` 加了两类合规路径；有测试用蜜罐 auth.json 断言不会被打开。
+- **App 层**：`SessionOrigin.codex`（悬停卡片「Codex · GPT」）、`ModelFamily.gpt`、跳转 `codex://`、提醒开关跟「桌面 App 里的会话也提醒」走（`isAppHosted`）、你在看的判断 = Codex 在最前、设置里有开关（默认开、下次启动生效）。
+- **测试**：`CodexTests`（12 个：一轮的完整时间线、问问题、被打断、子代理、Codex 没运行、离场 / 回来、工位不冲突、凭据不被打开 / 对话不留在快照里、开关）；全部 810 个测试通过。
+

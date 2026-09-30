@@ -36,6 +36,16 @@ public enum ToolCatalog {
         case "EnterPlanMode": return .planEnter
         case "ExitPlanMode": return .planExit
         case "SendUserFile": return .sendFile
+        // —— Codex（OpenAI）的工具名：exec / exec_command 是执行 shell（exec 是包了一层 JS 的写法）、apply_patch 改文件、
+        //    view_image 看图、js 是 computer-use 的 REPL、collaboration 系列是派子代理 ——
+        case "exec", "exec_command", "write_stdin", "shell", "local_shell", "container.exec": return .bash
+        case "apply_patch": return .edit
+        case "view_image": return .read
+        case "js": return .computer
+        case "web_search": return .web
+        case "update_plan": return .todo
+        case "tool_search": return .skill
+        case "spawn_agent", "wait_agent", "send_message", "followup_task", "list_agents", "interrupt_agent", "close_agent", "resume_agent": return .delegate
         case "ScheduleWakeup", "CronCreate", "CronDelete", "CronList": return .schedule
         default: break
         }
