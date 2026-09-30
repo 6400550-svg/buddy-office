@@ -2,6 +2,10 @@
 
 一间像素风的小办公室，给 [Claude Code](https://claude.com/claude-code) 用的 macOS 小工具。
 
+[![CI](https://github.com/6400550-svg/buddy-office/actions/workflows/ci.yml/badge.svg)](https://github.com/6400550-svg/buddy-office/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+![macOS 14+](https://img.shields.io/badge/macOS-14%2B-lightgrey)
+
 你每开一个 Claude Code 会话（桌面 App、终端、VS Code 都算，通过代理用的 DeepSeek / GLM 会话也算），办公室里就多一个小人坐到工位上。你从他背后看过去，显示器正对着你：谁在忙、在干什么、谁在等你，扫一眼就知道。需要你的时候（等你批准、问你问题、计划等你看），他会转过身来举起手。
 
 ![办公室（白天，演示数据）](docs/office-day.png)
@@ -128,3 +132,7 @@ BUDDY_SCRATCH=.build scripts/dev.sh build -c release   # 发布版
 - **点小人没有跳到会话：** 看诊断页里“深链”是否被自动停用；终端会话需要在「系统设置 → 隐私与安全性 → 自动化」里授权。
 - **不想自动打开：** 双击「卸载.command」，或运行 `python3 scripts/hook-merge.py uninstall`。
 - **想完全退出：** 菜单栏图标 → 退出。关闭办公室窗口只是收起。
+
+## 许可证
+
+[MIT](LICENSE)。像素美术全部由代码绘制，声音在运行时合成，仓库里没有第三方素材；中文文字用系统自带的苹方渲染，不随仓库分发。
